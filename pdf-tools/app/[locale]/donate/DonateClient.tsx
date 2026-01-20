@@ -23,6 +23,7 @@ export default function DonateClient({ params }: { params: Promise<{ locale: str
   const [paymentStatus, setPaymentStatus] = useState<'idle' | 'processing' | 'success' | 'error'>('idle');
   const [errorMessage, setErrorMessage] = useState<string>('');
   const [sdkReady, setSdkReady] = useState(false);
+  const [sdkLoadError, setSdkLoadError] = useState(false);
 
   const paypalContainerRef = useRef<HTMLDivElement>(null);
 
@@ -42,7 +43,7 @@ export default function DonateClient({ params }: { params: Promise<{ locale: str
     };
     script.onerror = () => {
       console.error('Failed to load PayPal SDK');
-      setErrorMessage(t('paymentError'));
+      setSdkLoadError(true);
     };
     document.body.appendChild(script);
 
@@ -259,7 +260,12 @@ export default function DonateClient({ params }: { params: Promise<{ locale: str
                     {t('securePayment')}
                   </div>
                   <div ref={paypalContainerRef} className="paypal-buttons min-h-[100px]">
-                    {!sdkReady && (
+                    {sdkLoadError ? (
+                      <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 text-center">
+                        <p className="text-yellow-800 mb-2">⚠️ {t('paymentError')}</p>
+                        <p className="text-sm text-yellow-700">PayPal SDK 加载失败，请稍后再试或使用其他方式捐赠</p>
+                      </div>
+                    ) : !sdkReady && (
                       <div className="bg-gray-100 p-4 rounded-lg text-center">
                         <p className="text-gray-500 mb-2">{t('loading')}</p>
                         <div className="animate-pulse">⏳</div>
