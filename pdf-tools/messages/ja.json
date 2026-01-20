@@ -1,0 +1,347 @@
+{
+  "seo": {
+    "merge": {
+      "title": "無料PDF結合ツール - PDFファイルをオンラインで結合 | 登録不要",
+      "description": "安全なオンラインPDF結合ツールでPDFファイルを無料で結合。登録不要、制限なし、透かしなし。ブラウザで複数のPDFを即座に結合。",
+      "keywords": "無料pdf結合, pdfファイル結合, pdf結合ツール, pdfオンライン結合, pdfマージ, pdf結合ソフト"
+    },
+    "split": {
+      "title": "無料PDF分割ツール - PDFファイルをオンラインで分割 | 登録不要",
+      "description": "安全なオンラインPDF分割ツールでPDFファイルを無料で分割。ページ抽出、範囲分割、すべてブラウザで完結。登録不要。",
+      "keywords": "無料pdf分割, pdfファイル分割, pdf分割ツール, pdfオンライン分割, pdf分断, pdfカット"
+    },
+    "extract": {
+      "title": "PDFページ抽出 - 無料オンラインPDFページ抽出ツール",
+      "description": "PDFファイルから特定のページを無料で抽出。範囲または個別にページを選択。高速、安全、登録不要。",
+      "keywords": "pdfページ抽出, pdf抽出, ページ削除, pdfページ分離, ページ抽出オンライン"
+    },
+    "compress": {
+      "title": "PDFファイル圧縮 - 無料オンラインPDF圧縮ツール | PDFサイズ削減",
+      "description": "PDFファイルをオンラインで無料圧縮。品質を保ちながらPDFファイルサイズを削減。高速圧縮、登録不要、制限なし。",
+      "keywords": "pdf圧縮, pdf圧縮ツール, pdfサイズ削減, pdfファイル圧縮, pdf軽量化, pdfサイズダウン"
+    },
+    "rotate": {
+      "title": "PDFページ回転 - 無料オンラインPDF回転ツール",
+      "description": "PDFページをオンラインで無料回転。単一ページまたは文書全体を回転。使いやすく、登録不要。",
+      "keywords": "pdf回転, pdfページ回転, pdf回転ツール, pdf向き変更, pdfローテート"
+    },
+    "deletePages": {
+      "title": "PDFページ削除 - PDFページをオンラインで無料削除",
+      "description": "PDFファイルから不要なページをオンラインで無料削除。簡単にページを選択して削除。登録不要、安全な処理。",
+      "keywords": "pdfページ削除, ページ削除, ページ除去, pdfページデリート, ページ削除オンライン"
+    },
+    "reorder": {
+      "title": "PDFページ並べ替え - PDFページをオンラインで無料整理",
+      "description": "ドラッグ＆ドロップでPDFページを並べ替え。お好みの順序でPDFページを整理。無料、高速、安全。",
+      "keywords": "pdfページ並べ替え, ページ整理, ページ順序変更, pdf並べ替え, ページ入替"
+    },
+    "watermark": {
+      "title": "PDF透かし追加 - 無料オンラインPDF透かしツール",
+      "description": "PDFファイルにオンラインで透かしを無料追加。カスタムテキストまたは画像透かし。簡単にドキュメントを保護。",
+      "keywords": "pdf透かし追加, 透かし入れ, ウォーターマークpdf, 透かし挿入, pdfに透かし"
+    },
+    "batch": {
+      "title": "一括処理PDF - 複数PDFツールオンライン",
+      "description": "一括処理PDFツールで複数のPDFファイルを一度に処理。複数のPDFを同時に結合、分割、圧縮。",
+      "keywords": "一括処理pdf, 複数pdf処理, バッチ処理pdf, pdf一括, まとめ処理pdf"
+    },
+    "encrypt": {
+      "title": "PDF暗号化 - パスワード保護PDFオンライン無料",
+      "description": "PDFファイルにオンラインでパスワード保護を追加。強力なセキュリティでPDFドキュメントを暗号化。無料で安全。",
+      "keywords": "pdf暗号化, pdfパスワード保護, pdfにパスワード, pdfロック, pdf保護"
+    },
+    "decrypt": {
+      "title": "PDF復号化 - パスワード削除PDFオンライン無料",
+      "description": "PDFファイルからパスワード保護をオンラインで削除。パスワードがわかればPDFドキュメントを復号化。",
+      "keywords": "pdf復号化, pdfパスワード削除, pdfパスワード解除, pdfロック解除, pdf認証解除"
+    },
+    "home": {
+      "title": "PDFファイル無料結合 - 無料PDF結合ツールオンライン | PDF結合無料 登録不要",
+      "description": "PDFファイルを無料で結合する安全なツール。結合、分割、圧縮オンライン。登録不要、制限なし、透かしなし。100% 無料PDF結合ツール。",
+      "keywords": "PDFファイル無料結合,PDF結合無料,無料PDF結合ツール,PDF結合オンライン,PDFマージ無料,PDF結合ツール"
+    },
+    "donate": {
+      "title": "応援する - Free PDF Tools",
+      "description": "ツールが役に立ったなら、寄付をご検討ください",
+      "keywords": "donate, support, pdf tools"
+    }
+  },
+  "common": {
+    "appName": "無料PDF結合ツール - PDFファイル無料結合",
+    "home": "ホーム",
+    "merge": "PDF結合",
+    "split": "PDF分割",
+    "extract": "ページ抽出",
+    "compress": "PDF圧縮",
+    "rotate": "PDF回転",
+    "deletePages": "ページ削除",
+    "reorder": "並び替え",
+    "watermark": "透かし追加",
+    "batch": "一括処理",
+    "encrypt": "PDF暗号化",
+    "decrypt": "PDF復号化",
+    "donate": "寄付",
+    "sign": "PDF署名",
+    "form": "フォーム入力",
+    "tagline": "PDFファイルを無料で結合オンライン。高速で安全なPDF結合ツール、登録不要。",
+    "whyChooseUs": "私たちを選ぶ理由",
+    "security": "100%安全",
+    "securityDesc": "ブラウザで処理、サーバーにアップロードされません",
+    "fast": "高速処理",
+    "fastDesc": "ローカル処理、ミリ秒単位の応答時間",
+    "free": "完全無料",
+    "freeDesc": "登録不要、制限なし、透かしなし",
+    "backToHome": "ホームに戻る",
+    "uploadFile": "PDFファイルをアップロード",
+    "uploadFiles": "PDFファイルをアップロード",
+    "dragDrop": "クリックまたはPDFファイルをここにドラッグ",
+    "pages": "ページ",
+    "page": "ページ",
+    "processing": "処理中...",
+    "download": "PDFをダウンロード",
+    "again": "別のファイルを処理",
+    "alertSelectPDF": "PDFファイルを選択してください",
+    "alertFailed": "操作が失敗しました。もう一度お試しください",
+    "readPDFFailed": "PDFの読み取りに失敗しました",
+    "selectAll": "すべて選択",
+    "clear": "クリア",
+    "reset": "リセット",
+    "apply": "適用",
+    "start": "開始",
+    "totalFiles": "総ファイル数",
+    "totalSize": "合計サイズ",
+    "supportsMultiple": "（複数選択可能）",
+    "selectedFiles": "{count}個のファイルが選択されました",
+    "clearAll": "すべてクリア",
+    "moveUp": "上に移動",
+    "moveDown": "下に移動",
+    "remove": "削除",
+    "mergeMore": "さらに結合",
+    "splitAgain": "もう一つ分割",
+    "extractAgain": "もう一つ抽出",
+    "compressAgain": "もう一つ圧縮",
+    "encryptAgain": "もう一つ暗号化",
+    "decryptAgain": "もう一つ解読",
+    "seoContent": {
+      "title": "PDFファイルを無料で結合する方法 オンライン",
+      "subtitle": "すべてのニーズに対応する最高の無料PDF結合ツール",
+      "intro": "PDFファイルを無料で結合したいですか？私たちの安全なPDF結合ツールオンライン版は、登録なしで即座に複数のPDFを結合できます。",
+      "features": {
+        "title": "私たちの無料PDF結合ツールを選ぶ理由",
+        "feature1": "PDFファイルを無料で無制限に結合 - 隠された制限や制約はありません",
+        "feature2": "PDF結合ツール無料オンライン処理 - すべてのファイルはブラウザに残り、最大の安全性を確保",
+        "feature3": "ドラッグ＆ドロップでオンライン無料PDF結合 - ドキュメントを結合する最も簡単な方法",
+        "feature4": "品質を維持する無料PDF結合ツール - 解像度の低下や透かしの追加なし"
+      },
+      "howTo": {
+        "title": "PDFファイルを結合する3つの簡単なステップ",
+        "step1": "クリックまたはドラッグでPDFファイルを結合ツールにアップロード",
+        "step2": "ドラッグ＆ドロップを使用して希望の順序でファイルを整理",
+        "step3": "「PDF結合」をクリックして、結合されたPDFファイルを即座にダウンロード"
+      },
+      "useCases": {
+        "title": "PDF結合ツール無料の一般的な使用例",
+        "case1": "複数のレポートを1つのドキュメントに結合して専門的なプレゼンテーションを作成",
+        "case2": "PDFチャプターやセクションを結合して完全な電子書籍やマニュアルを作成",
+        "case3": "スキャンしたページやレシートを1つの整理されたPDFファイルに結合",
+        "case4": "複数の請求書や明細書を結合して記録管理を容易に"
+      },
+      "conclusion": "私たちのPDF結合ツールオンライン版は世界中の数千人のユーザーに信頼されています。今日からPDFファイルを無料で結合しましょう - 登録不要、待機時間なし、完全無料のPDF結合ツール。"
+    }
+  },
+  "merge": {
+    "title": "PDFファイルを結合",
+    "description": "複数のPDFファイルを1つに結合",
+    "upload": "PDFファイルをアップロード",
+    "processing": "処理中...",
+    "download": "結合されたPDFをダウンロード",
+    "success": "PDFの結合に成功しました！",
+    "startMerge": "結合開始",
+    "mergeSuccess": "{count}個のPDFファイルを正常に結合しました"
+  },
+  "split": {
+    "title": "PDFファイルを分割",
+    "description": "PDFファイルを複数のドキュメントに分割",
+    "upload": "PDFファイルをアップロード",
+    "processing": "処理中...",
+    "download": "分割されたPDFをダウンロード",
+    "success": "PDFの分割に成功しました！",
+    "selectedPages": "{count}ページ選択済み",
+    "selectSplitMode": "分割モードを選択",
+    "splitEvenly": "均等分割",
+    "splitCustom": "カスタム分割",
+    "every": "毎",
+    "pagesIntoFile": "ページごとにファイルに分割",
+    "startSplit": "分割開始",
+    "splitComplete": "分割完了",
+    "splitSuccess": "{count}個のファイルに正常に分割しました"
+  },
+  "extract": {
+    "title": "PDFページを抽出",
+    "description": "PDFファイルから特定のページを抽出",
+    "upload": "PDFファイルをアップロード",
+    "processing": "処理中...",
+    "download": "抽出したページをダウンロード",
+    "success": "ページの抽出に成功しました！",
+    "selectPagesToExtract": "抽出するページを選択",
+    "startExtract": "抽出開始",
+    "extractComplete": "抽出完了",
+    "extractSuccess": "{count}ページを正常に抽出しました"
+  },
+  "compress": {
+    "title": "PDFファイルを圧縮",
+    "description": "PDFファイルのサイズを縮小",
+    "upload": "PDFファイルをアップロード",
+    "processing": "圧縮中...",
+    "download": "圧縮されたPDFをダウンロード",
+    "success": "PDFの圧縮に成功しました！",
+    "originalSize": "元のサイズ",
+    "compressedSize": "圧縮後のサイズ",
+    "saved": "節約",
+    "compressionLevel": "圧縮レベル",
+    "low": "低",
+    "medium": "中",
+    "high": "高",
+    "startCompress": "圧縮開始",
+    "compressComplete": "圧縮完了",
+    "compressionRatio": "圧縮率"
+  },
+  "rotate": {
+    "title": "PDFを回転",
+    "description": "PDFページを回転"
+  },
+  "deletePages": {
+    "title": "PDFページを削除",
+    "description": "PDFから不要なページを削除",
+    "selectPagesToDelete": "削除するページを選択",
+    "selectedWillDelete": "{selected}ページ選択、{remaining}ページを保持",
+    "deleteComplete": "削除完了！",
+    "deleteCompleteDesc": "{deleted}ページを正常に削除し、{remaining}ページを保持しました",
+    "deleteAgain": "再度削除",
+    "selectPagesAlert": "削除するページを選択してください",
+    "cannotDeleteAll": "すべてのページを削除することはできません",
+    "deleteFailed": "削除に失敗しました。もう一度お試しください"
+  },
+  "reorder": {
+    "title": "ページを並び替え",
+    "description": "PDFページの順序を変更"
+  },
+  "watermark": {
+    "title": "透かしを追加",
+    "description": "PDFにカスタム透かしを追加",
+    "watermarkText": "透かしテキスト",
+    "watermarkTextPlaceholder": "透かしテキストを入力...",
+    "opacity": "不透明度",
+    "fontSize": "フォントサイズ",
+    "color": "色",
+    "position": "位置",
+    "diagonal": "斜め",
+    "center": "中央",
+    "tile": "タイリング",
+    "watermarkAdded": "透かしの追加が完了しました！",
+    "watermarkAddedDesc": "PDFファイルに透かしが正常に追加されました",
+    "adjustSettings": "設定を調整",
+    "enterWatermarkText": "透かしテキストを入力してください",
+    "addWatermarkFailed": "透かしの追加に失敗しました。もう一度お試しください"
+  },
+  "batch": {
+    "title": "一括処理",
+    "description": "複数のPDFファイルを一度に処理",
+    "selectBatchMode": "バッチ処理モードを選択",
+    "batchMerge": "一括結合",
+    "batchMergeDesc": "複数のPDFを1つに結合",
+    "batchSplit": "一括分割",
+    "batchSplitDesc": "ページ数で複数のPDFを分割",
+    "batchCompress": "一括圧縮",
+    "batchCompressDesc": "複数のPDFファイルを圧縮",
+    "splitOptions": "分割オプション",
+    "every": "毎",
+    "pagesSplit": "ページごとにファイルに分割",
+    "addFiles": "PDFファイルを追加",
+    "clickSelectFiles": "クリックして複数のPDFファイルを選択",
+    "selectedFiles": "{count}個のファイルを選択",
+    "clearAll": "すべてクリア",
+    "startBatchProcess": "一括処理を開始",
+    "batchProcessComplete": "一括処理完了！",
+    "generatedFiles": "{count}個のファイルを正常に生成しました",
+    "batchMergeMinFiles": "少なくとも2つのPDFファイルを選択して結合してください",
+    "batchSplitSelectFiles": "分割するPDFファイルを選択してください",
+    "batchCompressSelectFiles": "圧縮するPDFファイルを選択してください",
+    "selected": "選択済み",
+    "encryptAgain": "別のファイルを暗号化",
+    "decryptAgain": "別のファイルを復号化"
+  },
+  "encrypt": {
+    "title": "PDF を暗号化",
+    "description": "PDF ドキュメントにパスワード保護を追加",
+    "selectFile": "PDF ファイルを選択",
+    "enterPassword": "パスワードを入力",
+    "confirmPassword": "パスワードを確認",
+    "startEncrypt": "PDF を暗号化",
+    "encryptComplete": "暗号化完了",
+    "encryptSuccess": "PDF のパスワード保護が正常に設定されました",
+    "weak": "弱い",
+    "medium": "普通",
+    "strong": "強い",
+    "passwordHint": "8文字以上で、大文字・小文字・数字・記号を混ぜてください",
+    "weakPasswordWarning": "パスワードが弱すぎます。より強力なパスワードを使用してください。",
+    "noFile": "PDF ファイルを選択してください",
+    "noPassword": "パスワードを入力してください",
+    "passwordMismatch": "パスワードが一致しません",
+    "invalidFile": "有効な PDF ファイルを選択してください",
+    "encryptError": "暗号化に失敗しました。もう一度お試しください。"
+  },
+  "decrypt": {
+    "title": "PDF を復号化",
+    "description": "PDF ドキュメントのパスワード保護を削除",
+    "selectFile": "PDF ファイルを選択",
+    "enterPassword": "パスワードを入力",
+    "passwordHint": "この PDF を暗号化した際のパスワードを入力してください",
+    "startDecrypt": "PDF を復号化",
+    "decryptComplete": "復号化完了",
+    "decryptSuccess": "パスワード保護が正常に削除されました",
+    "isEncrypted": "このファイルは暗号化されています",
+    "notEncrypted": "このファイルは暗号化されていません",
+    "checkError": "ファイルの暗号化状態を確認できません",
+    "noFile": "PDF ファイルを選択してください",
+    "noPassword": "パスワードを入力してください",
+    "wrongPassword": "パスワードが正しくありません。もう一度お試しください。",
+    "invalidFile": "有効な PDF ファイルを選択してください",
+    "decryptError": "復号化に失敗しました。パスワードを確認してもう一度お試しください。"
+  },
+  "donate": {
+    "title": "応援する",
+    "description": "ツールが役に立ったなら、寄付をご検討ください",
+    "info": "Your donation helps us continue developing free PDF tools.",
+    "selectAmount": "Select amount",
+    "customAmount": "Custom amount",
+    "minimumAmount": "Minimum: $0.01",
+    "securePayment": "Secure payment by PayPal",
+    "loading": "Loading...",
+    "thankYou": "Thank you!",
+    "thankYouMessage": "Thanks for your donation!",
+    "successMessage": "Payment successful!",
+    "donateAgain": "Donate Again",
+    "paymentFailed": "Payment Failed",
+    "paymentError": "Please try again",
+    "tryAgain": "Try Again",
+    "processing": "Processing...",
+    "processingMessage": "Please wait...",
+    "paypalInfo": "PayPal secure payment",
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "Required?",
+        "answer": "No, voluntary"
+      },
+      "q2": {
+        "question": "How much?",
+        "answer": "Any amount $0.01+"
+      },
+      "q3": {
+        "question": "Secure?",
+        "answer": "Yes, PayPal protected"
+      }
+    }
+  }
+}

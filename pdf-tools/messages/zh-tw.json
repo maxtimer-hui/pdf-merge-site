@@ -1,0 +1,347 @@
+{
+  "seo": {
+    "merge": {
+      "title": "免費PDF合併工具 - 線上合併PDF檔案 | 無需註冊",
+      "description": "免費合併PDF檔案，安全線上PDF合併工具。無需註冊，無限制，無浮水印。在瀏覽器中即時合併多個PDF檔案。",
+      "keywords": "免費pdf合併, 合併pdf檔案, pdf合併工具, 線上合併pdf, 合併多個pdf, pdf合併軟體"
+    },
+    "split": {
+      "title": "免費PDF分割工具 - 線上分割PDF檔案 | 無需註冊",
+      "description": "免費分割PDF檔案，安全線上PDF分割工具。提取頁面，按範圍分割，全部在瀏覽器中完成。無需註冊。",
+      "keywords": "免費pdf分割, 分割pdf檔案, pdf分割工具, 提取pdf頁面, 線上分割pdf, 拆分pdf"
+    },
+    "extract": {
+      "title": "提取PDF頁面 - 免費線上PDF頁面提取工具",
+      "description": "免費從PDF檔案中提取特定頁面。按範圍或單獨選擇頁面。快速、安全，無需註冊。",
+      "keywords": "提取pdf頁面, pdf頁面提取, 刪除pdf頁面, pdf提取工具, 線上提取頁面"
+    },
+    "compress": {
+      "title": "壓縮PDF檔案 - 免費線上PDF壓縮工具 | 減小PDF大小",
+      "description": "免費線上壓縮PDF檔案。在保持品質的同時減小PDF檔案大小。快速壓縮，無需註冊，無限制。",
+      "keywords": "壓縮pdf, pdf壓縮工具, 減小pdf大小, 壓縮pdf檔案, pdf壓縮軟體, 縮小pdf"
+    },
+    "rotate": {
+      "title": "旋轉PDF頁面 - 免費線上PDF旋轉工具",
+      "description": "免費線上旋轉PDF頁面。旋轉單個頁面或整個文檔。易於使用，無需註冊。",
+      "keywords": "旋轉pdf, 旋轉pdf頁面, pdf旋轉工具, 旋轉文檔, 轉動pdf頁面"
+    },
+    "deletePages": {
+      "title": "刪除PDF頁面 - 免費線上刪除PDF頁面",
+      "description": "免費線上從PDF檔案中刪除不需要的頁面。輕鬆選擇並刪除頁面。無需註冊，安全處理。",
+      "keywords": "刪除pdf頁面, 刪除pdf頁面, pdf頁面刪除, 線上刪除頁面, pdf刪除工具"
+    },
+    "reorder": {
+      "title": "重新排序PDF頁面 - 免費線上排列PDF頁面",
+      "description": "透過拖放重新排序PDF頁面。按照您喜歡的順序排列PDF頁面。免費、快速、安全。",
+      "keywords": "重新排序pdf頁面, 排列pdf頁面, 調整pdf順序, pdf頁面排序, 重新排列pdf"
+    },
+    "watermark": {
+      "title": "添加PDF浮水印 - 免費線上PDF浮水印工具",
+      "description": "免費線上為PDF檔案添加浮水印。自訂文字或圖片浮水印。輕鬆保護您的文檔。",
+      "keywords": "添加pdf浮水印, pdf浮水印工具, 浮水印pdf, 插入浮水印, pdf加浮水印"
+    },
+    "batch": {
+      "title": "批次處理PDF - 線上多PDF工具",
+      "description": "使用我們的批次PDF工具一次處理多個PDF檔案。同時合併、分割、壓縮多個PDF。",
+      "keywords": "批次處理pdf, 處理多個pdf, 批次pdf工具, pdf批次處理, 多pdf處理"
+    },
+    "encrypt": {
+      "title": "加密PDF - 免費線上為PDF添加密碼保護",
+      "description": "線上為PDF檔案添加密碼保護。使用強安全加密您的PDF文檔。免費且安全。",
+      "keywords": "加密pdf, pdf密碼保護, pdf加密, 給pdf加密, 保護pdf檔案"
+    },
+    "decrypt": {
+      "title": "解密PDF - 免費線上刪除PDF密碼",
+      "description": "線上從PDF檔案中刪除密碼保護。如果您知道密碼，可以解密您的PDF文檔。",
+      "keywords": "解密pdf, 刪除pdf密碼, pdf解密, 解鎖pdf, 移除pdf密碼"
+    },
+    "home": {
+      "title": "免費合併PDF檔案 - 免費PDF合併工具線上 | 合併PDF免費 無需註冊",
+      "description": "免費合併PDF檔案，使用我們安全的PDF合併工具。線上合併、分割、壓縮PDF。無需註冊，無限制，無浮水印。100% 免費PDF合併工具。",
+      "keywords": "免費合併pdf檔案, 合併pdf免費, pdf合併工具免費, 免費pdf合併, pdf免費合併, 線上合併pdf免費"
+    },
+    "donate": {
+      "title": "捐贈支持 - 免費PDF工具",
+      "description": "支持我們的免費PDF工具開發。您的捐贈將幫助我們持續改進和提供更多功能。",
+      "keywords": "捐贈, 支持開發, pdf工具捐贈"
+    }
+  },
+  "common": {
+    "appName": "免費PDF合併工具 - 免費合併PDF檔案",
+    "home": "首頁",
+    "merge": "合併PDF",
+    "split": "分割PDF",
+    "extract": "提取頁面",
+    "compress": "壓縮PDF",
+    "rotate": "旋轉PDF",
+    "deletePages": "刪除頁面",
+    "reorder": "重新排序",
+    "watermark": "添加水印",
+    "batch": "批次處理",
+    "encrypt": "加密PDF",
+    "decrypt": "解密PDF",
+    "donate": "捐贈支持",
+    "sign": "電子簽名",
+    "form": "填寫表單",
+    "tagline": "免費合併PDF檔案線上工具。快速、安全的PDF合併工具，無需註冊。",
+    "whyChooseUs": "為什麼選擇我們？",
+    "security": "100% 安全",
+    "securityDesc": "文件在瀏覽器中處理，不會上傳到服務器",
+    "fast": "快速處理",
+    "fastDesc": "本地處理，毫秒級響應速度",
+    "free": "完全免費",
+    "freeDesc": "無需註冊，無限制，無水印",
+    "backToHome": "返回首頁",
+    "uploadFile": "上傳 PDF 文件",
+    "uploadFiles": "上傳 PDF 文件",
+    "dragDrop": "點擊或拖拽 PDF 文件到這裡",
+    "pages": "頁",
+    "page": "頁面",
+    "processing": "處理中...",
+    "download": "下載 PDF",
+    "again": "處理另一個文件",
+    "alertSelectPDF": "請選擇 PDF 文件",
+    "alertFailed": "操作失敗，請重試",
+    "readPDFFailed": "讀取 PDF 失敗",
+    "selectAll": "全選",
+    "clear": "清空",
+    "reset": "重置",
+    "apply": "應用",
+    "start": "開始",
+    "totalFiles": "總文件數",
+    "totalSize": "總大小",
+    "supportsMultiple": "（支援多選）",
+    "selectedFiles": "已選擇 {count} 個文件",
+    "clearAll": "清空全部",
+    "moveUp": "上移",
+    "moveDown": "下移",
+    "remove": "刪除",
+    "mergeMore": "合併更多",
+    "splitAgain": "再分割一個",
+    "extractAgain": "再提取一個",
+    "compressAgain": "再壓縮一個",
+    "encryptAgain": "再加密一個",
+    "decryptAgain": "再解密一個",
+    "seoContent": {
+      "title": "如何免費合併PDF檔案 線上工具",
+      "subtitle": "最佳免費PDF合併工具 滿足您所有需求",
+      "intro": "想要免費合併PDF檔案？我們安全的PDF合併工具線上版讓您無需註冊即可即時合併多個PDF。",
+      "features": {
+        "title": "為什麼選擇我們的免費PDF合併工具？",
+        "feature1": "免費合併PDF檔案，無限制合併 - 沒有隱藏限制或約束",
+        "feature2": "PDF合併工具免費線上處理 - 所有檔案保留在您的瀏覽器中以確保最大安全性",
+        "feature3": "線上合併PDF免費，使用拖放介面 - 合併文件最簡單的方法",
+        "feature4": "免費PDF合併工具保持品質 - 無解析度損失或添加浮水印"
+      },
+      "howTo": {
+        "title": "如何合併PDF檔案 3個簡單步驟",
+        "step1": "通過點擊或拖曳將PDF檔案上傳到合併工具",
+        "step2": "使用拖放功能按所需順序排列檔案",
+        "step3": "點擊「合併PDF」並立即下載合併後的PDF檔案"
+      },
+      "useCases": {
+        "title": "PDF合併工具免費 常見用途",
+        "case1": "將多個報告合併為一個文件以進行專業演示",
+        "case2": "合併PDF章節或章節以創建完整的電子書或手冊",
+        "case3": "將掃描的頁面或收據合併到一個有組織的PDF檔案中",
+        "case4": "合併多個發票或對帳單以便於記錄保存"
+      },
+      "conclusion": "我們的PDF合併工具線上版受到全球數千名用戶的信賴。今天開始免費合併PDF檔案 - 無需註冊，無需等待，完全免費的PDF合併工具。"
+    }
+  },
+  "merge": {
+    "title": "合併PDF文件",
+    "description": "將多個PDF文件合併為一個文檔",
+    "upload": "上傳PDF檔案",
+    "processing": "處理中...",
+    "download": "下載合併後的PDF",
+    "success": "PDF合併成功！",
+    "startMerge": "開始合併",
+    "mergeSuccess": "已成功合併 {count} 個 PDF 文件"
+  },
+  "split": {
+    "title": "分割PDF文件",
+    "description": "將PDF文件分割為多個文檔",
+    "upload": "上傳PDF檔案",
+    "processing": "處理中...",
+    "download": "下載分割後的PDF",
+    "success": "PDF分割成功！",
+    "selectedPages": "已選擇 {count} 頁",
+    "selectSplitMode": "選擇分割方式",
+    "splitEvenly": "平均分割",
+    "splitCustom": "自定義分割",
+    "every": "每",
+    "pagesIntoFile": "頁分割成一個文件",
+    "startSplit": "開始分割",
+    "splitComplete": "分割完成",
+    "splitSuccess": "已成功分割成 {count} 個文件"
+  },
+  "extract": {
+    "title": "提取PDF頁面",
+    "description": "從PDF文件中提取特定頁面",
+    "upload": "上傳PDF檔案",
+    "processing": "處理中...",
+    "download": "下載提取的頁面",
+    "success": "頁面提取成功！",
+    "selectPagesToExtract": "選擇要提取的頁面",
+    "startExtract": "開始提取",
+    "extractComplete": "提取完成",
+    "extractSuccess": "已成功提取 {count} 個頁面"
+  },
+  "compress": {
+    "title": "壓縮PDF文件",
+    "description": "減小PDF文件體積",
+    "upload": "上傳PDF檔案",
+    "processing": "壓縮中...",
+    "download": "下載壓縮後的PDF",
+    "success": "PDF壓縮成功！",
+    "originalSize": "原始大小",
+    "compressedSize": "壓縮後大小",
+    "saved": "節省",
+    "compressionLevel": "壓縮級別",
+    "low": "低",
+    "medium": "中",
+    "high": "高",
+    "startCompress": "開始壓縮",
+    "compressComplete": "壓縮完成",
+    "compressionRatio": "壓縮率"
+  },
+  "rotate": {
+    "title": "旋轉PDF",
+    "description": "旋轉PDF頁面方向"
+  },
+  "deletePages": {
+    "title": "刪除PDF頁面",
+    "description": "從PDF中刪除不需要的頁面",
+    "selectPagesToDelete": "選擇要刪除的頁面",
+    "selectedWillDelete": "已選擇 {selected} 頁，將保留 {remaining} 頁",
+    "deleteComplete": "刪除完成！",
+    "deleteCompleteDesc": "已成功刪除 {deleted} 個頁面，保留 {remaining} 頁",
+    "deleteAgain": "重新刪除",
+    "selectPagesAlert": "請選擇要刪除的頁面",
+    "cannotDeleteAll": "不能刪除所有頁面",
+    "deleteFailed": "刪除失敗，請重試"
+  },
+  "reorder": {
+    "title": "重新排序頁面",
+    "description": "調整PDF頁面的順序"
+  },
+  "watermark": {
+    "title": "添加水印",
+    "description": "為PDF添加自定義水印",
+    "watermarkText": "水印文字",
+    "watermarkTextPlaceholder": "輸入水印文字...",
+    "opacity": "透明度",
+    "fontSize": "字體大小",
+    "color": "顏色",
+    "position": "位置",
+    "diagonal": "對角線",
+    "center": "居中",
+    "tile": "平鋪",
+    "watermarkAdded": "水印添加完成！",
+    "watermarkAddedDesc": "水印已成功添加到您的 PDF 文件",
+    "adjustSettings": "調整設置",
+    "enterWatermarkText": "請輸入水印文字",
+    "addWatermarkFailed": "添加水印失敗，請重試"
+  },
+  "batch": {
+    "title": "批量處理",
+    "description": "一次性處理多個PDF文件",
+    "selectBatchMode": "選擇批量處理模式",
+    "batchMerge": "批量合併",
+    "batchMergeDesc": "將多個 PDF 合併為一個",
+    "batchSplit": "批量分割",
+    "batchSplitDesc": "將多個 PDF 按頁數分割",
+    "batchCompress": "批量壓縮",
+    "batchCompressDesc": "壓縮多個 PDF 文件大小",
+    "splitOptions": "分割選項",
+    "every": "每",
+    "pagesSplit": "頁分割成一個文件",
+    "addFiles": "添加 PDF 文件",
+    "clickSelectFiles": "點擊選擇多個 PDF 文件",
+    "selectedFiles": "已選擇 {count} 個文件",
+    "clearAll": "清空全部",
+    "startBatchProcess": "開始批量處理",
+    "batchProcessComplete": "批量處理完成！",
+    "generatedFiles": "成功生成 {count} 個文件",
+    "batchMergeMinFiles": "請至少選擇 2 個 PDF 文件進行合併",
+    "batchSplitSelectFiles": "請選擇 PDF 文件進行分割",
+    "batchCompressSelectFiles": "請選擇 PDF 文件進行壓縮",
+    "selected": "已選擇",
+    "encryptAgain": "加密另一個文件",
+    "decryptAgain": "解密另一個文件"
+  },
+  "encrypt": {
+    "title": "加密 PDF",
+    "description": "為 PDF 文檔添加密碼保護",
+    "selectFile": "選擇 PDF 文件",
+    "enterPassword": "輸入密碼",
+    "confirmPassword": "確認密碼",
+    "startEncrypt": "加密 PDF",
+    "encryptComplete": "加密完成",
+    "encryptSuccess": "PDF 已成功加密並設置密碼",
+    "weak": "弱",
+    "medium": "中等",
+    "strong": "強",
+    "passwordHint": "建議使用 8 位以上字符，包含大小寫字母、數字和符號",
+    "weakPasswordWarning": "密碼強度太弱，請使用更強的密碼",
+    "noFile": "請選擇一個 PDF 文件",
+    "noPassword": "請輸入密碼",
+    "passwordMismatch": "兩次輸入的密碼不一致",
+    "invalidFile": "請選擇有效的 PDF 文件",
+    "encryptError": "加密失敗，請重試"
+  },
+  "decrypt": {
+    "title": "解密 PDF",
+    "description": "移除 PDF 文檔的密碼保護",
+    "selectFile": "選擇 PDF 文件",
+    "enterPassword": "輸入密碼",
+    "passwordHint": "請輸入加密此 PDF 時使用的密碼",
+    "startDecrypt": "解密 PDF",
+    "decryptComplete": "解密完成",
+    "decryptSuccess": "密碼保護已成功移除",
+    "isEncrypted": "此文件已加密",
+    "notEncrypted": "此文件未加密",
+    "checkError": "無法檢測文件是否加密",
+    "noFile": "請選擇一個 PDF 文件",
+    "noPassword": "請輸入密碼",
+    "wrongPassword": "密碼錯誤，請重試",
+    "invalidFile": "請選擇有效的 PDF 文件",
+    "decryptError": "解密失敗，請檢查密碼後重試"
+  },
+  "donate": {
+    "title": "支持我們",
+    "description": "如果您覺得我們的工具 有幫助,歡迎捐贈支持開發",
+    "info": "您的捐贈將幫助我們持續開發和改進免費的PDF工具。所有捐贈都是自願的,感謝您的支持!",
+    "selectAmount": "選擇捐贈金額",
+    "customAmount": "或輸入自定義金額",
+    "minimumAmount": "最低金額: ${amount} USD",
+    "securePayment": "安全支付 - 由 PayPal 保護",
+    "loading": "正在載入 PayPal 按鈕...",
+    "thankYou": "感謝您的捐贈!",
+    "thankYouMessage": "感謝您慷慨捐贈 ${amount},我們會繼續努力提供更好的服務!",
+    "successMessage": "您的捐贈已成功處理,感謝您支持我們的專案!",
+    "donateAgain": "再次捐贈",
+    "paymentFailed": "支付失敗",
+    "paymentError": "支付過程中出現錯誤,請稍後重試",
+    "tryAgain": "重試",
+    "processing": "處理中...",
+    "processingMessage": "正在處理您的支付,請稍候...",
+    "paypalInfo": "PayPal 是一種安全、便捷的線上支付方式",
+    "faq": {
+      "title": "常見問題",
+      "q1": {
+        "question": "捐贈是否強制?",
+        "answer": "不是!所有PDF工具都完全免費使用。捐贈是完全自願的,用於支持專案開發。"
+      },
+      "q2": {
+        "question": "我可以選擇捐贈多少嗎?",
+        "answer": "可以!您可以點擊預設金額按鈕,或輸入自定義金額(最低$0.01 USD)。"
+      },
+      "q3": {
+        "question": "支付安全嗎?",
+        "answer": "是的!我們使用PayPal處理支付,這是世界上最安全、最值得信賴的線上支付平台之一。我們不會存儲您的支付信息。"
+      }
+    }
+  }
+}

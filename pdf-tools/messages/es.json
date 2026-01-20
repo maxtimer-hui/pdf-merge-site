@@ -1,0 +1,349 @@
+{
+  "seo": {
+    "home": {
+      "title": "Combinar Archivos PDF Gratis - Combinador PDF Gratis Online | Combinar PDF Gratis Sin Registro",
+      "description": "Combine archivos PDF gratis con nuestro combinador PDF seguro. Combine, divida, comprima PDFs online. Sin registro, sin límites, sin marcas de agua. Combinador PDF gratis 100%.",
+      "keywords": "combinar archivos pdf gratis, combinar pdf gratis, combinador pdf gratis, combinador pdf online, unir pdf gratis, combinar pdfs gratis, unir archivos pdf, combinar pdf online gratis, herramientas pdf gratis"
+    },
+    "merge": {
+      "title": "Combinador PDF Gratis - Combinar Archivos PDF Online | Sin Registro",
+      "description": "Combine archivos PDF gratis con nuestro combinador PDF en línea seguro. Sin registro, sin límites, sin marcas de agua. Combine múltiples PDFs al instante en su navegador.",
+      "keywords": "combinador pdf gratis, combinar archivos pdf gratis, combinar pdf gratis, unir pdf online, combinar pdfs, unir archivos pdf"
+    },
+    "split": {
+      "title": "Divisor PDF Gratis - Dividir Archivos PDF Online | Sin Registro",
+      "description": "Divida archivos PDF gratis con nuestro divisor PDF en línea seguro. Extraiga páginas, divida por rangos, todo en su navegador. No requiere registro.",
+      "keywords": "divisor pdf gratis, dividir archivos pdf, dividir pdf online, separar pdf, cortar pdf, extractor pdf"
+    },
+    "extract": {
+      "title": "Extraer Páginas PDF - Extractor de Páginas PDF Gratis Online",
+      "description": "Extraiga páginas específicas de archivos PDF gratis. Seleccione páginas por rango o individualmente. Rápido, seguro, sin registro requerido.",
+      "keywords": "extraer paginas pdf, extractor de paginas pdf, separar paginas pdf, quitar paginas pdf, extraer paginas online"
+    },
+    "compress": {
+      "title": "Comprimir Archivos PDF - Compresor PDF Gratis Online | Reducir Tamaño PDF",
+      "description": "Comprima archivos PDF gratis en línea. Reduzca el tamaño del archivo PDF manteniendo la calidad. Compresión rápida, sin registro, sin límites.",
+      "keywords": "comprimir pdf, comprimir archivo pdf, reducir tamaño pdf, comprimir pdf gratis, optimizar pdf, comprimir pdf online"
+    },
+    "rotate": {
+      "title": "Rotar Páginas PDF - Rotador PDF Gratis Online",
+      "description": "Rote páginas PDF en línea gratis. Rote páginas individuales o documentos completos. Fácil de usar, sin registro requerido.",
+      "keywords": "rotar pdf, rotar paginas pdf, rotador pdf, girar pdf, rotar documento"
+    },
+    "deletePages": {
+      "title": "Eliminar Páginas PDF - Borrar Páginas de PDF Online Gratis",
+      "description": "Elimine páginas no deseadas de archivos PDF en línea gratis. Seleccione y elimine páginas fácilmente. Sin registro, procesamiento seguro.",
+      "keywords": "eliminar paginas pdf, borrar paginas pdf, quitar paginas pdf, eliminar paginas online, eliminador de paginas pdf"
+    },
+    "reorder": {
+      "title": "Reordenar Páginas PDF - Reorganizar Páginas PDF Online Gratis",
+      "description": "Reordene páginas PDF arrastrando y soltando. Organice páginas PDF en su orden preferido. Gratis, rápido y seguro.",
+      "keywords": "reordenar paginas pdf, ordenar paginas pdf, organizar paginas pdf, reorganizar pdf, cambiar orden paginas pdf"
+    },
+    "watermark": {
+      "title": "Añadir Marca de Agua PDF - Marca de Agua PDF Gratis Online",
+      "description": "Añada marca de agua a archivos PDF en línea gratis. Marcas de agua de texto o imagen personalizadas. Proteja sus documentos fácilmente.",
+      "keywords": "añadir marca de agua pdf, poner marca de agua pdf, marcar pdf, insertar marca de agua, marca de agua online"
+    },
+    "batch": {
+      "title": "Procesamiento por Lotes PDF - Múltiples Herramientas PDF Online",
+      "description": "Procese múltiples archivos PDF a la vez con nuestras herramientas de procesamiento por lotes. Combine, divida, comprima múltiples PDFs simultáneamente.",
+      "keywords": "procesamiento lotes pdf, procesar multiples pdfs, herramientas lote pdf, procesamiento por lotes, procesar varios pdf"
+    },
+    "encrypt": {
+      "title": "Cifrar PDF - Proteger PDF con Contraseña Online Gratis",
+      "description": "Añada protección con contraseña a archivos PDF en línea. Cifre sus documentos PDF con seguridad fuerte. Gratis y seguro.",
+      "keywords": "cifrar pdf, proteger pdf con contraseña, encriptar pdf, poner contraseña pdf, proteger archivo pdf"
+    },
+    "decrypt": {
+      "title": "Descifrar PDF - Quitar Contraseña PDF Online Gratis",
+      "description": "Elimine la protección con contraseña de archivos PDF en línea. Descifre sus documentos PDF si conoce la contraseña.",
+      "keywords": "descifrar pdf, quitar contraseña pdf, desproteger pdf, desbloquear pdf, eliminar contraseña pdf"
+    },
+    "donate": {
+      "title": "Apoyanos - Free PDF Tools",
+      "description": "Si encuentras útiles nuestras herramientas, considera donar",
+      "keywords": "donate, support, pdf tools"
+    }
+  },
+  "common": {
+    "appName": "Combinador PDF Gratis - Combinar Archivos PDF Gratis",
+    "tagline": "Combine archivos PDF gratis online. Combinador PDF rápido y seguro sin registro.",
+    "home": "Inicio",
+    "merge": "Combinar PDF",
+    "split": "Dividir PDF",
+    "extract": "Extraer Páginas",
+    "compress": "Comprimir PDF",
+    "rotate": "Rotar PDF",
+    "deletePages": "Eliminar Páginas",
+    "reorder": "Reordenar",
+    "watermark": "Añadir Marca de Agua",
+    "batch": "Procesar Lote",
+    "encrypt": "Cifrar PDF",
+    "decrypt": "Descifrar PDF",
+    "donate": "Donar",
+    "sign": "Firmar PDF",
+    "form": "Rellenar Formulario",
+    "whyChooseUs": "¿Por Qué Elegirnos?",
+    "security": "100% Seguro",
+    "securityDesc": "Archivos procesados en el navegador, nunca subidos a servidores",
+    "fast": "Procesamiento Rápido",
+    "fastDesc": "Procesamiento local, tiempo de respuesta en milisegundos",
+    "free": "Completamente Gratis",
+    "freeDesc": "Sin registro, sin límites, sin marcas de agua",
+    "seoContent": {
+      "title": "Cómo Combinar Archivos PDF Gratis Online",
+      "subtitle": "El Mejor Combinador PDF Gratis para Todas tus Necesidades",
+      "intro": "¿Buscas combinar archivos PDF gratis? Nuestro combinador PDF online seguro te permite combinar múltiples PDFs al instante sin registro. Ya sea para trabajo, escuela o uso personal, nuestro combinador PDF gratis hace que sea simple y rápido.",
+      "features": {
+        "title": "¿Por Qué Usar Nuestro Combinador PDF Gratis?",
+        "feature1": "Combine archivos PDF gratis con combinaciones ilimitadas - sin límites ocultos o restricciones",
+        "feature2": "Combinador PDF gratis procesamiento online - todos los archivos se quedan en tu navegador para máxima seguridad",
+        "feature3": "Combine PDF online gratis con interfaz arrastrar y soltar - la forma más fácil de combinar documentos",
+        "feature4": "Combinador PDF gratis que mantiene calidad - sin pérdida de resolución o marcas de agua añadidas"
+      },
+      "howTo": {
+        "title": "Cómo Combinar Archivos PDF en 3 Pasos Simples",
+        "step1": "Sube tus archivos PDF haciendo clic o arrastrándolos al combinador",
+        "step2": "Organiza los archivos en el orden deseado usando arrastrar y soltar",
+        "step3": "Haz clic en 'Combinar PDF' y descarga instantáneamente tu archivo PDF combinado"
+      },
+      "useCases": {
+        "title": "Casos de Uso Comunes para Combinador PDF Gratis",
+        "case1": "Combina múltiples reportes en un solo documento para presentaciones profesionales",
+        "case2": "Combina capítulos o secciones de PDF para crear libros electrónicos o manuales completos",
+        "case3": "Combina páginas escaneadas o recibos en un archivo PDF organizado",
+        "case4": "Combina múltiples facturas o estados de cuenta para fácil mantenimiento de registros"
+      },
+      "conclusion": "Nuestro combinador PDF online es confiable por miles de usuarios en todo el mundo. Comienza a combinar archivos PDF gratis hoy - sin registro, sin espera, completamente gratis combinador PDF."
+    },
+    "backToHome": "Volver al Inicio",
+    "uploadFile": "Subir Archivo PDF",
+    "uploadFiles": "Subir Archivos PDF",
+    "dragDrop": "Haz clic o arrastra archivos PDF aquí",
+    "pages": "páginas",
+    "page": "Página",
+    "processing": "Procesando...",
+    "download": "Descargar PDF",
+    "again": "Procesar Otro Archivo",
+    "alertSelectPDF": "Por favor seleccione un archivo PDF",
+    "alertFailed": "La operación falló, por favor intente de nuevo",
+    "readPDFFailed": "Error al leer PDF",
+    "selectAll": "Seleccionar Todo",
+    "clear": "Limpiar",
+    "reset": "Restablecer",
+    "apply": "Aplicar",
+    "start": "Iniciar",
+    "totalFiles": "Archivos totales",
+    "totalSize": "Tamaño total",
+    "supportsMultiple": "(Soporte múltiple)",
+    "selectedFiles": "{count} archivo seleccionado",
+    "selectedFiles_plural": "{count} archivos seleccionados",
+    "clearAll": "Limpiar Todo",
+    "moveUp": "Subir",
+    "moveDown": "Bajar",
+    "remove": "Eliminar",
+    "mergeMore": "Combinar Más",
+    "splitAgain": "Dividir Otro",
+    "extractAgain": "Extraer Otro",
+    "compressAgain": "Comprimir Otro",
+    "encryptAgain": "Cifrar Otro",
+    "decryptAgain": "Descifrar Otro"
+  },
+  "merge": {
+    "title": "Combinar Archivos PDF",
+    "description": "Combinar múltiples archivos PDF en uno solo",
+    "upload": "Subir Archivos PDF",
+    "processing": "Procesando...",
+    "download": "Descargar PDF Combinado",
+    "success": "¡PDF combinado con éxito!",
+    "startMerge": "Iniciar Combinación",
+    "mergeSuccess": "Exitosamente combinados {count} archivos PDF"
+  },
+  "split": {
+    "title": "Dividir Archivos PDF",
+    "description": "Dividir un archivo PDF en múltiples documentos",
+    "upload": "Subir Archivo PDF",
+    "processing": "Procesando...",
+    "download": "Descargar PDFs Divididos",
+    "success": "¡PDF dividido con éxito!",
+    "selectedPages": "{count} página(s) seleccionada(s)",
+    "selectSplitMode": "Seleccionar Modo de División",
+    "splitEvenly": "Dividir Uniformemente",
+    "splitCustom": "División Personalizada",
+    "every": "Cada",
+    "pagesIntoFile": "páginas en un archivo",
+    "startSplit": "Iniciar División",
+    "splitComplete": "División Completa",
+    "splitSuccess": "Exitosamente dividido en {count} archivos"
+  },
+  "extract": {
+    "title": "Extraer Páginas PDF",
+    "description": "Extrae páginas específicas de un archivo PDF",
+    "upload": "Subir Archivo PDF",
+    "processing": "Procesando...",
+    "download": "Descargar Páginas Extraídas",
+    "success": "¡Páginas extraídas con éxito!",
+    "selectPagesToExtract": "Seleccionar Páginas para Extraer",
+    "startExtract": "Iniciar Extracción",
+    "extractComplete": "Extracción Completa",
+    "extractSuccess": "Exitosamente extraídas {count} página(s)"
+  },
+  "compress": {
+    "title": "Comprimir Archivos PDF",
+    "description": "Reducir el tamaño de archivos PDF",
+    "upload": "Subir Archivo PDF",
+    "processing": "Comprimiendo...",
+    "download": "Descargar PDF Comprimido",
+    "success": "¡PDF comprimido con éxito!",
+    "originalSize": "Tamaño original",
+    "compressedSize": "Tamaño comprimido",
+    "saved": "Ahorrado",
+    "compressionLevel": "Nivel de Compresión",
+    "low": "Bajo",
+    "medium": "Medio",
+    "high": "Alto",
+    "startCompress": "Iniciar Compresión",
+    "compressComplete": "Compresión Completa",
+    "compressionRatio": "Relación de compresión"
+  },
+  "rotate": {
+    "title": "Rotar PDF",
+    "description": "Rotar páginas PDF"
+  },
+  "deletePages": {
+    "title": "Eliminar Páginas PDF",
+    "description": "Eliminar páginas no deseadas de un PDF",
+    "selectPagesToDelete": "Seleccionar Páginas para Eliminar",
+    "selectedWillDelete": "Seleccionadas {selected} página(s), se mantendrán {remaining} página(s)",
+    "deleteComplete": "¡Eliminación Completa!",
+    "deleteCompleteDesc": "Eliminadas exitosamente {deleted} página(s), manteniendo {remaining} página(s)",
+    "deleteAgain": "Eliminar de Nuevo",
+    "selectPagesAlert": "Por favor seleccione páginas para eliminar",
+    "cannotDeleteAll": "No se pueden eliminar todas las páginas",
+    "deleteFailed": "Falló la eliminación, por favor intente de nuevo"
+  },
+  "reorder": {
+    "title": "Reordenar Páginas",
+    "description": "Reorganizar el orden de las páginas PDF"
+  },
+  "watermark": {
+    "title": "Añadir Marca de Agua",
+    "description": "Añadir marca de agua personalizada a un PDF",
+    "watermarkText": "Texto de Marca de Agua",
+    "watermarkTextPlaceholder": "Ingrese el texto de la marca de agua...",
+    "opacity": "Opacidad",
+    "fontSize": "Tamaño de Fuente",
+    "color": "Color",
+    "position": "Posición",
+    "diagonal": "Diagonal",
+    "center": "Centro",
+    "tile": "Mosaico",
+    "watermarkAdded": "¡Marca de Agua Añadida con Éxito!",
+    "watermarkAddedDesc": "La marca de agua se ha añadido exitosamente a su archivo PDF",
+    "adjustSettings": "Ajustar Configuración",
+    "enterWatermarkText": "Por favor ingrese el texto de la marca de agua",
+    "addWatermarkFailed": "Falló al añadir marca de agua, por favor intente de nuevo"
+  },
+  "batch": {
+    "title": "Procesamiento por Lotes",
+    "description": "Procesar múltiples archivos PDF a la vez",
+    "selectBatchMode": "Seleccionar Modo de Procesamiento por Lotes",
+    "batchMerge": "Combinar Todo",
+    "batchMergeDesc": "Combinar múltiples PDFs en uno",
+    "batchSplit": "Dividir Todo",
+    "batchSplitDesc": "Dividir múltiples PDFs por recuento de páginas",
+    "batchCompress": "Comprimir Todo",
+    "batchCompressDesc": "Comprimir múltiples archivos PDF",
+    "splitOptions": "Opciones de División",
+    "every": "Cada",
+    "pagesSplit": "páginas en un archivo",
+    "addFiles": "Añadir Archivos PDF",
+    "clickSelectFiles": "Haz clic para seleccionar varios archivos PDF",
+    "selectedFiles": "{count} archivo seleccionado",
+    "selectedFiles_plural": "{count} archivos seleccionados",
+    "clearAll": "Limpiar Todo",
+    "startBatchProcess": "Iniciar Procesamiento por Lotes",
+    "batchProcessComplete": "¡Procesamiento por Lotes Completado!",
+    "generatedFiles": "Exitosamente generados {count} archivos",
+    "batchMergeMinFiles": "Seleccione al menos 2 archivos PDF para combinar",
+    "batchSplitSelectFiles": "Seleccione archivos PDF para dividir",
+    "batchCompressSelectFiles": "Seleccione archivos PDF para comprimir",
+    "selected": "Seleccionado",
+    "encryptAgain": "Cifrar Otro Archivo",
+    "decryptAgain": "Descifrar Otro Archivo"
+  },
+  "encrypt": {
+    "title": "Cifrar PDF",
+    "description": "Añadir protección con contraseña al documento PDF",
+    "selectFile": "Seleccionar Archivo PDF",
+    "enterPassword": "Ingresar contraseña",
+    "confirmPassword": "Confirmar contraseña",
+    "startEncrypt": "Cifrar PDF",
+    "encryptComplete": "Cifrado Completado",
+    "encryptSuccess": "El PDF ha sido protegido con contraseña exitosamente",
+    "weak": "Débil",
+    "medium": "Medio",
+    "strong": "Fuerte",
+    "passwordHint": "Use 8+ caracteres con mezcla de letras, números y símbolos",
+    "weakPasswordWarning": "La contraseña es muy débil. Por favor use una contraseña más fuerte.",
+    "noFile": "Por favor seleccione un archivo PDF",
+    "noPassword": "Por favor ingrese una contraseña",
+    "passwordMismatch": "Las contraseñas no coinciden",
+    "invalidFile": "Por favor seleccione un archivo PDF válido",
+    "encryptError": "Error en el cifrado. Por favor intente de nuevo."
+  },
+  "decrypt": {
+    "title": "Descifrar PDF",
+    "description": "Quitar la protección con contraseña del documento PDF",
+    "selectFile": "Seleccionar Archivo PDF",
+    "enterPassword": "Ingresar contraseña",
+    "passwordHint": "Ingrese la contraseña usada para cifrar este PDF",
+    "startDecrypt": "Descifrar PDF",
+    "decryptComplete": "Descifrado Completado",
+    "decryptSuccess": "La protección con contraseña ha sido eliminada exitosamente",
+    "isEncrypted": "Este archivo está cifrado",
+    "notEncrypted": "Este archivo no está cifrado",
+    "checkError": "Error al verificar si el archivo está cifrado",
+    "noFile": "Por favor seleccione un archivo PDF",
+    "noPassword": "Por favor ingrese la contraseña",
+    "wrongPassword": "Contraseña incorrecta. Por favor intente de nuevo.",
+    "invalidFile": "Por favor seleccione un archivo PDF válido",
+    "decryptError": "Error en el descifrado. Por favor verifique la contraseña e intente de nuevo."
+  },
+  "donate": {
+    "title": "Apoyanos",
+    "description": "Si encuentras útiles nuestras herramientas, considera donar",
+    "info": "Your donation helps us continue developing free PDF tools.",
+    "selectAmount": "Select amount",
+    "customAmount": "Custom amount",
+    "minimumAmount": "Minimum: $0.01",
+    "securePayment": "Secure payment by PayPal",
+    "loading": "Loading...",
+    "thankYou": "Thank you!",
+    "thankYouMessage": "Thanks for your donation!",
+    "successMessage": "Payment successful!",
+    "donateAgain": "Donate Again",
+    "paymentFailed": "Payment Failed",
+    "paymentError": "Please try again",
+    "tryAgain": "Try Again",
+    "processing": "Processing...",
+    "processingMessage": "Please wait...",
+    "paypalInfo": "PayPal secure payment",
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "Required?",
+        "answer": "No, voluntary"
+      },
+      "q2": {
+        "question": "How much?",
+        "answer": "Any amount $0.01+"
+      },
+      "q3": {
+        "question": "Secure?",
+        "answer": "Yes, PayPal protected"
+      }
+    }
+  }
+}

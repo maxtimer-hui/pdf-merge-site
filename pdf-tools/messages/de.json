@@ -1,0 +1,238 @@
+{
+  "seo": {
+    "merge": {
+      "title": "Kostenloser PDF-Zusammenfüger - PDF-Dateien Online Zusammenfügen | Keine Anmeldung",
+      "description": "PDF-Dateien kostenlos zusammenfügen mit unserem sicheren Online-Tool. Keine Anmeldung, keine Limits, keine Wasserzeichen. Fügen Sie mehrere PDFs sofort in Ihrem Browser zusammen.",
+      "keywords": "kostenloser pdf zusammenfüger, pdf dateien zusammenfügen, pdfs verbinden, pdf zusammenfügen online, pdf zusammenfügen kostenlos, pdfs zusammenfassen"
+    },
+    "split": {
+      "title": "Kostenloser PDF-Teiler - PDF-Dateien Online Teilen | Keine Anmeldung",
+      "description": "PDF-Dateien kostenlos teilen mit unserem sicheren Online-Tool. Seiten extrahieren, nach Bereichen teilen, alles in Ihrem Browser. Keine Anmeldung erforderlich.",
+      "keywords": "kostenloser pdf teiler, pdf teilen, pdf aufteilen, pdf splitter kostenlos, pdf dateien teilen, pdf trennen"
+    },
+    "extract": {
+      "title": "PDF-Seiten Extrahieren - Kostenloser PDF-Extraktor Online",
+      "description": "Extrahieren Sie bestimmte Seiten aus PDF-Dateien kostenlos. Wählen Sie Seiten nach Bereich oder einzeln aus. Schnell, sicher, keine Anmeldung erforderlich.",
+      "keywords": "pdf seiten extrahieren, pdf extraktor, seiten aus pdf entfernen, pdf seiten löschen, seiten extrahieren online"
+    },
+    "compress": {
+      "title": "PDF-Dateien Komprimieren - Kostenloser PDF-Kompressor Online | PDF-Größe Reduzieren",
+      "description": "PDF-Dateien kostenlos online komprimieren. Reduzieren Sie die PDF-Dateigröße bei gleichbleibender Qualität. Schnelle Komprimierung, keine Anmeldung, keine Limits.",
+      "keywords": "pdf komprimieren, pdf kompressor, pdf größe reduzieren, pdf verkleinern, pdf komprimieren kostenlos, pdf datei komprimieren"
+    },
+    "rotate": {
+      "title": "PDF Seiten Drehen - Kostenloser PDF-Rotator Online",
+      "description": "Drehen Sie PDF-Seiten online kostenlos. Drehen Sie einzelne Seiten oder ganze Dokumente. Einfach zu verwenden, keine Anmeldung erforderlich.",
+      "keywords": "pdf drehen, pdf seiten drehen, pdf rotator, pdf rotieren, pdf ausrichten"
+    },
+    "deletePages": {
+      "title": "PDF Seiten Löschen - Seiten aus PDF Online Entfernen Kostenlos",
+      "description": "Löschen Sie unerwünschte Seiten aus PDF-Dateien online kostenlos. Wählen und löschen Sie Seiten einfach. Keine Anmeldung, sichere Verarbeitung.",
+      "keywords": "pdf seiten löschen, seiten aus pdf löschen, pdf seiten entfernen, seiten löschen online, pdf seiten löschen tool"
+    },
+    "reorder": {
+      "title": "PDF Seiten Neu Ordnen - PDF Seiten Online Anordnen Kostenlos",
+      "description": "Ordnen Sie PDF-Seiten per Drag & Drop neu. Arrangieren Sie PDF-Seiten in Ihrer gewünschten Reihenfolge. Kostenlos, schnell und sicher.",
+      "keywords": "pdf seiten neu ordnen, pdf seiten anordnen, pdf reihenfolge ändern, pdf seiten sortieren, pdf ordnen"
+    },
+    "watermark": {
+      "title": "Wasserzeichen zu PDF Hinzufügen - Kostenloser PDF-Wasserzeichen-Tool Online",
+      "description": "Fügen Sie Wasserzeichen zu PDF-Dateien online kostenlos hinzu. Benutzerdefinierte Text- oder Bildwasserzeichen. Schützen Sie Ihre Dokumente einfach.",
+      "keywords": "wasserzeichen hinzufügen pdf, pdf wasserzeichen, wasserzeichen in pdf, wasserzeichen einfügen, pdf mit wasserzeichen versehen"
+    },
+    "batch": {
+      "title": "Stapelverarbeitung PDF - Multiple PDF-Tools Online",
+      "description": "Verarbeiten Sie mehrere PDF-Dateien gleichzeitig mit unseren Batch-PDF-Tools. Zusammenfügen, teilen, komprimieren Sie mehrere PDFs gleichzeitig.",
+      "keywords": "stapelverarbeitung pdf, mehrere pdfs verarbeiten, batch verarbeitung pdf, pdf stapelverarbeitung,批量 pdf 处理"
+    },
+    "encrypt": {
+      "title": "PDF Verschlüsseln - PDF mit Passwort Online Schützen Kostenlos",
+      "description": "Fügen Sie Passwortschutz zu PDF-Dateien online hinzu. Verschlüsseln Sie Ihre PDF-Dokumente mit starker Sicherheit. Kostenlos und sicher.",
+      "keywords": "pdf verschlüsseln, pdf passwort schützen, pdf passwort hinzufügen, pdf mit passwort versehen, pdf schützen"
+    },
+    "decrypt": {
+      "title": "PDF Entschlüsseln - PDF Passwort Online Entfernen Kostenlos",
+      "description": "Entfernen Sie den Passwortschutz von PDF-Dateien online. Entschlüsseln Sie Ihre PDF-Dokumente, wenn Sie das Passwort kennen.",
+      "keywords": "pdf entschlüsseln, pdf passwort entfernen, pdf passwort löschen, pdf entschlüsseln kostenlos, pdf schutz aufheben"
+    },
+    "home": {
+      "title": "Kostenlos PDF Dateien Zusammenfügen - Kostenloser PDF Combiner Online | PDF Zusammenfügen Kostenlos",
+      "description": "PDF Dateien kostenlos mit unserem sicheren PDF Combiner zusammenfügen. Zusammenfügen, teilen, komprimieren online. Keine Registrierung, keine Limits, keine Wasserzeichen.",
+      "keywords": "kostenlos pdf dateien zusammenfügen, pdf zusammenfügen kostenlos, pdf combiner kostenlos, pdf online zusammenfügen, pdfs zusammenfügen"
+    },
+    "donate": {
+      "title": "Unterstützen Sie uns - Free PDF Tools",
+      "description": "Wenn Sie unsere Tools hilfreich finden, erwägen Sie eine Spende",
+      "keywords": "donate, support, pdf tools"
+    }
+  },
+  "common": {
+    "appName": "Kostenloser PDF Combiner - PDF Dateien Kostenlos Zusammenfügen",
+    "home": "Startseite",
+    "merge": "PDFs Zusammenfügen",
+    "split": "PDF Aufteilen",
+    "extract": "Seiten Extrahieren",
+    "compress": "PDF Komprimieren",
+    "rotate": "PDF Drehen",
+    "deletePages": "Seiten Löschen",
+    "reorder": "Neu Anordnen",
+    "watermark": "Wasserzeichen Hinzufügen",
+    "batch": "Stapelverarbeitung",
+    "encrypt": "PDF Verschlüsseln",
+    "decrypt": "PDF Entschlüsseln",
+    "donate": "Spenden",
+    "sign": "PDF Signieren",
+    "form": "Formular Ausfüllen",
+    "tagline": "PDF Dateien kostenlos online zusammenfügen. Schneller, sicherer PDF Combiner ohne Registrierung.",
+    "whyChooseUs": "Warum Uns Wählen?",
+    "security": "100% Sicher",
+    "securityDesc": "Dateien werden im Browser verarbeitet, nie auf Server hochgeladen",
+    "fast": "Schnelle Verarbeitung",
+    "fastDesc": "Lokale Verarbeitung, Millisekunden-Antwortzeit",
+    "free": "Völlig Kostenlos",
+    "freeDesc": "Keine Registrierung, keine Limits, kein Wasserzeichen",
+    "backToHome": "Zurück zur Startseite",
+    "uploadFile": "PDF-Datei Hochladen",
+    "uploadFiles": "PDF-Dateien Hochladen",
+    "dragDrop": "Klicken oder ziehen Sie PDF-Dateien hierher",
+    "pages": "Seiten",
+    "page": "Seite",
+    "processing": "Verarbeitung...",
+    "download": "PDF Herunterladen",
+    "again": "Eine Weitere Datei Verarbeiten",
+    "alertSelectPDF": "Bitte wählen Sie eine PDF-Datei aus",
+    "alertFailed": "Operation fehlgeschlagen, bitte versuchen Sie es erneut",
+    "readPDFFailed": "Fehler beim Lesen der PDF",
+    "selectAll": "Alle Auswählen",
+    "clear": "Löschen",
+    "reset": "Zurücksetzen",
+    "apply": "Anwenden",
+    "start": "Starten",
+    "seoContent": {
+      "title": "Kostenlos PDF Dateien Zusammenfügen Online",
+      "subtitle": "Der Beste Kostenlose PDF Combiner für Alle Ihre Bedürfnisse",
+      "intro": "Suchen Sie nach kostenlosem PDF zusammenfügen? Unser sicherer PDF Combiner Online lässt Sie mehrere PDFs sofort ohne Registrierung zusammenfügen.",
+      "features": {
+        "title": "Warum Unseren Kostenlosen PDF Combiner Nutzen?",
+        "feature1": "PDF Dateien kostenlos mit unbegrenzten Zusammenführungen - keine versteckten Limits",
+        "feature2": "PDF Combiner kostenlos Online-Verarbeitung - alle Dateien bleiben in Ihrem Browser",
+        "feature3": "PDF online kostenlos zusammenführen mit Drag & Drop - einfachste Methode",
+        "feature4": "Kostenloser PDF Combiner der Qualität erhält - kein Qualitätsverlust"
+      },
+      "howTo": {
+        "title": "PDF Dateien in 3 Einfachen Schritten Zusammenfügen",
+        "step1": "Laden Sie Ihre PDF Dateien hoch durch Klicken oder Ziehen",
+        "step2": "Ordnen Sie die Dateien in gewünschter Reihenfolge mit Drag & Drop",
+        "step3": "Klicken Sie \"PDF Zusammenfügen\" und laden Sie sofort herunter"
+      },
+      "useCases": {
+        "title": "Häufige Anwendungsfälle für PDF Combiner Kostenlos",
+        "case1": "Mehrere Berichte zu einem Dokument für professionelle Präsentationen zusammenfügen",
+        "case2": "PDF Kapitel zusammenfügen um vollständige E-Books oder Handbücher zu erstellen",
+        "case3": "Gescannte Seiten oder Belege in einer organisierten PDF Datei zusammenfügen",
+        "case4": "Mehrere Rechnungen oder Kontoauszüge für einfache Aufbewahrung zusammenfügen"
+      },
+      "conclusion": "Unser PDF Combiner Online wird von tausenden Benutzern weltweit vertraut. Starten Sie heute PDF Dateien kostenlos zusammenzufügen - keine Registrierung, völlig kostenloser PDF Combiner."
+    }
+  },
+  "merge": {
+    "title": "PDF-Dateien Zusammenfügen",
+    "description": "Mehrere PDF-Dateien zu einem zusammenfügen",
+    "upload": "PDF-Dateien Hochladen",
+    "processing": "Verarbeitung...",
+    "download": "Zusammengeführte PDF Herunterladen",
+    "success": "PDF erfolgreich zusammengeführt!"
+  },
+  "split": {
+    "title": "PDF-Dateien Aufteilen",
+    "description": "Eine PDF-Datei in mehrere Dokumente aufteilen",
+    "upload": "PDF-Datei Hochladen",
+    "processing": "Verarbeitung...",
+    "download": "Aufgeteilte PDFs Herunterladen",
+    "success": "PDF erfolgreich aufgeteilt!"
+  },
+  "extract": {
+    "title": "PDF-Seiten Extrahieren",
+    "description": "Extrahieren Sie bestimmte Seiten aus einer PDF-Datei",
+    "upload": "PDF-Datei Hochladen",
+    "processing": "Verarbeitung...",
+    "download": "Extrahierte Seiten Herunterladen",
+    "success": "Seiten erfolgreich extrahiert!"
+  },
+  "compress": {
+    "title": "PDF-Dateien Komprimieren",
+    "description": "PDF-Dateigröße reduzieren",
+    "upload": "PDF-Datei Hochladen",
+    "processing": "Komprimierung...",
+    "download": "Komprimierte PDF Herunterladen",
+    "success": "PDF erfolgreich komprimiert!",
+    "originalSize": "Originalgröße",
+    "compressedSize": "Komprimierte Größe",
+    "saved": "Gespart"
+  },
+  "rotate": {
+    "title": "PDF Drehen",
+    "description": "PDF-Seiten drehen"
+  },
+  "deletePages": {
+    "title": "PDF-Seiten Löschen",
+    "description": "Ungewünschte Seiten aus einem PDF löschen"
+  },
+  "reorder": {
+    "title": "Seiten Neu Ordnen",
+    "description": "Die Reihenfolge der PDF-Seiten ändern"
+  },
+  "watermark": {
+    "title": "Wasserzeichen Hinzufügen",
+    "description": "Benutzerdefiniertes Wasserzeichen zu einem PDF hinzufügen"
+  },
+  "batch": {
+    "title": "Stapelverarbeitung",
+    "description": "Mehrere PDF-Dateien gleichzeitig verarbeiten"
+  },
+  "encrypt": {
+    "title": "PDF Verschlüsseln",
+    "description": "Passwortschutz zu einem PDF hinzufügen",
+    "comingSoon": "Verschlüsselungsfunktion kommt bald!"
+  },
+  "decrypt": {
+    "title": "PDF Entschlüsseln",
+    "description": "Passwortschutz von einem PDF entfernen",
+    "comingSoon": "Entschlüsselungsfunktion kommt bald!"
+  },
+  "donate": {
+    "title": "Unterstützen Sie uns",
+    "description": "Wenn Sie unsere Tools hilfreich finden, erwägen Sie eine Spende",
+    "info": "Your donation helps us continue developing free PDF tools.",
+    "selectAmount": "Select amount",
+    "customAmount": "Custom amount",
+    "minimumAmount": "Minimum: $0.01",
+    "securePayment": "Secure payment by PayPal",
+    "loading": "Loading...",
+    "thankYou": "Thank you!",
+    "thankYouMessage": "Thanks for your donation!",
+    "successMessage": "Payment successful!",
+    "donateAgain": "Donate Again",
+    "paymentFailed": "Payment Failed",
+    "paymentError": "Please try again",
+    "tryAgain": "Try Again",
+    "processing": "Processing...",
+    "processingMessage": "Please wait...",
+    "paypalInfo": "PayPal secure payment",
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "Required?",
+        "answer": "No, voluntary"
+      },
+      "q2": {
+        "question": "How much?",
+        "answer": "Any amount $0.01+"
+      },
+      "q3": {
+        "question": "Secure?",
+        "answer": "Yes, PayPal protected"
+      }
+    }
+  }
+}

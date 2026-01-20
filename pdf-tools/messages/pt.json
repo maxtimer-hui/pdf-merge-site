@@ -1,0 +1,238 @@
+{
+  "seo": {
+    "merge": {
+      "title": "Combinador PDF Grátis - Combinar Arquivos PDF Online | Sem Cadastro",
+      "description": "Combine arquivos PDF gratuitamente com nosso combinador PDF online seguro. Sem cadastro, sem limites, sem marcas d'água. Mescle múltiplos PDFs instantaneamente no seu navegador.",
+      "keywords": "combinador pdf gratis, combinar arquivos pdf, juntar pdf gratis, unir pdf online, mesclar pdf, combinar pdfs"
+    },
+    "split": {
+      "title": "Divisor PDF Grátis - Dividir Arquivos PDF Online | Sem Cadastro",
+      "description": "Divida arquivos PDF gratuitamente com nosso divisor PDF online seguro. Extraia páginas, divida por intervalos, tudo no seu navegador. Não requer cadastro.",
+      "keywords": "divisor pdf gratis, dividir arquivos pdf, separar pdf, dividir pdf online, cortar pdf, recortar pdf"
+    },
+    "extract": {
+      "title": "Extrair Páginas PDF - Extrator de Páginas PDF Grátis Online",
+      "description": "Extraia páginas específicas de arquivos PDF gratuitamente. Selecione páginas por intervalo ou individualmente. Rápido, seguro, não requer cadastro.",
+      "keywords": "extrair paginas pdf, extrator de paginas pdf, separar paginas pdf, remover paginas pdf, extrair paginas online"
+    },
+    "compress": {
+      "title": "Comprimir Arquivos PDF - Compressor PDF Grátis Online | Reduzir Tamanho PDF",
+      "description": "Comprima arquivos PDF gratuitamente online. Reduza o tamanho do arquivo PDF mantendo a qualidade. Compressão rápida, sem cadastro, sem limites.",
+      "keywords": "comprimir pdf, compactar pdf, reduzir tamanho pdf, comprimir arquivo pdf, otimizar pdf, diminuir pdf"
+    },
+    "rotate": {
+      "title": "Girar Páginas PDF - Rotacionador PDF Grátis Online",
+      "description": "Gire páginas PDF online gratuitamente. Gire páginas individuais ou documentos inteiros. Fácil de usar, não requer cadastro.",
+      "keywords": "girar pdf, rotacionar pdf, rodar pdf, girar paginas pdf, rotacionador pdf"
+    },
+    "deletePages": {
+      "title": "Excluir Páginas PDF - Remover Páginas de PDF Online Grátis",
+      "description": "Exclua páginas indesejadas de arquivos PDF online gratuitamente. Selecione e exclua páginas facilmente. Sem cadastro, processamento seguro.",
+      "keywords": "excluir paginas pdf, deletar paginas pdf, remover paginas pdf, apagar paginas pdf, eliminar paginas pdf"
+    },
+    "reorder": {
+      "title": "Reordenar Páginas PDF - Reorganizar Páginas PDF Online Grátis",
+      "description": "Reordene páginas PDF arrastando e soltando. Organize páginas PDF na ordem preferida. Grátis, rápido e seguro.",
+      "keywords": "reordenar paginas pdf, reorganizar paginas pdf, ordenar paginas pdf, mudar ordem pdf, organizar pdf"
+    },
+    "watermark": {
+      "title": "Adicionar Marca D'água PDF - Marca D'água PDF Grátis Online",
+      "description": "Adicione marca d'água a arquivos PDF online gratuitamente. Marcas d'água personalizadas de texto ou imagem. Proteja seus documentos facilmente.",
+      "keywords": "adicionar marca d'água pdf, colocar marca d'água pdf, marca d'água em pdf, inserir marca d'água, marcar pdf"
+    },
+    "batch": {
+      "title": "Processamento em Lote PDF - Múltiplas Ferramentas PDF Online",
+      "description": "Processe múltiplos arquivos PDF de uma vez com nossas ferramentas de processamento em lote. Mescle, divida, comprima múltiplos PDFs simultaneamente.",
+      "keywords": "processamento lote pdf, batch processing pdf, processar varios pdfs, processar multiplus pdf, ferramentas lote pdf"
+    },
+    "encrypt": {
+      "title": "Criptografar PDF - Proteger PDF com Senha Online Grátis",
+      "description": "Adicione proteção por senha a arquivos PDF online. Criptografe seus documentos PDF com segurança forte. Grátis e seguro.",
+      "keywords": "criptografar pdf, proteger pdf com senha, colocar senha no pdf, bloquear pdf com senha, proteger arquivo pdf"
+    },
+    "decrypt": {
+      "title": "Descriptografar PDF - Remover Senha PDF Online Grátis",
+      "description": "Remova a proteção por senha de arquivos PDF online. Descriptografe seus documentos PDF se você conhecer a senha.",
+      "keywords": "descriptografar pdf, remover senha pdf, desbloquear pdf, tirar senha pdf, decriptografar pdf"
+    },
+    "home": {
+      "title": "Combinar Arquivos PDF Grátis - Combinador PDF Grátis Online | Juntar PDF Grátis",
+      "description": "Combine arquivos PDF grátis com nosso combinador PDF seguro. Combinar, dividir, comprimir online. Sem registro, sem limites, sem marca d'água.",
+      "keywords": "combinar arquivos pdf grátis, combinar pdf grátis, combinador pdf grátis, juntar pdf grátis, unir pdf online"
+    },
+    "donate": {
+      "title": "Apoie-nos - Free PDF Tools",
+      "description": "Se você achar nossas ferramentas úteis, considere doar",
+      "keywords": "donate, support, pdf tools"
+    }
+  },
+  "common": {
+    "appName": "Combinador PDF Grátis - Combinar Arquivos PDF Grátis",
+    "home": "Início",
+    "merge": "Mesclar PDF",
+    "split": "Dividir PDF",
+    "extract": "Extrair Páginas",
+    "compress": "Comprimir PDF",
+    "rotate": "Rotacionar PDF",
+    "deletePages": "Excluir Páginas",
+    "reorder": "Reordenar",
+    "watermark": "Adicionar Marca D'água",
+    "batch": "Processamento em Lote",
+    "encrypt": "Criptografar PDF",
+    "decrypt": "Descriptografar PDF",
+    "donate": "Doar",
+    "sign": "Assinar PDF",
+    "form": "Preencher Formulário",
+    "tagline": "Combinar arquivos PDF grátis online. Combinador PDF rápido e seguro sem registro.",
+    "whyChooseUs": "Por Que Nos Escolher?",
+    "security": "100% Seguro",
+    "securityDesc": "Arquivos processados no navegador, nunca enviados para servidores",
+    "fast": "Processamento Rápido",
+    "fastDesc": "Processamento local, tempo de resposta em milissegundos",
+    "free": "Completamente Grátis",
+    "freeDesc": "Sem registro, sem limites, sem marca d'água",
+    "backToHome": "Voltar ao Início",
+    "uploadFile": "Carregar Arquivo PDF",
+    "uploadFiles": "Carregar Arquivos PDF",
+    "dragDrop": "Clique ou arraste arquivos PDF aqui",
+    "pages": "páginas",
+    "page": "Página",
+    "processing": "Processando...",
+    "download": "Baixar PDF",
+    "again": "Processar Outro Arquivo",
+    "alertSelectPDF": "Por favor selecione um arquivo PDF",
+    "alertFailed": "Operação falhou, por favor tente novamente",
+    "readPDFFailed": "Falha ao ler PDF",
+    "selectAll": "Selecionar Tudo",
+    "clear": "Limpar",
+    "reset": "Redefinir",
+    "apply": "Aplicar",
+    "start": "Iniciar",
+    "seoContent": {
+      "title": "Combinar Arquivos PDF Grátis Online",
+      "subtitle": "O Melhor Combinador PDF Grátis para Todas as Suas Necessidades",
+      "intro": "Procurando combinar arquivos PDF grátis? Nosso combinador PDF online seguro permite combinar múltiplos PDFs instantaneamente sem registro.",
+      "features": {
+        "title": "Por Que Usar Nosso Combinador PDF Grátis?",
+        "feature1": "Combinar arquivos PDF grátis com combinações ilimitadas - sem limites ocultos",
+        "feature2": "Combinador PDF grátis processamento online - todos os arquivos ficam no seu navegador",
+        "feature3": "Combinar PDF online grátis com arrastar e soltar - método mais fácil",
+        "feature4": "Combinador PDF grátis que mantém qualidade - sem perda de resolução"
+      },
+      "howTo": {
+        "title": "Como Combinar Arquivos PDF em 3 Passos Simples",
+        "step1": "Carregue seus arquivos PDF clicando ou arrastando",
+        "step2": "Organize os arquivos na ordem desejada com arrastar e soltar",
+        "step3": "Clique em \"Combinar PDF\" e baixe instantaneamente"
+      },
+      "useCases": {
+        "title": "Casos de Uso Comuns para Combinador PDF Grátis",
+        "case1": "Combinar múltiplos relatórios em um único documento para apresentações profissionais",
+        "case2": "Combinar capítulos PDF para criar e-books ou manuais completos",
+        "case3": "Combinar páginas escaneadas ou recibos em um arquivo PDF organizado",
+        "case4": "Combinar múltiplas faturas ou extratos para fácil manutenção de registros"
+      },
+      "conclusion": "Nosso combinador PDF online é confiado por milhares de usuários em todo o mundo. Comece a combinar arquivos PDF grátis hoje - sem registro, completamente grátis combinador PDF."
+    }
+  },
+  "merge": {
+    "title": "Mesclar Arquivos PDF",
+    "description": "Combinar vários arquivos PDF em um único",
+    "upload": "Carregar Arquivos PDF",
+    "processing": "Processando...",
+    "download": "Baixar PDF Mesclado",
+    "success": "PDF mesclado com sucesso!"
+  },
+  "split": {
+    "title": "Dividir Arquivos PDF",
+    "description": "Dividir um arquivo PDF em vários documentos",
+    "upload": "Carregar Arquivo PDF",
+    "processing": "Processando...",
+    "download": "Baixar PDFs Divididos",
+    "success": "PDF dividido com sucesso!"
+  },
+  "extract": {
+    "title": "Extrair Páginas PDF",
+    "description": "Extraia páginas específicas de um arquivo PDF",
+    "upload": "Carregar Arquivo PDF",
+    "processing": "Processando...",
+    "download": "Baixar Páginas Extraídas",
+    "success": "Páginas extraídas com sucesso!"
+  },
+  "compress": {
+    "title": "Comprimir Arquivos PDF",
+    "description": "Reduzir o tamanho de arquivos PDF",
+    "upload": "Carregar Arquivo PDF",
+    "processing": "Comprimindo...",
+    "download": "Baixar PDF Comprimido",
+    "success": "PDF comprimido com sucesso!",
+    "originalSize": "Tamanho Original",
+    "compressedSize": "Tamanho Comprimido",
+    "saved": "Economizado"
+  },
+  "rotate": {
+    "title": "Rotacionar Arquivos PDF",
+    "description": "Girar páginas de arquivos PDF"
+  },
+  "deletePages": {
+    "title": "Excluir Páginas PDF",
+    "description": "Remover páginas indesejadas de um PDF"
+  },
+  "reorder": {
+    "title": "Reordenar Páginas",
+    "description": "Reorganizar a ordem das páginas PDF"
+  },
+  "watermark": {
+    "title": "Adicionar Marca D'água",
+    "description": "Adicionar marca d'água personalizada a um PDF"
+  },
+  "batch": {
+    "title": "Processamento em Lote",
+    "description": "Processar vários arquivos PDF de uma vez"
+  },
+  "encrypt": {
+    "title": "Criptografar PDF",
+    "description": "Adicionar proteção de senha a um PDF",
+    "comingSoon": "Funcção de criptografia em breve!"
+  },
+  "decrypt": {
+    "title": "Descriptografar PDF",
+    "description": "Remover proteção de senha de um PDF",
+    "comingSoon": "Função de descriptografia em breve!"
+  },
+  "donate": {
+    "title": "Apoie-nos",
+    "description": "Se você achar nossas ferramentas úteis, considere doar",
+    "info": "Your donation helps us continue developing free PDF tools.",
+    "selectAmount": "Select amount",
+    "customAmount": "Custom amount",
+    "minimumAmount": "Minimum: $0.01",
+    "securePayment": "Secure payment by PayPal",
+    "loading": "Loading...",
+    "thankYou": "Thank you!",
+    "thankYouMessage": "Thanks for your donation!",
+    "successMessage": "Payment successful!",
+    "donateAgain": "Donate Again",
+    "paymentFailed": "Payment Failed",
+    "paymentError": "Please try again",
+    "tryAgain": "Try Again",
+    "processing": "Processing...",
+    "processingMessage": "Please wait...",
+    "paypalInfo": "PayPal secure payment",
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "Required?",
+        "answer": "No, voluntary"
+      },
+      "q2": {
+        "question": "How much?",
+        "answer": "Any amount $0.01+"
+      },
+      "q3": {
+        "question": "Secure?",
+        "answer": "Yes, PayPal protected"
+      }
+    }
+  }
+}

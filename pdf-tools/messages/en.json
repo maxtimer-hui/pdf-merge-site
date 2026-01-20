@@ -1,0 +1,1047 @@
+{
+  "seo": {
+    "home": {
+      "title": "Combine PDF Files Free - Free PDF Combiner Online | Merge PDF Free, No Registration",
+      "description": "Combine PDF files free with our secure PDF combiner. Merge, split, compress PDFs online. No registration, no limits, no watermarks. 100% free PDF combiner.",
+      "keywords": "combine pdf files free, combine pdf free, pdf combiner free, free pdf combiner, pdf combine free, combine pdf online free, free pdf tools, merge pdf free, pdf combiner free online, combine pdf files for free"
+    },
+    "merge": {
+      "title": "Free PDF Combiner - Combine PDF Files Free Online | No Registration",
+      "description": "Combine PDF files free with our secure online PDF combiner. No registration, no limits, no watermarks. Merge multiple PDFs instantly in your browser.",
+      "keywords": "free pdf combiner, combine pdf files free, combine pdf free, pdf combiner free, merge pdf online, combine pdf files"
+    },
+    "split": {
+      "title": "Free PDF Splitter - Split PDF Pages Online | No Registration",
+      "description": "Split PDF files free with our secure online PDF splitter. Extract pages, split by ranges, all in your browser. No registration required.",
+      "keywords": "free pdf splitter, split pdf pages, extract pdf pages, pdf splitter free, split pdf online, divide pdf"
+    },
+    "extract": {
+      "title": "Extract PDF Pages - Free PDF Page Extractor Online",
+      "description": "Extract specific pages from PDF files for free. Select pages by range or individually. Fast, secure, no registration required.",
+      "keywords": "extract pdf pages, pdf page extractor, remove pages from pdf, pdf extractor free, extract pages online"
+    },
+    "compress": {
+      "title": "Compress PDF Files - Free PDF Compressor Online | Reduce PDF Size",
+      "description": "Compress PDF files free online. Reduce PDF file size while maintaining quality. Fast compression, no registration, no limits.",
+      "keywords": "compress pdf, pdf compressor, reduce pdf size, compress pdf file, pdf compression, shrink pdf"
+    },
+    "rotate": {
+      "title": "Rotate PDF Pages - Free PDF Rotator Online",
+      "description": "Rotate PDF pages online for free. Rotate single pages or entire documents. Easy to use, no registration required.",
+      "keywords": "rotate pdf, rotate pdf pages, pdf rotator free, rotate document, turn pdf pages"
+    },
+    "deletePages": {
+      "title": "Delete PDF Pages - Remove Pages from PDF Online Free",
+      "description": "Delete unwanted pages from PDF files online for free. Select and remove pages easily. No registration, secure processing.",
+      "keywords": "delete pdf pages, remove pages from pdf, pdf page remover, delete pages online, pdf page deleter"
+    },
+    "reorder": {
+      "title": "Reorder PDF Pages - Rearrange PDF Pages Online Free",
+      "description": "Reorder PDF pages by drag and drop. Arrange PDF pages in your preferred order. Free, fast, and secure.",
+      "keywords": "reorder pdf pages, arrange pdf pages, sort pdf pages, pdf page organizer, rearrange pdf"
+    },
+    "watermark": {
+      "title": "Add Watermark to PDF - Free PDF Watermark Tool Online",
+      "description": "Add watermark to PDF files online for free. Custom text or image watermarks. Protect your documents easily.",
+      "keywords": "add watermark to pdf, pdf watermark tool, watermark pdf free, insert watermark, pdf watermarking"
+    },
+    "batch": {
+      "title": "Batch Process PDF - Multiple PDF Tools Online",
+      "description": "Process multiple PDF files at once with our batch PDF tools. Merge, split, compress multiple PDFs simultaneously.",
+      "keywords": "batch pdf, process multiple pdfs, bulk pdf tools, batch process pdf, pdf batch processing"
+    },
+    "encrypt": {
+      "title": "Encrypt PDF - Protect PDF with Password Online Free",
+      "description": "Add password protection to PDF files online. Encrypt your PDF documents with strong security. Free and secure.",
+      "keywords": "encrypt pdf, protect pdf with password, pdf encryption, password protect pdf, secure pdf"
+    },
+    "decrypt": {
+      "title": "Decrypt PDF - Remove PDF Password Online Free",
+      "description": "Remove password protection from PDF files online. Decrypt your PDF documents if you know the password.",
+      "keywords": "decrypt pdf, remove pdf password, pdf decryption, unlock pdf, remove password from pdf"
+    },
+    "about": {
+      "title": "About Us - PDF Tools | Fast, Secure, Free PDF Processing",
+      "description": "Learn about PDF Tools - the free, secure online PDF processing platform. Read our story, mission, and commitment to your privacy.",
+      "keywords": "about pdf tools, pdf tools story, free pdf processing, secure pdf tools, about us"
+    },
+    "contact": {
+      "title": "Contact Us - PDF Tools | Get in Touch",
+      "description": "Contact PDF Tools for questions, feedback, or business inquiries. We respond within 24-48 hours.",
+      "keywords": "contact pdf tools, support, help center, customer service, get in touch"
+    },
+    "privacy": {
+      "title": "Privacy Policy - PDF Tools",
+      "description": "Read our Privacy Policy. Learn how we protect your privacy. All PDF files processed locally in your browser - no uploads.",
+      "keywords": "privacy policy, data protection, secure pdf processing, pdf privacy"
+    },
+    "terms": {
+      "title": "Terms of Service - PDF Tools",
+      "description": "Read our Terms of Service. Learn about your rights and responsibilities when using PDF Tools.",
+      "keywords": "terms of service, terms and conditions, user agreement, pdf tools terms"
+    },
+    "cookies": {
+      "title": "Cookie Policy - PDF Tools | How We Use Cookies",
+      "description": "Learn about cookies on PDF Tools. We use essential, analytics, and advertising cookies to improve your experience. Manage your preferences.",
+      "keywords": "cookie policy, cookies, gdpr cookies, privacy cookies, cookie consent"
+    },
+    "donate": {
+      "title": "Donate - Support Our Free PDF Tools",
+      "description": "Support our free PDF tool development. Your donation helps us continue improving and providing more features.",
+      "keywords": "donate, support, pdf tools donation"
+    }
+  },
+  "common": {
+    "appName": "Free PDF Combiner - Combine PDF Files Free",
+    "tagline": "Combine PDF files free online. Fast, secure PDF combiner with no registration required.",
+    "home": "Home",
+    "merge": "Combine PDF",
+    "split": "Split PDF",
+    "extract": "Extract Pages",
+    "compress": "Compress PDF",
+    "rotate": "Rotate PDF",
+    "deletePages": "Delete Pages",
+    "reorder": "Reorder Pages",
+    "watermark": "Add Watermark",
+    "batch": "Batch Process",
+    "encrypt": "Encrypt PDF",
+    "decrypt": "Decrypt PDF",
+    "donate": "Donate",
+    "sign": "Sign PDF",
+    "form": "Fill Form",
+    "whyChooseUs": "Why Choose Us?",
+    "security": "100% Secure",
+    "securityDesc": "Files processed in browser, never uploaded to servers",
+    "fast": "Fast Processing",
+    "fastDesc": "Local processing, millisecond response time",
+    "free": "Completely Free",
+    "freeDesc": "No registration, no limits, no watermarks",
+    "seoContent": {
+      "title": "How to Combine PDF Files Free Online",
+      "subtitle": "The Best Free PDF Combiner for All Your Needs",
+      "intro": "Looking to combine PDF files free? Our secure PDF combiner free online tool lets you merge multiple PDFs instantly without any registration. Whether you need to combine PDF files for work, school, or personal use, our free PDF combiner makes it simple and fast.",
+      "features": {
+        "title": "Why Use Our Free PDF Combiner?",
+        "feature1": "Combine PDF files free with unlimited merges - no hidden limits or restrictions",
+        "feature2": "PDF combiner free online processing - all files stay in your browser for maximum security",
+        "feature3": "Combine PDF online free with drag & drop interface - easiest way to merge documents",
+        "feature4": "Free PDF combiner that maintains quality - no resolution loss or watermarks added"
+      },
+      "howTo": {
+        "title": "How to Combine PDF Files in 3 Simple Steps",
+        "step1": "Upload your PDF files by clicking or dragging them into the combiner",
+        "step2": "Arrange the files in your desired order using drag and drop",
+        "step3": "Click 'Combine PDF' and instantly download your merged PDF file"
+      },
+      "useCases": {
+        "title": "Common Use Cases for PDF Combiner Free",
+        "case1": "Combine multiple reports into a single document for professional presentations",
+        "case2": "Merge PDF chapters or sections to create complete ebooks or manuals",
+        "case3": "Combine scanned pages or receipts into one organized PDF file",
+        "case4": "Join multiple invoices or statements for easy record keeping"
+      },
+      "conclusion": "Our PDF combiner free online tool is trusted by thousands of users worldwide. Start combining PDF files free today - no registration, no waiting, completely free PDF combiner."
+    },
+    "backToHome": "Back to Home",
+    "uploadFile": "Upload PDF File",
+    "uploadFiles": "Upload PDF Files",
+    "dragDrop": "Click or drag PDF file(s) here",
+    "pages": "pages",
+    "page": "Page",
+    "processing": "Processing...",
+    "download": "Download PDF",
+    "again": "Process Another File",
+    "alertSelectPDF": "Please select a PDF file",
+    "alertFailed": "Operation failed, please try again",
+    "readPDFFailed": "Failed to read PDF",
+    "selectAll": "Select All",
+    "clear": "Clear",
+    "reset": "Reset",
+    "apply": "Apply",
+    "start": "Start",
+    "totalFiles": "Total files",
+    "totalSize": "Total size",
+    "supportsMultiple": "(Multiple files supported)",
+    "selectedFiles": "Selected {count} file",
+    "selectedFiles_plural": "Selected {count} files",
+    "clearAll": "Clear All",
+    "moveUp": "Move Up",
+    "moveDown": "Move Down",
+    "remove": "Remove",
+    "mergeMore": "Merge More",
+    "splitAgain": "Split Another",
+    "extractAgain": "Extract Another",
+    "compressAgain": "Compress Another",
+    "encryptAgain": "Encrypt Another",
+    "decryptAgain": "Decrypt Another",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "tools": "Tools",
+    "company": "Company",
+    "legal": "Legal",
+    "footerRights": "All rights reserved",
+    "footerTagline": "The best free online PDF processing tools",
+    "madeWithLove": "Made with ❤️ for the global community",
+    "moreTools": "More Tools...",
+    "optional": "Optional",
+    "year": "year",
+    "years": "years",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "merge": {
+    "title": "Merge PDF Files",
+    "description": "Combine multiple PDF files into one document",
+    "upload": "Upload PDF Files",
+    "processing": "Processing...",
+    "download": "Download Merged PDF",
+    "success": "PDF merged successfully!",
+    "selectedFiles": "Selected Files",
+    "moveToStart": "Move to Start",
+    "moveToEnd": "Move to End",
+    "remove": "Remove",
+    "merge": "Merge PDFs",
+    "merging": "Merging...",
+    "mergeComplete": "Merge Complete!",
+    "mergeSuccessDesc": "PDFs have been merged successfully",
+    "mergeAgain": "Merge More Files",
+    "alertSelectPDF": "Please select PDF files",
+    "alertMinTwo": "Please select at least 2 PDF files",
+    "startMerge": "Start Merge",
+    "mergeSuccess": "Successfully merged {count} PDF files"
+  },
+  "split": {
+    "title": "Split PDF Files",
+    "description": "Split PDF file into multiple documents",
+    "upload": "Upload PDF File",
+    "processing": "Processing...",
+    "download": "Download Split PDFs",
+    "success": "PDF split successfully!",
+    "splitMode": "Split Mode",
+    "range": "Page Range",
+    "singlePages": "Single Pages",
+    "every": "Every",
+    "pageRangePlaceholder": "e.g. 1-3, 5, 7-9",
+    "splitAll": "Extract All Pages",
+    "selectPages": "Select Specific Pages",
+    "splitEveryDesc": "Split every N pages",
+    "split": "Split PDF",
+    "splitting": "Splitting...",
+    "splitComplete": "Split Complete",
+    "splitSuccessDesc": "PDF has been split successfully",
+    "splitAgain": "Split Another File",
+    "alertSelectPages": "Please select pages to split",
+    "selectedPages": "Selected {count} page(s)",
+    "selectSplitMode": "Select Split Mode",
+    "splitEvenly": "Split Evenly",
+    "splitCustom": "Custom Split",
+    "pagesIntoFile": "pages into a file",
+    "startSplit": "Start Split",
+    "splitSuccess": "Successfully split into {count} files"
+  },
+  "extract": {
+    "title": "Extract PDF Pages",
+    "description": "Extract specific pages from PDF file",
+    "upload": "Upload PDF File",
+    "processing": "Processing...",
+    "download": "Download Extracted Pages",
+    "success": "Pages extracted successfully!",
+    "selectMode": "Select Extraction Mode",
+    "modeRange": "Page Range",
+    "modeSpecific": "Select Pages",
+    "modeAll": "All Pages",
+    "modeEven": "Even Pages",
+    "modeOdd": "Odd Pages",
+    "pageRangePlaceholder": "1-5, 8-10",
+    "pageRangeDesc": "Total {total} pages",
+    "selectPages": "Select pages to extract",
+    "startExtract": "Start Extract",
+    "extracting": "Extracting...",
+    "extractComplete": "Extraction Complete",
+    "extractSuccessDesc": "Pages extracted successfully",
+    "extractAgain": "Extract Again",
+    "selectPagesToExtract": "Select Pages to Extract",
+    "extractSuccess": "Successfully extracted {count} page(s)"
+  },
+  "compress": {
+    "title": "Compress PDF Files",
+    "description": "Reduce PDF file size",
+    "upload": "Upload PDF File",
+    "processing": "Compressing...",
+    "download": "Download Compressed PDF",
+    "success": "PDF compressed successfully!",
+    "originalSize": "Original size",
+    "compressedSize": "Compressed size",
+    "saved": "Saved",
+    "compressionLevel": "Compression Level",
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "levelDesc": "Higher compression = smaller file but lower quality",
+    "savings": "Savings",
+    "compress": "Compress PDF",
+    "compressing": "Compressing...",
+    "compressComplete": "Compression Complete",
+    "compressSuccessDesc": "PDF compressed successfully",
+    "startCompress": "Start Compress",
+    "compressionRatio": "Compression ratio"
+  },
+  "rotate": {
+    "title": "Rotate PDF",
+    "description": "Rotate PDF pages",
+    "backToHome": "Back to Home",
+    "uploadFile": "Upload PDF File",
+    "dragDrop": "Click or drag PDF file here",
+    "pages": "pages",
+    "rotateAll": "Rotate All Pages",
+    "rotateIndividually": "Rotate Individual Pages",
+    "current": "Current",
+    "page": "Page",
+    "applyRotation": "Apply Rotation",
+    "reset": "Reset",
+    "processing": "Processing...",
+    "rotateComplete": "Rotation Complete!",
+    "rotateSuccessDesc": "PDF pages have been rotated successfully",
+    "download": "Download PDF",
+    "rotateAgain": "Rotate Again",
+    "alertSelectPDF": "Please select a PDF file",
+    "alertSelectAngle": "Please select rotation angle",
+    "alertRotateFailed": "Rotation failed, please try again",
+    "readPDFFailed": "Failed to read PDF"
+  },
+  "deletePages": {
+    "title": "Delete PDF Pages",
+    "description": "Remove unwanted pages from PDF",
+    "selectPagesToDelete": "Select Pages to Delete",
+    "deleteSelected": "Delete Selected Pages",
+    "deleting": "Deleting...",
+    "deleteComplete": "Deletion Complete!",
+    "deleteSuccessDesc": "Successfully deleted pages",
+    "deleteAgain": "Delete Again",
+    "alertSelectPages": "Please select pages to delete",
+    "alertDeleteAll": "Cannot delete all pages",
+    "selectedWillDelete": "Selected {selected} page(s), will keep {remaining} page(s)",
+    "deleteCompleteDesc": "Successfully deleted {deleted} page(s), keeping {remaining} page(s)",
+    "selectPagesAlert": "Please select pages to delete",
+    "cannotDeleteAll": "Cannot delete all pages",
+    "deleteFailed": "Deletion failed, please try again"
+  },
+  "reorder": {
+    "title": "Reorder PDF Pages",
+    "description": "Rearrange pages in your PDF",
+    "dragDropDesc": "Drag pages to reorder",
+    "moveLeft": "Move Left",
+    "moveRight": "Move Right",
+    "reorder": "Reorder Pages",
+    "reordering": "Reordering...",
+    "reorderComplete": "Reorder Complete!",
+    "reorderSuccessDesc": "Pages have been reordered",
+    "reorderAgain": "Reorder Again"
+  },
+  "watermark": {
+    "title": "Add Watermark",
+    "description": "Add custom watermark to your PDF",
+    "watermarkType": "Watermark Type",
+    "textWatermark": "Text Watermark",
+    "imageWatermark": "Image Watermark",
+    "watermarkText": "Watermark Text",
+    "textPlaceholder": "Enter watermark text",
+    "uploadImage": "Upload Image",
+    "fontSize": "Font Size",
+    "color": "Color",
+    "rotation": "Rotation",
+    "opacity": "Opacity",
+    "position": "Position",
+    "addWatermark": "Add Watermark",
+    "adding": "Adding Watermark...",
+    "watermarkComplete": "Watermark Added!",
+    "watermarkSuccessDesc": "Watermark has been added successfully",
+    "watermarkAgain": "Watermark Another File",
+    "alertEnterText": "Please enter watermark text",
+    "alertUploadImage": "Please upload an image",
+    "watermarkTextPlaceholder": "Enter watermark text...",
+    "diagonal": "Diagonal",
+    "center": "Center",
+    "tile": "Tile",
+    "watermarkAdded": "Watermark Added Successfully!",
+    "watermarkAddedDesc": "Watermark has been successfully added to your PDF file",
+    "adjustSettings": "Adjust Settings",
+    "enterWatermarkText": "Please enter watermark text",
+    "addWatermarkFailed": "Failed to add watermark, please try again"
+  },
+  "batch": {
+    "title": "Batch Process",
+    "description": "Process multiple PDF files at once",
+    "selectOperation": "Select Operation",
+    "merge": "Merge All",
+    "split": "Split All",
+    "compress": "Compress All",
+    "selectTools": "Select tools to apply",
+    "startBatch": "Start Batch Processing",
+    "batchComplete": "Batch Processing Complete!",
+    "batchSuccessDesc": "Processed files successfully",
+    "downloadAll": "Download All",
+    "processAgain": "Process More Files",
+    "alertSelectTools": "Please select at least one tool",
+    "selectBatchMode": "Select Batch Processing Mode",
+    "batchMerge": "Merge All",
+    "batchMergeDesc": "Merge multiple PDFs into one",
+    "batchSplit": "Split All",
+    "batchSplitDesc": "Split multiple PDFs by page count",
+    "batchCompress": "Compress All",
+    "batchCompressDesc": "Compress multiple PDF files",
+    "splitOptions": "Split Options",
+    "every": "Every",
+    "pagesSplit": "pages into a file",
+    "addFiles": "Add PDF Files",
+    "clickSelectFiles": "Click to select multiple PDF files",
+    "selectedFiles": "Selected {count} file",
+    "selectedFiles_plural": "Selected {count} files",
+    "clearAll": "Clear All",
+    "batchMergeFailed": "Batch merge failed, please try again",
+    "batchSplitFailed": "Batch split failed, please try again",
+    "batchCompressFailed": "Batch compression failed, please try again",
+    "processingMerge": "Merging files...",
+    "processingSplit": "Splitting files...",
+    "processingCompress": "Compressing files...",
+    "startBatchProcess": "Start Batch Processing",
+    "batchProcessComplete": "Batch Processing Complete!",
+    "generatedFiles": "Successfully generated {count} files",
+    "batchMergeMinFiles": "Please select at least 2 PDF files to merge",
+    "batchSplitSelectFiles": "Please select PDF files to split",
+    "batchCompressSelectFiles": "Please select PDF files to compress",
+    "selected": "Selected",
+    "encryptAgain": "Encrypt Another File",
+    "decryptAgain": "Decrypt Another File"
+  },
+  "encrypt": {
+    "title": "Encrypt PDF",
+    "description": "Add password protection to PDF",
+    "selectFile": "Select PDF File",
+    "enterPassword": "Enter password",
+    "confirmPassword": "Confirm password",
+    "startEncrypt": "Encrypt PDF",
+    "encryptComplete": "Encryption Complete",
+    "encryptSuccess": "PDF has been password protected",
+    "weak": "Weak",
+    "medium": "Medium",
+    "strong": "Strong",
+    "passwordHint": "Use 8+ characters with mix of letters, numbers & symbols",
+    "weakPasswordWarning": "Password is too weak. Please use a stronger password.",
+    "noFile": "Please select a PDF file",
+    "noPassword": "Please enter a password",
+    "passwordMismatch": "Passwords do not match",
+    "invalidFile": "Please select a valid PDF file",
+    "encryptError": "Encryption failed. Please try again."
+  },
+  "decrypt": {
+    "title": "Decrypt PDF",
+    "description": "Remove password protection from PDF",
+    "selectFile": "Select PDF File",
+    "enterPassword": "Enter password",
+    "passwordHint": "Enter the password used to encrypt this PDF",
+    "startDecrypt": "Decrypt PDF",
+    "decryptComplete": "Decryption Complete",
+    "decryptSuccess": "Password protection has been removed",
+    "isEncrypted": "This file is encrypted",
+    "notEncrypted": "This file is not encrypted",
+    "checkError": "Failed to check if file is encrypted",
+    "noFile": "Please select a PDF file",
+    "noPassword": "Please enter the password",
+    "wrongPassword": "Incorrect password. Please try again.",
+    "invalidFile": "Please select a valid PDF file",
+    "decryptError": "Decryption failed. Please check the password and try again."
+  },
+  "about": {
+    "title": "About PDF Tools",
+    "subtitle": "Fast, Secure, and Free PDF Processing for Everyone",
+    "story": {
+      "title": "Our Story",
+      "why": "PDF Tools was created in 2025 with a simple mission: to make PDF processing accessible to everyone. We believe that essential tools should be free, fast, and secure.",
+      "problem": "We found that many PDF tools require payment or forced registration, and we were concerned about the privacy risk of uploading sensitive documents to unknown servers. So we decided to create a truly free and secure alternative."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "statement": "To make PDF processing easy, fast, and secure for everyone, everywhere."
+    },
+    "values": {
+      "privacy": {
+        "title": "Privacy First",
+        "desc": "Files processed locally, never uploaded"
+      },
+      "speed": {
+        "title": "Lightning Fast",
+        "desc": "Millisecond response time"
+      },
+      "free": {
+        "title": "Forever Free",
+        "desc": "No hidden fees, no registration"
+      },
+      "global": {
+        "title": "Global Access",
+        "desc": "Multi-language support"
+      },
+      "simple": {
+        "title": "Simple to Use",
+        "desc": "Intuitive interface, no learning curve"
+      }
+    },
+    "toolsTitle": "Our 11 Powerful PDF Tools",
+    "tools": {
+      "merge": "Combine multiple PDFs into one",
+      "split": "Split PDF files into multiple documents",
+      "extract": "Extract specific pages from PDF",
+      "compress": "Reduce PDF file size",
+      "rotate": "Rotate PDF pages",
+      "deletePages": "Remove unwanted pages",
+      "reorder": "Rearrange page order",
+      "watermark": "Add watermark protection",
+      "batch": "Process multiple files at once",
+      "encrypt": "Password protect PDF",
+      "decrypt": "Remove password protection"
+    },
+    "techStack": {
+      "title": "Built with Modern Technology",
+      "framework": "Frontend Framework",
+      "pdf": "PDF Processing",
+      "styling": "Styling",
+      "deployment": "Deployment",
+      "openSource": "Open Source",
+      "openSourceDesc": "We use and contribute to open source projects"
+    },
+    "privacy": {
+      "title": "Our Privacy Promise",
+      "noCollection": {
+        "title": "Zero Data Collection",
+        "desc": "We don't collect your PDF content"
+      },
+      "localProcessing": {
+        "title": "Local Processing",
+        "desc": "All processing happens in your browser"
+      },
+      "noServer": {
+        "title": "No Server Upload",
+        "desc": "Your files never leave your device"
+      },
+      "immediateClear": {
+        "title": "Instant Cleanup",
+        "desc": "Files cleared from memory after processing"
+      }
+    },
+    "future": {
+      "title": "What's Coming Next",
+      "short": {
+        "title": "Short Term (3 months)",
+        "moreTools": "Add more PDF tools (signatures, forms)",
+        "translations": "Complete all 10 language translations",
+        "mobile": "Optimize mobile experience"
+      },
+      "mid": {
+        "title": "Medium Term (6 months)",
+        "userSystem": "User system with optional registration",
+        "forum": "Community forum and support",
+        "performance": "Batch processing performance optimization"
+      },
+      "long": {
+        "title": "Long Term (1 year)",
+        "api": "API service for developers",
+        "desktop": "Desktop applications",
+        "enterprise": "Enterprise solutions"
+      }
+    },
+    "team": {
+      "title": "Our Team",
+      "who": "We are a group of developers passionate about technology and open source.",
+      "expertise": "Our expertise includes web development, user experience, and data security.",
+      "philosophy": "We believe technology should make life simpler, not more complicated.",
+      "contact": "Contact us"
+    },
+    "support": {
+      "title": "Support Us",
+      "subtitle": "Help us keep PDF Tools free for everyone",
+      "tell": "Tell your friends and colleagues",
+      "share": "Share on social media",
+      "feedback": "Provide feedback and suggestions",
+      "github": "Star us on GitHub",
+      "ads": "Accept ads (helps us maintain the service)"
+    },
+    "faq": {
+      "title": "Quick FAQ",
+      "free": {
+        "q": "Is it free?",
+        "a": "Yes, completely free forever!"
+      },
+      "safe": {
+        "q": "Is it safe?",
+        "a": "100% safe - all processing in your browser"
+      },
+      "register": {
+        "q": "Do I need to register?",
+        "a": "No registration required!"
+      },
+      "limit": {
+        "q": "Are there file size limits?",
+        "a": "Maximum 100MB per file"
+      },
+      "mobile": {
+        "q": "Does it work on mobile?",
+        "a": "Yes, fully supported on all devices"
+      }
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We'd love to hear from you. How can we help?",
+    "intro": "Whether you have questions, suggestions, or business inquiries, we look forward to hearing from you.",
+    "contactMethods": "Contact Methods",
+    "general": {
+      "title": "General Inquiries",
+      "desc": "Questions, feedback, suggestions",
+      "response": "24-48 hours"
+    },
+    "business": {
+      "title": "Business Inquiries",
+      "desc": "Partnerships, advertising, sponsorship",
+      "response": "48-72 hours",
+      "collab": "Interested in business collaboration?",
+      "ads": "Advertising opportunities",
+      "api": "API integration (coming soon)",
+      "whiteLabel": "White label solutions",
+      "contactUs": "Contact us"
+    },
+    "security": {
+      "title": "Security Issues",
+      "desc": "Vulnerabilities, privacy concerns",
+      "response": "12-24 hours"
+    },
+    "social": {
+      "title": "Connect With Us"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Your Name",
+      "namePlaceholder": "Your Name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "subject": "Subject",
+      "selectSubject": "Select a subject",
+      "subjects": {
+        "general": "General Inquiry",
+        "bug": "Bug Report",
+        "feature": "Feature Request",
+        "business": "Business Collaboration",
+        "privacy": "Privacy/Security Issue",
+        "other": "Other"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Tell us more...",
+      "maxChars": "Max characters",
+      "submit": "Send Message",
+      "privacy": "We respect your privacy. Read our",
+      "privacyLink": "Privacy Policy"
+    },
+    "faq": {
+      "title": "Quick Links",
+      "subtitle": "Find answers faster:",
+      "howToUse": {
+        "q": "How do I use the PDF merge tool?"
+      },
+      "formats": {
+        "q": "What file formats are supported?"
+      },
+      "filesize": {
+        "q": "Is there a file size limit?"
+      },
+      "isFree": {
+        "q": "Is it really free?"
+      },
+      "safe": {
+        "q": "Is it safe to use?"
+      }
+    },
+    "hours": {
+      "title": "Working Hours",
+      "responseTime": "Response Times",
+      "general": "General",
+      "generalTime": "24-48 hours",
+      "security": "Security",
+      "securityTime": "12-24 hours",
+      "business": "Business",
+      "businessTime": "48-72 hours",
+      "workdays": "Workdays",
+      "days": "Monday to Friday",
+      "timezone": "Timezone"
+    },
+    "privacyNote": {
+      "title": "Privacy Note",
+      "collect": "Information collected: Only name, email, message content",
+      "use": "Purpose: To respond to your inquiry",
+      "share": "We never share or sell your data",
+      "retain": "Retention: Deleted 1 year after issue resolution"
+    },
+    "response": "Response Time"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated",
+    "intro": "We take your privacy seriously. This policy explains how we collect, use, and protect your information when you use PDF Tools.",
+    "infoCollect": {
+      "title": "Information We Collect",
+      "autoCollect": {
+        "title": "Automatically Collected Information",
+        "browser": "Browser type and version",
+        "device": "Device type and operating system",
+        "access": "Access times and pages viewed",
+        "ip": "Anonymized IP address"
+      },
+      "files": {
+        "title": "Important: Your PDF Files",
+        "point1": "All PDF files are processed locally in your browser",
+        "point2": "Files are never uploaded to our servers",
+        "point3": "Files are immediately cleared from memory after processing"
+      }
+    },
+    "howUse": {
+      "title": "How We Use Information",
+      "improve": "To improve our services and user experience",
+      "analyze": "To analyze usage patterns and trends",
+      "security": "To ensure security and prevent fraud",
+      "legal": "To comply with legal obligations"
+    },
+    "cookies": {
+      "title": "Cookies and Similar Technologies",
+      "intro": "We use cookies to enhance your experience. You can manage your preferences in our",
+      "cookiePolicy": "Cookie Policy"
+    },
+    "thirdParty": {
+      "title": "Third-Party Services",
+      "analytics": "Website analytics and performance monitoring",
+      "adsense": "Advertisement serving",
+      "hosting": "Website hosting and performance",
+      "privacy": "These third parties have their own privacy policies. We encourage you to review them."
+    },
+    "security": {
+      "title": "Data Security",
+      "https": "HTTPS encryption for all data transfers",
+      "noStorage": "No user file storage",
+      "audit": "Regular security audits"
+    },
+    "rights": {
+      "title": "Your Rights (GDPR/CCPA)",
+      "intro": "You have the following rights regarding your data:",
+      "access": {
+        "title": "Access",
+        "desc": "Request a copy of your data"
+      },
+      "delete": {
+        "title": "Deletion",
+        "desc": "Request deletion of your data"
+      },
+      "correct": {
+        "title": "Correction",
+        "desc": "Update inaccurate information"
+      },
+      "object": {
+        "title": "Objection",
+        "desc": "Object to data processing"
+      },
+      "contact": "To exercise these rights, please contact us."
+    },
+    "children": {
+      "title": "Children's Privacy",
+      "content": "Our service is not directed to children under 13. We do not knowingly collect information from children under 13. If we discover we have inadvertently collected such information, we will delete it immediately."
+    },
+    "updates": {
+      "title": "Updates to This Policy",
+      "content": "We may update this privacy policy from time to time. We will notify you of any material changes by posting the new policy on this page and updating the 'Last updated' date."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "email": "For privacy questions, email us",
+      "response": "We respond within 3-5 business days"
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated",
+    "intro": "Welcome to PDF Tools. By using our service, you agree to these terms.",
+    "service": {
+      "title": "Service Description",
+      "description": "PDF Tools provides free online PDF processing tools including merge, split, compress, rotate, and more.",
+      "availability": "Service is provided 'as is' without warranty of uninterrupted availability",
+      "changes": "We may update or discontinue the service at any time"
+    },
+    "responsibilities": {
+      "title": "User Responsibilities",
+      "allowed": {
+        "title": "Allowed Use",
+        "personal": "Personal and commercial use",
+        "commercial": "Processing legally-owned PDF files",
+        "legal": "Complying with applicable laws"
+      },
+      "prohibited": {
+        "title": "Prohibited Use",
+        "illegal": "Processing illegal or infringing content",
+        "infringement": "Attempting to circumvent security measures",
+        "abuse": "Abuse or excessive automated processing",
+        "automation": "Infringing on others' intellectual property",
+        "malware": "Distributing viruses or malicious code"
+      }
+    },
+    "ip": {
+      "title": "Intellectual Property",
+      "website": {
+        "title": "Website Content",
+        "content": "Website design, logos, and content are our property and protected by copyright."
+      },
+      "userFiles": {
+        "title": "User Files",
+        "content": "You retain all rights to files you upload or process. We claim no ownership."
+      },
+      "opensource": {
+        "title": "Open Source",
+        "content": "We use open source libraries and comply with their licenses."
+      }
+    },
+    "disclaimer": {
+      "title": "Disclaimer of Warranties",
+      "service": {
+        "title": "Service Guarantee",
+        "noWarranty": "Service is provided 'as is' without express or implied warranties",
+        "noGuarantee": "We do not guarantee uninterrupted, timely, secure, or error-free service"
+      },
+      "files": {
+        "title": "File Processing",
+        "noResponsibility": "We are not responsible for processing results",
+        "backup": "Please backup important files before processing",
+        "risk": "Processing risk is borne by the user"
+      },
+      "liability": {
+        "title": "Limitation of Liability",
+        "direct": "Direct or indirect losses",
+        "indirect": "Lost profits or data",
+        "profit": "Business interruption",
+        "data": "To the maximum extent permitted by law"
+      }
+    },
+    "limits": {
+      "title": "Service Limitations",
+      "usage": {
+        "title": "Usage Limits",
+        "content": "Free users have daily processing limits"
+      },
+      "filesize": {
+        "title": "File Size",
+        "content": "Maximum 100MB per file"
+      },
+      "termination": {
+        "title": "Termination",
+        "content": "We may suspend or terminate service for violations"
+      }
+    },
+    "privacy": {
+      "title": "Privacy and Data",
+      "content": "Your use of our service is also governed by our",
+      "link": "Privacy Policy"
+    },
+    "thirdParty": {
+      "title": "Third-Party Links and Services",
+      "links": "Our website may contain links to third-party websites",
+      "responsibility": "We are not responsible for third-party content",
+      "terms": "Third parties have their own terms and policies"
+    },
+    "indemnity": {
+      "title": "Indemnification",
+      "content": "You agree to indemnify us for losses resulting from your violation of these terms, including legal fees and claim amounts."
+    },
+    "dispute": {
+      "title": "Dispute Resolution",
+      "law": "Governing Law",
+      "lawContent": "Laws of your jurisdiction",
+      "resolution": "Resolution Method",
+      "resolutionContent": "Negotiation first, then litigation if necessary",
+      "court": "Jurisdiction",
+      "courtContent": "Courts of your jurisdiction"
+    },
+    "changes": {
+      "title": "Changes to Terms",
+      "anytime": "We may update these terms at any time",
+      "notification": "Material changes will be posted on the website",
+      "acceptance": "Continued use constitutes acceptance of new terms",
+      "check": "Please check these terms periodically"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "For terms questions, email us"
+    }
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last updated",
+    "intro": "This page explains how we use cookies and similar technologies to provide you with a better experience.",
+    "whatAre": {
+      "title": "What Are Cookies?",
+      "content": "Cookies are small text files stored on your device when you visit websites. They help us provide you with a better experience."
+    },
+    "essential": {
+      "title": "Essential Cookies",
+      "purpose": {
+        "title": "Purpose",
+        "session": "Session management (staying logged in)",
+        "language": "Language preferences",
+        "security": "Security tokens",
+        "loadbalancing": "Load balancing"
+      },
+      "count": "Quantity",
+      "duration": "Duration",
+      "disable": "Can Disable"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "purpose": {
+        "title": "Purpose",
+        "stats": "Track visitor statistics",
+        "behavior": "Understand user behavior",
+        "performance": "Improve website performance",
+        "popular": "Identify popular tools and features"
+      },
+      "provider": "Provider",
+      "privacy": "Privacy Policy",
+      "privacyLink": "Google Privacy Policy"
+    },
+    "advertising": {
+      "title": "Advertising Cookies",
+      "purpose": {
+        "title": "Purpose",
+        "relevant": "Display relevant advertisements",
+        "track": "Track ad effectiveness",
+        "frequency": "Frequency capping"
+      },
+      "privacy": "Privacy Policy",
+      "privacyLink": "Google Privacy Policy"
+    },
+    "thirdParty": {
+      "title": "Third-Party Cookies",
+      "table": {
+        "name": "Cookie Name",
+        "purpose": "Purpose",
+        "privacy": "Privacy Policy",
+        "analyticsPurpose": "Website analytics",
+        "adsPurpose": "Advertisement serving",
+        "hostingPurpose": "Performance and security",
+        "policy": "View Policy",
+        "seeWebsite": "See website"
+      }
+    },
+    "manage": {
+      "title": "How to Manage Cookies",
+      "browser": {
+        "title": "Browser Settings",
+        "chrome": "Settings > Privacy and security > Cookies and other site data",
+        "firefox": "Options > Privacy & Security",
+        "safari": "Preferences > Privacy",
+        "edge": "Settings > Cookies and site permissions"
+      },
+      "warning": "Note: Disabling all cookies may prevent some website features from working properly."
+    },
+    "consent": {
+      "title": "Cookie Consent Banner",
+      "intro": "When you first visit, you'll see a cookie consent banner with three options:",
+      "acceptAll": "Accept All Cookies",
+      "customize": "Customize Settings",
+      "necessaryOnly": "Necessary Cookies Only",
+      "change": "You can change your preferences at any time."
+    },
+    "whyUse": {
+      "title": "Why We Use Cookies",
+      "improve": {
+        "title": "Improve Experience",
+        "content": "Remember your preferences and provide personalized experience"
+      },
+      "analyze": {
+        "title": "Analyze Performance",
+        "content": "Understand which tools are most popular and continuously improve"
+      },
+      "monetize": {
+        "title": "Fund the Service",
+        "content": "Ad revenue helps us keep the service free"
+      },
+      "security": {
+        "title": "Maintain Security",
+        "content": "Prevent fraud and abuse"
+      }
+    },
+    "cookieSecurity": {
+      "title": "Cookie Security",
+      "https": "Encrypted transmission (HTTPS)",
+      "noSensitive": "No sensitive information stored in cookies",
+      "audit": "Regular security reviews",
+      "compliance": "Compliance with data protection regulations (GDPR/CCPA)"
+    },
+    "rights": {
+      "title": "Your Rights",
+      "eu": "EU/UK",
+      "california": "California, USA",
+      "gdpr": {
+        "consent": "Explicit consent required for non-essential cookies",
+        "inform": "We inform you about cookie types we use",
+        "withdraw": "You can withdraw consent at any time",
+        "access": "You can access collected data"
+      },
+      "ccpa": {
+        "sell": "We do not sell personal information",
+        "track": "Do Not Track option available",
+        "delete": "Data deletion rights available"
+      }
+    },
+    "updates": {
+      "title": "Regular Reviews",
+      "review": "We review this cookie policy annually",
+      "thirdParty": "Update when third-party services change",
+      "notify": "Post significant changes on the website"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "email": "For cookie questions, email us",
+      "response": "We respond within 3-5 business days"
+    }
+  },
+  "donate": {
+    "title": "Support Us",
+    "description": "If you find our tools helpful, consider donating to support development",
+    "info": "Your donation helps us continue developing and improving free PDF tools. All donations are voluntary, thank you for your support!",
+    "selectAmount": "Select donation amount",
+    "customAmount": "Or enter custom amount",
+    "minimumAmount": "Minimum amount: ${amount} USD",
+    "securePayment": "Secure payment - Protected by PayPal",
+    "loading": "Loading PayPal button...",
+    "thankYou": "Thank you for your donation!",
+    "thankYouMessage": "Thank you for donating ${amount}, we will continue to provide better service!",
+    "successMessage": "Your donation has been processed successfully, thank you for supporting our project!",
+    "donateAgain": "Donate Again",
+    "paymentFailed": "Payment Failed",
+    "paymentError": "An error occurred during payment, please try again later",
+    "tryAgain": "Try Again",
+    "processing": "Processing...",
+    "processingMessage": "Processing your payment, please wait...",
+    "paypalInfo": "PayPal is a safe and convenient online payment method",
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "Is donation required?",
+        "answer": "No! All PDF tools are completely free to use. Donations are voluntary and help support project development."
+      },
+      "q2": {
+        "question": "Can I choose how much to donate?",
+        "answer": "Yes! You can click preset amount buttons, or enter a custom amount (minimum $0.01 USD)."
+      },
+      "q3": {
+        "question": "Is payment secure?",
+        "answer": "Yes! We use PayPal to process payments, which is one of the safest and most trusted online payment platforms globally. We do not store your payment information."
+      }
+    }
+  }
+}

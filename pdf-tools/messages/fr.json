@@ -1,0 +1,238 @@
+{
+  "seo": {
+    "merge": {
+      "title": "Fusionneur PDF Gratuit - Fusionner Fichiers PDF en Ligne | Sans Inscription",
+      "description": "Fusionnez des fichiers PDF gratuitement avec notre outil en ligne sécurisé. Sans inscription, sans limites, sans filigrane. Fusionnez plusieurs PDFs instantanément dans votre navigateur.",
+      "keywords": "fusionneur pdf gratuit, fusionner fichiers pdf, fusionner pdf gratis, combiner pdf en ligne, joindre des pdf, fusionner des fichiers pdf"
+    },
+    "split": {
+      "title": "Diviseur PDF Gratuit - Diviser Fichiers PDF en Ligne | Sans Inscription",
+      "description": "Divisez des fichiers PDF gratuitement avec notre outil en ligne sécurisé. Extrayez des pages, divisez par plages, le tout dans votre navigateur. Aucune inscription requise.",
+      "keywords": "diviseur pdf gratuit, diviser fichiers pdf, couper pdf, séparer pdf en ligne, découper pdf, diviser pdf"
+    },
+    "extract": {
+      "title": "Extraire Pages PDF - Extracteur de Pages PDF Gratuit en Ligne",
+      "description": "Extrayez des pages spécifiques de fichiers PDF gratuitement. Sélectionnez des pages par plage ou individuellement. Rapide, sécurisé, sans inscription requise.",
+      "keywords": "extraire pages pdf, extracteur de pages pdf, retirer pages pdf, séparer pages pdf, extraire pages en ligne"
+    },
+    "compress": {
+      "title": "Comprimer Fichiers PDF - Compresseur PDF Gratuit en Ligne | Réduire Taille PDF",
+      "description": "Compressez des fichiers PDF gratuitement en ligne. Réduisez la taille du fichier PDF tout en maintenant la qualité. Compression rapide, sans inscription, sans limites.",
+      "keywords": "comprimer pdf, compression pdf, réduire taille pdf, optimiser pdf, compresser pdf en ligne, diminuer pdf"
+    },
+    "rotate": {
+      "title": "Faire Pivoter Pages PDF - Outil de Rotation PDF Gratuit en Ligne",
+      "description": "Faites pivoter des pages PDF en ligne gratuitement. Faites pivoter des pages individuelles ou des documents entiers. Facile à utiliser, aucune inscription requise.",
+      "keywords": "pivoter pdf, faire pivoter pages pdf, rotation pdf, tourner pdf, orienter pdf"
+    },
+    "deletePages": {
+      "title": "Supprimer Pages PDF - Effacer Pages de PDF en Ligne Gratuitement",
+      "description": "Supprimez les pages indésirables des fichiers PDF en ligne gratuitement. Sélectionnez et supprimez des pages facilement. Sans inscription, traitement sécurisé.",
+      "keywords": "supprimer pages pdf, effacer pages pdf, retirer pages pdf, supprimer pages en ligne, suppressseur de pages pdf"
+    },
+    "reorder": {
+      "title": "Réorganiser Pages PDF - Réorganiser Pages PDF en Ligne Gratuit",
+      "description": "Réorganisez les pages PDF par glisser-déposer. Arrangez les pages PDF dans l'ordre souhaité. Gratuit, rapide et sécurisé.",
+      "keywords": "réorganiser pages pdf, réordonner pages pdf, changer ordre pages pdf, organiser pages pdf, réarranger pdf"
+    },
+    "watermark": {
+      "title": "Ajouter Filigrane PDF - Outil Filigrane PDF Gratuit en Ligne",
+      "description": "Ajoutez un filigrane aux fichiers PDF en ligne gratuitement. Filigranes personnalisés texte ou image. Protégez vos documents facilement.",
+      "keywords": "ajouter filigrane pdf, mettre filigrane pdf, marquer pdf, insérer filigrane, filigrane en ligne"
+    },
+    "batch": {
+      "title": "Traitement par Lot PDF - Outils PDF Multiples en Ligne",
+      "description": "Traitez plusieurs fichiers PDF à la fois avec nos outils de traitement par lot. Fusionnez, divisez, compressez plusieurs PDFs simultanément.",
+      "keywords": "traitement lot pdf, traiter plusieurs pdfs, outils lot pdf, traitement par lots, traiter multiples pdf"
+    },
+    "encrypt": {
+      "title": "Chiffrer PDF - Protéger PDF avec Mot de Passe en Ligne Gratuit",
+      "description": "Ajoutez une protection par mot de passe aux fichiers PDF en ligne. Chiffrez vos documents PDF avec une sécurité forte. Gratuit et sécurisé.",
+      "keywords": "chiffrer pdf, protéger pdf mot de passe, encrypter pdf, mettre mot de passe pdf, sécuriser pdf"
+    },
+    "decrypt": {
+      "title": "Déchiffrer PDF - Supprimer Mot de Passe PDF en Ligne Gratuit",
+      "description": "Supprimez la protection par mot de passe des fichiers PDF en ligne. Déchiffrez vos documents PDF si vous connaissez le mot de passe.",
+      "keywords": "déchiffrer pdf, supprimer mot de passe pdf, déverrouiller pdf, enlever mot de passe pdf, déprotéger pdf"
+    },
+    "home": {
+      "title": "Fusionner PDF Gratuitement - Outil PDF Combiner Gratuit en Ligne | Fusion PDF Gratuit",
+      "description": "Fusionnez des fichiers PDF gratuitement avec notre outil PDF combiner sécurisé. Fusionner, diviser, compresser en ligne. Pas d'inscription, pas de limites, pas de filigrane.",
+      "keywords": "fusionner pdf gratuitement, combiner pdf gratuit, fusionner fichiers pdf, outil pdf gratuit, combiner pdf en ligne"
+    },
+    "donate": {
+      "title": "Soutenez-nous - Free PDF Tools",
+      "description": "Si vous trouvez nos outils utiles, envisagez de faire un don",
+      "keywords": "donate, support, pdf tools"
+    }
+  },
+  "common": {
+    "appName": "Outil PDF Combiner Gratuit - Fusionner PDF Gratuitement",
+    "home": "Accueil",
+    "merge": "Fusionner PDF",
+    "split": "Diviser PDF",
+    "extract": "Extraire Pages",
+    "compress": "Comprimer PDF",
+    "rotate": "Faire Pivoter PDF",
+    "deletePages": "Supprimer Pages",
+    "reorder": "Réorganiser",
+    "watermark": "Ajouter Filigrane",
+    "batch": "Traitement par Lot",
+    "encrypt": "Chiffrer PDF",
+    "decrypt": "Déchiffrer PDF",
+    "donate": "Faire un don",
+    "sign": "Signer PDF",
+    "form": "Remplir Formulaire",
+    "tagline": "Fusionnez des fichiers PDF gratuitement en ligne. Outil PDF combiner rapide et sécurisé sans inscription.",
+    "whyChooseUs": "Pourquoi Nous Choisir ?",
+    "security": "100% Sécurisé",
+    "securityDesc": "Fichiers traités dans le navigateur, jamais téléchargés sur des serveurs",
+    "fast": "Traitement Rapide",
+    "fastDesc": "Traitement local, temps de réponse en millisecondes",
+    "free": "Entièrement Gratuit",
+    "freeDesc": "Pas d'inscription, pas de limites, pas de filigrane",
+    "backToHome": "Retour à l'Accueil",
+    "uploadFile": "Télécharger un Fichier PDF",
+    "uploadFiles": "Télécharger des Fichiers PDF",
+    "dragDrop": "Cliquez ou faites glisser des fichiers PDF ici",
+    "pages": "pages",
+    "page": "Page",
+    "processing": "Traitement...",
+    "download": "Télécharger le PDF",
+    "again": "Traiter un Autre Fichier",
+    "alertSelectPDF": "Veuillez sélectionner un fichier PDF",
+    "alertFailed": "L'opération a échoué, veuillez réessayer",
+    "readPDFFailed": "Erreur de lecture du PDF",
+    "selectAll": "Tout Sélectionner",
+    "clear": "Effacer",
+    "reset": "Réinitialiser",
+    "apply": "Appliquer",
+    "start": "Démarrer",
+    "seoContent": {
+      "title": "Fusionner PDF Gratuitement en Ligne",
+      "subtitle": "Le Meilleur Outil PDF Combiner Gratuit pour Tous Vos Besoins",
+      "intro": "Cherchez-vous à fusionner des PDF gratuitement ? Notre outil PDF combiner sécurisé vous permet de fusionner plusieurs PDFs instantanément sans inscription.",
+      "features": {
+        "title": "Pourquoi Utiliser Notre Outil PDF Combiner Gratuit ?",
+        "feature1": "Fusionner des fichiers PDF gratuitement avec des fusions illimitées",
+        "feature2": "Outil PDF combiner gratuit traitement en ligne - tous les fichiers restent dans votre navigateur",
+        "feature3": "Fusionner PDF en ligne gratuit avec glisser-déposer - méthode la plus simple",
+        "feature4": "Outil PDF combiner gratuit qui maintient la qualité - aucune perte de résolution"
+      },
+      "howTo": {
+        "title": "Comment Fusionner des Fichiers PDF en 3 Étapes Simples",
+        "step1": "Téléchargez vos fichiers PDF en cliquant ou en les faisant glisser",
+        "step2": "Organisez les fichiers dans l'ordre souhaité avec glisser-déposer",
+        "step3": "Cliquez sur \"Fusionner PDF\" et téléchargez instantanément"
+      },
+      "useCases": {
+        "title": "Cas d'Usage Courants pour Outil PDF Combiner Gratuit",
+        "case1": "Fusionner plusieurs rapports en un seul document pour des présentations professionnelles",
+        "case2": "Fusionner des chapitres PDF pour créer des livres électroniques ou manuels complets",
+        "case3": "Fusionner des pages scannées ou des reçus dans un fichier PDF organisé",
+        "case4": "Fusionner plusieurs factures ou relevés pour une tenue de records facile"
+      },
+      "conclusion": "Notre outil PDF combiner en ligne est approuvé par des milliers d'utilisateurs dans le monde. Commencez à fusionner des fichiers PDF gratuitement aujourd'hui - pas d'inscription, outil PDF combiner entièrement gratuit."
+    }
+  },
+  "merge": {
+    "title": "Fusionner des Fichiers PDF",
+    "description": "Fusionner plusieurs fichiers PDF en un seul",
+    "upload": "Télécharger Fichiers PDF",
+    "processing": "Traitement...",
+    "download": "Télécharger PDF Fusionné",
+    "success": "PDF fusionné avec succès!"
+  },
+  "split": {
+    "title": "Diviser des Fichiers PDF",
+    "description": "Diviser un fichier PDF en plusieurs documents",
+    "upload": "Télécharger Fichier PDF",
+    "processing": "Traitement...",
+    "download": "Télécharger PDFs Divisés",
+    "success": "PDF divisé avec succès!"
+  },
+  "extract": {
+    "title": "Extraire des Pages PDF",
+    "description": "Extraire des pages spécifiques d'un fichier PDF",
+    "upload": "Télécharger Fichier PDF",
+    "processing": "Traitement...",
+    "download": "Télécharger Pages Extraites",
+    "success": "Pages extraites avec succès!"
+  },
+  "compress": {
+    "title": "Comprimer des Fichiers PDF",
+    "description": "Réduire la taille des fichiers PDF",
+    "upload": "Télécharger Fichier PDF",
+    "processing": "Compression...",
+    "download": "Télécharger PDF Comprimé",
+    "success": "PDF compressé avec succès!",
+    "originalSize": "Taille Originale",
+    "compressedSize": "Taille Compressée",
+    "saved": "Économisé"
+  },
+  "rotate": {
+    "title": "Faire Pivoter le PDF",
+    "description": "Faire pivoter les pages du PDF"
+  },
+  "deletePages": {
+    "title": "Supprimer des Pages PDF",
+    "description": "Supprimer les pages indésirables d'un PDF"
+  },
+  "reorder": {
+    "title": "Réorganiser les Pages",
+    "description": "Réorganiser l'ordre des pages PDF"
+  },
+  "watermark": {
+    "title": "Ajouter Filigrane",
+    "description": "Ajouter un filigrane personnalisé à un PDF"
+  },
+  "batch": {
+    "title": "Traitement par Lot",
+    "description": "Traiter plusieurs fichiers PDF à la fois"
+  },
+  "encrypt": {
+    "title": "Chiffrer le PDF",
+    "description": "Ajouter une protection par mot de passe à un PDF",
+    "comingSoon": "La fonction de chiffrement arrive bientôt!"
+  },
+  "decrypt": {
+    "title": "Déchiffrer le PDF",
+    "description": "Supprimer la protection par mot de passe d'un PDF",
+    "comingSoon": "La fonction de déchiffrement arrive bientôt!"
+  },
+  "donate": {
+    "title": "Soutenez-nous",
+    "description": "Si vous trouvez nos outils utiles, envisagez de faire un don",
+    "info": "Your donation helps us continue developing free PDF tools.",
+    "selectAmount": "Select amount",
+    "customAmount": "Custom amount",
+    "minimumAmount": "Minimum: $0.01",
+    "securePayment": "Secure payment by PayPal",
+    "loading": "Loading...",
+    "thankYou": "Thank you!",
+    "thankYouMessage": "Thanks for your donation!",
+    "successMessage": "Payment successful!",
+    "donateAgain": "Donate Again",
+    "paymentFailed": "Payment Failed",
+    "paymentError": "Please try again",
+    "tryAgain": "Try Again",
+    "processing": "Processing...",
+    "processingMessage": "Please wait...",
+    "paypalInfo": "PayPal secure payment",
+    "faq": {
+      "title": "FAQ",
+      "q1": {
+        "question": "Required?",
+        "answer": "No, voluntary"
+      },
+      "q2": {
+        "question": "How much?",
+        "answer": "Any amount $0.01+"
+      },
+      "q3": {
+        "question": "Secure?",
+        "answer": "Yes, PayPal protected"
+      }
+    }
+  }
+}
