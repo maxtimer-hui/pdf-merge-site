@@ -59,11 +59,6 @@
       "title": "解密PDF - 免费在线删除PDF密码",
       "description": "在线从PDF文件中删除密码保护。如果您知道密码，可以解密您的PDF文档。",
       "keywords": "解密pdf, 删除pdf密码, pdf解密, 解锁pdf, 移除pdf密码"
-    },
-    "donate": {
-      "title": "捐赠支持 - 免费PDF工具",
-      "description": "支持我们的免费PDF工具开发。您的捐赠将帮助我们持续改进和提供更多功能。",
-      "keywords": "捐赠, 支持开发, pdf工具捐赠"
     }
   },
   "common": {
@@ -81,7 +76,6 @@
     "watermark": "添加水印",
     "encrypt": "加密PDF",
     "decrypt": "解密PDF",
-    "donate": "捐赠支持",
     "sign": "电子签名",
     "form": "填写表单",
     "whyChooseUs": "为什么选择我们？",
@@ -427,40 +421,5 @@
     "wrongPassword": "密码错误，请重试",
     "invalidFile": "请选择有效的 PDF 文件",
     "decryptError": "解密失败，请检查密码后重试"
-  },
-  "donate": {
-    "title": "支持我们",
-    "description": "如果您觉得我们的工具有帮助,欢迎捐赠支持开发",
-    "info": "您的捐赠将帮助我们持续开发和改进免费的PDF工具。所有捐赠都是自愿的,感谢您的支持!",
-    "selectAmount": "选择捐赠金额",
-    "customAmount": "或输入自定义金额",
-    "minimumAmount": "最低金额: ${amount} USD",
-    "securePayment": "安全支付 - 由 PayPal 保护",
-    "loading": "正在加载 PayPal 按钮...",
-    "thankYou": "感谢您的捐赠!",
-    "thankYouMessage": "感谢您慷慨捐赠 ${amount},我们会继续努力提供更好的服务!",
-    "successMessage": "您的捐赠已成功处理,感谢您支持我们的项目!",
-    "donateAgain": "再次捐赠",
-    "paymentFailed": "支付失败",
-    "paymentError": "支付过程中出现错误,请稍后重试",
-    "tryAgain": "重试",
-    "processing": "处理中...",
-    "processingMessage": "正在处理您的支付,请稍候...",
-    "paypalInfo": "PayPal 是一种安全、便捷的在线支付方式",
-    "faq": {
-      "title": "常见问题",
-      "q1": {
-        "question": "捐赠是否强制?",
-        "answer": "不是!所有PDF工具都完全免费使用。捐赠是完全自愿的,用于支持项目开发。"
-      },
-      "q2": {
-        "question": "我可以选择捐赠多少吗?",
-        "answer": "可以!您可以点击预设金额按钮,或输入自定义金额(最低$0.01 USD)。"
-      },
-      "q3": {
-        "question": "支付安全吗?",
-        "answer": "是的!我们使用PayPal处理支付,这是全球最安全、最值得信赖的在线支付平台之一。我们不会存储您的支付信息。"
-      }
-    }
   }
 }

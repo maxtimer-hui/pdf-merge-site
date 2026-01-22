@@ -60,7 +60,6 @@
       "description": "PDFファイルを無料で結合する安全なツール。結合、分割、圧縮オンライン。登録不要、制限なし、透かしなし。100% 無料PDF結合ツール。",
       "keywords": "PDFファイル無料結合,PDF結合無料,無料PDF結合ツール,PDF結合オンライン,PDFマージ無料,PDF結合ツール"
     },
-    "donate": {
       "title": "応援する - Free PDF Tools",
       "description": "ツールが役に立ったなら、寄付をご検討ください",
       "keywords": "donate, support, pdf tools"
@@ -80,7 +79,6 @@
     "batch": "一括処理",
     "encrypt": "PDF暗号化",
     "decrypt": "PDF復号化",
-    "donate": "寄付",
     "sign": "PDF署名",
     "form": "フォーム入力",
     "tagline": "PDFファイルを無料で結合オンライン。高速で安全なPDF結合ツール、登録不要。",
@@ -309,39 +307,4 @@
     "invalidFile": "有効な PDF ファイルを選択してください",
     "decryptError": "復号化に失敗しました。パスワードを確認してもう一度お試しください。"
   },
-  "donate": {
-    "title": "応援する",
-    "description": "ツールが役に立ったなら、寄付をご検討ください",
-    "info": "Your donation helps us continue developing free PDF tools.",
-    "selectAmount": "Select amount",
-    "customAmount": "Custom amount",
-    "minimumAmount": "Minimum: $0.01",
-    "securePayment": "Secure payment by PayPal",
-    "loading": "Loading...",
-    "thankYou": "Thank you!",
-    "thankYouMessage": "Thanks for your donation!",
-    "successMessage": "Payment successful!",
-    "donateAgain": "Donate Again",
-    "paymentFailed": "Payment Failed",
-    "paymentError": "Please try again",
-    "tryAgain": "Try Again",
-    "processing": "Processing...",
-    "processingMessage": "Please wait...",
-    "paypalInfo": "PayPal secure payment",
-    "faq": {
-      "title": "FAQ",
-      "q1": {
-        "question": "Required?",
-        "answer": "No, voluntary"
-      },
-      "q2": {
-        "question": "How much?",
-        "answer": "Any amount $0.01+"
-      },
-      "q3": {
-        "question": "Secure?",
-        "answer": "Yes, PayPal protected"
-      }
-    }
-  }
 }

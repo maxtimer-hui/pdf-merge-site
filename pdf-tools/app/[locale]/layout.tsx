@@ -37,6 +37,9 @@ export async function generateMetadata({ params }: { params: Promise<{locale: st
       index: true,
       follow: true,
     },
+    verification: {
+      google: 'aIKWZxW44rguvtrGMisoRaBhjyOVbSRuHGsSEKvjbDY',
+    },
   };
 }
 

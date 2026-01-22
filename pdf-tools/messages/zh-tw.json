@@ -60,7 +60,6 @@
       "description": "免費合併PDF檔案，使用我們安全的PDF合併工具。線上合併、分割、壓縮PDF。無需註冊，無限制，無浮水印。100% 免費PDF合併工具。",
       "keywords": "免費合併pdf檔案, 合併pdf免費, pdf合併工具免費, 免費pdf合併, pdf免費合併, 線上合併pdf免費"
     },
-    "donate": {
       "title": "捐贈支持 - 免費PDF工具",
       "description": "支持我們的免費PDF工具開發。您的捐贈將幫助我們持續改進和提供更多功能。",
       "keywords": "捐贈, 支持開發, pdf工具捐贈"
@@ -80,7 +79,6 @@
     "batch": "批次處理",
     "encrypt": "加密PDF",
     "decrypt": "解密PDF",
-    "donate": "捐贈支持",
     "sign": "電子簽名",
     "form": "填寫表單",
     "tagline": "免費合併PDF檔案線上工具。快速、安全的PDF合併工具，無需註冊。",
@@ -309,39 +307,4 @@
     "invalidFile": "請選擇有效的 PDF 文件",
     "decryptError": "解密失敗，請檢查密碼後重試"
   },
-  "donate": {
-    "title": "支持我們",
-    "description": "如果您覺得我們的工具 有幫助,歡迎捐贈支持開發",
-    "info": "您的捐贈將幫助我們持續開發和改進免費的PDF工具。所有捐贈都是自願的,感謝您的支持!",
-    "selectAmount": "選擇捐贈金額",
-    "customAmount": "或輸入自定義金額",
-    "minimumAmount": "最低金額: ${amount} USD",
-    "securePayment": "安全支付 - 由 PayPal 保護",
-    "loading": "正在載入 PayPal 按鈕...",
-    "thankYou": "感謝您的捐贈!",
-    "thankYouMessage": "感謝您慷慨捐贈 ${amount},我們會繼續努力提供更好的服務!",
-    "successMessage": "您的捐贈已成功處理,感謝您支持我們的專案!",
-    "donateAgain": "再次捐贈",
-    "paymentFailed": "支付失敗",
-    "paymentError": "支付過程中出現錯誤,請稍後重試",
-    "tryAgain": "重試",
-    "processing": "處理中...",
-    "processingMessage": "正在處理您的支付,請稍候...",
-    "paypalInfo": "PayPal 是一種安全、便捷的線上支付方式",
-    "faq": {
-      "title": "常見問題",
-      "q1": {
-        "question": "捐贈是否強制?",
-        "answer": "不是!所有PDF工具都完全免費使用。捐贈是完全自願的,用於支持專案開發。"
-      },
-      "q2": {
-        "question": "我可以選擇捐贈多少嗎?",
-        "answer": "可以!您可以點擊預設金額按鈕,或輸入自定義金額(最低$0.01 USD)。"
-      },
-      "q3": {
-        "question": "支付安全嗎?",
-        "answer": "是的!我們使用PayPal處理支付,這是世界上最安全、最值得信賴的線上支付平台之一。我們不會存儲您的支付信息。"
-      }
-    }
-  }
 }

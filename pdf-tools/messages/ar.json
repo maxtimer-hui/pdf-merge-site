@@ -60,7 +60,6 @@
       "description": "ادمج ملفات PDF مجانًا مع أداة دمج PDF الآمنة. دمج، تقسيم، ضغط أونلاين. بدون تسجيل، بدون حدود، بدون علامة مائية.",
       "keywords": "دمج ملفات pdf مجانا, دمج pdf مجانى, أداة دمج pdf مجانية, دمج pdf أونلاين, جمع ملفات pdf"
     },
-    "donate": {
       "title": "ادعمنا - Free PDF Tools",
       "description": "إذا كنت تجد أدواتنا مفيدة، فكر في التبرع",
       "keywords": "donate, support, pdf tools"
@@ -80,7 +79,6 @@
     "batch": "المعالجة المجمعة",
     "encrypt": "تشفير PDF",
     "decrypt": "فك تشفير PDF",
-    "donate": "تبرع",
     "sign": "توقيع PDF",
     "form": "ملء النموذج",
     "tagline": "ادمج ملفات PDF مجانًا أونلاين. أداة دمج PDF سريعة وآمنة بدون تسجيل.",
@@ -200,39 +198,4 @@
     "description": "إزالة حماية كلمة المرور من ملف PDF",
     "comingSoon": "ميزة فك التشفير قريباً!"
   },
-  "donate": {
-    "title": "ادعمنا",
-    "description": "إذا كنت تجد أدواتنا مفيدة، فكر في التبرع",
-    "info": "Your donation helps us continue developing free PDF tools.",
-    "selectAmount": "Select amount",
-    "customAmount": "Custom amount",
-    "minimumAmount": "Minimum: $0.01",
-    "securePayment": "Secure payment by PayPal",
-    "loading": "Loading...",
-    "thankYou": "Thank you!",
-    "thankYouMessage": "Thanks for your donation!",
-    "successMessage": "Payment successful!",
-    "donateAgain": "Donate Again",
-    "paymentFailed": "Payment Failed",
-    "paymentError": "Please try again",
-    "tryAgain": "Try Again",
-    "processing": "Processing...",
-    "processingMessage": "Please wait...",
-    "paypalInfo": "PayPal secure payment",
-    "faq": {
-      "title": "FAQ",
-      "q1": {
-        "question": "Required?",
-        "answer": "No, voluntary"
-      },
-      "q2": {
-        "question": "How much?",
-        "answer": "Any amount $0.01+"
-      },
-      "q3": {
-        "question": "Secure?",
-        "answer": "Yes, PayPal protected"
-      }
-    }
-  }
 }

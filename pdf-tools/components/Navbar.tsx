@@ -43,11 +43,6 @@ export default function Navbar({currentLocale}: {currentLocale: string}) {
               {t('home')}
             </Link>
 
-            <Link href={`/${currentLocale}/donate`} className="text-yellow-600 hover:text-yellow-700 transition-colors font-medium flex items-center space-x-1">
-              <span>💛</span>
-              <span>{t('donate')}</span>
-            </Link>
-
             <div className="relative">
               <button
                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}

@@ -60,7 +60,6 @@
       "description": "Fusionnez des fichiers PDF gratuitement avec notre outil PDF combiner sécurisé. Fusionner, diviser, compresser en ligne. Pas d'inscription, pas de limites, pas de filigrane.",
       "keywords": "fusionner pdf gratuitement, combiner pdf gratuit, fusionner fichiers pdf, outil pdf gratuit, combiner pdf en ligne"
     },
-    "donate": {
       "title": "Soutenez-nous - Free PDF Tools",
       "description": "Si vous trouvez nos outils utiles, envisagez de faire un don",
       "keywords": "donate, support, pdf tools"
@@ -80,7 +79,6 @@
     "batch": "Traitement par Lot",
     "encrypt": "Chiffrer PDF",
     "decrypt": "Déchiffrer PDF",
-    "donate": "Faire un don",
     "sign": "Signer PDF",
     "form": "Remplir Formulaire",
     "tagline": "Fusionnez des fichiers PDF gratuitement en ligne. Outil PDF combiner rapide et sécurisé sans inscription.",
@@ -200,39 +198,4 @@
     "description": "Supprimer la protection par mot de passe d'un PDF",
     "comingSoon": "La fonction de déchiffrement arrive bientôt!"
   },
-  "donate": {
-    "title": "Soutenez-nous",
-    "description": "Si vous trouvez nos outils utiles, envisagez de faire un don",
-    "info": "Your donation helps us continue developing free PDF tools.",
-    "selectAmount": "Select amount",
-    "customAmount": "Custom amount",
-    "minimumAmount": "Minimum: $0.01",
-    "securePayment": "Secure payment by PayPal",
-    "loading": "Loading...",
-    "thankYou": "Thank you!",
-    "thankYouMessage": "Thanks for your donation!",
-    "successMessage": "Payment successful!",
-    "donateAgain": "Donate Again",
-    "paymentFailed": "Payment Failed",
-    "paymentError": "Please try again",
-    "tryAgain": "Try Again",
-    "processing": "Processing...",
-    "processingMessage": "Please wait...",
-    "paypalInfo": "PayPal secure payment",
-    "faq": {
-      "title": "FAQ",
-      "q1": {
-        "question": "Required?",
-        "answer": "No, voluntary"
-      },
-      "q2": {
-        "question": "How much?",
-        "answer": "Any amount $0.01+"
-      },
-      "q3": {
-        "question": "Secure?",
-        "answer": "Yes, PayPal protected"
-      }
-    }
-  }
 }

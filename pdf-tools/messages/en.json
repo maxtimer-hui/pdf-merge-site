@@ -84,11 +84,6 @@
       "title": "Cookie Policy - PDF Tools | How We Use Cookies",
       "description": "Learn about cookies on PDF Tools. We use essential, analytics, and advertising cookies to improve your experience. Manage your preferences.",
       "keywords": "cookie policy, cookies, gdpr cookies, privacy cookies, cookie consent"
-    },
-    "donate": {
-      "title": "Donate - Support Our Free PDF Tools",
-      "description": "Support our free PDF tool development. Your donation helps us continue improving and providing more features.",
-      "keywords": "donate, support, pdf tools donation"
     }
   },
   "common": {
@@ -106,7 +101,6 @@
     "batch": "Batch Process",
     "encrypt": "Encrypt PDF",
     "decrypt": "Decrypt PDF",
-    "donate": "Donate",
     "sign": "Sign PDF",
     "form": "Fill Form",
     "whyChooseUs": "Why Choose Us?",
@@ -1007,41 +1001,6 @@
       "title": "Contact Us",
       "email": "For cookie questions, email us",
       "response": "We respond within 3-5 business days"
-    }
-  },
-  "donate": {
-    "title": "Support Us",
-    "description": "If you find our tools helpful, consider donating to support development",
-    "info": "Your donation helps us continue developing and improving free PDF tools. All donations are voluntary, thank you for your support!",
-    "selectAmount": "Select donation amount",
-    "customAmount": "Or enter custom amount",
-    "minimumAmount": "Minimum amount: ${amount} USD",
-    "securePayment": "Secure payment - Protected by PayPal",
-    "loading": "Loading PayPal button...",
-    "thankYou": "Thank you for your donation!",
-    "thankYouMessage": "Thank you for donating ${amount}, we will continue to provide better service!",
-    "successMessage": "Your donation has been processed successfully, thank you for supporting our project!",
-    "donateAgain": "Donate Again",
-    "paymentFailed": "Payment Failed",
-    "paymentError": "An error occurred during payment, please try again later",
-    "tryAgain": "Try Again",
-    "processing": "Processing...",
-    "processingMessage": "Processing your payment, please wait...",
-    "paypalInfo": "PayPal is a safe and convenient online payment method",
-    "faq": {
-      "title": "FAQ",
-      "q1": {
-        "question": "Is donation required?",
-        "answer": "No! All PDF tools are completely free to use. Donations are voluntary and help support project development."
-      },
-      "q2": {
-        "question": "Can I choose how much to donate?",
-        "answer": "Yes! You can click preset amount buttons, or enter a custom amount (minimum $0.01 USD)."
-      },
-      "q3": {
-        "question": "Is payment secure?",
-        "answer": "Yes! We use PayPal to process payments, which is one of the safest and most trusted online payment platforms globally. We do not store your payment information."
-      }
     }
   }
 }

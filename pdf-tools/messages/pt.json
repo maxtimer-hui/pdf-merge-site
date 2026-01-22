@@ -60,7 +60,6 @@
       "description": "Combine arquivos PDF grátis com nosso combinador PDF seguro. Combinar, dividir, comprimir online. Sem registro, sem limites, sem marca d'água.",
       "keywords": "combinar arquivos pdf grátis, combinar pdf grátis, combinador pdf grátis, juntar pdf grátis, unir pdf online"
     },
-    "donate": {
       "title": "Apoie-nos - Free PDF Tools",
       "description": "Se você achar nossas ferramentas úteis, considere doar",
       "keywords": "donate, support, pdf tools"
@@ -80,7 +79,6 @@
     "batch": "Processamento em Lote",
     "encrypt": "Criptografar PDF",
     "decrypt": "Descriptografar PDF",
-    "donate": "Doar",
     "sign": "Assinar PDF",
     "form": "Preencher Formulário",
     "tagline": "Combinar arquivos PDF grátis online. Combinador PDF rápido e seguro sem registro.",
@@ -200,39 +198,4 @@
     "description": "Remover proteção de senha de um PDF",
     "comingSoon": "Função de descriptografia em breve!"
   },
-  "donate": {
-    "title": "Apoie-nos",
-    "description": "Se você achar nossas ferramentas úteis, considere doar",
-    "info": "Your donation helps us continue developing free PDF tools.",
-    "selectAmount": "Select amount",
-    "customAmount": "Custom amount",
-    "minimumAmount": "Minimum: $0.01",
-    "securePayment": "Secure payment by PayPal",
-    "loading": "Loading...",
-    "thankYou": "Thank you!",
-    "thankYouMessage": "Thanks for your donation!",
-    "successMessage": "Payment successful!",
-    "donateAgain": "Donate Again",
-    "paymentFailed": "Payment Failed",
-    "paymentError": "Please try again",
-    "tryAgain": "Try Again",
-    "processing": "Processing...",
-    "processingMessage": "Please wait...",
-    "paypalInfo": "PayPal secure payment",
-    "faq": {
-      "title": "FAQ",
-      "q1": {
-        "question": "Required?",
-        "answer": "No, voluntary"
-      },
-      "q2": {
-        "question": "How much?",
-        "answer": "Any amount $0.01+"
-      },
-      "q3": {
-        "question": "Secure?",
-        "answer": "Yes, PayPal protected"
-      }
-    }
-  }
 }

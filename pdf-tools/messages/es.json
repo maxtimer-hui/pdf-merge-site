@@ -60,7 +60,6 @@
       "description": "Elimine la protección con contraseña de archivos PDF en línea. Descifre sus documentos PDF si conoce la contraseña.",
       "keywords": "descifrar pdf, quitar contraseña pdf, desproteger pdf, desbloquear pdf, eliminar contraseña pdf"
     },
-    "donate": {
       "title": "Apoyanos - Free PDF Tools",
       "description": "Si encuentras útiles nuestras herramientas, considera donar",
       "keywords": "donate, support, pdf tools"
@@ -81,7 +80,6 @@
     "batch": "Procesar Lote",
     "encrypt": "Cifrar PDF",
     "decrypt": "Descifrar PDF",
-    "donate": "Donar",
     "sign": "Firmar PDF",
     "form": "Rellenar Formulario",
     "whyChooseUs": "¿Por Qué Elegirnos?",
@@ -311,39 +309,4 @@
     "invalidFile": "Por favor seleccione un archivo PDF válido",
     "decryptError": "Error en el descifrado. Por favor verifique la contraseña e intente de nuevo."
   },
-  "donate": {
-    "title": "Apoyanos",
-    "description": "Si encuentras útiles nuestras herramientas, considera donar",
-    "info": "Your donation helps us continue developing free PDF tools.",
-    "selectAmount": "Select amount",
-    "customAmount": "Custom amount",
-    "minimumAmount": "Minimum: $0.01",
-    "securePayment": "Secure payment by PayPal",
-    "loading": "Loading...",
-    "thankYou": "Thank you!",
-    "thankYouMessage": "Thanks for your donation!",
-    "successMessage": "Payment successful!",
-    "donateAgain": "Donate Again",
-    "paymentFailed": "Payment Failed",
-    "paymentError": "Please try again",
-    "tryAgain": "Try Again",
-    "processing": "Processing...",
-    "processingMessage": "Please wait...",
-    "paypalInfo": "PayPal secure payment",
-    "faq": {
-      "title": "FAQ",
-      "q1": {
-        "question": "Required?",
-        "answer": "No, voluntary"
-      },
-      "q2": {
-        "question": "How much?",
-        "answer": "Any amount $0.01+"
-      },
-      "q3": {
-        "question": "Secure?",
-        "answer": "Yes, PayPal protected"
-      }
-    }
-  }
 }
