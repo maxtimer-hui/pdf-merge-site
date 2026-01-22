@@ -304,5 +304,5 @@
     "wrongPassword": "Contraseña incorrecta. Por favor intente de nuevo.",
     "invalidFile": "Por favor seleccione un archivo PDF válido",
     "decryptError": "Error en el descifrado. Por favor verifique la contraseña e intente de nuevo."
-  },
+  }
 }
