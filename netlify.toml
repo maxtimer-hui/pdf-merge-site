@@ -1,0 +1,25 @@
+# Netlify 配置文件
+
+[build]
+  # 构建命令
+  command = "npm run build"
+  # 发布目录
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_VERSION = "9"
+
+# Next.js 插件配置 - 自动处理 Next.js 特定功能
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Headers 配置
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
