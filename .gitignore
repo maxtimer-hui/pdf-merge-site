@@ -32,3 +32,10 @@ Thumbs.db
 # Local Claude files
 .claude/settings.local.json
 .claude/ralph-loop.local.md
+
+# Private documentation (contains sensitive info)
+docs/
+
+# Local development files
+README-LOCAL-DEBUG.md
+nul
