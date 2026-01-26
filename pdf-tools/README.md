@@ -146,9 +146,9 @@ MIT License - feel free to use this project for personal or commercial purposes.
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-### 📧 Contact
+### 🌐 Visit Our Website
 
-For questions or support, please visit our [contact page](https://your-site.com/contact).
+For more information and to use our tools, visit [combinepdffree.net](https://combinepdffree.net)
 
 ---
 
@@ -284,6 +284,6 @@ PDF Tools는 현대적이고 안전하며 완전히 무료인 온라인 PDF 처�
 
 **⭐ Star this repo to support the project!**
 
-**🐛 Found a bug? [Open an issue](https://github.com/yourusername/pdf-tools/issues)**
+**🐛 Found a bug? [Open an issue](https://github.com/maxtimer-hui/pdf-merge-site/issues)**
 
-**💡 Have a suggestion? [Let us know](https://your-site.com/contact)**
+**🌐 Visit our website: [combinepdffree.net](https://combinepdffree.net)**
