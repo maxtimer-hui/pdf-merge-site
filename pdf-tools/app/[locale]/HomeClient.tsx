@@ -142,6 +142,102 @@ export default function HomeClient({params}: {params: Promise<{locale: string}>}
 
           <p className="text-gray-700 leading-relaxed border-t border-gray-200 pt-6">{seo('conclusion')}</p>
         </div>
+
+        {/* Benefits Section */}
+        <div className="mt-16 bg-white rounded-lg shadow-lg p-8 max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">{seo('benefits.title')}</h2>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="flex items-start">
+              <div className="text-3xl mr-4">⚡</div>
+              <div>
+                <h3 className="text-xl font-semibold mb-2">{seo('benefits.speed.title')}</h3>
+                <p className="text-gray-600">{seo('benefits.speed.desc')}</p>
+              </div>
+            </div>
+
+            <div className="flex items-start">
+              <div className="text-3xl mr-4">🔒</div>
+              <div>
+                <h3 className="text-xl font-semibold mb-2">{seo('benefits.security.title')}</h3>
+                <p className="text-gray-600">{seo('benefits.security.desc')}</p>
+              </div>
+            </div>
+
+            <div className="flex items-start">
+              <div className="text-3xl mr-4">✨</div>
+              <div>
+                <h3 className="text-xl font-semibold mb-2">{seo('benefits.quality.title')}</h3>
+                <p className="text-gray-600">{seo('benefits.quality.desc')}</p>
+              </div>
+            </div>
+
+            <div className="flex items-start">
+              <div className="text-3xl mr-4">🌐</div>
+              <div>
+                <h3 className="text-xl font-semibold mb-2">{seo('benefits.convenience.title')}</h3>
+                <p className="text-gray-600">{seo('benefits.convenience.desc')}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Comparison Section */}
+        <div className="mt-16 bg-white rounded-lg shadow-lg p-8 max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">{seo('comparison.title')}</h2>
+
+          <div className="mb-8">
+            <h3 className="text-xl font-semibold mb-4">{seo('comparison.vsDesktop.title')}</h3>
+            <div className="grid md:grid-cols-2 gap-4">
+              <div className="bg-green-50 p-4 rounded-lg border-2 border-green-200">
+                <h4 className="font-semibold text-green-800 mb-2">Our Online Tool</h4>
+                <p className="text-green-700">{seo('comparison.vsDesktop.online')}</p>
+              </div>
+              <div className="bg-red-50 p-4 rounded-lg border-2 border-red-200">
+                <h4 className="font-semibold text-red-800 mb-2">Desktop Software</h4>
+                <p className="text-red-700">{seo('comparison.vsDesktop.desktop')}</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold mb-4">{seo('comparison.vsOther.title')}</h3>
+            <div className="grid md:grid-cols-2 gap-4">
+              <div className="bg-green-50 p-4 rounded-lg border-2 border-green-200">
+                <h4 className="font-semibold text-green-800 mb-2">PDF Tools</h4>
+                <p className="text-green-700">{seo('comparison.vsOther.us')}</p>
+              </div>
+              <div className="bg-red-50 p-4 rounded-lg border-2 border-red-200">
+                <h4 className="font-semibold text-red-800 mb-2">Other Tools</h4>
+                <p className="text-red-700">{seo('comparison.vsOther.others')}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* CTA Section */}
+        <div className="mt-16 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg shadow-lg p-12 max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-white mb-4">
+            {seo('cta.primary')}
+          </h2>
+          <p className="text-blue-100 mb-8 text-lg">
+            {seo('conclusion')}
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href={`/${locale}/merge`}
+              className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
+            >
+              {seo('cta.primary')}
+            </Link>
+            <Link
+              href={`/${locale}/#tools`}
+              className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition-colors"
+            >
+              {seo('cta.secondary')}
+            </Link>
+          </div>
+        </div>
       </main>
 
       <Footer />
