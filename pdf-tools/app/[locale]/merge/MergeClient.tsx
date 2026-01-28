@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Breadcrumb from '@/components/Breadcrumb';
 import { mergePDFs, formatFileSize, downloadPDF } from '@/lib/pdf-utils';
 
 interface PDFFile {
@@ -28,6 +29,11 @@ export default function MergeClient({
   const t = useTranslations('merge');
   const tc = useTranslations('common');
   const [files, setFiles] = useState<PDFFile[]>([]);
+
+  const breadcrumbItems = [
+    {name: 'Home', href: ''},
+    {name: 'Merge PDF', href: '/merge'},
+  ];
   const [merging, setMerging] = useState(false);
   const [mergedPdf, setMergedPdf] = useState<Uint8Array | null>(null);
   const [dragOver, setDragOver] = useState(false);
@@ -124,6 +130,9 @@ export default function MergeClient({
 
       <main className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">
+          {/* Breadcrumb */}
+          <Breadcrumb items={breadcrumbItems} locale={locale} />
+
           {/* {tc('backToHome')}链接 */}
           <Link
             href={`/${locale}`}
