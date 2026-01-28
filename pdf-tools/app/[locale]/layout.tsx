@@ -3,6 +3,7 @@ import {getMessages} from 'next-intl/server';
 import {notFound} from 'next/navigation';
 import {locales} from '@/i18n/request';
 import {getCanonicalUrl, getAlternateUrls} from '@/lib/canonical';
+import {getOrganizationSchema} from '@/lib/team';
 import type {Metadata} from 'next';
 import '../globals.css';
 
@@ -66,8 +67,16 @@ export default async function LocaleLayout({
   // side is the easiest way to get started
   const messages = await getMessages({locale});
 
+  const organizationSchema = getOrganizationSchema();
+
   return (
     <html lang={locale}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+      </head>
       <body>
         <NextIntlClientProvider messages={messages} locale={locale}>
           {children}
