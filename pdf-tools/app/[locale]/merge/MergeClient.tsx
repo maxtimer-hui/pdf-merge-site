@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
+import RelatedTools from '@/components/RelatedTools';
 import { mergePDFs, formatFileSize, downloadPDF } from '@/lib/pdf-utils';
 
 interface PDFFile {
@@ -339,6 +340,9 @@ export default function MergeClient({
               </details>
             </div>
           </section>
+
+          {/* Related Tools */}
+          <RelatedTools currentTool="merge" locale={locale} />
         </div>
       </main>
 
