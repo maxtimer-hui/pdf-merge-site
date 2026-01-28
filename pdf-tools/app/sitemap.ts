@@ -3,6 +3,18 @@ import {locales} from '@/i18n/request';
 
 const tools = ['merge', 'split', 'extract', 'compress', 'rotate', 'delete-pages', 'reorder', 'watermark', 'batch', 'encrypt', 'decrypt'];
 
+const contentPages = ['blog', 'resources', 'tutorials', 'compare'];
+
+const legalPages = ['about', 'contact', 'privacy', 'terms', 'cookies'];
+
+// Content page priorities
+const contentPriorities: Record<string, number> = {
+  'blog': 0.85,       // High - regularly updated
+  'tutorials': 0.80,  // Medium-high - educational content
+  'resources': 0.70,  // Medium - external links
+  'compare': 0.75,    // Medium - comparison content
+};
+
 // Tool priorities based on search volume and importance
 const toolPriorities: Record<string, number> = {
   'merge': 0.95,      // Highest - primary tool
@@ -63,8 +75,45 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Add legal pages (lower priority)
-  const legalPages = ['privacy', 'terms', 'cookies'];
+  // Content pages (resources, compare are available for all locales)
+  for (const locale of locales) {
+    const localePriority = localePriorities[locale] || 0.7;
+
+    // Only add resources and compare for all locales (blog and tutorials are English only initially)
+    const universalPages = ['resources', 'compare'];
+    for (const page of universalPages) {
+      const pagePriority = contentPriorities[page] || 0.7;
+      const combinedPriority = Math.min(localePriority * pagePriority, 1);
+
+      urls.push({
+        url: `${baseUrl}/${locale}/${page}`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: combinedPriority,
+      });
+    }
+  }
+
+  // Blog and tutorials (English only for now)
+  const contentLocales = ['en'];
+  for (const locale of contentLocales) {
+    const localePriority = localePriorities[locale] || 0.7;
+
+    // Blog listing and tutorials
+    for (const page of ['blog', 'tutorials']) {
+      const pagePriority = contentPriorities[page] || 0.7;
+      const combinedPriority = Math.min(localePriority * pagePriority, 1);
+
+      urls.push({
+        url: `${baseUrl}/${locale}/${page}`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: combinedPriority,
+      });
+    }
+  }
+
+  // Legal and informational pages
   for (const locale of locales) {
     for (const page of legalPages) {
       urls.push({
@@ -74,6 +123,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.3,
       });
     }
+  }
+
+  // Blog post pages (English only)
+  const blogPosts = ['how-to-merge-pdfs-efficiently', 'pdf-vs-word-when-to-use', '10-pdf-compression-tips'];
+  for (const postSlug of blogPosts) {
+    urls.push({
+      url: `${baseUrl}/en/blog/${postSlug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    });
+  }
+
+  // Tutorial pages (English only)
+  const tutorials = ['batch-process-pdf-files', 'pdf-security-guide', 'optimize-pdf-file-size'];
+  for (const tutorialSlug of tutorials) {
+    urls.push({
+      url: `${baseUrl}/en/tutorials/${tutorialSlug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    });
   }
 
   return urls;
