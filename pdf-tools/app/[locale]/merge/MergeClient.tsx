@@ -12,7 +12,18 @@ interface PDFFile {
   id: string;
 }
 
-export default function MergeClient({ params }: { params: Promise<{ locale: string }> }) {
+interface HowToData {
+  name: string;
+  steps: Array<{name: string; text: string}>;
+}
+
+export default function MergeClient({
+  params,
+  howToData,
+}: {
+  params: Promise<{ locale: string }>;
+  howToData: HowToData;
+}) {
   const { locale } = use(params);
   const t = useTranslations('merge');
   const tc = useTranslations('common');
@@ -266,6 +277,26 @@ export default function MergeClient({ params }: { params: Promise<{ locale: stri
               </div>
             </div>
           )}
+
+          {/* How-to Section */}
+          <section className="mt-16 bg-white rounded-lg shadow-lg p-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">
+              {howToData.name}
+            </h2>
+            <ol className="space-y-4">
+              {howToData.steps.map((step, index) => (
+                <li key={index} className="flex items-start">
+                  <span className="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0 font-bold">
+                    {index + 1}
+                  </span>
+                  <div>
+                    <h3 className="font-semibold text-gray-900">{step.name}</h3>
+                    <p className="text-gray-600">{step.text}</p>
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </section>
 
           {/* FAQ Section */}
           <section className="mt-16 bg-white rounded-lg shadow-lg p-8">
