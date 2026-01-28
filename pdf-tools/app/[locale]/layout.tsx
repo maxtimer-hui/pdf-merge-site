@@ -2,6 +2,7 @@ import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import {notFound} from 'next/navigation';
 import {locales} from '@/i18n/request';
+import {getCanonicalUrl, getAlternateUrls} from '@/lib/canonical';
 import type {Metadata} from 'next';
 import '../globals.css';
 
@@ -20,6 +21,10 @@ export async function generateMetadata({ params }: { params: Promise<{locale: st
       template: '%s | PDF Tools'
     },
     description: 'Free online PDF tools: merge, split, compress, rotate, encrypt, decrypt and more. All processing happens in your browser - no files uploaded.',
+    alternates: {
+      canonical: getCanonicalUrl(locale),
+      languages: getAlternateUrls(locales, locale),
+    },
     openGraph: {
       type: 'website',
       locale: locale,
