@@ -1,5 +1,6 @@
 import {Metadata} from 'next';
 import {getTranslations} from 'next-intl/server';
+import {generateFAQSchema, mergeFAQs} from '@/lib/schema-faq';
 import MergeClient from './MergeClient';
 
 // 生成页面 metadata
@@ -24,6 +25,19 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
-export default function MergePage({ params }: { params: Promise<{ locale: string }> }) {
-  return <MergeClient params={params} />;
+export default async function MergePage({params}: {params: Promise<{locale: string}>}) {
+  const {locale} = await params;
+
+  const faqs = mergeFAQs[locale as keyof typeof mergeFAQs] || mergeFAQs.en;
+  const faqSchema = generateFAQSchema(faqs);
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <MergeClient params={params} />
+    </>
+  );
 }
