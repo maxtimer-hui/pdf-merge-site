@@ -1037,6 +1037,36 @@
       "title": "Contact Us",
       "email": "For cookie questions, email us",
       "response": "We respond within 3-5 business days"
+    },
+    "blog": {
+      "title": "PDF Tools Blog - Tips, Tutorials & Guides",
+      "description": "Discover the best PDF tips, tutorials, and guides. Learn how to merge, split, compress, and optimize PDF files efficiently.",
+      "metaTitle": "Blog | PDF Tools",
+      "metaDescription": "Latest articles about PDF tools, tips, and tutorials"
+    },
+    "tutorials": {
+      "title": "PDF Tutorials & Guides",
+      "description": "Step-by-step tutorials for working with PDF files",
+      "metaTitle": "Tutorials | PDF Tools",
+      "metaDescription": "Learn how to work with PDFs through our detailed tutorials"
+    },
+    "resources": {
+      "title": "PDF Resources & Links",
+      "description": "Curated list of useful PDF resources and tools",
+      "metaTitle": "Resources | PDF Tools",
+      "metaDescription": "Helpful resources for working with PDF files"
+    },
+    "compare": {
+      "title": "PDF Tools Comparison",
+      "description": "Compare PDF tools and formats to make the right choice",
+      "metaTitle": "Compare | PDF Tools",
+      "metaDescription": "Detailed comparisons of PDF tools and formats"
+    },
+    "team": {
+      "title": "About Our Team",
+      "mission": "Our mission is to provide free, secure, and easy-to-use PDF tools for everyone.",
+      "vision": "We believe in making PDF processing accessible to all users, regardless of technical expertise or budget.",
+      "values": "Privacy, Security, Simplicity, Accessibility"
     }
   }
 }
