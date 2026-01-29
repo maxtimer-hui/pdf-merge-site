@@ -5,6 +5,8 @@ import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import FAQ from '@/components/FAQ';
+import { getToolFAQs } from '@/lib/schema-faq';
 import { splitPDFByRange, splitPDFEvery, formatFileSize, downloadPDF } from '@/lib/pdf-utils';
 
 interface SplitResult {
@@ -282,6 +284,9 @@ export default function SplitClient({ params }: { params: Promise<{ locale: stri
           )}
         </div>
       </main>
+
+      {/* FAQ Section */}
+      <FAQ faqs={getToolFAQs('split', locale)} />
 
       <Footer />
     </div>

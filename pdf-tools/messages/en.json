@@ -220,7 +220,14 @@
     "year": "year",
     "years": "years",
     "yes": "Yes",
-    "no": "No"
+    "no": "No",
+    "faqSection": {
+      "title": "Frequently Asked Questions",
+      "empty": "No FAQs available for this tool"
+    },
+    "relatedTools": {
+      "title": "Related Tools You Might Need"
+    }
   },
   "merge": {
     "title": "Merge PDF Files",
@@ -1067,6 +1074,16 @@
       "mission": "Our mission is to provide free, secure, and easy-to-use PDF tools for everyone.",
       "vision": "We believe in making PDF processing accessible to all users, regardless of technical expertise or budget.",
       "values": "Privacy, Security, Simplicity, Accessibility"
+    },
+    "blog": {
+      "title": "PDF Tools Blog - Tips, Tutorials & Guides",
+      "description": "Discover expert tips, tutorials, and guides for working with PDF files. Learn how to merge, split, compress, and optimize PDFs efficiently."
     }
+  },
+  "blog": {
+    "title": "PDF Tools Blog",
+    "description": "Tips, tutorials, and guides for working with PDF files",
+    "metaTitle": "Blog | PDF Tools",
+    "metaDescription": "Expert tips and tutorials for PDF processing"
   }
 }

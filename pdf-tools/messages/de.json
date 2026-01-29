@@ -127,6 +127,13 @@
         "case4": "Mehrere Rechnungen oder Kontoauszüge für einfache Aufbewahrung zusammenfügen"
       },
       "conclusion": "Unser PDF Combiner Online wird von tausenden Benutzern weltweit vertraut. Starten Sie heute PDF Dateien kostenlos zusammenzufügen - keine Registrierung, völlig kostenloser PDF Combiner."
+    },
+    "faqSection": {
+      "title": "Häufig Gestellte Fragen",
+      "empty": "Keine FAQs für dieses Tool verfügbar"
+    },
+    "relatedTools": {
+      "title": "Verwandte Tools, die Sie Vielleicht Benötigen"
     }
   },
   "merge": {
@@ -193,5 +200,9 @@
     "title": "PDF Entschlüsseln",
     "description": "Passwortschutz von einem PDF entfernen",
     "comingSoon": "Entschlüsselungsfunktion kommt bald!"
+  },
+  "blog": {
+    "title": "PDF Tools Blog",
+    "description": "Tips, tutorials, and guides for working with PDF files"
   }
 }

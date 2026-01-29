@@ -6,6 +6,8 @@ import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import FAQ from '@/components/FAQ';
+import { getToolFAQs } from '@/lib/schema-faq';
 
 export default function DecryptClient({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = use(params);
@@ -225,6 +227,9 @@ export default function DecryptClient({ params }: { params: Promise<{ locale: st
           </div>
         </div>
       </main>
+
+      {/* FAQ Section */}
+      <FAQ faqs={getToolFAQs('decrypt', locale)} />
 
       <Footer />
     </div>

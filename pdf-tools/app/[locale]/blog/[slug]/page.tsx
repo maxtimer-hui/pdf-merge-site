@@ -3,6 +3,9 @@ import {notFound} from 'next/navigation';
 import {getTranslations} from 'next-intl/server';
 import Link from 'next/link';
 import {getBlogPost, getBlogPosts} from '@/lib/blog-posts';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import Breadcrumb from '@/components/Breadcrumb';
 
 // 生成页面 metadata
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
@@ -37,6 +40,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
   if (!post) {
     notFound();
   }
+
+  const breadcrumbItems = [
+    {name: 'Home', href: ''},
+    {name: 'Blog', href: '/blog'},
+    {name: post.title, href: `/blog/${slug}`},
+  ];
 
   // Convert markdown-like content to HTML (simplified version)
   const contentHtml = post.content
@@ -83,26 +92,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
       />
 
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+        <Navbar currentLocale={locale} />
+
         <main className="container mx-auto px-4 py-12">
           <div className="max-w-4xl mx-auto">
             {/* Breadcrumb */}
-            <nav className="mb-8 text-sm">
-              <ol className="flex items-center space-x-2">
-                <li>
-                  <Link href={`/${locale}`} className="text-blue-600 hover:text-blue-800">
-                    Home
-                  </Link>
-                </li>
-                <li className="text-gray-400">/</li>
-                <li>
-                  <Link href={`/${locale}/blog`} className="text-blue-600 hover:text-blue-800">
-                    Blog
-                  </Link>
-                </li>
-                <li className="text-gray-400">/</li>
-                <li className="text-gray-600">{post.title}</li>
-              </ol>
-            </nav>
+            <Breadcrumb items={breadcrumbItems} locale={locale} />
 
             {/* Article Header */}
             <article className="bg-white rounded-lg shadow-lg p-8 mb-8">
@@ -186,6 +181,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
             </div>
           </div>
         </main>
+
+        <Footer />
       </div>
     </>
   );

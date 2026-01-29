@@ -5,6 +5,8 @@ import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import FAQ from '@/components/FAQ';
+import { getToolFAQs } from '@/lib/schema-faq';
 import { mergePDFs, splitPDFEvery, compressPDF, formatFileSize, downloadPDF } from '@/lib/pdf-utils';
 
 interface BatchFile {
@@ -378,6 +380,9 @@ export default function BatchClient({ params }: { params: Promise<{ locale: stri
           )}
         </div>
       </main>
+
+      {/* FAQ Section */}
+      <FAQ faqs={getToolFAQs('batch', locale)} />
 
       <Footer />
     </div>

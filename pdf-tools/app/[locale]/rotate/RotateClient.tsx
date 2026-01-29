@@ -5,7 +5,9 @@ import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import FAQ from '@/components/FAQ';
 import { rotatePDF, formatFileSize, downloadPDF } from '@/lib/pdf-utils';
+import { getToolFAQs } from '@/lib/schema-faq';
 
 interface PageRotation {
   page: number;
@@ -193,6 +195,9 @@ export default function RotateClient({ params }: { params: Promise<{ locale: str
           )}
         </div>
       </main>
+
+      {/* FAQ Section */}
+      <FAQ faqs={getToolFAQs('rotate', locale)} />
 
       <Footer />
     </div>

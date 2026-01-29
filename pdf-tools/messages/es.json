@@ -142,7 +142,14 @@
     "extractAgain": "Extraer Otro",
     "compressAgain": "Comprimir Otro",
     "encryptAgain": "Cifrar Otro",
-    "decryptAgain": "Descifrar Otro"
+    "decryptAgain": "Descifrar Otro",
+    "faqSection": {
+      "title": "Preguntas Frecuentes",
+      "empty": "No hay preguntas frecuentes para esta herramienta"
+    },
+    "relatedTools": {
+      "title": "Herramientas Relacionadas que Podrías Necesitar"
+    }
   },
   "merge": {
     "title": "Combinar Archivos PDF",
@@ -304,5 +311,10 @@
     "wrongPassword": "Contraseña incorrecta. Por favor intente de nuevo.",
     "invalidFile": "Por favor seleccione un archivo PDF válido",
     "decryptError": "Error en el descifrado. Por favor verifique la contraseña e intente de nuevo."
+  }
+,
+  "blog": {
+    "title": "PDF Tools Blog",
+    "description": "Tips, tutorials, and guides for working with PDF files"
   }
 }

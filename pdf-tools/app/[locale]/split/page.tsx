@@ -1,5 +1,7 @@
 import {Metadata} from 'next';
 import {getTranslations} from 'next-intl/server';
+import {generateFAQSchema, getToolFAQs} from '@/lib/schema-faq';
+import {generateHowToSchema, splitHowTo} from '@/lib/schema-howto';
 import SplitClient from './SplitClient';
 
 // 生成页面 metadata
@@ -24,6 +26,27 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
-export default function SplitPage({ params }: { params: Promise<{ locale: string }> }) {
-  return <SplitClient params={params} />;
+export default async function SplitPage({params}: {params: Promise<{locale: string}>}) {
+  const {locale} = await params;
+
+  const faqs = getToolFAQs('split', locale);
+  const faqSchema = generateFAQSchema(faqs);
+
+  const howToData = splitHowTo[locale as keyof typeof splitHowTo] || splitHowTo.en;
+  const howToSchema = generateHowToSchema(howToData.name, howToData.steps);
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [faqSchema, howToSchema],
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <SplitClient params={params} howToData={howToData} />
+    </>
+  );
 }

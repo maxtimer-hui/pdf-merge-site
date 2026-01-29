@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 import {relatedTools} from '@/lib/related-tools';
 
 interface RelatedToolsProps {
@@ -9,6 +10,7 @@ interface RelatedToolsProps {
 }
 
 export default function RelatedTools({currentTool, locale}: RelatedToolsProps) {
+  const t = useTranslations('relatedTools');
   const tools = relatedTools[currentTool];
 
   if (!tools || tools.length === 0) {
@@ -18,7 +20,7 @@ export default function RelatedTools({currentTool, locale}: RelatedToolsProps) {
   return (
     <section className="mt-16 bg-white rounded-lg shadow-lg p-8 max-w-4xl mx-auto">
       <h2 className="text-2xl font-bold text-gray-900 mb-6">
-        Related Tools You Might Need
+        {t('title')}
       </h2>
       <div className="grid md:grid-cols-3 gap-6">
         {tools.map((tool) => (

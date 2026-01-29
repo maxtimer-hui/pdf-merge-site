@@ -5,6 +5,8 @@ import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import FAQ from '@/components/FAQ';
+import { getToolFAQs } from '@/lib/schema-faq';
 import { addWatermark, formatFileSize, downloadPDF } from '@/lib/pdf-utils';
 
 export default function WatermarkClient({ params }: { params: Promise<{ locale: string }> }) {
@@ -274,6 +276,9 @@ export default function WatermarkClient({ params }: { params: Promise<{ locale: 
           )}
         </div>
       </main>
+
+      {/* FAQ Section */}
+      <FAQ faqs={getToolFAQs('watermark', locale)} />
 
       <Footer />
     </div>

@@ -7,6 +7,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import RelatedTools from '@/components/RelatedTools';
+import FAQ from '@/components/FAQ';
+import { toolFAQs } from '@/lib/schema-faq';
 import { mergePDFs, formatFileSize, downloadPDF } from '@/lib/pdf-utils';
 
 interface PDFFile {
@@ -309,37 +311,7 @@ export default function MergeClient({
           </section>
 
           {/* FAQ Section */}
-          <section className="mt-16 bg-white rounded-lg shadow-lg p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">
-              Frequently Asked Questions
-            </h2>
-            <div className="space-y-4">
-              <details className="border rounded-lg p-4">
-                <summary className="font-semibold cursor-pointer">
-                  How to combine PDF files free?
-                </summary>
-                <p className="mt-2 text-gray-600">
-                  Upload your PDF files, arrange them in desired order, and click 'Combine PDF'. Your merged PDF will be ready instantly.
-                </p>
-              </details>
-              <details className="border rounded-lg p-4">
-                <summary className="font-semibold cursor-pointer">
-                  Is there a limit on how many PDFs I can combine?
-                </summary>
-                <p className="mt-2 text-gray-600">
-                  No, you can combine unlimited PDF files. There's no restriction on the number or size of files.
-                </p>
-              </details>
-              <details className="border rounded-lg p-4">
-                <summary className="font-semibold cursor-pointer">
-                  Can I combine password-protected PDFs?
-                </summary>
-                <p className="mt-2 text-gray-600">
-                  Yes, but you'll need to remove the password first using our Decrypt PDF tool.
-                </p>
-              </details>
-            </div>
-          </section>
+          <FAQ faqs={toolFAQs.merge[locale] || toolFAQs.merge.en} />
 
           {/* Related Tools */}
           <RelatedTools currentTool="merge" locale={locale} />

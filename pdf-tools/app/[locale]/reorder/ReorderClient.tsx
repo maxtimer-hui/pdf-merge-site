@@ -5,7 +5,9 @@ import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import FAQ from '@/components/FAQ';
 import { reorderPages, formatFileSize, downloadPDF } from '@/lib/pdf-utils';
+import { getToolFAQs } from '@/lib/schema-faq';
 
 export default function ReorderClient({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = use(params);
@@ -229,6 +231,9 @@ export default function ReorderClient({ params }: { params: Promise<{ locale: st
           )}
         </div>
       </main>
+
+      {/* FAQ Section */}
+      <FAQ faqs={getToolFAQs('reorder', locale)} />
 
       <Footer />
     </div>

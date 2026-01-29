@@ -59,10 +59,6 @@
       "title": "免費合併PDF檔案 - 免費PDF合併工具線上 | 合併PDF免費 無需註冊",
       "description": "免費合併PDF檔案，使用我們安全的PDF合併工具。線上合併、分割、壓縮PDF。無需註冊，無限制，無浮水印。100% 免費PDF合併工具。",
       "keywords": "免費合併pdf檔案, 合併pdf免費, pdf合併工具免費, 免費pdf合併, pdf免費合併, 線上合併pdf免費"
-    },
-      "title": "捐贈支持 - 免費PDF工具",
-      "description": "支持我們的免費PDF工具開發。您的捐贈將幫助我們持續改進和提供更多功能。",
-      "keywords": "捐贈, 支持開發, pdf工具捐贈"
     }
   },
   "common": {
@@ -145,6 +141,13 @@
         "case4": "合併多個發票或對帳單以便於記錄保存"
       },
       "conclusion": "我們的PDF合併工具線上版受到全球數千名用戶的信賴。今天開始免費合併PDF檔案 - 無需註冊，無需等待，完全免費的PDF合併工具。"
+    },
+    "faqSection": {
+      "title": "常見問題",
+      "empty": "此工具暫無常見問題"
+    },
+    "relatedTools": {
+      "title": "您可能需要的相關工具"
     }
   },
   "merge": {
@@ -306,5 +309,9 @@
     "wrongPassword": "密碼錯誤，請重試",
     "invalidFile": "請選擇有效的 PDF 文件",
     "decryptError": "解密失敗，請檢查密碼後重試"
+  },
+  "blog": {
+    "title": "PDF工具博客 - 技巧、教學和指南",
+    "description": "發現專家技巧、教學和指南，幫助您更好地處理PDF文件"
   }
 }

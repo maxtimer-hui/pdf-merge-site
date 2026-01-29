@@ -141,6 +141,13 @@
         "case4": "複数の請求書や明細書を結合して記録管理を容易に"
       },
       "conclusion": "私たちのPDF結合ツールオンライン版は世界中の数千人のユーザーに信頼されています。今日からPDFファイルを無料で結合しましょう - 登録不要、待機時間なし、完全無料のPDF結合ツール。"
+    },
+    "faqSection": {
+      "title": "よくある質問",
+      "empty": "このツールのFAQはありません"
+    },
+    "relatedTools": {
+      "title": "関連ツール"
     }
   },
   "merge": {
@@ -302,5 +309,9 @@
     "wrongPassword": "パスワードが正しくありません。もう一度お試しください。",
     "invalidFile": "有効な PDF ファイルを選択してください",
     "decryptError": "復号化に失敗しました。パスワードを確認してもう一度お試しください。"
+  },
+  "blog": {
+    "title": "PDF Tools Blog",
+    "description": "Tips, tutorials, and guides for working with PDF files"
   }
 }

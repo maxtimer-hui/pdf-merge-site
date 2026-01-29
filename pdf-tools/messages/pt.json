@@ -127,6 +127,13 @@
         "case4": "Combinar múltiplas faturas ou extratos para fácil manutenção de registros"
       },
       "conclusion": "Nosso combinador PDF online é confiado por milhares de usuários em todo o mundo. Comece a combinar arquivos PDF grátis hoje - sem registro, completamente grátis combinador PDF."
+    },
+    "faqSection": {
+      "title": "Perguntas Frequentes",
+      "empty": "Nenhuma FAQ disponível para esta ferramenta"
+    },
+    "relatedTools": {
+      "title": "Ferramentas Relacionadas que Você Pode Precisar"
     }
   },
   "merge": {
@@ -193,5 +200,9 @@
     "title": "Descriptografar PDF",
     "description": "Remover proteção de senha de um PDF",
     "comingSoon": "Função de descriptografia em breve!"
+  },
+  "blog": {
+    "title": "PDF Tools Blog",
+    "description": "Tips, tutorials, and guides for working with PDF files"
   }
 }

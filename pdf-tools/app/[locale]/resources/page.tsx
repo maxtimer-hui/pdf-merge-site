@@ -2,6 +2,9 @@ import {Metadata} from 'next';
 import {getTranslations} from 'next-intl/server';
 import Link from 'next/link';
 import {externalResources, getResourceCategories} from '@/lib/external-resources';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import Breadcrumb from '@/components/Breadcrumb';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string}> }): Promise<Metadata> {
   const {locale} = await params;
@@ -21,10 +24,20 @@ export default async function ResourcesPage({ params }: { params: Promise<{ loca
   const {locale} = await params;
   const categories = getResourceCategories();
 
+  const breadcrumbItems = [
+    {name: 'Home', href: ''},
+    {name: 'Resources', href: '/resources'},
+  ];
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+      <Navbar currentLocale={locale} />
+
       <main className="container mx-auto px-4 py-12">
         <div className="max-w-6xl mx-auto">
+          {/* Breadcrumb */}
+          <Breadcrumb items={breadcrumbItems} locale={locale} />
+
           {/* Header */}
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">
@@ -98,6 +111,8 @@ export default async function ResourcesPage({ params }: { params: Promise<{ loca
           </div>
         </div>
       </main>
+
+      <Footer />
     </div>
   );
 }

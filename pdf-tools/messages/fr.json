@@ -127,6 +127,13 @@
         "case4": "Fusionner plusieurs factures ou relevés pour une tenue de records facile"
       },
       "conclusion": "Notre outil PDF combiner en ligne est approuvé par des milliers d'utilisateurs dans le monde. Commencez à fusionner des fichiers PDF gratuitement aujourd'hui - pas d'inscription, outil PDF combiner entièrement gratuit."
+    },
+    "faqSection": {
+      "title": "Questions Fréquentes",
+      "empty": "Aucune FAQ disponible pour cet outil"
+    },
+    "relatedTools": {
+      "title": "Outils Connexes Utiles"
     }
   },
   "merge": {
@@ -193,5 +200,9 @@
     "title": "Déchiffrer le PDF",
     "description": "Supprimer la protection par mot de passe d'un PDF",
     "comingSoon": "La fonction de déchiffrement arrive bientôt!"
+  },
+  "blog": {
+    "title": "PDF Tools Blog",
+    "description": "Tips, tutorials, and guides for working with PDF files"
   }
 }

@@ -5,7 +5,9 @@ import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import FAQ from '@/components/FAQ';
 import { extractPages, formatFileSize, downloadPDF } from '@/lib/pdf-utils';
+import { getToolFAQs } from '@/lib/schema-faq';
 
 export default function ExtractClient({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = use(params);
@@ -355,6 +357,13 @@ export default function ExtractClient({ params }: { params: Promise<{ locale: st
           )}
         </div>
       </main>
+
+      {/* FAQ Section */}
+      <div className="container mx-auto px-4 pb-12">
+        <div className="max-w-3xl mx-auto">
+          <FAQ faqs={getToolFAQs('extract', locale)} />
+        </div>
+      </div>
 
       <Footer />
     </div>

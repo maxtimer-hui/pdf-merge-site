@@ -1,5 +1,7 @@
 import {Metadata} from 'next';
 import {getTranslations} from 'next-intl/server';
+import {generateFAQSchema, getToolFAQs} from '@/lib/schema-faq';
+import {generateHowToSchema, batchHowTo} from '@/lib/schema-howto';
 import BatchClient from './BatchClient';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string}> }): Promise<Metadata> {
@@ -23,6 +25,27 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
-export default function BatchPage({ params }: { params: Promise<{ locale: string }> }) {
-  return <BatchClient params={params} />;
+export default async function BatchPage({params}: {params: Promise<{locale: string}>}) {
+  const {locale} = await params;
+
+  const faqs = getToolFAQs('batch', locale);
+  const faqSchema = generateFAQSchema(faqs);
+
+  const howToData = batchHowTo[locale as keyof typeof batchHowTo] || batchHowTo.en;
+  const howToSchema = generateHowToSchema(howToData.name, howToData.steps);
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [faqSchema, howToSchema],
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <BatchClient params={params} howToData={howToData} />
+    </>
+  );
 }

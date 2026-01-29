@@ -5,7 +5,9 @@ import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import FAQ from '@/components/FAQ';
 import { compressPDF, formatFileSize, downloadPDF } from '@/lib/pdf-utils';
+import { getToolFAQs } from '@/lib/schema-faq';
 
 export default function CompressClient({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = use(params);
@@ -184,6 +186,9 @@ export default function CompressClient({ params }: { params: Promise<{ locale: s
           )}
         </div>
       </main>
+
+      {/* FAQ Section */}
+      <FAQ faqs={getToolFAQs('compress', locale)} />
 
       <Footer />
     </div>
