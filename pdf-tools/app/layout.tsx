@@ -1,5 +1,6 @@
 import {ReactNode} from 'react';
 import type {Metadata} from 'next';
+import './globals.css';
 
 type Props = {
   children: ReactNode;
@@ -12,7 +13,10 @@ export const metadata: Metadata = {
   },
 };
 
-// Root layout 只返回 children,因为 locale layout 处理 html/body
 export default function RootLayout({children}: Props) {
-  return children;
+  return (
+    <html>
+      <body>{children}</body>
+    </html>
+  );
 }

@@ -5,7 +5,6 @@ import {locales} from '@/i18n/request';
 import {getCanonicalUrl, getAlternateUrls} from '@/lib/canonical';
 import {getOrganizationSchema} from '@/lib/team';
 import type {Metadata} from 'next';
-import '../globals.css';
 
 export function generateStaticParams() {
   return locales.map((locale) => ({locale}));
@@ -73,18 +72,16 @@ export default async function LocaleLayout({
   const isRTL = locale === 'ar';
 
   return (
-    <html lang={locale} dir={isRTL ? 'rtl' : 'ltr'}>
-      <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
-        />
-      </head>
-      <body>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+      <div dir={isRTL ? 'rtl' : 'ltr'}>
         <NextIntlClientProvider messages={messages} locale={locale}>
           {children}
         </NextIntlClientProvider>
-      </body>
-    </html>
+      </div>
+    </>
   );
 }
