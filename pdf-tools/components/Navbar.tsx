@@ -33,10 +33,10 @@ export default function Navbar({currentLocale}: {currentLocale: string}) {
 
   const navLinks = [
     {href: `/${currentLocale}`, label: t('home')},
-    {href: `/${currentLocale}/blog`, label: 'Blog'},
-    {href: `/${currentLocale}/tutorials`, label: 'Tutorials'},
-    {href: `/${currentLocale}/resources`, label: 'Resources'},
-    {href: `/${currentLocale}/compare`, label: 'Compare'},
+    {href: `/${currentLocale}/blog`, label: t('blog')},
+    {href: `/${currentLocale}/tutorials`, label: t('tutorials')},
+    {href: `/${currentLocale}/resources`, label: t('resources')},
+    {href: `/${currentLocale}/compare`, label: t('compare')},
     {href: `/${currentLocale}/about`, label: t('about')},
     {href: `/${currentLocale}/contact`, label: t('contact')},
   ];
@@ -55,16 +55,16 @@ export default function Navbar({currentLocale}: {currentLocale: string}) {
               {t('home')}
             </Link>
             <Link href={`/${currentLocale}/blog`} className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
-              Blog
+              {t('blog')}
             </Link>
             <Link href={`/${currentLocale}/tutorials`} className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
-              Tutorials
+              {t('tutorials')}
             </Link>
             <Link href={`/${currentLocale}/resources`} className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
-              Resources
+              {t('resources')}
             </Link>
             <Link href={`/${currentLocale}/compare`} className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
-              Compare
+              {t('compare')}
             </Link>
             <Link href={`/${currentLocale}/about`} className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
               {t('about')}
