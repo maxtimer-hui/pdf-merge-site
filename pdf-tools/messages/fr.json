@@ -103,30 +103,66 @@
     "apply": "Appliquer",
     "start": "Démarrer",
     "seoContent": {
-      "title": "Fusionner PDF Gratuitement en Ligne",
+      "title": "Comment Fusionner des Fichiers PDF Gratuitement en Ligne",
       "subtitle": "Le Meilleur Outil PDF Combiner Gratuit pour Tous Vos Besoins",
-      "intro": "Cherchez-vous à fusionner des PDF gratuitement ? Notre outil PDF combiner sécurisé vous permet de fusionner plusieurs PDFs instantanément sans inscription.",
+      "intro": "Vous cherchez à fusionner des fichiers PDF gratuitement ? Notre outil PDF combiner sécurisé vous permet de fusionner plusieurs PDFs instantanément sans aucune inscription. Que vous ayez besoin de fusionner des fichiers PDF pour le travail, l'école ou un usage personnel, notre outil PDF combiner gratuit rend la tâche simple et rapide.",
       "features": {
         "title": "Pourquoi Utiliser Notre Outil PDF Combiner Gratuit ?",
-        "feature1": "Fusionner des fichiers PDF gratuitement avec des fusions illimitées",
-        "feature2": "Outil PDF combiner gratuit traitement en ligne - tous les fichiers restent dans votre navigateur",
-        "feature3": "Fusionner PDF en ligne gratuit avec glisser-déposer - méthode la plus simple",
-        "feature4": "Outil PDF combiner gratuit qui maintient la qualité - aucune perte de résolution"
+        "feature1": "Fusionner des fichiers PDF gratuitement avec des fusions illimitées - aucune limite cachée ou restriction",
+        "feature2": "Traitement en ligne d'outil PDF combiner gratuit - tous les fichiers restent dans votre navigateur pour une sécurité maximale",
+        "feature3": "Fusionner des PDF en ligne gratuitement avec interface glisser-déposer - le moyen le plus simple de fusionner des documents",
+        "feature4": "Outil PDF combiner gratuit qui maintient la qualité - aucune perte de résolution ou filigrane ajouté"
       },
       "howTo": {
         "title": "Comment Fusionner des Fichiers PDF en 3 Étapes Simples",
-        "step1": "Téléchargez vos fichiers PDF en cliquant ou en les faisant glisser",
-        "step2": "Organisez les fichiers dans l'ordre souhaité avec glisser-déposer",
-        "step3": "Cliquez sur \"Fusionner PDF\" et téléchargez instantanément"
+        "step1": "Téléchargez vos fichiers PDF en cliquant ou en les faisant glisser dans le combinateur",
+        "step2": "Organisez les fichiers dans l'ordre souhaité en utilisant le glisser-déposer",
+        "step3": "Cliquez sur \"Fusionner PDF\" et téléchargez instantanément votre fichier PDF fusionné"
       },
       "useCases": {
-        "title": "Cas d'Usage Courants pour Outil PDF Combiner Gratuit",
+        "title": "Cas d'Usage Courants pour l'Outil PDF Combiner Gratuit",
         "case1": "Fusionner plusieurs rapports en un seul document pour des présentations professionnelles",
-        "case2": "Fusionner des chapitres PDF pour créer des livres électroniques ou manuels complets",
-        "case3": "Fusionner des pages scannées ou des reçus dans un fichier PDF organisé",
-        "case4": "Fusionner plusieurs factures ou relevés pour une tenue de records facile"
+        "case2": "Fusionner des chapitres ou sections PDF pour créer des livres électroniques ou manuels complets",
+        "case3": "Fusionner des pages scannées ou des reçus dans un seul fichier PDF organisé",
+        "case4": "Joindre plusieurs factures ou relevés pour une tenue de records facile"
       },
-      "conclusion": "Notre outil PDF combiner en ligne est approuvé par des milliers d'utilisateurs dans le monde. Commencez à fusionner des fichiers PDF gratuitement aujourd'hui - pas d'inscription, outil PDF combiner entièrement gratuit."
+      "benefits": {
+        "title": "Avantages Clés de Notre Outil PDF Combiner Gratuit en Ligne",
+        "speed": {
+          "title": "Traitement Ultra-Rapide",
+          "desc": "Notre technologie de traitement local assure que vos PDFs sont fusionnés en quelques millisecondes. Pas d'attente de téléchargements ou de téléchargements depuis des serveurs lents."
+        },
+        "security": {
+          "title": "100% Sécurisé et Privé",
+          "desc": "Toute la fusion de PDF se produit directement dans votre navigateur. Vos fichiers ne quittent jamais votre appareil, garantissant une confidentialité et une sécurité complètes."
+        },
+        "quality": {
+          "title": "Aucune Perte de Qualité",
+          "desc": "Notre traitement PDF avancé maintient la qualité originale de vos documents. Aucune compression, aucun filigrane, aucune réduction de résolution."
+        },
+        "convenience": {
+          "title": "Fonctionne Partout",
+          "desc": "Utilisez notre outil PDF combiner gratuit en ligne sur n'importe quel appareil - ordinateur de bureau, tablette ou mobile. Aucune installation de logiciel requise."
+        }
+      },
+      "comparison": {
+        "title": "Pourquoi Choisir Notre Outil PDF Combiner Gratuit ?",
+        "vsDesktop": {
+          "title": "Outil PDF Combiner en Ligne vs Logiciel de Bureau",
+          "online": "Aucune installation, fonctionne instantanément, gratuit pour toujours",
+          "desktop": "Nécessite un téléchargement, une installation, souvent coûteux"
+        },
+        "vsOther": {
+          "title": "vs Autres Outils en Ligne",
+          "us": "Aucune inscription, fichiers illimités, 100% privé",
+          "others": "Inscription forcée, limites de fichiers, télécharge vos données"
+        }
+      },
+      "conclusion": "Notre outil PDF combiner gratuit en ligne est approuvé par des milliers d'utilisateurs dans le monde. Commencez à fusionner des fichiers PDF gratuitement aujourd'hui - aucune inscription, aucune attente, outil PDF combiner entièrement gratuit.",
+      "cta": {
+        "primary": "Commencer à Fusionner des PDFs Maintenant",
+        "secondary": "Explorer Plus d'Outils PDF"
+      }
     },
     "faqSection": {
       "title": "Questions Fréquentes",

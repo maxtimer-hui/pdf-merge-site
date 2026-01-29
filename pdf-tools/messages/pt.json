@@ -103,30 +103,66 @@
     "apply": "Aplicar",
     "start": "Iniciar",
     "seoContent": {
-      "title": "Combinar Arquivos PDF Grátis Online",
+      "title": "Como Combinar Arquivos PDF Grátis Online",
       "subtitle": "O Melhor Combinador PDF Grátis para Todas as Suas Necessidades",
-      "intro": "Procurando combinar arquivos PDF grátis? Nosso combinador PDF online seguro permite combinar múltiplos PDFs instantaneamente sem registro.",
+      "intro": "Procurando combinar arquivos PDF grátis? Nossa ferramenta de combinador PDF grátis online permite mesclar múltiplos PDFs instantaneamente sem qualquer registro. Seja para trabalho, estudos ou uso pessoal, nosso combinador PDF grátis torna tudo simples e rápido.",
       "features": {
         "title": "Por Que Usar Nosso Combinador PDF Grátis?",
-        "feature1": "Combinar arquivos PDF grátis com combinações ilimitadas - sem limites ocultos",
-        "feature2": "Combinador PDF grátis processamento online - todos os arquivos ficam no seu navegador",
-        "feature3": "Combinar PDF online grátis com arrastar e soltar - método mais fácil",
-        "feature4": "Combinador PDF grátis que mantém qualidade - sem perda de resolução"
+        "feature1": "Combine arquivos PDF grátis com mesclagens ilimitadas - sem limites ocultos ou restrições",
+        "feature2": "Combinador PDF grátis com processamento online - todos os arquivos ficam no seu navegador para máxima segurança",
+        "feature3": "Combine PDF online grátis com interface de arrastar e soltar - maneira mais fácil de mesclar documentos",
+        "feature4": "Combinador PDF grátis que mantém a qualidade - sem perda de resolução ou marcas d'água adicionadas"
       },
       "howTo": {
         "title": "Como Combinar Arquivos PDF em 3 Passos Simples",
-        "step1": "Carregue seus arquivos PDF clicando ou arrastando",
-        "step2": "Organize os arquivos na ordem desejada com arrastar e soltar",
-        "step3": "Clique em \"Combinar PDF\" e baixe instantaneamente"
+        "step1": "Carregue seus arquivos PDF clicando ou arrastando para o combinador",
+        "step2": "Organize os arquivos na ordem desejada usando arrastar e soltar",
+        "step3": "Clique em 'Combinar PDF' e baixe instantaneamente seu arquivo PDF mesclado"
       },
       "useCases": {
         "title": "Casos de Uso Comuns para Combinador PDF Grátis",
-        "case1": "Combinar múltiplos relatórios em um único documento para apresentações profissionais",
-        "case2": "Combinar capítulos PDF para criar e-books ou manuais completos",
-        "case3": "Combinar páginas escaneadas ou recibos em um arquivo PDF organizado",
-        "case4": "Combinar múltiplas faturas ou extratos para fácil manutenção de registros"
+        "case1": "Combine múltiplos relatórios em um único documento para apresentações profissionais",
+        "case2": "Mescle capítulos ou seções PDF para criar e-books ou manuais completos",
+        "case3": "Combine páginas digitalizadas ou recibos em um arquivo PDF organizado",
+        "case4": "Junte múltiplas faturas ou extratos para fácil manutenção de registros"
       },
-      "conclusion": "Nosso combinador PDF online é confiado por milhares de usuários em todo o mundo. Comece a combinar arquivos PDF grátis hoje - sem registro, completamente grátis combinador PDF."
+      "benefits": {
+        "title": "Principais Benefícios do Nosso Combinador PDF Grátis Online",
+        "speed": {
+          "title": "Processamento Ultra Rápido",
+          "desc": "Nossa tecnologia de processamento local garante que seus PDFs sejam mesclados em milissegundos. Sem espera por uploads ou downloads de servidores lentos."
+        },
+        "security": {
+          "title": "100% Seguro e Privado",
+          "desc": "Toda a mesclagem de PDF acontece diretamente no seu navegador. Seus arquivos nunca saem do seu dispositivo, garantindo privacidade e segurança completas."
+        },
+        "quality": {
+          "title": "Sem Perda de Qualidade",
+          "desc": "Nosso processamento avançado de PDF mantém a qualidade original dos seus documentos. Sem compressão, sem marcas d'água, sem redução de resolução."
+        },
+        "convenience": {
+          "title": "Funciona em Qualquer Lugar",
+          "desc": "Use nosso combinador PDF grátis online em qualquer dispositivo - desktop, tablet ou celular. Sem necessidade de instalação de software."
+        }
+      },
+      "comparison": {
+        "title": "Por Que Escolher Nosso Combinador PDF Grátis?",
+        "vsDesktop": {
+          "title": "Combinador PDF Online vs Software Desktop",
+          "online": "Sem instalação, funciona instantaneamente, grátis para sempre",
+          "desktop": "Requer download, instalação, frequentemente caro"
+        },
+        "vsOther": {
+          "title": "vs Outras Ferramentas Online",
+          "us": "Sem registro, arquivos ilimitados, 100% privado",
+          "others": "Registro obrigatório, limites de arquivos, envia seus dados"
+        }
+      },
+      "conclusion": "Nossa ferramenta de combinador PDF grátis online é confiada por milhares de usuários em todo o mundo. Comece a combinar arquivos PDF grátis hoje - sem registro, sem espera, combinador PDF completamente grátis.",
+      "cta": {
+        "primary": "Começar a Combinar PDFs Agora",
+        "secondary": "Explorar Mais Ferramentas PDF"
+      }
     },
     "faqSection": {
       "title": "Perguntas Frequentes",

@@ -126,7 +126,43 @@
         "case3": "Gescannte Seiten oder Belege in einer organisierten PDF Datei zusammenfügen",
         "case4": "Mehrere Rechnungen oder Kontoauszüge für einfache Aufbewahrung zusammenfügen"
       },
-      "conclusion": "Unser PDF Combiner Online wird von tausenden Benutzern weltweit vertraut. Starten Sie heute PDF Dateien kostenlos zusammenzufügen - keine Registrierung, völlig kostenloser PDF Combiner."
+      "benefits": {
+        "title": "Hauptvorteile Unseres Kostenlosen PDF Combiners Online",
+        "speed": {
+          "title": "Blitzschnelle Verarbeitung",
+          "desc": "Unsere lokale Verarbeitungstechnologie stellt sicher, dass Ihre PDFs in Millisekunden zusammengeführt werden. Kein Warten auf Uploads oder Downloads von langsamen Servern."
+        },
+        "security": {
+          "title": "100% Sicher und Privat",
+          "desc": "Alle PDF-Zusammenführungen erfolgen direkt in Ihrem Browser. Ihre Dateien verlassen niemals Ihr Gerät, was vollständige Privatsphäre und Sicherheit gewährleistet."
+        },
+        "quality": {
+          "title": "Kein Qualitätsverlust",
+          "desc": "Unsere fortschrittliche PDF-Verarbeitung erhält die ursprüngliche Qualität Ihrer Dokumente. Keine Komprimierung, keine Wasserzeichen, keine Auflösungsreduzierung."
+        },
+        "convenience": {
+          "title": "Überall Funktionierend",
+          "desc": "Nutzen Sie unseren PDF Combiner kostenlos online auf jedem Gerät - Desktop, Tablet oder Mobil. Keine Softwareinstallation erforderlich."
+        }
+      },
+      "comparison": {
+        "title": "Warum Unseren Kostenlosen PDF Combiner Wählen?",
+        "vsDesktop": {
+          "title": "Online PDF Combiner vs Desktop-Software",
+          "online": "Keine Installation, funktioniert sofort, für immer kostenlos",
+          "desktop": "Erfordert Download, Installation, oft teuer"
+        },
+        "vsOther": {
+          "title": "vs Andere Online-Tools",
+          "us": "Keine Registrierung, unbegrenzte Dateien, 100% privat",
+          "others": "Erzwungene Registrierung, Dateilimits, lädt Ihre Daten hoch"
+        }
+      },
+      "conclusion": "Unser PDF Combiner kostenlos Online-Tool wird von tausenden Benutzern weltweit vertraut. Starten Sie heute PDF Dateien kostenlos zusammenzufügen - keine Registrierung, kein Warten, völlig kostenloser PDF Combiner.",
+      "cta": {
+        "primary": "Jetzt PDFs Zusammenfügen",
+        "secondary": "Mehr PDF Tools Erkunden"
+      }
     },
     "faqSection": {
       "title": "Häufig Gestellte Fragen",

@@ -109,7 +109,43 @@
         "case3": "Combina páginas escaneadas o recibos en un archivo PDF organizado",
         "case4": "Combina múltiples facturas o estados de cuenta para fácil mantenimiento de registros"
       },
-      "conclusion": "Nuestro combinador PDF online es confiable por miles de usuarios en todo el mundo. Comienza a combinar archivos PDF gratis hoy - sin registro, sin espera, completamente gratis combinador PDF."
+      "benefits": {
+        "title": "Beneficios Clave de Nuestro Combinador PDF Gratis Online",
+        "speed": {
+          "title": "Procesamiento Ultrarrápido",
+          "desc": "Nuestra tecnología de procesamiento local garantiza que tus PDFs se combinen en milisegundos. Sin esperas por cargas o descargas de servidores lentos."
+        },
+        "security": {
+          "title": "100% Seguro y Privado",
+          "desc": "Toda la combinación de PDF ocurre directamente en tu navegador. Tus archivos nunca salen de tu dispositivo, garantizando completa privacidad y seguridad."
+        },
+        "quality": {
+          "title": "Sin Pérdida de Calidad",
+          "desc": "Nuestro procesamiento avanzado de PDF mantiene la calidad original de tus documentos. Sin compresión, sin marcas de agua, sin reducción de resolución."
+        },
+        "convenience": {
+          "title": "Funciona en Todas Partes",
+          "desc": "Usa nuestro combinador PDF gratis online en cualquier dispositivo - escritorio, tableta o móvil. No se requiere instalación de software."
+        }
+      },
+      "comparison": {
+        "title": "¿Por Qué Elegir Nuestro Combinador PDF Gratis?",
+        "vsDesktop": {
+          "title": "Combinador PDF Online vs Software de Escritorio",
+          "online": "Sin instalación, funciona al instante, gratis para siempre",
+          "desktop": "Requiere descarga, instalación, a menudo costoso"
+        },
+        "vsOther": {
+          "title": "vs Otras Herramientas Online",
+          "us": "Sin registro, archivos ilimitados, 100% privado",
+          "others": "Registro forzado, límites de archivos, sube tus datos"
+        }
+      },
+      "conclusion": "Nuestro combinador PDF online es confiable por miles de usuarios en todo el mundo. Comienza a combinar archivos PDF gratis hoy - sin registro, sin espera, completamente gratis combinador PDF.",
+      "cta": {
+        "primary": "Comenzar a Combinar PDFs Ahora",
+        "secondary": "Explorar Más Herramientas PDF"
+      }
     },
     "backToHome": "Volver al Inicio",
     "uploadFile": "Subir Archivo PDF",
