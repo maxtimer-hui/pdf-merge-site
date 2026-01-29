@@ -69,8 +69,11 @@ export default async function LocaleLayout({
 
   const organizationSchema = getOrganizationSchema();
 
+  // 检查是否为 RTL 语言
+  const isRTL = locale === 'ar';
+
   return (
-    <html lang={locale}>
+    <html lang={locale} dir={isRTL ? 'rtl' : 'ltr'}>
       <head>
         <script
           type="application/ld+json"
