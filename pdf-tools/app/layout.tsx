@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
 };
 
-// Since we have a root layout, we must include <html> and <body> tags
+// Root layout 只返回 children,因为 locale layout 处理 html/body
 export default function RootLayout({children}: Props) {
   return children;
 }
