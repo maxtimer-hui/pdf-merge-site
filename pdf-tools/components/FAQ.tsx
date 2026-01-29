@@ -12,7 +12,7 @@ interface FAQProps {
 }
 
 export default function FAQ({ faqs }: FAQProps) {
-  const t = useTranslations('faqSection');
+  const t = useTranslations('common.faqSection');
 
   if (!faqs || faqs.length === 0) {
     return null;

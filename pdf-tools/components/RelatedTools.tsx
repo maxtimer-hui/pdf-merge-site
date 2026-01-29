@@ -10,7 +10,8 @@ interface RelatedToolsProps {
 }
 
 export default function RelatedTools({currentTool, locale}: RelatedToolsProps) {
-  const t = useTranslations('relatedTools');
+  const t = useTranslations('common.relatedTools');
+  const tc = useTranslations('common');
   const tools = relatedTools[currentTool];
 
   if (!tools || tools.length === 0) {
@@ -31,7 +32,7 @@ export default function RelatedTools({currentTool, locale}: RelatedToolsProps) {
           >
             <div className="text-4xl mb-3">{tool.icon}</div>
             <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">
-              {tool.name}
+              {tc(tool.name)}
             </h3>
             <p className="text-sm text-gray-600">{tool.description}</p>
           </Link>
