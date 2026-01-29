@@ -168,6 +168,10 @@
       "title": "Häufig Gestellte Fragen",
       "empty": "Keine FAQs für dieses Tool verfügbar"
     },
+    "blog": "Blog",
+    "tutorials": "Tutorials",
+    "resources": "Ressourcen",
+    "compare": "Vergleichen",
     "relatedTools": {
       "title": "Verwandte Tools, die Sie Vielleicht Benötigen",
       "splitAfterMerge": "Nach dem Zusammenführen müssen Sie möglicherweise bestimmte Seiten aus Ihrem kombinierten PDF extrahieren",

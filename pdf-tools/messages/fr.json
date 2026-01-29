@@ -168,6 +168,10 @@
       "title": "Questions Fréquentes",
       "empty": "Aucune FAQ disponible pour cet outil"
     },
+    "blog": "Blog",
+    "tutorials": "Tutoriels",
+    "resources": "Ressources",
+    "compare": "Comparer",
     "relatedTools": {
       "title": "Outils Connexes Utiles",
       "splitAfterMerge": "Après la fusion, vous devrez peut-être extraire des pages spécifiques de votre PDF combiné",

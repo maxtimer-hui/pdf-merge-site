@@ -168,6 +168,10 @@
       "title": "Perguntas Frequentes",
       "empty": "Nenhuma FAQ disponível para esta ferramenta"
     },
+    "blog": "Blog",
+    "tutorials": "Tutoriais",
+    "resources": "Recursos",
+    "compare": "Comparar",
     "relatedTools": {
       "title": "Ferramentas Relacionadas que Você Pode Precisar",
       "splitAfterMerge": "Depois de mesclar, você pode precisar extrair páginas específicas do seu PDF combinado",

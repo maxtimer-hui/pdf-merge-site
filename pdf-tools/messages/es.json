@@ -179,6 +179,10 @@
     "compressAgain": "Comprimir Otro",
     "encryptAgain": "Cifrar Otro",
     "decryptAgain": "Descifrar Otro",
+    "blog": "Blog",
+    "tutorials": "Tutoriales",
+    "resources": "Recursos",
+    "compare": "Comparar",
     "faqSection": {
       "title": "Preguntas Frecuentes",
       "empty": "No hay preguntas frecuentes para esta herramienta"
