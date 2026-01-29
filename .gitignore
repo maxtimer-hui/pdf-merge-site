@@ -39,3 +39,6 @@ docs/
 # Local development files
 README-LOCAL-DEBUG.md
 nul
+
+# Claude Code documentation
+CLAUDE.md
