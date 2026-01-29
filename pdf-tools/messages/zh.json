@@ -200,7 +200,31 @@
       "empty": "此工具暂无常见问题"
     },
     "relatedTools": {
-      "title": "您可能需要的相关工具"
+      "title": "您可能需要的相关工具",
+      "splitAfterMerge": "合并后，您可能需要从合并的PDF中提取特定页面",
+      "compressAfterMerge": "在保持质量的同时减小合并后的PDF文件大小",
+      "rotateAfterMerge": "修复合并PDF中的页面方向问题",
+      "mergeAfterSplit": "将分割的页面合并回单个PDF文档",
+      "extractFromSplit": "从PDF文件中提取特定页面",
+      "reorderAfterSplit": "在分割后重新排列PDF中的页面",
+      "mergeBeforeCompress": "在压缩之前合并多个PDF",
+      "splitBeforeCompress": "在压缩之前分割大文件以获得更好的效果",
+      "mergeExtracted": "将提取的页面合并为新的PDF",
+      "splitBeforeExtract": "在提取特定页面之前分割PDF",
+      "mergeRotated": "将旋转后的PDF合并为一个文档",
+      "compressAfterRotate": "在旋转页面后压缩PDF",
+      "mergeAfterDelete": "在删除不需要的页面后合并PDF",
+      "extractInsteadOfDelete": "提取特定页面而不是删除其他页面",
+      "mergeReordered": "将重新排序的PDF与其他文件合并",
+      "splitBeforeReorder": "在重新排序页面之前分割PDF",
+      "mergeWatermarked": "将添加了水印的PDF合并为一个文件",
+      "compressAfterWatermark": "在添加水印后压缩PDF",
+      "mergeBatch": "一次合并多个PDF",
+      "compressBatch": "批量压缩多个PDF",
+      "mergeAndEncrypt": "合并并加密PDF",
+      "decryptEncrypted": "从加密的PDF中删除密码",
+      "mergeDecrypted": "将解密的PDF合并为一个文件",
+      "encryptDecrypted": "为您的PDF添加密码保护"
     }
   },
   "merge": {

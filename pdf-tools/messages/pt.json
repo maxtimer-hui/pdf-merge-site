@@ -169,7 +169,31 @@
       "empty": "Nenhuma FAQ disponível para esta ferramenta"
     },
     "relatedTools": {
-      "title": "Ferramentas Relacionadas que Você Pode Precisar"
+      "title": "Ferramentas Relacionadas que Você Pode Precisar",
+      "splitAfterMerge": "Depois de mesclar, você pode precisar extrair páginas específicas do seu PDF combinado",
+      "compressAfterMerge": "Reduza o tamanho do seu PDF mesclado sem perder qualidade",
+      "rotateAfterMerge": "Corrija problemas de orientação de página no seu PDF mesclado",
+      "mergeAfterSplit": "Combine páginas divididas novamente em um único documento PDF",
+      "extractFromSplit": "Extraia páginas específicas dos seus arquivos PDF",
+      "reorderAfterSplit": "Reorganize as páginas no seu PDF após dividir",
+      "mergeBeforeCompress": "Combine vários PDFs antes de compactá-los",
+      "splitBeforeCompress": "Divida arquivos grandes antes da compactação para melhores resultados",
+      "mergeExtracted": "Combine páginas extraídas em um novo PDF",
+      "splitBeforeExtract": "Divida o PDF antes de extrair páginas específicas",
+      "mergeRotated": "Combine PDFs rotacionados em um único documento",
+      "compressAfterRotate": "Comprima o PDF após girar as páginas",
+      "mergeAfterDelete": "Combine PDFs após excluir páginas indesejadas",
+      "extractInsteadOfDelete": "Extraia páginas específicas em vez de excluir outras",
+      "mergeReordered": "Combine PDFs reordenados com outros arquivos",
+      "splitBeforeReorder": "Divida o PDF antes de reordenar as páginas",
+      "mergeWatermarked": "Combine PDFs com marca d'água em um único arquivo",
+      "compressAfterWatermark": "Comprima o PDF após adicionar marca d'água",
+      "mergeBatch": "Combine vários PDFs de uma vez",
+      "compressBatch": "Comprima vários PDFs em lote",
+      "mergeAndEncrypt": "Combine e criptografe PDFs juntos",
+      "decryptEncrypted": "Remova senha de PDFs criptografados",
+      "mergeDecrypted": "Combine PDFs descriptografados em um único arquivo",
+      "encryptDecrypted": "Adicione proteção por senha aos seus PDFs"
     }
   },
   "merge": {

@@ -183,7 +183,31 @@
       "empty": "이 도구에 대한 FAQ가 없습니다"
     },
     "relatedTools": {
-      "title": "관련 도구"
+      "title": "관련 도구",
+      "splitAfterMerge": "병합 후 결합된 PDF에서 특정 페이지를 추출해야 할 수 있습니다",
+      "compressAfterMerge": "품질 손실 없이 병합된 PDF 파일 크기 줄이기",
+      "rotateAfterMerge": "병합된 PDF의 페이지 방향 문제 수정",
+      "mergeAfterSplit": "분할된 페이지를 다시 하나의 PDF 문서로 병합",
+      "extractFromSplit": "PDF 파일에서 특정 페이지 추출",
+      "reorderAfterSplit": "분할 후 PDF에서 페이지 재배열",
+      "mergeBeforeCompress": "압축하기 전에 여러 PDF 병합",
+      "splitBeforeCompress": "더 나은 결과를 위해 압축 전에 큰 파일 분할",
+      "mergeExtracted": "추출된 페이지를 새 PDF로 병합",
+      "splitBeforeExtract": "특정 페이지를 추출하기 전에 PDF 분할",
+      "mergeRotated": "회전된 PDF를 하나의 문서로 병합",
+      "compressAfterRotate": "페이지를 회전한 후 PDF 압축",
+      "mergeAfterDelete": "원하지 않는 페이지를 삭제한 후 PDF 병합",
+      "extractInsteadOfDelete": "다른 페이지를 삭제하는 대신 특정 페이지 추출",
+      "mergeReordered": "재배열된 PDF를 다른 파일과 병합",
+      "splitBeforeReorder": "페이지를 재배열하기 전에 PDF 분할",
+      "mergeWatermarked": "워터마크가 있는 PDF를 하나의 파일로 병합",
+      "compressAfterWatermark": "워터마크를 추가한 후 PDF 압축",
+      "mergeBatch": "한 번에 여러 PDF 병합",
+      "compressBatch": "여러 PDF를 일괄 압축",
+      "mergeAndEncrypt": "PDF를 함께 병합하고 암호화",
+      "decryptEncrypted": "암호화된 PDF에서 비밀번호 제거",
+      "mergeDecrypted": "해독된 PDF를 하나의 파일로 병합",
+      "encryptDecrypted": "PDF에 비밀번호 보호 추가"
     }
   },
   "merge": {

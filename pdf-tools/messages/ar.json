@@ -169,7 +169,31 @@
       "empty": "لا توجد أسئلة شائعة لهذه الأداة"
     },
     "relatedTools": {
-      "title": "الأدوات ذات الصلة التي قد تحتاجها"
+      "title": "الأدوات ذات الصلة التي قد تحتاجها",
+      "splitAfterMerge": "بعد الدمج، قد تحتاج إلى استخراج صفحات محددة من ملف PDF المدمج",
+      "compressAfterMerge": "تقليل حجم ملف PDF المدمج دون فقدان الجودة",
+      "rotateAfterMerge": "إصلاح مشاكل اتجاه الصفحة في ملف PDF المدمج",
+      "mergeAfterSplit": "دمج الصفحات المقسمة مرة أخرى في مستند PDF واحد",
+      "extractFromSplit": "استخراج صفحات محددة من ملفات PDF",
+      "reorderAfterSplit": "إعادة ترتيب الصفحات في ملف PDF بعد التقسيم",
+      "mergeBeforeCompress": "دمج ملفات PDF متعددة قبل ضغطها",
+      "splitBeforeCompress": "تقسيم الملفات الكبيرة قبل الضغط للحصول على نتائج أفضل",
+      "mergeExtracted": "دمج الصفحات المستخرجة في ملف PDF جديد",
+      "splitBeforeExtract": "تقسيم ملف PDF قبل استخراج صفحات محددة",
+      "mergeRotated": "دمج ملفات PDF المدارة في مستند واحد",
+      "compressAfterRotate": "ضغط ملف PDF بعد تدوير الصفحات",
+      "mergeAfterDelete": "دمج ملفات PDF بعد حذف الصفحات غير المرغوب فيها",
+      "extractInsteadOfDelete": "استخراج صفحات محددة بدلاً من حذف صفحات أخرى",
+      "mergeReordered": "دمج ملفات المعاد ترتيبها مع ملفات أخرى",
+      "splitBeforeReorder": "تقسيم ملف PDF قبل إعادة ترتيب الصفحات",
+      "mergeWatermarked": "دمج ملفات PDF ذات العلامة المائية في ملف واحد",
+      "compressAfterWatermark": "ضغط ملف PDF بعد إضافة علامة مائية",
+      "mergeBatch": "دمج ملفات PDF متعددة دفعة واحدة",
+      "compressBatch": "ضغط ملفات PDF متعددة دفعة واحدة",
+      "mergeAndEncrypt": "دمج وتشفير ملفات PDF معًا",
+      "decryptEncrypted": "إزالة كلمة المرور من ملفات PDF المشفرة",
+      "mergeDecrypted": "دمج ملفات PDF المفككة في ملف واحد",
+      "encryptDecrypted": "إضافة حماية بكلمة مرور إلى ملفات PDF"
     }
   },
   "merge": {

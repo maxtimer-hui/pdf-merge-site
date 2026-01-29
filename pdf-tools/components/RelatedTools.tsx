@@ -34,7 +34,7 @@ export default function RelatedTools({currentTool, locale}: RelatedToolsProps) {
             <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">
               {tc(tool.name)}
             </h3>
-            <p className="text-sm text-gray-600">{tool.description}</p>
+            <p className="text-sm text-gray-600">{t(tool.description)}</p>
           </Link>
         ))}
       </div>

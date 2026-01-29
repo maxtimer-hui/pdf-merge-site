@@ -226,7 +226,31 @@
       "empty": "No FAQs available for this tool"
     },
     "relatedTools": {
-      "title": "Related Tools You Might Need"
+      "title": "Related Tools You Might Need",
+      "splitAfterMerge": "After merging, you might need to extract specific pages from your combined PDF",
+      "compressAfterMerge": "Reduce your merged PDF file size without losing quality",
+      "rotateAfterMerge": "Fix page orientation issues in your merged PDF",
+      "mergeAfterSplit": "Combine split pages back into a single PDF document",
+      "extractFromSplit": "Extract specific pages from your PDF files",
+      "reorderAfterSplit": "Rearrange pages in your PDF after splitting",
+      "mergeBeforeCompress": "Combine multiple PDFs before compressing them",
+      "splitBeforeCompress": "Split large files before compression for better results",
+      "mergeExtracted": "Combine extracted pages into a new PDF",
+      "splitBeforeExtract": "Split PDF before extracting specific pages",
+      "mergeRotated": "Combine rotated PDFs into one document",
+      "compressAfterRotate": "Compress PDF after rotating pages",
+      "mergeAfterDelete": "Combine PDFs after deleting unwanted pages",
+      "extractInsteadOfDelete": "Extract specific pages instead of deleting others",
+      "mergeReordered": "Combine reordered PDFs with other files",
+      "splitBeforeReorder": "Split PDF before reordering pages",
+      "mergeWatermarked": "Combine watermarked PDFs into one file",
+      "compressAfterWatermark": "Compress PDF after adding watermark",
+      "mergeBatch": "Combine multiple PDFs at once",
+      "compressBatch": "Compress multiple PDFs in batch",
+      "mergeAndEncrypt": "Combine and encrypt PDFs together",
+      "decryptEncrypted": "Remove password from encrypted PDFs",
+      "mergeDecrypted": "Combine decrypted PDFs into one file",
+      "encryptDecrypted": "Add password protection to your PDFs"
     }
   },
   "merge": {

@@ -183,7 +183,31 @@
       "empty": "このツールのFAQはありません"
     },
     "relatedTools": {
-      "title": "関連ツール"
+      "title": "関連ツール",
+      "splitAfterMerge": "結合後、結合されたPDFから特定のページを抽出する必要があるかもしれません",
+      "compressAfterMerge": "品質を損なわずに結合されたPDFのファイルサイズを削減",
+      "rotateAfterMerge": "結合されたPDFのページ向きの問題を修正",
+      "mergeAfterSplit": "分割されたページを1つのPDFドキュメントに結合",
+      "extractFromSplit": "PDFファイルから特定のページを抽出",
+      "reorderAfterSplit": "分割後にPDFのページを並べ替え",
+      "mergeBeforeCompress": "圧縮前に複数のPDFを結合",
+      "splitBeforeCompress": "より良い結果を得るために圧縮前に大きなファイルを分割",
+      "mergeExtracted": "抽出されたページを新しいPDFに結合",
+      "splitBeforeExtract": "特定のページを抽出する前にPDFを分割",
+      "mergeRotated": "回転されたPDFを1つのドキュメントに結合",
+      "compressAfterRotate": "ページを回転した後にPDFを圧縮",
+      "mergeAfterDelete": "不要なページを削除した後にPDFを結合",
+      "extractInsteadOfDelete": "他のページを削除する代わりに特定のページを抽出",
+      "mergeReordered": "並べ替えられたPDFを他のファイルと結合",
+      "splitBeforeReorder": "ページを並べ替える前にPDFを分割",
+      "mergeWatermarked": "透かし入りのPDFを1つのファイルに結合",
+      "compressAfterWatermark": "透かしを追加した後にPDFを圧縮",
+      "mergeBatch": "一度に複数のPDFを結合",
+      "compressBatch": "複数のPDFを一括圧縮",
+      "mergeAndEncrypt": "PDFを結合して暗号化",
+      "decryptEncrypted": "暗号化されたPDFからパスワードを削除",
+      "mergeDecrypted": "復号化されたPDFを1つのファイルに結合",
+      "encryptDecrypted": "PDFにパスワード保護を追加"
     }
   },
   "merge": {

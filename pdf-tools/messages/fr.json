@@ -169,7 +169,31 @@
       "empty": "Aucune FAQ disponible pour cet outil"
     },
     "relatedTools": {
-      "title": "Outils Connexes Utiles"
+      "title": "Outils Connexes Utiles",
+      "splitAfterMerge": "Après la fusion, vous devrez peut-être extraire des pages spécifiques de votre PDF combiné",
+      "compressAfterMerge": "Réduisez la taille de votre PDF fusionné sans perdre de qualité",
+      "rotateAfterMerge": "Corrigez les problèmes d'orientation des pages dans votre PDF fusionné",
+      "mergeAfterSplit": "Combinez les pages divisées en un seul document PDF",
+      "extractFromSplit": "Extrayez des pages spécifiques de vos fichiers PDF",
+      "reorderAfterSplit": "Réorganisez les pages de votre PDF après la division",
+      "mergeBeforeCompress": "Combinez plusieurs PDFs avant de les compresser",
+      "splitBeforeCompress": "Divisez les fichiers volumineux avant compression pour de meilleurs résultats",
+      "mergeExtracted": "Combinez les pages extraites dans un nouveau PDF",
+      "splitBeforeExtract": "Divisez le PDF avant d'extraire des pages spécifiques",
+      "mergeRotated": "Combinez les PDFs pivotés en un seul document",
+      "compressAfterRotate": "Compressez le PDF après avoir pivoté les pages",
+      "mergeAfterDelete": "Combinez les PDFs après avoir supprimé les pages indésirables",
+      "extractInsteadOfDelete": "Extrayez des pages spécifiques au lieu d'en supprimer d'autres",
+      "mergeReordered": "Combinez les PDFs réorganisés avec d'autres fichiers",
+      "splitBeforeReorder": "Divisez le PDF avant de réorganiser les pages",
+      "mergeWatermarked": "Combinez les PDFs filigranés en un seul fichier",
+      "compressAfterWatermark": "Compressez le PDF après avoir ajouté un filigrane",
+      "mergeBatch": "Combinez plusieurs PDFs à la fois",
+      "compressBatch": "Compressez plusieurs PDFs par lot",
+      "mergeAndEncrypt": "Combinez et chiffrez les PDFs ensemble",
+      "decryptEncrypted": "Supprimez le mot de passe des PDFs chiffrés",
+      "mergeDecrypted": "Combinez les PDFs déchiffrés en un seul fichier",
+      "encryptDecrypted": "Ajoutez une protection par mot de passe à vos PDFs"
     }
   },
   "merge": {

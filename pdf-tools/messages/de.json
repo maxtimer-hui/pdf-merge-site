@@ -169,7 +169,31 @@
       "empty": "Keine FAQs für dieses Tool verfügbar"
     },
     "relatedTools": {
-      "title": "Verwandte Tools, die Sie Vielleicht Benötigen"
+      "title": "Verwandte Tools, die Sie Vielleicht Benötigen",
+      "splitAfterMerge": "Nach dem Zusammenführen müssen Sie möglicherweise bestimmte Seiten aus Ihrem kombinierten PDF extrahieren",
+      "compressAfterMerge": "Reduzieren Sie die Dateigröße Ihres zusammengeführten PDFs ohne Qualitätsverlust",
+      "rotateAfterMerge": "Beheben Sie Probleme mit der Seitenausrichtung in Ihrem zusammengeführten PDF",
+      "mergeAfterSplit": "Fügen Sie geteilte Seiten wieder zu einem einzigen PDF-Dokument zusammen",
+      "extractFromSplit": "Extrahieren Sie bestimmte Seiten aus Ihren PDF-Dateien",
+      "reorderAfterSplit": "Ordnen Sie die Seiten in Ihrem PDF nach dem Teilen neu an",
+      "mergeBeforeCompress": "Fügen Sie mehrere PDFs zusammen, bevor Sie sie komprimieren",
+      "splitBeforeCompress": "Teilen Sie große Dateien vor der Komprimierung für bessere Ergebnisse auf",
+      "mergeExtracted": "Fügen Sie extrahierte Seiten zu einem neuen PDF zusammen",
+      "splitBeforeExtract": "Teilen Sie das PDF auf, bevor Sie bestimmte Seiten extrahieren",
+      "mergeRotated": "Fügen Sie gedrehte PDFs zu einem Dokument zusammen",
+      "compressAfterRotate": "Komprimieren Sie das PDF nach dem Drehen der Seiten",
+      "mergeAfterDelete": "Fügen Sie PDFs zusammen, nachdem Sie unerwünschte Seiten gelöscht haben",
+      "extractInsteadOfDelete": "Extrahieren Sie bestimmte Seiten anstatt andere zu löschen",
+      "mergeReordered": "Fügen Sie neu geordnete PDFs mit anderen Dateien zusammen",
+      "splitBeforeReorder": "Teilen Sie das PDF auf, bevor Sie die Seiten neu anordnen",
+      "mergeWatermarked": "Fügen Sie PDFs mit Wasserzeichen zu einer Datei zusammen",
+      "compressAfterWatermark": "Komprimieren Sie das PDF nach dem Hinzufügen eines Wasserzeichens",
+      "mergeBatch": "Fügen Sie mehrere PDFs auf einmal zusammen",
+      "compressBatch": "Komprimieren Sie mehrere PDFs stapelweise",
+      "mergeAndEncrypt": "Fügen Sie PDFs zusammen und verschlüsseln Sie sie",
+      "decryptEncrypted": "Entfernen Sie das Passwort von verschlüsselten PDFs",
+      "mergeDecrypted": "Fügen Sie entschlüsselte PDFs zu einer Datei zusammen",
+      "encryptDecrypted": "Fügen Sie Ihrem PDF Passwortschutz hinzu"
     }
   },
   "merge": {
