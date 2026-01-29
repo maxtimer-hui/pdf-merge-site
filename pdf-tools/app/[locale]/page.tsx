@@ -22,15 +22,15 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
     "@graph": [
       {
         "@type": "WebPage",
-        "@id": `https://pdf-tools.com/${locale}`,
-        "url": `https://pdf-tools.com/${locale}`,
+        "@id": `https://combinepdffree.net/${locale}`,
+        "url": `https://combinepdffree.net/${locale}`,
         "name": t.seo.home?.title || "Free PDF Combiner",
         "description": t.seo.home?.description,
         "inLanguage": locale,
         "isPartOf": {
           "@type": "WebSite",
-          "@id": "https://pdf-tools.com/#website",
-          "url": "https://pdf-tools.com",
+          "@id": "https://combinepdffree.net/#website",
+          "url": "https://combinepdffree.net",
           "name": "PDF Tools - Free Online PDF Tools"
         }
       },
