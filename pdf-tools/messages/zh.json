@@ -250,7 +250,75 @@
     "alertSelectPDF": "请选择 PDF 文件",
     "alertMinTwo": "请至少选择 2 个 PDF 文件",
     "startMerge": "开始合并",
-    "mergeSuccess": "已成功合并 {count} 个 PDF 文件"
+    "mergeSuccess": "已成功合并 {count} 个 PDF 文件",
+    "hero": {
+      "title": "免费在线合并PDF文件",
+      "description": "即时合并多个PDF文件。无需注册，无限制。100%免费且安全。",
+      "point1": "100%免费",
+      "point2": "无需注册",
+      "point3": "安全私密"
+    },
+    "howTo": {
+      "title": "如何合并PDF文件",
+      "step1": {
+        "title": "上传PDF",
+        "description": "选择或拖放多个PDF文件"
+      },
+      "step2": {
+        "title": "调整顺序",
+        "description": "如需要可拖动重新排序页面"
+      },
+      "step3": {
+        "title": "下载",
+        "description": "点击合并按钮并下载合并后的PDF"
+      }
+    },
+    "useCases": {
+      "title": "何时使用PDF合并工具",
+      "case1": {
+        "icon": "📄",
+        "title": "合并报告",
+        "description": "将月度报告、章节或部分合并为一个文档"
+      },
+      "case2": {
+        "icon": "📃",
+        "title": "整理发票",
+        "description": "将多张发票合并为一个文件以便会计处理"
+      },
+      "case3": {
+        "icon": "📚",
+        "title": "合并电子书",
+        "description": "连接电子书章节或创建自定义选集"
+      },
+      "case4": {
+        "icon": "📋",
+        "title": "汇编表单",
+        "description": "将填写好的表单收集到一个有组织的PDF中"
+      }
+    },
+    "seoContent": {
+      "title": "关于合并PDF的常见问题",
+      "block1": {
+        "title": "如何将多个PDF文件合并为一个？",
+        "content": "要合并PDF文件，只需将您的文档上传到我们的免费PDF合并工具。您可以拖放文件或点击选择它们。按您喜欢的顺序排列页面，然后点击合并按钮。您合并后的PDF将立即可供下载。无需注册。"
+      },
+      "block2": {
+        "title": "在线合并PDF文件安全吗？",
+        "content": "是的，我们的PDF合并工具完全安全。所有处理都在您的浏览器中使用JavaScript本地进行。您的文件从未上传到任何服务器，确保100%的隐私和安全。我们无法访问您的文档，它们在处理后会被立即删除。"
+      },
+      "block3": {
+        "title": "我可以免费合并PDF文件吗？",
+        "content": "当然可以！我们的PDF合并工具100%免费，无限制。根据需要合并任意数量的PDF文件，无需任何费用或注册。没有隐藏费用、水印或对文件大小和页数的限制。"
+      },
+      "block4": {
+        "title": "什么是最好的免费PDF合并工具？",
+        "content": "最好的PDF合并工具应该快速、安全且易于使用。我们的工具通过完全在浏览器中处理文件而脱颖而出，确保最大程度的隐私。与其他需要将文件上传到服务器的工具不同，我们将数据保留在您的设备上，同时提供专业质量的PDF合并。"
+      },
+      "block5": {
+        "title": "如何在没有Acrobat的情况下合并PDF文件？",
+        "content": "您不需要Adobe Acrobat来合并PDF。我们的免费在线PDF合并工具可在任何具有Web浏览器的设备上使用。只需上传文件，排列它们，然后合并 - 无需安装软件。它适用于Windows、Mac、Linux和移动设备。"
+      }
+    }
   },
   "split": {
     "title": "分割PDF文件",

@@ -221,8 +221,87 @@
     "processing": "처리 중...",
     "download": "병합된 PDF 다운로드",
     "success": "PDF 병합 성공!",
+    "selectedFiles": "선택된 파일",
+    "moveToStart": "처음으로 이동",
+    "moveToEnd": "끝으로 이동",
+    "remove": "삭제",
+    "merge": "PDF 병합",
+    "merging": "병합 중...",
+    "mergeComplete": "병합 완료!",
+    "mergeSuccessDesc": "PDF가 성공적으로 병합되었습니다",
+    "mergeAgain": "더 많은 파일 병합",
+    "alertSelectPDF": "PDF 파일을 선택해주세요",
+    "alertMinTwo": "최소 2개의 PDF 파일을 선택해주세요",
     "startMerge": "병합 시작",
-    "mergeSuccess": "{count}개의 PDF 파일을 성공적으로 병합했습니다"
+    "mergeSuccess": "{count}개의 PDF 파일을 성공적으로 병합했습니다",
+    "hero": {
+      "title": "무료 온라인 PDF 파일 병합",
+      "description": "여러 PDF 파일을 즉시 병합하세요. 등록 불필요, 제한 없음. 100% 무료且안전.",
+      "point1": "100% 무료",
+      "point2": "등록 불필요",
+      "point3": "안전하고 개인정보 보호"
+    },
+    "howTo": {
+      "title": "PDF 파일 병합 방법",
+      "step1": {
+        "title": "PDF 업로드",
+        "description": "여러 PDF 파일을 선택하거나 드래그 앤 드롭"
+      },
+      "step2": {
+        "title": "파일 정렬",
+        "description": "필요한 경우 드래그하여 페이지 순서 변경"
+      },
+      "step3": {
+        "title": "다운로드",
+        "description": "병합을 클릭하고 병합된 PDF를 다운로드"
+      }
+    },
+    "useCases": {
+      "title": "PDF 병합 도구 사용 시기",
+      "case1": {
+        "icon": "📄",
+        "title": "보고서 병합",
+        "description": "월간 보고서, 장 또는 섹션을 하나의 문서로 병합"
+      },
+      "case2": {
+        "icon": "📃",
+        "title": "송장 정리",
+        "description": "여러 송장을 하나의 파일로 병합하여 회계 처리"
+      },
+      "case3": {
+        "icon": "📚",
+        "title": "전자책 병합",
+        "description": "전자책 장을 결합하거나 사용자 정의 앤솔로지 만들기"
+      },
+      "case4": {
+        "icon": "📋",
+        "title": "양식 컴파일",
+        "description": "작성된 양식을 정리된 PDF로 수집"
+      }
+    },
+    "seoContent": {
+      "title": "PDF 병합에 대한 자주 묻는 질문",
+      "block1": {
+        "title": "여러 PDF 파일을 하나로 어떻게 병합하나요?",
+        "content": "PDF 파일을 병합하려면 문서를 무료 PDF 병합 도구에 업로드하기만 하면 됩니다. 파일을 드래그 앤 드롭하거나 클릭하여 선택할 수 있습니다. 원하는 순서대로 페이지를 정렬한 다음 병합 버튼을 클릭하세요. 병합된 PDF가 즉시 다운로드 가능합니다. 등록이 필요하지 않습니다."
+      },
+      "block2": {
+        "title": "온라인에서 PDF 파일을 병합하는 것이 안전한가요?",
+        "content": "네, 우리의 PDF 병합 도구는 완전히 안전합니다. 모든 처리는 JavaScript를 사용하여 브라우저에서 로컬로 수행됩니다. 파일이 절대 서버에 업로드되지 않아 100% 개인정보 보호와 보안이 보장됩니다. 우리는 문서에 액세스할 수 없으며 처리 후 즉시 삭제됩니다."
+      },
+      "block3": {
+        "title": "무료로 PDF 파일을 병합할 수 있나요?",
+        "content": "물론입니다! 우리의 PDF 병합 도구는 제한 없이 100% 무료입니다. 비용이나 등록 없이 필요한 만큼 PDF 파일을 병합할 수 있습니다. 숨겨진 요금, 워터마크, 파일 크기나 페이지 수 제한이 없습니다."
+      },
+      "block4": {
+        "title": "최고의 무료 PDF 병합 도구는 무엇인가요?",
+        "content": "최고의 PDF 병합 도구는 빠르고 안전하며 사용하기 쉬워야 합니다. 우리 도구는 브라우저에서 파일을 완전히 처리하여 최고의 개인정보 보호를 보장하여 돋보입니다. 서버에 파일을 업로드해야 하는 다른 도구와 달리 전문적인 품질의 PDF 병합을 제공하면서 데이터를 기기에 유지합니다."
+      },
+      "block5": {
+        "title": "Acrobat 없이 PDF 파일을 어떻게 병합하나요?",
+        "content": "PDF를 병합하기 위해 Adobe Acrobat이 필요하지 않습니다. 우리의 무료 온라인 PDF 병합 도구는 웹 브라우저가 있는 모든 기기에서 작동합니다. 파일을 업로드하고 정렬한 다음 병합하기만 하면 됩니다. 소프트웨어 설치가 필요하지 않습니다. Windows, Mac, Linux 및 모바일 기기에서 작동합니다."
+      }
+    }
   },
   "split": {
     "title": "PDF 파일 분할",

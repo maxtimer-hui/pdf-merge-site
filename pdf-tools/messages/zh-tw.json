@@ -221,8 +221,87 @@
     "processing": "處理中...",
     "download": "下載合併後的PDF",
     "success": "PDF合併成功！",
+    "selectedFiles": "已選擇的文件",
+    "moveToStart": "移至開頭",
+    "moveToEnd": "移至末尾",
+    "remove": "移除",
+    "merge": "合併PDF",
+    "merging": "合併中...",
+    "mergeComplete": "合併完成！",
+    "mergeSuccessDesc": "PDF已成功合併",
+    "mergeAgain": "合併更多文件",
+    "alertSelectPDF": "請選擇PDF文件",
+    "alertMinTwo": "請至少選擇2個PDF文件",
     "startMerge": "開始合併",
-    "mergeSuccess": "已成功合併 {count} 個 PDF 文件"
+    "mergeSuccess": "已成功合併 {count} 個 PDF 文件",
+    "hero": {
+      "title": "免費線上合併PDF檔案",
+      "description": "即時合併多個PDF檔案。無需註冊，無限制。100%免費且安全。",
+      "point1": "100%免費",
+      "point2": "無需註冊",
+      "point3": "安全私密"
+    },
+    "howTo": {
+      "title": "如何合併PDF檔案",
+      "step1": {
+        "title": "上傳PDF",
+        "description": "選擇或拖放多個PDF檔案"
+      },
+      "step2": {
+        "title": "排列順序",
+        "description": "如需要可拖曳重新排序頁面"
+      },
+      "step3": {
+        "title": "下載",
+        "description": "點擊合併並下載合併後的PDF"
+      }
+    },
+    "useCases": {
+      "title": "何時使用PDF合併工具",
+      "case1": {
+        "icon": "📄",
+        "title": "合併報告",
+        "description": "將月度報告、章節或章節合併為一個文檔"
+      },
+      "case2": {
+        "icon": "📃",
+        "title": "整理發票",
+        "description": "將多張發票合併為一個文件以便會計"
+      },
+      "case3": {
+        "icon": "📚",
+        "title": "合併電子書",
+        "description": "連接電子書章節或創建自訂選集"
+      },
+      "case4": {
+        "icon": "📋",
+        "title": "編譯表單",
+        "description": "將填寫的表單收集到一個有組織的PDF中"
+      }
+    },
+    "seoContent": {
+      "title": "關於合併PDF的常見問題",
+      "block1": {
+        "title": "如何將多個PDF檔案合併為一個？",
+        "content": "要合併PDF檔案，只需將您的文檔上傳到我們的免費PDF合併工具。您可以拖放檔案或點擊選擇它們。按照您喜歡的順序排列頁面，然後點擊合併按鈕。您合併後的PDF將即時準備好下載。無需註冊。"
+      },
+      "block2": {
+        "title": "線上合併PDF檔案安全嗎？",
+        "content": "是的，我們的PDF合併工具完全安全。所有處理都在您的瀏覽器中使用JavaScript本地進行。您的檔案從不上傳到任何伺服器，確保100%的隱私和安全。我們無法訪問您的文檔，它們在處理後會立即刪除。"
+      },
+      "block3": {
+        "title": "我可以免費合併PDF檔案嗎？",
+        "content": "絕對可以！我們的PDF合併工具100%免費，沒有限制。您可以根據需要合併任意數量的PDF檔案，無需任何費用或註冊。沒有隱藏費用、浮水印或檔案大小和頁數限制。"
+      },
+      "block4": {
+        "title": "什麼是最好的免費PDF合併工具？",
+        "content": "最好的PDF合併工具應該快速、安全且易於使用。我們的工具通過完全在您的瀏覽器中處理檔案而脫穎而出，確保最大程度的隱私。與其他需要將檔案上傳到伺服器的工具不同，我們在提供專業品質PDF合併的同時將您的數據保留在您的設備上。"
+      },
+      "block5": {
+        "title": "如何不使用Acrobat合併PDF檔案？",
+        "content": "您不需要Adobe Acrobat來合併PDF。我們的免費線上PDF合併工具可在任何帶有網頁瀏覽器的設備上使用。只需上傳您的檔案，排列它們，然後合併 - 無需安裝軟體。它適用於Windows、Mac、Linux和移動設備。"
+      }
+    }
   },
   "split": {
     "title": "分割PDF文件",

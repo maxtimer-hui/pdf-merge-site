@@ -206,7 +206,88 @@
     "upload": "PDF-Dateien Hochladen",
     "processing": "Verarbeitung...",
     "download": "Zusammengeführte PDF Herunterladen",
-    "success": "PDF erfolgreich zusammengeführt!"
+    "success": "PDF erfolgreich zusammengeführt!",
+    "selectedFiles": "Ausgewählte Dateien",
+    "moveToStart": "Zum Anfang verschieben",
+    "moveToEnd": "Zum Ende verschieben",
+    "remove": "Entfernen",
+    "merge": "PDFs Zusammenfügen",
+    "merging": "Zusammenfügen...",
+    "mergeComplete": "Zusammenführung Abgeschlossen!",
+    "mergeSuccessDesc": "PDFs wurden erfolgreich zusammengeführt",
+    "mergeAgain": "Weitere Dateien Zusammenfügen",
+    "alertSelectPDF": "Bitte PDF-Dateien auswählen",
+    "alertMinTwo": "Bitte wählen Sie mindestens 2 PDF-Dateien aus",
+    "startMerge": "Zusammenführung Starten",
+    "mergeSuccess": "Erfolgreich {count} PDF-Dateien zusammengeführt",
+    "hero": {
+      "title": "Kostenlos PDF-Dateien Online Zusammenfügen",
+      "description": "Fügen Sie sofort mehrere PDF-Dateien zusammen. Keine Registrierung, keine Limits. 100% kostenlos und sicher.",
+      "point1": "100% Kostenlos",
+      "point2": "Keine Registrierung",
+      "point3": "Sicher & Privat"
+    },
+    "howTo": {
+      "title": "Wie Man PDF-Dateien Zusammenfügt",
+      "step1": {
+        "title": "PDFs Hochladen",
+        "description": "Wählen Sie mehrere PDF-Dateien aus oder ziehen Sie sie hierher"
+      },
+      "step2": {
+        "title": "Reihenfolge Festlegen",
+        "description": "Ziehen Sie zum Neuordnen der Seiten bei Bedarf"
+      },
+      "step3": {
+        "title": "Herunterladen",
+        "description": "Klicken Sie auf Zusammenfügen und laden Sie Ihr kombiniertes PDF herunter"
+      }
+    },
+    "useCases": {
+      "title": "Wann Man PDF-Zusammenführung Nutzt",
+      "case1": {
+        "icon": "📄",
+        "title": "Berichte Zusammenfügen",
+        "description": "Kombinieren Sie monatliche Berichte, Kapitel oder Abschnitte in einem Dokument"
+      },
+      "case2": {
+        "icon": "📃",
+        "title": "Rechnungen Organisieren",
+        "description": "Fügen Sie mehrere Rechnungen zu einer Datei für die Buchhaltung zusammen"
+      },
+      "case3": {
+        "icon": "📚",
+        "title": "E-Books Kombinieren",
+        "description": "Verbinden Sie E-Book-Kapitel oder erstellen Sie eine benutzerdefinierte Anthologie"
+      },
+      "case4": {
+        "icon": "📋",
+        "title": "Formulare Zusammenstellen",
+        "description": "Sammeln Sie ausgefüllte Formulare in einem organisierten PDF"
+      }
+    },
+    "seoContent": {
+      "title": "Häufig Gestellte Fragen zum Zusammenfügen von PDFs",
+      "block1": {
+        "title": "Wie Füge Ich Mehrere PDF-Dateien zu Einem Zusammen?",
+        "content": "Um PDF-Dateien zusammenzufügen, laden Sie einfach Ihre Dokumente in unser kostenloses PDF-Zusammenführungstool hoch. Sie können Dateien per Drag & Drop ziehen oder zum Auswählen anklicken. Ordnen Sie die Seiten in Ihrer gewünschten Reihenfolge an und klicken Sie dann auf die Zusammenfügen-Schaltfläche. Ihr zusammengefügtes PDF ist sofort zum Download bereit. Keine Registrierung erforderlich."
+      },
+      "block2": {
+        "title": "Ist Es Sicher, PDF-Dateien Online Zusammenzufügen?",
+        "content": "Ja, unser PDF-Zusammenführungstool ist völlig sicher. Die gesamte Verarbeitung erfolgt lokal in Ihrem Browser mit JavaScript. Ihre Dateien werden niemals auf einen Server hochgeladen, was 100% Datenschutz und Sicherheit garantiert. Wir haben keinen Zugang zu Ihren Dokumenten, und sie werden sofort nach der Verarbeitung gelöscht."
+      },
+      "block3": {
+        "title": "Kann Ich PDF-Dateien Kostenlos Zusammenfügen?",
+        "content": "Absolut! Unser PDF-Zusammenführungstool ist zu 100% kostenlos ohne Limits. Fügen Sie so viele PDF-Dateien zusammen, wie Sie benötigen, ohne Kosten oder Registrierung. Es gibt keine versteckten Gebühren, Wasserzeichen oder Beschränkungen für Dateigröße oder Anzahl der Seiten."
+      },
+      "block4": {
+        "title": "Was Ist Das Beste Kostenlose PDF-Zusammenführungstool?",
+        "content": "Das beste PDF-Zusammenführungstool sollte schnell, sicher und einfach zu verwenden sein. Unser Tool zeichnet sich dadurch aus, dass es Dateien vollständig in Ihrem Browser verarbeitet und so maximale Privatsphäre gewährleistet. Im Gegensatz zu anderen Tools, die das Hochladen von Dateien auf Server erfordern, behalten wir Ihre Daten auf Ihrem Gerät und bieten gleichzeitig professionelle PDF-Zusammenführung."
+      },
+      "block5": {
+        "title": "Wie Füge Ich PDF-Dateien Ohne Acrobat Zusammen?",
+        "content": "Sie benötigen kein Adobe Acrobat, um PDFs zusammenzufügen. Unser kostenloses Online-PDF-Zusammenführungstool funktioniert auf jedem Gerät mit einem Webbrowser. Laden Sie einfach Ihre Dateien hoch, ordnen Sie sie an und fügen Sie sie zusammen - keine Softwareinstallation erforderlich. Es funktioniert auf Windows, Mac, Linux und mobilen Geräten."
+      }
+    }
   },
   "split": {
     "title": "PDF-Dateien Aufteilen",

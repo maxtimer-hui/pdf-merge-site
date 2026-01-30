@@ -206,7 +206,88 @@
     "upload": "Télécharger Fichiers PDF",
     "processing": "Traitement...",
     "download": "Télécharger PDF Fusionné",
-    "success": "PDF fusionné avec succès!"
+    "success": "PDF fusionné avec succès!",
+    "selectedFiles": "Fichiers Sélectionnés",
+    "moveToStart": "Déplacer au Début",
+    "moveToEnd": "Déplacer à la Fin",
+    "remove": "Supprimer",
+    "merge": "Fusionner PDFs",
+    "merging": "Fusionnement...",
+    "mergeComplete": "Fusion Terminée!",
+    "mergeSuccessDesc": "Les PDFs ont été fusionnés avec succès",
+    "mergeAgain": "Fusionner Plus de Fichiers",
+    "alertSelectPDF": "Veuillez sélectionner des fichiers PDF",
+    "alertMinTwo": "Veuillez sélectionner au moins 2 fichiers PDF",
+    "startMerge": "Démarrer la Fusion",
+    "mergeSuccess": "Fusionnés avec succès {count} fichiers PDF",
+    "hero": {
+      "title": "Fusionner des Fichiers PDF Gratuitement en Ligne",
+      "description": "Fusionnez plusieurs fichiers PDF instantanément. Pas d'inscription, pas de limites. 100% gratuit et sécurisé.",
+      "point1": "100% Gratuit",
+      "point2": "Pas d'Inscription",
+      "point3": "Sécurisé et Privé"
+    },
+    "howTo": {
+      "title": "Comment Fusionner des Fichiers PDF",
+      "step1": {
+        "title": "Télécharger des PDFs",
+        "description": "Sélectionnez ou faites glisser plusieurs fichiers PDF"
+      },
+      "step2": {
+        "title": "Organiser l'Ordre",
+        "description": "Faites glisser pour réorganiser les pages si nécessaire"
+      },
+      "step3": {
+        "title": "Télécharger",
+        "description": "Cliquez sur fusionner et téléchargez votre PDF combiné"
+      }
+    },
+    "useCases": {
+      "title": "Quand Utiliser le Fusionneur PDF",
+      "case1": {
+        "icon": "📄",
+        "title": "Fusionner des Rapports",
+        "description": "Combinez des rapports mensuels, chapitres ou sections en un document"
+      },
+      "case2": {
+        "icon": "📃",
+        "title": "Organiser les Factures",
+        "description": "Fusionnez plusieurs factures en un seul fichier pour la comptabilité"
+      },
+      "case3": {
+        "icon": "📚",
+        "title": "Combiner des Livres Numériques",
+        "description": "Réunissez des chapitres de livres ou créez une anthologie personnalisée"
+      },
+      "case4": {
+        "icon": "📋",
+        "title": "Compiler des Formulaires",
+        "description": "Rassemblez des formulaires remplis dans un PDF organisé"
+      }
+    },
+    "seoContent": {
+      "title": "Questions Fréquentes sur la Fusion de PDFs",
+      "block1": {
+        "title": "Comment Fusionner Plusieurs Fichiers PDF en Un Seul?",
+        "content": "Pour fusionner des fichiers PDF, téléchargez simplement vos documents sur notre outil de fusion PDF gratuit. Vous pouvez faire glisser des fichiers ou cliquer pour les sélectionner. Organisez les pages dans l'ordre souhaité, puis cliquez sur le bouton fusionner. Votre PDF fusionné sera instantanément prêt à télécharger. Aucune inscription requise."
+      },
+      "block2": {
+        "title": "Est-il Sûr de Fusionner des Fichiers PDF en Ligne?",
+        "content": "Oui, notre outil de fusion PDF est complètement sûr. Tout le traitement se produit localement dans votre navigateur en utilisant JavaScript. Vos fichiers ne sont jamais téléchargés sur un serveur, garantissant une confidentialité et une sécurité à 100%. Nous ne pouvons pas accéder à vos documents, et ils sont supprimés immédiatement après le traitement."
+      },
+      "block3": {
+        "title": "Puis-je Fusionner des Fichiers PDF Gratuitement?",
+        "content": "Absolument! Notre outil de fusion PDF est gratuit à 100% sans limites. Fusionnez autant de fichiers PDF que vous le souhaitez sans aucun coût ni inscription. Il n'y a pas de frais cachés, de filigranes ou de restrictions sur la taille des fichiers ou le nombre de pages."
+      },
+      "block4": {
+        "title": "Quel est le Meilleur Outil de Fusion PDF Gratuit?",
+        "content": "Le meilleur outil de fusion PDF devrait être rapide, sécurisé et facile à utiliser. Notre outil se distingue en traitant entièrement les fichiers dans votre navigateur, assurant une confidentialité maximale. Contrairement aux autres outils qui nécessitent le téléchargement de fichiers sur des serveurs, nous gardons vos données sur votre appareil tout en fournissant une fusion PDF de qualité professionnelle."
+      },
+      "block5": {
+        "title": "Comment Fusionner des Fichiers PDF Sans Acrobat?",
+        "content": "Vous n'avez pas besoin d'Adobe Acrobat pour fusionner des PDF. Notre outil de fusion PDF gratuit en ligne fonctionne sur n'importe quel appareil avec un navigateur web. Téléchargez simplement vos fichiers, organisez-les et fusionnez - aucune installation de logiciel requise. Fonctionne sur Windows, Mac, Linux et appareils mobiles."
+      }
+    }
   },
   "split": {
     "title": "Diviser des Fichiers PDF",

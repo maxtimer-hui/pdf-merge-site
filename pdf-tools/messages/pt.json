@@ -206,7 +206,88 @@
     "upload": "Carregar Arquivos PDF",
     "processing": "Processando...",
     "download": "Baixar PDF Mesclado",
-    "success": "PDF mesclado com sucesso!"
+    "success": "PDF mesclado com sucesso!",
+    "selectedFiles": "Arquivos Selecionados",
+    "moveToStart": "Mover para o Início",
+    "moveToEnd": "Mover para o Fim",
+    "remove": "Remover",
+    "merge": "Mesclar PDFs",
+    "merging": "Mesclando...",
+    "mergeComplete": "Mesclagem Concluída!",
+    "mergeSuccessDesc": "PDFs foram mesclados com sucesso",
+    "mergeAgain": "Mesclar Mais Arquivos",
+    "alertSelectPDF": "Por favor selecione arquivos PDF",
+    "alertMinTwo": "Por favor selecione pelo menos 2 arquivos PDF",
+    "startMerge": "Iniciar Mesclagem",
+    "mergeSuccess": "Mesclados com sucesso {count} arquivos PDF",
+    "hero": {
+      "title": "Combinar Arquivos PDF Grátis Online",
+      "description": "Mescle múltiplos arquivos PDF instantaneamente. Sem registro, sem limites. 100% grátis e seguro.",
+      "point1": "100% Grátis",
+      "point2": "Sem Registro",
+      "point3": "Seguro e Privado"
+    },
+    "howTo": {
+      "title": "Como Combinar Arquivos PDF",
+      "step1": {
+        "title": "Carregar PDFs",
+        "description": "Selecione ou arraste e solte múltiplos arquivos PDF"
+      },
+      "step2": {
+        "title": "Organizar Arquivos",
+        "description": "Arraste para reordenar páginas se necessário"
+      },
+      "step3": {
+        "title": "Baixar",
+        "description": "Clique em combinar e baixe seu PDF combinado"
+      }
+    },
+    "useCases": {
+      "title": "Quando Usar o Combinador de PDF",
+      "case1": {
+        "icon": "📄",
+        "title": "Combinar Relatórios",
+        "description": "Combine relatórios mensais, capítulos ou seções em um documento"
+      },
+      "case2": {
+        "icon": "📃",
+        "title": "Organizar Faturas",
+        "description": "Combine múltiplas faturas em um único arquivo para contabilidade"
+      },
+      "case3": {
+        "icon": "📚",
+        "title": "Combinar E-books",
+        "description": "Junte capítulos de e-books ou crie uma antologia personalizada"
+      },
+      "case4": {
+        "icon": "📋",
+        "title": "Compilar Formulários",
+        "description": "Reúna formulários preenchidos em um PDF organizado"
+      }
+    },
+    "seoContent": {
+      "title": "Perguntas Frequentes Sobre Combinar PDFs",
+      "block1": {
+        "title": "Como Combinar Múltiplos Arquivos PDF em Um?",
+        "content": "Para combinar arquivos PDF, basta carregar seus documentos em nosso combinador de PDF gratuito. Você pode arrastar e soltar arquivos ou clicar para selecioná-los. Organize as páginas na ordem desejada e clique no botão combinar. Seu PDF combinado estará instantaneamente pronto para baixar. Não requer registro."
+      },
+      "block2": {
+        "title": "É Seguro Combinar Arquivos PDF Online?",
+        "content": "Sim, nosso combinador de PDF é completamente seguro. Todo o processamento ocorre localmente no seu navegador usando JavaScript. Seus arquivos nunca são enviados para nenhum servidor, garantindo 100% de privacidade e segurança. Não podemos acessar seus documentos e eles são excluídos imediatamente após o processamento."
+      },
+      "block3": {
+        "title": "Posso Combinar Arquivos PDF Grátis?",
+        "content": "Absolutamente! Nosso combinador de PDF é 100% grátis sem limites. Combine quantos arquivos PDF precisar sem nenhum custo ou registro. Não há taxas ocultas, marcas d'água ou restrições no tamanho do arquivo ou número de páginas."
+      },
+      "block4": {
+        "title": "Qual é o Melhor Combinador de PDF Grátis?",
+        "content": "O melhor combinador de PDF deve ser rápido, seguro e fácil de usar. Nossa ferramenta se destaca por processar arquivos completamente no seu navegador, garantindo privacidade máxima. Ao contrário de outras ferramentas que exigem envio de arquivos para servidores, mantemos seus dados no seu dispositivo enquanto fornecemos combinação de PDF de qualidade profissional."
+      },
+      "block5": {
+        "title": "Como Combinar Arquivos PDF Sem Acrobat?",
+        "content": "Você não precisa do Adobe Acrobat para combinar PDFs. Nosso combinador de PDF gratuito online funciona em qualquer dispositivo com um navegador. Basta carregar seus arquivos, organizá-los e combinar - nenhuma instalação de software necessária. Funciona no Windows, Mac, Linux e dispositivos móveis."
+      }
+    }
   },
   "split": {
     "title": "Dividir Arquivos PDF",
