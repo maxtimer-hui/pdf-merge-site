@@ -433,7 +433,50 @@
     "extractSuccessDesc": "Pages extracted successfully",
     "extractAgain": "Extract Again",
     "selectPagesToExtract": "Select Pages to Extract",
-    "extractSuccess": "Successfully extracted {count} page(s)"
+    "extractSuccess": "Successfully extracted {count} page(s)",
+    "selectExtractMode": "Select Extraction Mode",
+    "pageRange": "Page Range",
+    "allPages": "All Pages",
+    "evenPages": "Even Pages",
+    "oddPages": "Odd Pages",
+    "pageRangeLabel": "Page Range (e.g., 1-3,5,7-9)",
+    "totalPagesInfo": "Total {count} pages in this document",
+    "selectAll": "Select All",
+    "clear": "Clear",
+    "selectedPages": "{count} pages selected",
+    "extractAllInfo": "Will extract all {count} pages",
+    "extractEvenInfo": "Will extract {count} even pages",
+    "extractOddInfo": "Will extract {count} odd pages",
+    "extract": "Extract Pages",
+    "alertFailed": "Extract failed, please try again",
+    "hero": {
+      "title": "Extract PDF Pages Free Online",
+      "description": "Extract specific pages from PDF files. Select pages by range or individually. Fast and secure.",
+      "point1": "100% Free",
+      "point2": "No Registration",
+      "point3": "Secure & Private"
+    },
+    "howTo": {
+      "title": "How to Extract PDF Pages",
+      "step1": { "title": "Upload PDF", "description": "Select or drag & drop your PDF file" },
+      "step2": { "title": "Select Pages", "description": "Choose pages to extract by range or individually" },
+      "step3": { "title": "Download", "description": "Get your extracted pages instantly" }
+    },
+    "useCases": {
+      "title": "When to Use PDF Extractor",
+      "case1": { "icon": "📄", "title": "Extract Chapters", "description": "Pull out specific chapters from large documents" },
+      "case2": { "icon": "📊", "title": "Separate Pages", "description": "Extract individual pages for sharing" },
+      "case3": { "icon": "📑", "title": "Create Excerpts", "description": "Extract key sections for summaries" },
+      "case4": { "icon": "📚", "title": "Organize Content", "description": "Separate document sections for different uses" }
+    },
+    "seoContent": {
+      "title": "Frequently Asked Questions About Extracting PDF Pages",
+      "block1": { "title": "How to Extract Pages from PDF?", "content": "Upload your PDF and select the pages you want to extract. You can choose specific page ranges or select individual pages. Our tool processes everything locally in your browser for maximum security." },
+      "block2": { "title": "Is it Safe to Extract PDF Pages Online?", "content": "Yes, completely safe. All PDF extraction happens locally in your browser. Your files are never uploaded to any server, ensuring 100% privacy and security." },
+      "block3": { "title": "Can I Extract Multiple Pages at Once?", "content": "Yes, you can extract multiple pages at once by entering page ranges (e.g., '1-3, 5, 7-9'). This creates a new PDF containing exactly the pages you need." },
+      "block4": { "title": "What Happens to the Original PDF?", "content": "The original PDF remains unchanged. Our tool creates a new PDF file containing only the extracted pages. Your original document stays intact on your device." },
+      "block5": { "title": "Why Use Our PDF Extractor?", "content": "Our PDF extractor is fast, free, and secure. Unlike other tools that require file uploads, we process everything locally in your browser. This means your documents never leave your device, ensuring complete privacy." }
+    }
   },
   "compress": {
     "title": "Compress PDF Files",
@@ -489,27 +532,86 @@
     }
   },
   "rotate": {
-    "title": "Rotate PDF",
-    "description": "Rotate PDF pages",
-    "backToHome": "Back to Home",
-    "uploadFile": "Upload PDF File",
-    "dragDrop": "Click or drag PDF file here",
-    "pages": "pages",
+    "upload": "Upload PDF File",
+    "selectedFiles": "Selected {count} file",
+    "selectedFiles_plural": "Selected {count} files",
+    "rotationAngle": "Rotation Angle",
     "rotateAll": "Rotate All Pages",
-    "rotateIndividually": "Rotate Individual Pages",
-    "current": "Current",
-    "page": "Page",
     "applyRotation": "Apply Rotation",
-    "reset": "Reset",
-    "processing": "Processing...",
-    "rotateComplete": "Rotation Complete!",
-    "rotateSuccessDesc": "PDF pages have been rotated successfully",
+    "pagesToRotate": "{count} pages set to rotate",
+    "success": "Rotation Complete!",
+    "rotateSuccess": "PDF pages have been rotated successfully",
     "download": "Download PDF",
-    "rotateAgain": "Rotate Again",
     "alertSelectPDF": "Please select a PDF file",
-    "alertSelectAngle": "Please select rotation angle",
-    "alertRotateFailed": "Rotation failed, please try again",
-    "readPDFFailed": "Failed to read PDF"
+    "alertFailed": "Rotation failed, please try again",
+    "hero": {
+      "title": "Rotate PDF Pages Free Online",
+      "description": "Rotate PDF pages to correct orientation. Easy to use, no registration required.",
+      "point1": "100% Free",
+      "point2": "No Registration",
+      "point3": "Secure & Private"
+    },
+    "howTo": {
+      "title": "How to Rotate PDF Pages",
+      "step1": {
+        "title": "Upload PDF",
+        "description": "Select or drag & drop your PDF file"
+      },
+      "step2": {
+        "title": "Rotate Pages",
+        "description": "Choose pages and rotation angle"
+      },
+      "step3": {
+        "title": "Download",
+        "description": "Get your rotated PDF instantly"
+      }
+    },
+    "useCases": {
+      "title": "When to Use PDF Rotator",
+      "case1": {
+        "icon": "📷",
+        "title": "Fix Scanned PDFs",
+        "description": "Correct orientation of scanned documents"
+      },
+      "case2": {
+        "icon": "📱",
+        "title": "Mobile Viewing",
+        "description": "Rotate pages for better mobile reading"
+      },
+      "case3": {
+        "icon": "🖨️",
+        "title": "Print Preparation",
+        "description": "Adjust page orientation for printing"
+      },
+      "case4": {
+        "icon": "📄",
+        "title": "Document Formatting",
+        "description": "Ensure consistent page orientation"
+      }
+    },
+    "seoContent": {
+      "title": "Frequently Asked Questions About Rotating PDFs",
+      "block1": {
+        "title": "How to Rotate PDF Pages?",
+        "content": "Upload your PDF and select the pages you want to rotate. Choose the rotation angle (90°, 180°, or 270°) and apply. Our tool processes everything locally in your browser for maximum security."
+      },
+      "block2": {
+        "title": "Is it Safe to Rotate PDFs Online?",
+        "content": "Yes, completely safe. All PDF rotation happens locally in your browser. Your files are never uploaded to any server, ensuring 100% privacy and security."
+      },
+      "block3": {
+        "title": "Can I Rotate All Pages at Once?",
+        "content": "Yes, you can rotate all pages at once or rotate individual pages selectively. This flexibility allows you to fix mixed orientation documents quickly."
+      },
+      "block4": {
+        "title": "Will Rotating Affect Quality?",
+        "content": "No, rotating PDF pages does not affect quality. Our tool preserves the original quality while changing the page orientation. Your documents look exactly the same, just rotated."
+      },
+      "block5": {
+        "title": "Why Use Our PDF Rotator?",
+        "content": "Our PDF rotator is fast, free, and secure. Unlike other tools that require file uploads, we process everything locally in your browser. This means your documents never leave your device."
+      }
+    }
   },
   "deletePages": {
     "title": "Delete PDF Pages",
@@ -526,7 +628,75 @@
     "deleteCompleteDesc": "Successfully deleted {deleted} page(s), keeping {remaining} page(s)",
     "selectPagesAlert": "Please select pages to delete",
     "cannotDeleteAll": "Cannot delete all pages",
-    "deleteFailed": "Deletion failed, please try again"
+    "deleteFailed": "Deletion failed, please try again",
+    "hero": {
+      "title": "Delete PDF Pages Free Online",
+      "description": "Remove unwanted pages from PDF files. Easy page deletion, no registration required.",
+      "point1": "100% Free",
+      "point2": "No Registration",
+      "point3": "Secure & Private"
+    },
+    "howTo": {
+      "title": "How to Delete PDF Pages",
+      "step1": {
+        "title": "Upload PDF",
+        "description": "Select or drag & drop your PDF file"
+      },
+      "step2": {
+        "title": "Select Pages",
+        "description": "Choose pages to delete"
+      },
+      "step3": {
+        "title": "Download",
+        "description": "Get your cleaned PDF instantly"
+      }
+    },
+    "useCases": {
+      "title": "When to Use PDF Page Deleter",
+      "case1": {
+        "icon": "🗑️",
+        "title": "Remove Blank Pages",
+        "description": "Delete empty or blank pages from documents"
+      },
+      "case2": {
+        "icon": "📄",
+        "title": "Clean Documents",
+        "description": "Remove unwanted pages from PDFs"
+      },
+      "case3": {
+        "icon": "✂️",
+        "title": "Extract Content",
+        "description": "Delete pages to keep only what you need"
+      },
+      "case4": {
+        "icon": "📑",
+        "title": "Organize Files",
+        "description": "Streamline PDFs by removing clutter"
+      }
+    },
+    "seoContent": {
+      "title": "Frequently Asked Questions About Deleting PDF Pages",
+      "block1": {
+        "title": "How to Delete Pages from PDF?",
+        "content": "Upload your PDF and select the pages you want to delete. You can select individual pages or ranges. Our tool processes everything locally in your browser for maximum security."
+      },
+      "block2": {
+        "title": "Is it Safe to Delete PDF Pages Online?",
+        "content": "Yes, completely safe. All PDF processing happens locally in your browser. Your files are never uploaded to any server, ensuring 100% privacy and security."
+      },
+      "block3": {
+        "title": "Can I Delete Multiple Pages at Once?",
+        "content": "Yes, you can delete multiple pages at once by selecting them individually or by page ranges. This makes it easy to clean up large documents quickly."
+      },
+      "block4": {
+        "title": "What Happens to Deleted Pages?",
+        "content": "The deleted pages are permanently removed from the new PDF file. Your original document remains unchanged on your device. We create a new PDF without the selected pages."
+      },
+      "block5": {
+        "title": "Why Use Our PDF Page Deleter?",
+        "content": "Our PDF page deleter is fast, free, and secure. Unlike other tools that require file uploads, we process everything locally in your browser. This means your documents never leave your device."
+      }
+    }
   },
   "reorder": {
     "title": "Reorder PDF Pages",
