@@ -851,8 +851,74 @@
     "batchSplitSelectFiles": "Please select PDF files to split",
     "batchCompressSelectFiles": "Please select PDF files to compress",
     "selected": "Selected",
-    "encryptAgain": "Encrypt Another File",
-    "decryptAgain": "Decrypt Another File"
+    "hero": {
+      "title": "Batch Process PDF Files Free Online",
+      "description": "Process multiple PDF files at once. Merge, split, compress in bulk. Fast and efficient.",
+      "point1": "100% Free",
+      "point2": "No Registration",
+      "point3": "Secure & Private"
+    },
+    "howTo": {
+      "title": "How to Batch Process PDFs",
+      "step1": {
+        "title": "Upload Files",
+        "description": "Select or drag & drop multiple PDF files"
+      },
+      "step2": {
+        "title": "Choose Operation",
+        "description": "Select merge, split, or compress action"
+      },
+      "step3": {
+        "title": "Process & Download",
+        "description": "Get all processed files at once"
+      }
+    },
+    "useCases": {
+      "title": "When to Use Batch Processing",
+      "case1": {
+        "icon": "📦",
+        "title": "Bulk Operations",
+        "description": "Process multiple files simultaneously"
+      },
+      "case2": {
+        "icon": "⚡",
+        "title": "Save Time",
+        "description": "Handle many PDFs at once efficiently"
+      },
+      "case3": {
+        "icon": "🔄",
+        "title": "Consistent Processing",
+        "description": "Apply same operation to all files"
+      },
+      "case4": {
+        "icon": "📊",
+        "title": "Document Workflows",
+        "description": "Streamline document preparation tasks"
+      }
+    },
+    "seoContent": {
+      "title": "Frequently Asked Questions About Batch Processing",
+      "block1": {
+        "title": "How to Batch Process PDFs?",
+        "content": "Upload multiple PDF files and choose the operation you want to perform. Our tool processes all files locally in your browser for maximum security."
+      },
+      "block2": {
+        "title": "Is it Safe to Batch Process Online?",
+        "content": "Yes, completely safe. All batch processing happens locally in your browser. Your files are never uploaded to any server."
+      },
+      "block3": {
+        "title": "How Many Files Can I Process?",
+        "content": "You can process multiple files at once. There's no strict limit, though performance may vary based on your device capabilities."
+      },
+      "block4": {
+        "title": "What Operations Are Supported?",
+        "content": "You can merge multiple PDFs, split files by page count, or compress files to reduce size. Choose the operation that fits your needs."
+      },
+      "block5": {
+        "title": "Why Use Our Batch Processor?",
+        "content": "Our batch processor is fast, free, and secure. All processing happens locally in your browser, ensuring your files never leave your device."
+      }
+    }
   },
   "encrypt": {
     "title": "Encrypt PDF",
