@@ -276,7 +276,75 @@
     "alertSelectPDF": "Please select PDF files",
     "alertMinTwo": "Please select at least 2 PDF files",
     "startMerge": "Start Merge",
-    "mergeSuccess": "Successfully merged {count} PDF files"
+    "mergeSuccess": "Successfully merged {count} PDF files",
+    "hero": {
+      "title": "Combine PDF Files Free Online",
+      "description": "Merge multiple PDF files instantly. No registration, no limits. 100% free and secure.",
+      "point1": "100% Free",
+      "point2": "No Registration",
+      "point3": "Secure & Private"
+    },
+    "howTo": {
+      "title": "How to Merge PDF Files",
+      "step1": {
+        "title": "Upload PDFs",
+        "description": "Select or drag & drop multiple PDF files"
+      },
+      "step2": {
+        "title": "Arrange Order",
+        "description": "Drag to reorder pages if needed"
+      },
+      "step3": {
+        "title": "Download",
+        "description": "Click merge and download your combined PDF"
+      }
+    },
+    "useCases": {
+      "title": "When to Use PDF Merger",
+      "case1": {
+        "icon": "📄",
+        "title": "Merge Reports",
+        "description": "Combine monthly reports, chapters, or sections into one document"
+      },
+      "case2": {
+        "icon": "📃",
+        "title": "Organize Invoices",
+        "description": "Merge multiple invoices into a single file for accounting"
+      },
+      "case3": {
+        "icon": "📚",
+        "title": "Combine E-books",
+        "description": "Join ebook chapters or create custom anthology"
+      },
+      "case4": {
+        "icon": "📋",
+        "title": "Compile Forms",
+        "description": "Gather filled forms into one organized PDF"
+      }
+    },
+    "seoContent": {
+      "title": "Frequently Asked Questions About Merging PDFs",
+      "block1": {
+        "title": "How to Combine Multiple PDF Files into One?",
+        "content": "To merge PDF files, simply upload your documents to our free PDF combiner. You can drag and drop files or click to select them. Arrange the pages in your preferred order, then click the merge button. Your combined PDF will be ready instantly for download. No registration required."
+      },
+      "block2": {
+        "title": "Is it Safe to Merge PDF Files Online?",
+        "content": "Yes, our PDF merger is completely safe. All processing happens locally in your browser using JavaScript. Your files are never uploaded to any server, ensuring 100% privacy and security. We cannot access your documents, and they are deleted immediately after processing."
+      },
+      "block3": {
+        "title": "Can I Merge PDF Files for Free?",
+        "content": "Absolutely! Our PDF combiner is 100% free with no limits. Merge as many PDF files as you need without any cost or registration. There are no hidden fees, watermarks, or restrictions on file size or number of pages."
+      },
+      "block4": {
+        "title": "What is the Best Free PDF Merger?",
+        "content": "The best PDF merger should be fast, secure, and easy to use. Our tool stands out by processing files entirely in your browser, ensuring maximum privacy. Unlike other tools that require uploading files to servers, we keep your data on your device while providing professional-quality PDF merging."
+      },
+      "block5": {
+        "title": "How to Merge PDF Files Without Acrobat?",
+        "content": "You don't need Adobe Acrobat to combine PDFs. Our free online PDF merger works on any device with a web browser. Simply upload your files, arrange them, and merge - no software installation required. It works on Windows, Mac, Linux, and mobile devices."
+      }
+    }
   },
   "split": {
     "title": "Split PDF Files",
