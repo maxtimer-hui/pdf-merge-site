@@ -46,7 +46,7 @@ export default async function MergePage({params}: {params: Promise<{locale: stri
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <MergeClient params={params} howToData={howToData} />
+      <MergeClient params={params} />
     </>
   );
 }
