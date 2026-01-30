@@ -708,7 +708,75 @@
     "reordering": "Reordering...",
     "reorderComplete": "Reorder Complete!",
     "reorderSuccessDesc": "Pages have been reordered",
-    "reorderAgain": "Reorder Again"
+    "reorderAgain": "Reorder Again",
+    "hero": {
+      "title": "Reorder PDF Pages Free Online",
+      "description": "Rearrange PDF pages by drag and drop. Easy page ordering, no registration.",
+      "point1": "100% Free",
+      "point2": "No Registration",
+      "point3": "Secure & Private"
+    },
+    "howTo": {
+      "title": "How to Reorder PDF Pages",
+      "step1": {
+        "title": "Upload PDF",
+        "description": "Select or drag & drop your PDF file"
+      },
+      "step2": {
+        "title": "Reorder Pages",
+        "description": "Drag pages to arrange in desired order"
+      },
+      "step3": {
+        "title": "Download",
+        "description": "Get your reordered PDF instantly"
+      }
+    },
+    "useCases": {
+      "title": "When to Use PDF Reorder",
+      "case1": {
+        "icon": "📄",
+        "title": "Fix Document Order",
+        "description": "Correct page sequence in scanned documents"
+      },
+      "case2": {
+        "icon": "📑",
+        "title": "Reorganize Content",
+        "description": "Rearrange chapters or sections"
+      },
+      "case3": {
+        "icon": "✂️",
+        "title": "Custom Layouts",
+        "description": "Create custom page arrangements"
+      },
+      "case4": {
+        "icon": "📚",
+        "title": "Book Organization",
+        "description": "Reorder pages for booklets or manuals"
+      }
+    },
+    "seoContent": {
+      "title": "Frequently Asked Questions About Reordering PDFs",
+      "block1": {
+        "title": "How to Reorder PDF Pages?",
+        "content": "Upload your PDF and drag pages to rearrange them. Our tool processes everything locally in your browser for maximum security and privacy."
+      },
+      "block2": {
+        "title": "Is it Safe to Reorder PDFs Online?",
+        "content": "Yes, completely safe. All PDF reordering happens locally in your browser. Your files are never uploaded to any server."
+      },
+      "block3": {
+        "title": "Can I Preview Pages?",
+        "content": "Yes, you can see page numbers as you drag to reorder. This makes it easy to arrange pages in the correct order."
+      },
+      "block4": {
+        "title": "Will Quality Change?",
+        "content": "No, reordering pages does not affect quality. Your PDF looks exactly the same, just with pages in a different order."
+      },
+      "block5": {
+        "title": "Why Use Our PDF Reorder?",
+        "content": "Our PDF reorder tool is fast, free, and secure. All processing happens locally in your browser, ensuring your files never leave your device."
+      }
+    }
   },
   "watermark": {
     "title": "Add Watermark",
@@ -804,7 +872,35 @@
     "noPassword": "Please enter a password",
     "passwordMismatch": "Passwords do not match",
     "invalidFile": "Please select a valid PDF file",
-    "encryptError": "Encryption failed. Please try again."
+    "encryptError": "Encryption failed. Please try again.",
+    "hero": {
+      "title": "Encrypt PDF Files Free Online",
+      "description": "Add password protection to PDF files. Secure your documents with strong encryption.",
+      "point1": "100% Free",
+      "point2": "No Registration",
+      "point3": "Secure & Private"
+    },
+    "howTo": {
+      "title": "How to Encrypt PDF Files",
+      "step1": { "title": "Upload PDF", "description": "Select or drag & drop your PDF file" },
+      "step2": { "title": "Set Password", "description": "Enter and confirm your password" },
+      "step3": { "title": "Download", "description": "Get your encrypted PDF instantly" }
+    },
+    "useCases": {
+      "title": "When to Use PDF Encryption",
+      "case1": { "icon": "🔐", "title": "Protect Documents", "description": "Secure sensitive PDF files with passwords" },
+      "case2": { "icon": "📄", "title": "Confidential Files", "description": "Encrypt private or business documents" },
+      "case3": { "icon": "💼", "title": "Client Data", "description": "Protect customer information in PDFs" },
+      "case4": { "icon": "🔒", "title": "Document Control", "description": "Limit access to important files" }
+    },
+    "seoContent": {
+      "title": "Frequently Asked Questions About Encrypting PDFs",
+      "block1": { "title": "How to Encrypt PDF Files?", "content": "Upload your PDF and enter a password. Our tool adds password protection to your document. All processing happens locally in your browser." },
+      "block2": { "title": "Is it Safe to Encrypt PDFs Online?", "content": "Yes, completely safe. All PDF encryption happens locally in your browser. Your files and passwords are never uploaded to any server." },
+      "block3": { "title": "How Strong is the Encryption?", "content": "We use strong industry-standard encryption to protect your PDF files. Encrypted PDFs can only be opened with the correct password." },
+      "block4": { "title": "Can I Remove the Password Later?", "content": "Yes, you can use our Decrypt PDF tool to remove password protection if you know the password. Keep your password in a safe place." },
+      "block5": { "title": "Why Use Our PDF Encrypt?", "content": "Our PDF encryption tool is fast, free, and secure. All processing happens locally in your browser, ensuring your files never leave your device." }
+    }
   },
   "decrypt": {
     "title": "Decrypt PDF",
