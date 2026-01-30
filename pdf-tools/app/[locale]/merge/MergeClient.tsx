@@ -10,6 +10,7 @@ import ToolSection from './components/ToolSection';
 import HowToSection from './components/HowToSection';
 import UseCasesSection from './components/UseCasesSection';
 import SEOContentSection from './components/SEOContentSection';
+import BlogSection from './components/BlogSection';
 
 interface MergeClientProps {
   params: Promise<{ locale: string }>;
@@ -49,6 +50,9 @@ export default function MergeClient({ params }: MergeClientProps) {
 
           {/* 6. Related Tools */}
           <RelatedTools currentTool="merge" locale={locale} />
+
+          {/* 7. Blog Articles */}
+          <BlogSection locale={locale} />
         </div>
       </main>
 
