@@ -387,24 +387,64 @@
     },
     "howTo": {
       "title": "How to Split PDF Files",
-      "step1": { "title": "Upload PDF", "description": "Select or drag & drop your PDF file" },
-      "step2": { "title": "Choose Split Mode", "description": "Select custom range or split evenly" },
-      "step3": { "title": "Download", "description": "Get your split PDF files instantly" }
+      "step1": {
+        "title": "Upload PDF",
+        "description": "Select or drag & drop your PDF file"
+      },
+      "step2": {
+        "title": "Choose Split Mode",
+        "description": "Select custom range or split evenly"
+      },
+      "step3": {
+        "title": "Download",
+        "description": "Get your split PDF files instantly"
+      }
     },
     "useCases": {
       "title": "When to Use PDF Splitter",
-      "case1": { "icon": "📄", "title": "Extract Chapters", "description": "Split individual chapters from large PDF documents" },
-      "case2": { "icon": "📊", "title": "Separate Pages", "description": "Extract specific pages for sharing or printing" },
-      "case3": { "icon": "📑", "title": "Split Invoices", "description": "Separate invoices or statements by date or client" },
-      "case4": { "icon": "📚", "title": "Create Sections", "description": "Break long manuals into manageable sections" }
+      "case1": {
+        "icon": "📄",
+        "title": "Extract Chapters",
+        "description": "Split individual chapters from large PDF documents"
+      },
+      "case2": {
+        "icon": "📊",
+        "title": "Separate Pages",
+        "description": "Extract specific pages for sharing or printing"
+      },
+      "case3": {
+        "icon": "📑",
+        "title": "Split Invoices",
+        "description": "Separate invoices or statements by date or client"
+      },
+      "case4": {
+        "icon": "📚",
+        "title": "Create Sections",
+        "description": "Break long manuals into manageable sections"
+      }
     },
     "seoContent": {
       "title": "Frequently Asked Questions About Splitting PDFs",
-      "block1": { "title": "How to Split PDF Pages?", "content": "To split PDF pages, upload your document and choose your preferred split mode. You can extract specific pages by range, split evenly every N pages, or extract all pages as separate files. Our tool processes everything locally in your browser for maximum security." },
-      "block2": { "title": "Is it Safe to Split PDF Files Online?", "content": "Yes, absolutely safe. All PDF splitting happens locally in your browser using JavaScript. Your files are never uploaded to any server, ensuring 100% privacy. We cannot access your documents, and they are processed instantly on your device." },
-      "block3": { "title": "Can I Extract Specific Pages from PDF?", "content": "Yes, you can extract specific pages by entering page ranges (e.g., '1-3, 5, 7-9'). This allows you to create new PDFs containing only the pages you need. Perfect for extracting chapters, sections, or individual pages from larger documents." },
-      "block4": { "title": "How to Split Every N Pages in PDF?", "content": "Use our 'Split Evenly' mode to divide your PDF every N pages. For example, split every 1 page to extract all pages individually, or every 5 pages to create smaller documents. This is ideal for breaking large files into manageable sections." },
-      "block5": { "title": "What's the Best Free PDF Splitter?", "content": "The best PDF splitter should be fast, secure, and easy to use. Our tool processes files entirely in your browser, ensuring maximum privacy. Unlike other tools that require uploads, we keep your data on your device while providing professional-quality PDF splitting for free." }
+      "block1": {
+        "title": "How to Split PDF Pages?",
+        "content": "To split PDF pages, upload your document and choose your preferred split mode. You can extract specific pages by range, split evenly every N pages, or extract all pages as separate files. Our tool processes everything locally in your browser for maximum security."
+      },
+      "block2": {
+        "title": "Is it Safe to Split PDF Files Online?",
+        "content": "Yes, absolutely safe. All PDF splitting happens locally in your browser using JavaScript. Your files are never uploaded to any server, ensuring 100% privacy. We cannot access your documents, and they are processed instantly on your device."
+      },
+      "block3": {
+        "title": "Can I Extract Specific Pages from PDF?",
+        "content": "Yes, you can extract specific pages by entering page ranges (e.g., '1-3, 5, 7-9'). This allows you to create new PDFs containing only the pages you need. Perfect for extracting chapters, sections, or individual pages from larger documents."
+      },
+      "block4": {
+        "title": "How to Split Every N Pages in PDF?",
+        "content": "Use our 'Split Evenly' mode to divide your PDF every N pages. For example, split every 1 page to extract all pages individually, or every 5 pages to create smaller documents. This is ideal for breaking large files into manageable sections."
+      },
+      "block5": {
+        "title": "What's the Best Free PDF Splitter?",
+        "content": "The best PDF splitter should be fast, secure, and easy to use. Our tool processes files entirely in your browser, ensuring maximum privacy. Unlike other tools that require uploads, we keep your data on your device while providing professional-quality PDF splitting for free."
+      }
     },
     "pageRangeLabel": "Page Range",
     "totalPagesInfo": "Total {count} pages in this document",
@@ -458,24 +498,64 @@
     },
     "howTo": {
       "title": "How to Extract PDF Pages",
-      "step1": { "title": "Upload PDF", "description": "Select or drag & drop your PDF file" },
-      "step2": { "title": "Select Pages", "description": "Choose pages to extract by range or individually" },
-      "step3": { "title": "Download", "description": "Get your extracted pages instantly" }
+      "step1": {
+        "title": "Upload PDF",
+        "description": "Select or drag & drop your PDF file"
+      },
+      "step2": {
+        "title": "Select Pages",
+        "description": "Choose pages to extract by range or individually"
+      },
+      "step3": {
+        "title": "Download",
+        "description": "Get your extracted pages instantly"
+      }
     },
     "useCases": {
       "title": "When to Use PDF Extractor",
-      "case1": { "icon": "📄", "title": "Extract Chapters", "description": "Pull out specific chapters from large documents" },
-      "case2": { "icon": "📊", "title": "Separate Pages", "description": "Extract individual pages for sharing" },
-      "case3": { "icon": "📑", "title": "Create Excerpts", "description": "Extract key sections for summaries" },
-      "case4": { "icon": "📚", "title": "Organize Content", "description": "Separate document sections for different uses" }
+      "case1": {
+        "icon": "📄",
+        "title": "Extract Chapters",
+        "description": "Pull out specific chapters from large documents"
+      },
+      "case2": {
+        "icon": "📊",
+        "title": "Separate Pages",
+        "description": "Extract individual pages for sharing"
+      },
+      "case3": {
+        "icon": "📑",
+        "title": "Create Excerpts",
+        "description": "Extract key sections for summaries"
+      },
+      "case4": {
+        "icon": "📚",
+        "title": "Organize Content",
+        "description": "Separate document sections for different uses"
+      }
     },
     "seoContent": {
       "title": "Frequently Asked Questions About Extracting PDF Pages",
-      "block1": { "title": "How to Extract Pages from PDF?", "content": "Upload your PDF and select the pages you want to extract. You can choose specific page ranges or select individual pages. Our tool processes everything locally in your browser for maximum security." },
-      "block2": { "title": "Is it Safe to Extract PDF Pages Online?", "content": "Yes, completely safe. All PDF extraction happens locally in your browser. Your files are never uploaded to any server, ensuring 100% privacy and security." },
-      "block3": { "title": "Can I Extract Multiple Pages at Once?", "content": "Yes, you can extract multiple pages at once by entering page ranges (e.g., '1-3, 5, 7-9'). This creates a new PDF containing exactly the pages you need." },
-      "block4": { "title": "What Happens to the Original PDF?", "content": "The original PDF remains unchanged. Our tool creates a new PDF file containing only the extracted pages. Your original document stays intact on your device." },
-      "block5": { "title": "Why Use Our PDF Extractor?", "content": "Our PDF extractor is fast, free, and secure. Unlike other tools that require file uploads, we process everything locally in your browser. This means your documents never leave your device, ensuring complete privacy." }
+      "block1": {
+        "title": "How to Extract Pages from PDF?",
+        "content": "Upload your PDF and select the pages you want to extract. You can choose specific page ranges or select individual pages. Our tool processes everything locally in your browser for maximum security."
+      },
+      "block2": {
+        "title": "Is it Safe to Extract PDF Pages Online?",
+        "content": "Yes, completely safe. All PDF extraction happens locally in your browser. Your files are never uploaded to any server, ensuring 100% privacy and security."
+      },
+      "block3": {
+        "title": "Can I Extract Multiple Pages at Once?",
+        "content": "Yes, you can extract multiple pages at once by entering page ranges (e.g., '1-3, 5, 7-9'). This creates a new PDF containing exactly the pages you need."
+      },
+      "block4": {
+        "title": "What Happens to the Original PDF?",
+        "content": "The original PDF remains unchanged. Our tool creates a new PDF file containing only the extracted pages. Your original document stays intact on your device."
+      },
+      "block5": {
+        "title": "Why Use Our PDF Extractor?",
+        "content": "Our PDF extractor is fast, free, and secure. Unlike other tools that require file uploads, we process everything locally in your browser. This means your documents never leave your device, ensuring complete privacy."
+      }
     }
   },
   "compress": {
@@ -511,24 +591,64 @@
     },
     "howTo": {
       "title": "How to Compress PDF Files",
-      "step1": { "title": "Upload PDF", "description": "Select or drag & drop your PDF file" },
-      "step2": { "title": "Choose Level", "description": "Select compression level (low, medium, high)" },
-      "step3": { "title": "Download", "description": "Get your compressed PDF instantly" }
+      "step1": {
+        "title": "Upload PDF",
+        "description": "Select or drag & drop your PDF file"
+      },
+      "step2": {
+        "title": "Choose Level",
+        "description": "Select compression level (low, medium, high)"
+      },
+      "step3": {
+        "title": "Download",
+        "description": "Get your compressed PDF instantly"
+      }
     },
     "useCases": {
       "title": "When to Use PDF Compressor",
-      "case1": { "icon": "📧", "title": "Email Attachments", "description": "Compress PDFs to meet email size limits" },
-      "case2": { "icon": "💾", "title": "Save Storage", "description": "Reduce file size for efficient storage" },
-      "case3": { "icon": "📤", "title": "Faster Uploads", "description": "Compress for quicker file uploads" },
-      "case4": { "icon": "🌐", "title": "Web Optimization", "description": "Optimize PDFs for web sharing" }
+      "case1": {
+        "icon": "📧",
+        "title": "Email Attachments",
+        "description": "Compress PDFs to meet email size limits"
+      },
+      "case2": {
+        "icon": "💾",
+        "title": "Save Storage",
+        "description": "Reduce file size for efficient storage"
+      },
+      "case3": {
+        "icon": "📤",
+        "title": "Faster Uploads",
+        "description": "Compress for quicker file uploads"
+      },
+      "case4": {
+        "icon": "🌐",
+        "title": "Web Optimization",
+        "description": "Optimize PDFs for web sharing"
+      }
     },
     "seoContent": {
       "title": "Frequently Asked Questions About Compressing PDFs",
-      "block1": { "title": "How to Compress PDF Files?", "content": "To compress PDF files, upload your document and choose your preferred compression level. Our tool optimizes the PDF by removing unnecessary elements and compressing images while maintaining readability. All processing happens locally in your browser." },
-      "block2": { "title": "Is it Safe to Compress PDF Files Online?", "content": "Yes, completely safe. All PDF compression happens locally in your browser using JavaScript. Your files are never uploaded to any server, ensuring 100% privacy. We cannot access your documents, and they are processed instantly on your device." },
-      "block3": { "title": "Will Compressing PDF Reduce Quality?", "content": "Our compression algorithm is designed to maintain quality while reducing file size. For most documents, the quality difference is negligible. If you need the smallest file size, use the 'high' compression level. For better quality, use 'low' compression." },
-      "block4": { "title": "How Much Can I Compress a PDF?", "content": "Compression results vary depending on the original PDF. Documents with many images typically compress more (30-70% reduction). Text-heavy documents compress less. Our tool shows you the exact file size reduction before you download." },
-      "block5": { "title": "What's the Best Free PDF Compressor?", "content": "The best PDF compressor should be fast, secure, and effective. Our tool processes files entirely in your browser, ensuring maximum privacy. Unlike other tools that require uploads, we keep your data on your device while providing professional-quality PDF compression for free." }
+      "block1": {
+        "title": "How to Compress PDF Files?",
+        "content": "To compress PDF files, upload your document and choose your preferred compression level. Our tool optimizes the PDF by removing unnecessary elements and compressing images while maintaining readability. All processing happens locally in your browser."
+      },
+      "block2": {
+        "title": "Is it Safe to Compress PDF Files Online?",
+        "content": "Yes, completely safe. All PDF compression happens locally in your browser using JavaScript. Your files are never uploaded to any server, ensuring 100% privacy. We cannot access your documents, and they are processed instantly on your device."
+      },
+      "block3": {
+        "title": "Will Compressing PDF Reduce Quality?",
+        "content": "Our compression algorithm is designed to maintain quality while reducing file size. For most documents, the quality difference is negligible. If you need the smallest file size, use the 'high' compression level. For better quality, use 'low' compression."
+      },
+      "block4": {
+        "title": "How Much Can I Compress a PDF?",
+        "content": "Compression results vary depending on the original PDF. Documents with many images typically compress more (30-70% reduction). Text-heavy documents compress less. Our tool shows you the exact file size reduction before you download."
+      },
+      "block5": {
+        "title": "What's the Best Free PDF Compressor?",
+        "content": "The best PDF compressor should be fast, secure, and effective. Our tool processes files entirely in your browser, ensuring maximum privacy. Unlike other tools that require uploads, we keep your data on your device while providing professional-quality PDF compression for free."
+      }
     }
   },
   "rotate": {
@@ -807,7 +927,75 @@
     "watermarkAddedDesc": "Watermark has been successfully added to your PDF file",
     "adjustSettings": "Adjust Settings",
     "enterWatermarkText": "Please enter watermark text",
-    "addWatermarkFailed": "Failed to add watermark, please try again"
+    "addWatermarkFailed": "Failed to add watermark, please try again",
+    "hero": {
+      "title": "Add Watermark to PDF Free Online",
+      "description": "Add custom text or image watermarks to PDF files. Protect your documents easily.",
+      "point1": "100% Free",
+      "point2": "No Registration",
+      "point3": "Secure & Private"
+    },
+    "howTo": {
+      "title": "How to Add Watermark to PDF",
+      "step1": {
+        "title": "Upload PDF",
+        "description": "Select or drag & drop your PDF file"
+      },
+      "step2": {
+        "title": "Configure Watermark",
+        "description": "Enter text, adjust style and position"
+      },
+      "step3": {
+        "title": "Download",
+        "description": "Get your watermarked PDF instantly"
+      }
+    },
+    "useCases": {
+      "title": "When to Use PDF Watermark",
+      "case1": {
+        "icon": "©️",
+        "title": "Copyright Protection",
+        "description": "Add copyright notice to documents"
+      },
+      "case2": {
+        "icon": "🏢",
+        "title": "Branding",
+        "description": "Add company logo or name to PDFs"
+      },
+      "case3": {
+        "icon": "📄",
+        "title": "Draft Marking",
+        "description": "Mark documents as draft or confidential"
+      },
+      "case4": {
+        "icon": "🔒",
+        "title": "Document Security",
+        "description": "Add security watermarks to sensitive files"
+      }
+    },
+    "seoContent": {
+      "title": "Frequently Asked Questions About Watermarking PDFs",
+      "block1": {
+        "title": "How to Add Watermark to PDF?",
+        "content": "Upload your PDF and enter your watermark text. Customize font size, color, rotation, and position. Our tool processes everything locally in your browser."
+      },
+      "block2": {
+        "title": "Is it Safe to Add Watermarks Online?",
+        "content": "Yes, completely safe. All watermarking happens locally in your browser. Your files are never uploaded to any server, ensuring 100% privacy."
+      },
+      "block3": {
+        "title": "Can I Add Image Watermarks?",
+        "content": "Yes, you can add both text and image watermarks. For text, you can customize the font, size, color, and rotation to match your needs."
+      },
+      "block4": {
+        "title": "Will Watermark Affect Quality?",
+        "content": "No, watermarks are added as an overlay layer without affecting the underlying content quality. Your document remains sharp and clear."
+      },
+      "block5": {
+        "title": "Why Use Our PDF Watermark?",
+        "content": "Our PDF watermark tool is fast, free, and secure. All processing happens locally in your browser, ensuring your documents never leave your device."
+      }
+    }
   },
   "batch": {
     "title": "Batch Process",
@@ -948,24 +1136,64 @@
     },
     "howTo": {
       "title": "How to Encrypt PDF Files",
-      "step1": { "title": "Upload PDF", "description": "Select or drag & drop your PDF file" },
-      "step2": { "title": "Set Password", "description": "Enter and confirm your password" },
-      "step3": { "title": "Download", "description": "Get your encrypted PDF instantly" }
+      "step1": {
+        "title": "Upload PDF",
+        "description": "Select or drag & drop your PDF file"
+      },
+      "step2": {
+        "title": "Set Password",
+        "description": "Enter and confirm your password"
+      },
+      "step3": {
+        "title": "Download",
+        "description": "Get your encrypted PDF instantly"
+      }
     },
     "useCases": {
       "title": "When to Use PDF Encryption",
-      "case1": { "icon": "🔐", "title": "Protect Documents", "description": "Secure sensitive PDF files with passwords" },
-      "case2": { "icon": "📄", "title": "Confidential Files", "description": "Encrypt private or business documents" },
-      "case3": { "icon": "💼", "title": "Client Data", "description": "Protect customer information in PDFs" },
-      "case4": { "icon": "🔒", "title": "Document Control", "description": "Limit access to important files" }
+      "case1": {
+        "icon": "🔐",
+        "title": "Protect Documents",
+        "description": "Secure sensitive PDF files with passwords"
+      },
+      "case2": {
+        "icon": "📄",
+        "title": "Confidential Files",
+        "description": "Encrypt private or business documents"
+      },
+      "case3": {
+        "icon": "💼",
+        "title": "Client Data",
+        "description": "Protect customer information in PDFs"
+      },
+      "case4": {
+        "icon": "🔒",
+        "title": "Document Control",
+        "description": "Limit access to important files"
+      }
     },
     "seoContent": {
       "title": "Frequently Asked Questions About Encrypting PDFs",
-      "block1": { "title": "How to Encrypt PDF Files?", "content": "Upload your PDF and enter a password. Our tool adds password protection to your document. All processing happens locally in your browser." },
-      "block2": { "title": "Is it Safe to Encrypt PDFs Online?", "content": "Yes, completely safe. All PDF encryption happens locally in your browser. Your files and passwords are never uploaded to any server." },
-      "block3": { "title": "How Strong is the Encryption?", "content": "We use strong industry-standard encryption to protect your PDF files. Encrypted PDFs can only be opened with the correct password." },
-      "block4": { "title": "Can I Remove the Password Later?", "content": "Yes, you can use our Decrypt PDF tool to remove password protection if you know the password. Keep your password in a safe place." },
-      "block5": { "title": "Why Use Our PDF Encrypt?", "content": "Our PDF encryption tool is fast, free, and secure. All processing happens locally in your browser, ensuring your files never leave your device." }
+      "block1": {
+        "title": "How to Encrypt PDF Files?",
+        "content": "Upload your PDF and enter a password. Our tool adds password protection to your document. All processing happens locally in your browser."
+      },
+      "block2": {
+        "title": "Is it Safe to Encrypt PDFs Online?",
+        "content": "Yes, completely safe. All PDF encryption happens locally in your browser. Your files and passwords are never uploaded to any server."
+      },
+      "block3": {
+        "title": "How Strong is the Encryption?",
+        "content": "We use strong industry-standard encryption to protect your PDF files. Encrypted PDFs can only be opened with the correct password."
+      },
+      "block4": {
+        "title": "Can I Remove the Password Later?",
+        "content": "Yes, you can use our Decrypt PDF tool to remove password protection if you know the password. Keep your password in a safe place."
+      },
+      "block5": {
+        "title": "Why Use Our PDF Encrypt?",
+        "content": "Our PDF encryption tool is fast, free, and secure. All processing happens locally in your browser, ensuring your files never leave your device."
+      }
     }
   },
   "decrypt": {
@@ -973,6 +1201,7 @@
     "description": "Remove password protection from PDF",
     "selectFile": "Select PDF File",
     "enterPassword": "Enter password",
+    "password": "Password",
     "passwordHint": "Enter the password used to encrypt this PDF",
     "startDecrypt": "Decrypt PDF",
     "decryptComplete": "Decryption Complete",
@@ -984,7 +1213,75 @@
     "noPassword": "Please enter the password",
     "wrongPassword": "Incorrect password. Please try again.",
     "invalidFile": "Please select a valid PDF file",
-    "decryptError": "Decryption failed. Please check the password and try again."
+    "decryptError": "Decryption failed. Please check the password and try again.",
+    "hero": {
+      "title": "Decrypt PDF Files Free Online",
+      "description": "Remove password protection from PDF files. Unlock secured PDF documents easily.",
+      "point1": "100% Free",
+      "point2": "No Registration",
+      "point3": "Secure & Private"
+    },
+    "howTo": {
+      "title": "How to Decrypt PDF Files",
+      "step1": {
+        "title": "Upload PDF",
+        "description": "Select or drag & drop your PDF file"
+      },
+      "step2": {
+        "title": "Enter Password",
+        "description": "Input the password used to encrypt the PDF"
+      },
+      "step3": {
+        "title": "Download",
+        "description": "Get your decrypted PDF instantly"
+      }
+    },
+    "useCases": {
+      "title": "When to Use PDF Decryption",
+      "case1": {
+        "icon": "🔓",
+        "title": "Unlock Documents",
+        "description": "Remove password from protected PDFs"
+      },
+      "case2": {
+        "icon": "📄",
+        "title": "Access Files",
+        "description": "Open encrypted PDFs you own"
+      },
+      "case3": {
+        "icon": "🔄",
+        "title": "Remove Protection",
+        "description": "Take off security from your own files"
+      },
+      "case4": {
+        "icon": "💼",
+        "title": "Document Recovery",
+        "description": "Regain access to your documents"
+      }
+    },
+    "seoContent": {
+      "title": "Frequently Asked Questions About Decrypting PDFs",
+      "block1": {
+        "title": "How to Decrypt PDF Files?",
+        "content": "Upload your encrypted PDF and enter the password. Our tool removes the password protection. All processing happens locally in your browser."
+      },
+      "block2": {
+        "title": "Is it Safe to Decrypt PDFs Online?",
+        "content": "Yes, completely safe. All PDF decryption happens locally in your browser. Your files and passwords are never uploaded to any server."
+      },
+      "block3": {
+        "title": "What if I Forgot the Password?",
+        "content": "Unfortunately, if you don't know the password, we cannot help decrypt the PDF. This is a security feature - only the correct password can unlock the file."
+      },
+      "block4": {
+        "title": "Will Decryption Affect Quality?",
+        "content": "No, decrypting a PDF only removes password protection. The content and quality remain exactly the same as the original document."
+      },
+      "block5": {
+        "title": "Why Use Our PDF Decrypt?",
+        "content": "Our PDF decryption tool is fast, free, and secure. All processing happens locally in your browser, ensuring your files never leave your device."
+      }
+    }
   },
   "about": {
     "title": "About PDF Tools",
@@ -1541,9 +1838,7 @@
     },
     "blog": {
       "title": "PDF Tools Blog - Tips, Tutorials & Guides",
-      "description": "Discover the best PDF tips, tutorials, and guides. Learn how to merge, split, compress, and optimize PDF files efficiently.",
-      "metaTitle": "Blog | PDF Tools",
-      "metaDescription": "Latest articles about PDF tools, tips, and tutorials"
+      "description": "Discover expert tips, tutorials, and guides for working with PDF files. Learn how to merge, split, compress, and optimize PDFs efficiently."
     },
     "tutorials": {
       "title": "PDF Tutorials & Guides",
@@ -1568,10 +1863,6 @@
       "mission": "Our mission is to provide free, secure, and easy-to-use PDF tools for everyone.",
       "vision": "We believe in making PDF processing accessible to all users, regardless of technical expertise or budget.",
       "values": "Privacy, Security, Simplicity, Accessibility"
-    },
-    "blog": {
-      "title": "PDF Tools Blog - Tips, Tutorials & Guides",
-      "description": "Discover expert tips, tutorials, and guides for working with PDF files. Learn how to merge, split, compress, and optimize PDFs efficiently."
     }
   },
   "blog": {
