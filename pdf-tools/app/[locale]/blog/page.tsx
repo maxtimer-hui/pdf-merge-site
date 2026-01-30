@@ -86,45 +86,6 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
               </Link>
             ))}
           </div>
-
-          {/* Categories Section */}
-          <div className="mt-16 bg-white rounded-lg shadow-lg p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Browse by Category</h2>
-            <div className="grid md:grid-cols-3 gap-4">
-              <div className="border rounded-lg p-4 hover:border-blue-500 transition-colors">
-                <h3 className="font-semibold text-lg mb-2">📚 Tutorials</h3>
-                <p className="text-sm text-gray-600">Step-by-step guides for PDF tasks</p>
-              </div>
-              <div className="border rounded-lg p-4 hover:border-blue-500 transition-colors">
-                <h3 className="font-semibold text-lg mb-2">⚖️ Comparisons</h3>
-                <p className="text-sm text-gray-600">Format and tool comparisons</p>
-              </div>
-              <div className="border rounded-lg p-4 hover:border-blue-500 transition-colors">
-                <h3 className="font-semibold text-lg mb-2">💡 Tips</h3>
-                <p className="text-sm text-gray-600">Productivity and optimization tips</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Newsletter Section */}
-          <div className="mt-16 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg shadow-lg p-12 text-center">
-            <h2 className="text-3xl font-bold text-white mb-4">
-              Stay Updated
-            </h2>
-            <p className="text-blue-100 mb-8">
-              Get the latest PDF tips and tutorials delivered to your inbox
-            </p>
-            <div className="max-w-md mx-auto flex gap-3">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300"
-              />
-              <button className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
-                Subscribe
-              </button>
-            </div>
-          </div>
         </div>
       </main>
 
