@@ -9,23 +9,23 @@ interface BlogSectionProps {
 }
 
 export default function BlogSection({ locale }: BlogSectionProps) {
-  const t = useTranslations('merge');
+  const t = useTranslations('split');
   const tCommon = useTranslations('common');
 
   // 筛选当前语言的文章
   const localePosts = blogPosts.filter(post => post.locale === locale);
 
-  // 优先显示与 merge 相关的文章（tags 中包含 'merge'）
-  const mergeRelatedPosts = localePosts.filter(post =>
-    post.tags.some(tag => tag.toLowerCase() === 'merge')
+  // 优先显示与 split 相关的文章（tags 中包含 'split'）
+  const splitRelatedPosts = localePosts.filter(post =>
+    post.tags.some(tag => tag.toLowerCase() === 'split')
   );
 
-  // 如果 merge 相关文章不足 3 篇，用其他文章补充
+  // 如果 split 相关文章不足 3 篇，用其他文章补充
   const otherPosts = localePosts.filter(post =>
-    !post.tags.some(tag => tag.toLowerCase() === 'merge')
+    !post.tags.some(tag => tag.toLowerCase() === 'split')
   );
 
-  const displayPosts = [...mergeRelatedPosts, ...otherPosts].slice(0, 3);
+  const displayPosts = [...splitRelatedPosts, ...otherPosts].slice(0, 3);
 
   // 如果没有当前语言的文章，就不显示这个组件
   if (displayPosts.length === 0) {
@@ -40,7 +40,7 @@ export default function BlogSection({ locale }: BlogSectionProps) {
         </h2>
         <Link
           href={`/${locale}/blog`}
-          className="text-blue-600 hover:text-blue-800 font-semibold flex items-center gap-1"
+          className="text-green-600 hover:text-green-800 font-semibold flex items-center gap-1"
         >
           {tCommon('viewAll')}
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -57,18 +57,18 @@ export default function BlogSection({ locale }: BlogSectionProps) {
             className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden group"
           >
             {/* 文章图片占位符 */}
-            <div className="h-40 bg-gradient-to-br from-blue-400 to-indigo-500 flex items-center justify-center">
+            <div className="h-40 bg-gradient-to-br from-green-400 to-emerald-500 flex items-center justify-center">
               <span className="text-4xl">📄</span>
             </div>
 
             <div className="p-6">
               {/* 分类标签 */}
-              <div className="inline-block px-3 py-1 text-xs font-semibold text-blue-600 bg-blue-50 rounded-full mb-3">
+              <div className="inline-block px-3 py-1 text-xs font-semibold text-green-600 bg-green-50 rounded-full mb-3">
                 {post.category}
               </div>
 
               {/* 标题 */}
-              <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors line-clamp-2">
+              <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-green-600 transition-colors line-clamp-2">
                 {post.title}
               </h3>
 

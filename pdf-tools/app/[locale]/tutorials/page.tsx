@@ -1,30 +1,35 @@
 import {Metadata} from 'next';
 import Link from 'next/link';
+import {getTranslations} from 'next-intl/server';
 import {getTutorials} from '@/lib/tutorials';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string}> }): Promise<Metadata> {
+  const {locale} = await params;
+  const t = await getTranslations({locale, namespace: 'tutorials'});
+
   return {
-    title: 'PDF Tutorials & Guides',
-    description: 'Step-by-step tutorials for working with PDF files',
+    title: t('metaTitle'),
+    description: t('metaDescription'),
     openGraph: {
-      title: 'PDF Tutorials & Guides',
-      description: 'Step-by-step tutorials for working with PDF files',
+      title: t('metaTitle'),
+      description: t('metaDescription'),
     },
   };
 }
 
 export default async function TutorialsPage({ params }: { params: Promise<{ locale: string }> }) {
   const {locale} = await params;
+  const t = await getTranslations({locale, namespace: 'tutorials'});
   const tutorials = getTutorials(locale);
 
   const difficulties = ['Beginner', 'Intermediate', 'Advanced'] as const;
 
   const breadcrumbItems = [
-    {name: 'Home', href: ''},
-    {name: 'Tutorials', href: '/tutorials'},
+    {name: t('breadcrumbHome'), href: ''},
+    {name: t('breadcrumbTutorials'), href: '/tutorials'},
   ];
 
   const difficultyIcons = {
@@ -48,10 +53,10 @@ export default async function TutorialsPage({ params }: { params: Promise<{ loca
               <span className="text-6xl">📚</span>
             </div>
             <h1 className="text-5xl font-bold text-gray-900 mb-4">
-              PDF Tutorials & Guides
+              {t('title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Master PDF processing with our comprehensive step-by-step tutorials
+              {t('subtitle')}
             </p>
           </div>
 
@@ -115,7 +120,7 @@ export default async function TutorialsPage({ params }: { params: Promise<{ loca
                   {/* Learn More Button */}
                   <div className="mt-4">
                     <span className="text-blue-600 font-semibold text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
-                      Start Learning
+                      {t('startLearning')}
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                       </svg>
@@ -130,8 +135,8 @@ export default async function TutorialsPage({ params }: { params: Promise<{ loca
           {tutorials.length === 0 && (
             <div className="text-center py-16">
               <span className="text-6xl mb-4 block">📝</span>
-              <h2 className="text-2xl font-bold text-gray-900 mb-2">No tutorials available yet</h2>
-              <p className="text-gray-600">We're working on creating comprehensive tutorials for you.</p>
+              <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('noTutorials')}</h2>
+              <p className="text-gray-600">{t('noTutorialsDesc')}</p>
             </div>
           )}
 
@@ -144,7 +149,7 @@ export default async function TutorialsPage({ params }: { params: Promise<{ loca
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
               </svg>
-              Back to Home
+              {t('backToHome')}
             </Link>
           </div>
         </div>

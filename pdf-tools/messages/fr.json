@@ -85,6 +85,8 @@
     "fastDesc": "Traitement local, temps de réponse en millisecondes",
     "free": "Entièrement Gratuit",
     "freeDesc": "Pas d'inscription, pas de limites, pas de filigrane",
+    "relatedArticles": "Articles Connexes",
+    "viewAll": "Voir Tout",
     "backToHome": "Retour à l'Accueil",
     "uploadFile": "Télécharger un Fichier PDF",
     "uploadFiles": "Télécharger des Fichiers PDF",
@@ -349,5 +351,17 @@
   "blog": {
     "title": "PDF Tools Blog",
     "description": "Tips, tutorials, and guides for working with PDF files"
+  },
+  "tutorials": {
+    "metaTitle": "Tutoriels et Guides PDF - Apprenez les Compétences de Traitement PDF",
+    "metaDescription": "Maîtrisez le traitement PDF avec nos tutoriels complets étape par étape. Apprenez à fusionner, diviser, compresser et optimiser des fichiers PDF.",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbTutorials": "Tutoriels",
+    "title": "Tutoriels et Guides PDF",
+    "subtitle": "Maîtrisez le traitement PDF avec nos tutoriels complets étape par étape",
+    "startLearning": "Commencer à Apprendre",
+    "noTutorials": "Aucun tutoriel disponible pour le moment",
+    "noTutorialsDesc": "Nous travaillons à créer des tutoriels complets pour vous.",
+    "backToHome": "Retour à l'Accueil"
   }
 }

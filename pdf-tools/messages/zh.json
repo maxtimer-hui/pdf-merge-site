@@ -85,6 +85,8 @@
     "fastDesc": "本地处理，毫秒级响应速度",
     "free": "完全免费",
     "freeDesc": "无需注册，无限制，无水印",
+    "relatedArticles": "相关文章",
+    "viewAll": "查看全部",
     "seoContent": {
       "title": "如何免费合并PDF文件 在线工具",
       "subtitle": "最佳免费PDF合并工具 满足您所有需求",
@@ -159,6 +161,8 @@
     "alertSelectPDF": "请选择 PDF 文件",
     "alertFailed": "操作失败，请重试",
     "readPDFFailed": "读取 PDF 失败",
+    "isRequired": "是必需的",
+    "alertValidNumber": "请输入有效的数字",
     "selectAll": "全选",
     "clear": "清空",
     "reset": "重置",
@@ -564,5 +568,17 @@
   "blog": {
     "title": "PDF工具博客 - 技巧、教程和指南",
     "description": "发现专家技巧、教程和指南，帮助您更好地处理PDF文件。学习如何高效地合并、分割、压缩和优化PDF。"
+  },
+  "tutorials": {
+    "metaTitle": "PDF 教程与指南 - 免费学习 PDF 处理技巧",
+    "metaDescription": "通过我们的分步教程，掌握 PDF 处理技巧。学习如何合并、分割、压缩和优化 PDF 文件。",
+    "breadcrumbHome": "首页",
+    "breadcrumbTutorials": "教程",
+    "title": "PDF 教程与指南",
+    "subtitle": "通过我们的全面分步教程，掌握 PDF 处理技巧",
+    "startLearning": "开始学习",
+    "noTutorials": "暂无教程",
+    "noTutorialsDesc": "我们正在为您创建全面的教程。",
+    "backToHome": "返回首页"
   }
 }

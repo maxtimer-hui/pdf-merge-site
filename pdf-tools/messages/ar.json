@@ -85,6 +85,8 @@
     "fastDesc": "معالجة محلية بوقت استجابة بالملي ثانية",
     "free": "مجاني تمامًا",
     "freeDesc": "بدون تسجيل، بدون قيود، بدون علامة مائية",
+    "relatedArticles": "مقالات ذات صلة",
+    "viewAll": "عرض الكل",
     "backToHome": "العودة إلى الصفحة الرئيسية",
     "uploadFile": "تحميل ملف PDF",
     "uploadFiles": "تحميل ملفات PDF",
@@ -349,5 +351,17 @@
   "blog": {
     "title": "PDF Tools Blog",
     "description": "Tips, tutorials, and guides for working with PDF files"
+  },
+  "tutorials": {
+    "metaTitle": "دروس PDF ودليل - تعلم مهارات معالجة ملفات PDF",
+    "metaDescription": "أتقن معالجة ملفات PDF من خلال دروسنا الشاملة خطوة بخطوة. تعلم كيفية دمج وتقسيم وضغط وتحسين ملفات PDF.",
+    "breadcrumbHome": "الرئيسية",
+    "breadcrumbTutorials": "الدروس",
+    "title": "دروس PDF ودليل",
+    "subtitle": "أتقن معالجة ملفات PDF من خلال دروسنا الشاملة خطوة بخطوة",
+    "startLearning": "ابدأ التعلم",
+    "noTutorials": "لا توجد دروس متاحة حاليًا",
+    "noTutorialsDesc": "نحن نعمل على إنشاء دروس شاملة لك.",
+    "backToHome": "العودة إلى الرئيسية"
   }
 }

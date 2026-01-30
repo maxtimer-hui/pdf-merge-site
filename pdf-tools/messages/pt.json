@@ -85,6 +85,8 @@
     "fastDesc": "Processamento local, tempo de resposta em milissegundos",
     "free": "Completamente Grátis",
     "freeDesc": "Sem registro, sem limites, sem marca d'água",
+    "relatedArticles": "Artigos Relacionados",
+    "viewAll": "Ver Todos",
     "backToHome": "Voltar ao Início",
     "uploadFile": "Carregar Arquivo PDF",
     "uploadFiles": "Carregar Arquivos PDF",
@@ -349,5 +351,17 @@
   "blog": {
     "title": "PDF Tools Blog",
     "description": "Tips, tutorials, and guides for working with PDF files"
+  },
+  "tutorials": {
+    "metaTitle": "Tutoriais e Guias de PDF - Aprenda Habilidades de Processamento de PDF",
+    "metaDescription": "Domine o processamento de PDF com nossos tutoriais abrangentes passo a passo. Aprenda a mesclar, dividir, compactar e otimizar arquivos PDF.",
+    "breadcrumbHome": "Início",
+    "breadcrumbTutorials": "Tutoriais",
+    "title": "Tutoriais e Guias de PDF",
+    "subtitle": "Domine o processamento de PDF com nossos tutoriais abrangentes passo a passo",
+    "startLearning": "Começar a Aprender",
+    "noTutorials": "Ainda não há tutoriais disponíveis",
+    "noTutorialsDesc": "Estamos trabalhando para criar tutoriais abrangentes para você.",
+    "backToHome": "Voltar ao Início"
   }
 }

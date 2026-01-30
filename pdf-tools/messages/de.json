@@ -85,6 +85,8 @@
     "fastDesc": "Lokale Verarbeitung, Millisekunden-Antwortzeit",
     "free": "Völlig Kostenlos",
     "freeDesc": "Keine Registrierung, keine Limits, kein Wasserzeichen",
+    "relatedArticles": "Verwandte Artikel",
+    "viewAll": "Alle Anzeigen",
     "backToHome": "Zurück zur Startseite",
     "uploadFile": "PDF-Datei Hochladen",
     "uploadFiles": "PDF-Dateien Hochladen",
@@ -349,5 +351,17 @@
   "blog": {
     "title": "PDF Tools Blog",
     "description": "Tips, tutorials, and guides for working with PDF files"
+  },
+  "tutorials": {
+    "metaTitle": "PDF-Tutorials und Anleitungen - Lernen Sie die PDF-Verarbeitung",
+    "metaDescription": "Meistern Sie die PDF-Verarbeitung mit unseren umfassenden Schritt-für-Schritt-Tutorials. Lernen Sie, wie Sie PDF-Dateien zusammenführen, teilen, komprimieren und optimieren.",
+    "breadcrumbHome": "Startseite",
+    "breadcrumbTutorials": "Tutorials",
+    "title": "PDF-Tutorials und Anleitungen",
+    "subtitle": "Meistern Sie die PDF-Verarbeitung mit unseren umfassenden Schritt-für-Schritt-Tutorials",
+    "startLearning": "Jetzt Lernen",
+    "noTutorials": "Noch keine Tutorials verfügbar",
+    "noTutorialsDesc": "Wir arbeiten daran, umfassende Tutorials für Sie zu erstellen.",
+    "backToHome": "Zurück zur Startseite"
   }
 }

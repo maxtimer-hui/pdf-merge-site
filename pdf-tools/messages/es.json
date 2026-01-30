@@ -85,6 +85,8 @@
     "fastDesc": "Procesamiento local, tiempo de respuesta en milisegundos",
     "free": "Completamente Gratis",
     "freeDesc": "Sin registro, sin límites, sin marcas de agua",
+    "relatedArticles": "Artículos Relacionados",
+    "viewAll": "Ver Todos",
     "seoContent": {
       "title": "Cómo Combinar Archivos PDF Gratis Online",
       "subtitle": "El Mejor Combinador PDF Gratis para Todas tus Necesidades",
@@ -454,10 +456,21 @@
     "wrongPassword": "Contraseña incorrecta. Por favor intente de nuevo.",
     "invalidFile": "Por favor seleccione un archivo PDF válido",
     "decryptError": "Error en el descifrado. Por favor verifique la contraseña e intente de nuevo."
-  }
-,
+  },
   "blog": {
     "title": "PDF Tools Blog",
     "description": "Tips, tutorials, and guides for working with PDF files"
+  },
+  "tutorials": {
+    "metaTitle": "Tutoriales y Guías de PDF - Aprende Habilidades de Procesamiento de PDF",
+    "metaDescription": "Domina el procesamiento de PDF con nuestros completos tutoriales paso a paso. Aprende a fusionar, dividir, comprimir y optimizar archivos PDF.",
+    "breadcrumbHome": "Inicio",
+    "breadcrumbTutorials": "Tutoriales",
+    "title": "Tutoriales y Guías de PDF",
+    "subtitle": "Domina el procesamiento de PDF con nuestros completos tutoriales paso a paso",
+    "startLearning": "Comenzar a Aprender",
+    "noTutorials": "Aún no hay tutoriales disponibles",
+    "noTutorialsDesc": "Estamos trabajando para crear tutoriales completos para ti.",
+    "backToHome": "Volver al Inicio"
   }
 }

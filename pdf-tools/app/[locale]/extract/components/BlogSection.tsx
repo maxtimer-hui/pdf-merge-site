@@ -9,25 +9,25 @@ interface BlogSectionProps {
 }
 
 export default function BlogSection({ locale }: BlogSectionProps) {
-  const t = useTranslations('merge');
+  const t = useTranslations('extract');
   const tCommon = useTranslations('common');
 
-  // 筛选当前语言的文章
+  // Filter posts for current language
   const localePosts = blogPosts.filter(post => post.locale === locale);
 
-  // 优先显示与 merge 相关的文章（tags 中包含 'merge'）
-  const mergeRelatedPosts = localePosts.filter(post =>
-    post.tags.some(tag => tag.toLowerCase() === 'merge')
+  // Prioritize posts related to extract (tags containing 'extract')
+  const extractRelatedPosts = localePosts.filter(post =>
+    post.tags.some(tag => tag.toLowerCase() === 'extract')
   );
 
-  // 如果 merge 相关文章不足 3 篇，用其他文章补充
+  // If not enough extract-related posts, supplement with other posts
   const otherPosts = localePosts.filter(post =>
-    !post.tags.some(tag => tag.toLowerCase() === 'merge')
+    !post.tags.some(tag => tag.toLowerCase() === 'extract')
   );
 
-  const displayPosts = [...mergeRelatedPosts, ...otherPosts].slice(0, 3);
+  const displayPosts = [...extractRelatedPosts, ...otherPosts].slice(0, 3);
 
-  // 如果没有当前语言的文章，就不显示这个组件
+  // Don't show component if no posts available for current language
   if (displayPosts.length === 0) {
     return null;
   }
@@ -56,28 +56,28 @@ export default function BlogSection({ locale }: BlogSectionProps) {
             href={`/${locale}/blog/${post.slug}`}
             className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden group"
           >
-            {/* 文章图片占位符 */}
-            <div className="h-40 bg-gradient-to-br from-blue-400 to-indigo-500 flex items-center justify-center">
+            {/* Article image placeholder */}
+            <div className="h-40 bg-gradient-to-br from-blue-400 to-cyan-500 flex items-center justify-center">
               <span className="text-4xl">📄</span>
             </div>
 
             <div className="p-6">
-              {/* 分类标签 */}
+              {/* Category tag */}
               <div className="inline-block px-3 py-1 text-xs font-semibold text-blue-600 bg-blue-50 rounded-full mb-3">
                 {post.category}
               </div>
 
-              {/* 标题 */}
+              {/* Title */}
               <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors line-clamp-2">
                 {post.title}
               </h3>
 
-              {/* 描述 */}
+              {/* Description */}
               <p className="text-gray-600 text-sm mb-4 line-clamp-2">
                 {post.description}
               </p>
 
-              {/* 元信息 */}
+              {/* Meta info */}
               <div className="flex items-center justify-between text-xs text-gray-500">
                 <span>{post.date}</span>
                 <span>{post.readTime}</span>

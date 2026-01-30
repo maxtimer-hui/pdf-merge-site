@@ -85,6 +85,8 @@
     "fastDesc": "ローカル処理、ミリ秒単位の応答時間",
     "free": "完全無料",
     "freeDesc": "登録不要、制限なし、透かしなし",
+    "relatedArticles": "関連記事",
+    "viewAll": "すべて表示",
     "backToHome": "ホームに戻る",
     "uploadFile": "PDFファイルをアップロード",
     "uploadFiles": "PDFファイルをアップロード",
@@ -456,5 +458,17 @@
   "blog": {
     "title": "PDF Tools Blog",
     "description": "Tips, tutorials, and guides for working with PDF files"
+  },
+  "tutorials": {
+    "metaTitle": "PDFチュートリアルとガイド - PDF処理スキルを学ぶ",
+    "metaDescription": "包括的なステップバイステップチュートリアルでPDF処理をマスターしましょう。PDFファイルの結合、分割、圧縮、最適化方法を学びます。",
+    "breadcrumbHome": "ホーム",
+    "breadcrumbTutorials": "チュートリアル",
+    "title": "PDFチュートリアルとガイド",
+    "subtitle": "包括的なステップバイステップチュートリアルでPDF処理をマスターしましょう",
+    "startLearning": "学習を開始",
+    "noTutorials": "まだチュートリアルはありません",
+    "noTutorialsDesc": "包括的なチュートリアルを作成するために取り組んでいます。",
+    "backToHome": "ホームに戻る"
   }
 }

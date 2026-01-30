@@ -85,6 +85,8 @@
     "fastDesc": "로컬 처리, 밀리초 응답 시간",
     "free": "완전 무료",
     "freeDesc": "등록 없음, 제한 없음, 워터마크 없음",
+    "relatedArticles": "관련 글",
+    "viewAll": "모두 보기",
     "backToHome": "홈으로 돌아가기",
     "uploadFile": "PDF 파일 업로드",
     "uploadFiles": "PDF 파일 업로드",
@@ -456,5 +458,17 @@
   "blog": {
     "title": "PDF Tools Blog",
     "description": "Tips, tutorials, and guides for working with PDF files"
+  },
+  "tutorials": {
+    "metaTitle": "PDF 튜토리얼 및 가이드 - PDF 처리 기술 배우기",
+    "metaDescription": "포괄적인 단계별 튜토리얼로 PDF 처리를 마스터하세요. PDF 파일을 병합, 분할, 압축 및 최적화하는 방법을 배우십시오.",
+    "breadcrumbHome": "홈",
+    "breadcrumbTutorials": "튜토리얼",
+    "title": "PDF 튜토리얼 및 가이드",
+    "subtitle": "포괄적인 단계별 튜토리얼로 PDF 처리를 마스터하세요",
+    "startLearning": "학습 시작",
+    "noTutorials": "아직 사용 가능한 튜토리얼이 없습니다",
+    "noTutorialsDesc": "포괄적인 튜토리얼을 만들기 위해 노력하고 있습니다.",
+    "backToHome": "홈으로 돌아가기"
   }
 }

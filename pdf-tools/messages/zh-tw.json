@@ -85,6 +85,8 @@
     "fastDesc": "本地處理，毫秒級響應速度",
     "free": "完全免費",
     "freeDesc": "無需註冊，無限制，無水印",
+    "relatedArticles": "相關文章",
+    "viewAll": "查看全部",
     "backToHome": "返回首頁",
     "uploadFile": "上傳 PDF 文件",
     "uploadFiles": "上傳 PDF 文件",
@@ -456,5 +458,17 @@
   "blog": {
     "title": "PDF工具博客 - 技巧、教學和指南",
     "description": "發現專家技巧、教學和指南，幫助您更好地處理PDF文件"
+  },
+  "tutorials": {
+    "metaTitle": "PDF 教學與指南 - 學習 PDF 處理技能",
+    "metaDescription": "透過我們全面的逐步教學，掌握 PDF 處理技巧。學習如何合併、分割、壓縮和優化 PDF 文件。",
+    "breadcrumbHome": "首頁",
+    "breadcrumbTutorials": "教學",
+    "title": "PDF 教學與指南",
+    "subtitle": "透過我們全面的逐步教學，掌握 PDF 處理技巧",
+    "startLearning": "開始學習",
+    "noTutorials": "暫無可用教學",
+    "noTutorialsDesc": "我們正在為您創作全面的教學內容。",
+    "backToHome": "返回首頁"
   }
 }
