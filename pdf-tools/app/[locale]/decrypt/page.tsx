@@ -46,7 +46,7 @@ export default async function DecryptPage({params}: {params: Promise<{locale: st
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <DecryptClient params={params} howToData={howToData} />
+      <DecryptClient params={params} />
     </>
   );
 }

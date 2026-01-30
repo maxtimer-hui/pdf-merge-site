@@ -45,7 +45,7 @@ export default async function DeletePagesPage({params}: {params: Promise<{locale
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <DeletePagesClient params={params} howToData={howToData} />
+      <DeletePagesClient params={params} />
     </>
   );
 }

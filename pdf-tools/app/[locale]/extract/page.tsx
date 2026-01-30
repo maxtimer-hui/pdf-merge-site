@@ -46,7 +46,7 @@ export default async function ExtractPage({params}: {params: Promise<{locale: st
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <ExtractClient params={params} howToData={howToData} />
+      <ExtractClient params={params} />
     </>
   );
 }

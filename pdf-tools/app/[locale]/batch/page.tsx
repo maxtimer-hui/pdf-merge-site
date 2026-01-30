@@ -45,7 +45,7 @@ export default async function BatchPage({params}: {params: Promise<{locale: stri
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <BatchClient params={params} howToData={howToData} />
+      <BatchClient params={params} />
     </>
   );
 }

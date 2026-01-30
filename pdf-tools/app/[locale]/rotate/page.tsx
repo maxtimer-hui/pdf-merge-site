@@ -45,7 +45,7 @@ export default async function RotatePage({params}: {params: Promise<{locale: str
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <RotateClient params={params} howToData={howToData} />
+      <RotateClient params={params} />
     </>
   );
 }

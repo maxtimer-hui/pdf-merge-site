@@ -45,7 +45,7 @@ export default async function WatermarkPage({params}: {params: Promise<{locale: 
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <WatermarkClient params={params} howToData={howToData} />
+      <WatermarkClient params={params} />
     </>
   );
 }

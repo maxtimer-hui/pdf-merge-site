@@ -46,7 +46,7 @@ export default async function EncryptPage({params}: {params: Promise<{locale: st
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <EncryptClient params={params} howToData={howToData} />
+      <EncryptClient params={params} />
     </>
   );
 }

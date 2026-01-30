@@ -46,7 +46,7 @@ export default async function CompressPage({params}: {params: Promise<{locale: s
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <CompressClient params={params} howToData={howToData} />
+      <CompressClient params={params} />
     </>
   );
 }

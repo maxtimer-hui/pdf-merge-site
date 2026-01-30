@@ -46,7 +46,7 @@ export default async function SplitPage({params}: {params: Promise<{locale: stri
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <SplitClient params={params} howToData={howToData} />
+      <SplitClient params={params} />
     </>
   );
 }

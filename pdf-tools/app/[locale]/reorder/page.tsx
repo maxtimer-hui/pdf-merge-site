@@ -45,7 +45,7 @@ export default async function ReorderPage({params}: {params: Promise<{locale: st
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <ReorderClient params={params} howToData={howToData} />
+      <ReorderClient params={params} />
     </>
   );
 }
