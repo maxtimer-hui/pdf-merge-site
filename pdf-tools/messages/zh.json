@@ -575,7 +575,29 @@
     "reordering": "排序中...",
     "reorderComplete": "排序完成！",
     "reorderSuccessDesc": "页面已成功重新排序",
-    "reorderAgain": "再次排序"
+    "reorderAgain": "再次排序",
+    "hero": {
+      "title": "重新排序 PDF 页面 - 免费在线工具",
+      "description": "通过拖放重新排序 PDF 页面。免费、快速且安全。",
+      "point1": "拖放排序",
+      "point2": "实时预览",
+      "point3": "保持质量"
+    },
+    "howTo": {
+      "title": "如何重新排序 PDF 页面",
+      "step1": {
+        "title": "上传 PDF",
+        "description": "选择要重新排序的 PDF"
+      },
+      "step2": {
+        "title": "拖动页面",
+        "description": "拖动页面到新位置"
+      },
+      "step3": {
+        "title": "下载重新排序的 PDF",
+        "description": "获取新顺序的文件"
+      }
+    }
   },
   "batch": {
     "title": "批量处理",
@@ -616,7 +638,29 @@
     "generatedFiles": "成功生成 {count} 个文件",
     "batchMergeMinFiles": "请至少选择 2 个 PDF 文件进行合并",
     "batchSplitSelectFiles": "请选择 PDF 文件进行分割",
-    "batchCompressSelectFiles": "请选择 PDF 文件进行压缩"
+    "batchCompressSelectFiles": "请选择 PDF 文件进行压缩",
+    "hero": {
+      "title": "批量处理 PDF - 免费在线批量工具",
+      "description": "一次性处理多个 PDF 文件。合并、分割、压缩多个 PDF，提高工作效率。",
+      "point1": "批量处理",
+      "point2": "多种操作",
+      "point3": "节省时间"
+    },
+    "howTo": {
+      "title": "如何批量处理 PDF",
+      "step1": {
+        "title": "选择操作",
+        "description": "选择要执行的批量操作"
+      },
+      "step2": {
+        "title": "添加多个文件",
+        "description": "上传或拖放多个 PDF 文件"
+      },
+      "step3": {
+        "title": "批量处理并下载",
+        "description": "一键处理所有文件"
+      }
+    }
   },
   "watermark": {
     "title": "添加水印",
@@ -650,7 +694,29 @@
     "addWatermarkFailed": "添加水印失败，请重试",
     "selected": "已选择",
     "encryptAgain": "加密另一个文件",
-    "decryptAgain": "解密另一个文件"
+    "decryptAgain": "解密另一个文件",
+    "hero": {
+      "title": "为 PDF 添加水印 - 免费在线工具",
+      "description": "为 PDF 文件添加自定义文本或图片水印。保护您的文档。",
+      "point1": "文本水印",
+      "point2": "图片水印",
+      "point3": "完全可定制"
+    },
+    "howTo": {
+      "title": "如何为 PDF 添加水印",
+      "step1": {
+        "title": "上传 PDF",
+        "description": "选择要添加水印的文件"
+      },
+      "step2": {
+        "title": "设置水印",
+        "description": "输入文本或上传图片"
+      },
+      "step3": {
+        "title": "下载带水印的 PDF",
+        "description": "获取保护后的文件"
+      }
+    }
   },
   "encrypt": {
     "title": "加密 PDF",
@@ -670,7 +736,29 @@
     "noPassword": "请输入密码",
     "passwordMismatch": "两次输入的密码不一致",
     "invalidFile": "请选择有效的 PDF 文件",
-    "encryptError": "加密失败，请重试"
+    "encryptError": "加密失败，请重试",
+    "hero": {
+      "title": "加密 PDF - 免费在线 PDF 加密工具",
+      "description": "为 PDF 文件添加密码保护。使用强加密保护您的敏感文档安全。",
+      "point1": "密码保护",
+      "point2": "强加密",
+      "point3": "安全可靠"
+    },
+    "howTo": {
+      "title": "如何加密 PDF",
+      "step1": {
+        "title": "上传 PDF",
+        "description": "选择要加密的 PDF 文件"
+      },
+      "step2": {
+        "title": "设置密码",
+        "description": "输入并确认密码"
+      },
+      "step3": {
+        "title": "下载加密 PDF",
+        "description": "获取受保护的文件"
+      }
+    }
   },
   "decrypt": {
     "title": "解密 PDF",
@@ -688,7 +776,29 @@
     "noPassword": "请输入密码",
     "wrongPassword": "密码错误，请重试",
     "invalidFile": "请选择有效的 PDF 文件",
-    "decryptError": "解密失败，请检查密码后重试"
+    "decryptError": "解密失败，请检查密码后重试",
+    "hero": {
+      "title": "解密 PDF - 免费在线 PDF 解密工具",
+      "description": "从 PDF 文件中移除密码保护。如果您知道密码，可以轻松解锁您的文档。",
+      "point1": "移除密码",
+      "point2": "快速解锁",
+      "point3": "安全处理"
+    },
+    "howTo": {
+      "title": "如何解密 PDF",
+      "step1": {
+        "title": "上传 PDF",
+        "description": "选择要解密的 PDF 文件"
+      },
+      "step2": {
+        "title": "输入密码",
+        "description": "输入正确的密码"
+      },
+      "step3": {
+        "title": "下载解密 PDF",
+        "description": "获取解锁后的文件"
+      }
+    }
   },
   "blog": {
     "title": "PDF工具博客 - 技巧、教程和指南",
