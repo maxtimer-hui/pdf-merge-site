@@ -59,6 +59,31 @@
       "title": "Descifrar PDF - Quitar Contraseña PDF Online Gratis",
       "description": "Elimine la protección con contraseña de archivos PDF en línea. Descifre sus documentos PDF si conoce la contraseña.",
       "keywords": "descifrar pdf, quitar contraseña pdf, desproteger pdf, desbloquear pdf, eliminar contraseña pdf"
+    },
+    "about": {
+      "title": "Acerca de Nosotros - Herramientas PDF | Procesamiento PDF Rápido, Seguro y Gratis",
+      "description": "Conoce Herramientas PDF - la plataforma gratuita y segura de procesamiento de PDF en línea. Lee nuestra historia, misión y compromiso con tu privacidad.",
+      "keywords": "acerca de herramientas pdf, historia de herramientas pdf, procesamiento pdf gratuito, herramientas pdf seguras, sobre nosotros"
+    },
+    "contact": {
+      "title": "Contáctanos - Herramientas PDF | Ponte en Contacto",
+      "description": "Contacta Herramientas PDF para preguntas, comentarios o consultas comerciales. Respondemos en 24-48 horas.",
+      "keywords": "contactar herramientas pdf, soporte, centro de ayuda, servicio al cliente, ponte en contacto"
+    },
+    "privacy": {
+      "title": "Política de Privacidad - Herramientas PDF",
+      "description": "Lee nuestra Política de Privacidad. Aprende cómo protegemos tu privacidad. Todos los archivos PDF se procesan localmente en tu navegador - sin subidas.",
+      "keywords": "política de privacidad, protección de datos, procesamiento pdf seguro, privacidad pdf"
+    },
+    "terms": {
+      "title": "Términos de Servicio - Herramientas PDF",
+      "description": "Lee nuestros Términos de Servicio. Aprende sobre tus derechos y responsabilidades al usar Herramientas PDF.",
+      "keywords": "términos de servicio, términos y condiciones, acuerdo de usuario, términos de herramientas pdf"
+    },
+    "cookies": {
+      "title": "Política de Cookies - Herramientas PDF | Cómo Usamos Cookies",
+      "description": "Aprende sobre las cookies en Herramientas PDF. Usamos cookies esenciales, de análisis y publicitarias para mejorar tu experiencia. Gestiona tus preferencias.",
+      "keywords": "política de cookies, cookies, cookies gdpr, privacidad de cookies, consentimiento de cookies"
     }
   },
   "common": {
