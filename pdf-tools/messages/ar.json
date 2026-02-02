@@ -170,6 +170,16 @@
       "title": "الأسئلة الشائعة",
       "empty": "لا توجد أسئلة شائعة لهذه الأداة"
     },
+    "errors": {
+      "noFileProvided": "لم يتم تقديم ملف",
+      "noPasswordProvided": "لم يتم تقديم كلمة مرور",
+      "incorrectPassword": "كلمة المرور غير صحيحة أو الملف تالف",
+      "encryptionFailed": "فشل التشفير",
+      "decryptionFailed": "فشل فك التشفير",
+      "fileTooLarge": "الملف كبير جدًا",
+      "invalidFileType": "نوع الملف غير صالح. يرجى تحميل ملف PDF.",
+      "processingError": "حدث خطأ أثناء معالجة ملفك."
+    },
     "blog": "المدونة",
     "tutorials": "الدروس التعليمية",
     "resources": "الموارد",
