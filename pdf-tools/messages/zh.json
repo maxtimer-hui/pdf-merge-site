@@ -186,7 +186,6 @@
     "alertSelectPDF": "请选择 PDF 文件",
     "alertFailed": "操作失败，请重试",
     "readPDFFailed": "读取 PDF 失败",
-,    "hero": { "title": "在线免费旋转 PDF 页面", "description": "旋转单个页面或整个 PDF 文档。易于使用，无需注册。100% 免费。", "point1": "旋转页面", "point2": "简单操作", "point3": "即时处理" },    "howTo": { "title": "如何旋转 PDF 页面", "step1": { "title": "上传 PDF", "description": "选择或拖放 PDF 文件" }, "step2": { "title": "选择旋转角度", "description": "90°、180° 或 270°" }, "step3": { "title": "下载旋转后的 PDF", "description": "获取旋转后的文件" } }
     "isRequired": "是必需的",
     "alertValidNumber": "请输入有效的数字",
     "selectAll": "全选",
@@ -523,8 +522,29 @@
     "alertSelectPDF": "请选择 PDF 文件",
     "alertSelectAngle": "请选择要旋转的角度",
     "alertRotateFailed": "旋转失败，请重试",
-    "readPDFFailed": "读取 PDF 失败"
-,    "hero": { "title": "在线免费旋转 PDF 页面", "description": "旋转单个页面或整个 PDF 文档。易于使用，无需注册。100% 免费。", "point1": "旋转页面", "point2": "简单操作", "point3": "即时处理" },    "howTo": { "title": "如何旋转 PDF 页面", "step1": { "title": "上传 PDF", "description": "选择或拖放 PDF 文件" }, "step2": { "title": "选择旋转角度", "description": "90°、180° 或 270°" }, "step3": { "title": "下载旋转后的 PDF", "description": "获取旋转后的文件" } }
+    "readPDFFailed": "读取 PDF 失败",
+    "hero": {
+      "title": "在线免费旋转 PDF 页面",
+      "description": "旋转单个页面或整个 PDF 文档。易于使用，无需注册。100% 免费。",
+      "point1": "旋转页面",
+      "point2": "简单操作",
+      "point3": "即时处理"
+    },
+    "howTo": {
+      "title": "如何旋转 PDF 页面",
+      "step1": {
+        "title": "上传 PDF",
+        "description": "选择或拖放 PDF 文件"
+      },
+      "step2": {
+        "title": "选择旋转角度",
+        "description": "90°、180° 或 270°"
+      },
+      "step3": {
+        "title": "下载旋转后的 PDF",
+        "description": "获取旋转后的文件"
+      }
+    }
   },
   "deletePages": {
     "title": "删除PDF页面",
