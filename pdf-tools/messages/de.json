@@ -354,6 +354,52 @@
         "title": "Herunterladen",
         "description": "Erhalten Sie sofort Ihre geteilten PDF-Dateien"
       }
+    },
+    "useCases": {
+      "title": "Wann PDF-Splitter Verwenden",
+      "case1": {
+        "icon": "📄",
+        "title": "Kapitel Extrahieren",
+        "description": "Einzelne Kapitel aus großen PDF-Dokumenten trennen"
+      },
+      "case2": {
+        "icon": "📊",
+        "title": "Seiten Trennen",
+        "description": "Spezifische Seiten zum Teilen oder Drucken extrahieren"
+      },
+      "case3": {
+        "icon": "📑",
+        "title": "Rechnungen Aufteilen",
+        "description": "Rechnungen oder Berichte nach Datum oder Kunde trennen"
+      },
+      "case4": {
+        "icon": "📚",
+        "title": "Abschnitte Erstellen",
+        "description": "Lange Handbücher in überschaubare Abschnitte unterteilen"
+      }
+    },
+    "seoContent": {
+      "title": "Häufig Gestellte Fragen Zum PDF-Aufteilen",
+      "block1": {
+        "title": "Wie Teile Ich PDF-Seiten Auf?",
+        "content": "Um PDF-Seiten aufzuteilen, laden Sie Ihr Dokument hoch und wählen Ihren bevorzugten Aufteilungsmodus. Sie können bestimmte Seiten nach Bereich extrahieren, gleichmäßig alle N Seiten aufteilen oder alle Seiten als separate Dateien extrahieren. Unser Tool verarbeitet alles lokal in Ihrem Browser für maximale Sicherheit."
+      },
+      "block2": {
+        "title": "Ist Es Sicher, PDF-Dateien Online Aufzuteilen?",
+        "content": "Ja, absolut sicher. Das gesamte PDF-Aufteilen findet lokal in Ihrem Browser mit JavaScript statt. Ihre Dateien werden niemals auf einen Server hochgeladen, was 100% Datenschutz gewährleistet. Wir können nicht auf Ihre Dokumente zugreifen, und sie werden sofort auf Ihrem Gerät verarbeitet."
+      },
+      "block3": {
+        "title": "Kann Ich Bestimmte Seiten Aus Einem PDF Extrahieren?",
+        "content": "Ja, Sie können bestimmte Seiten extrahieren, indem Sie Seitenbereiche eingeben (z. B. '1-3, 5, 7-9'). Dies ermöglicht es Ihnen, neue PDFs zu erstellen, die nur die gewünschten Seiten enthalten. Perfekt zum Extrahieren von Kapiteln, Abschnitten oder einzelnen Seiten aus größeren Dokumenten."
+      },
+      "block4": {
+        "title": "Wie Teile Ich Ein PDF Alle N Seiten Auf?",
+        "content": "Verwenden Sie unseren 'Gleichmäßig Aufteilen'-Modus, um Ihr PDF alle N Seiten aufzuteilen. Teilen Sie beispielsweise alle 1 Seite auf, um alle Seiten einzeln zu extrahieren, oder alle 5 Seiten, um kleinere Dokumente zu erstellen. Ideal, um große Dateien in überschaubare Abschnitte zu unterteilen."
+      },
+      "block5": {
+        "title": "Was Ist Der Beste Kostenlose PDF-Splitter?",
+        "content": "Der beste PDF-Splitter sollte schnell, sicher und einfach zu verwenden sein. Unser Tool verarbeitet Dateien vollständig in Ihrem Browser und gewährleistet maximalen Datenschutz. Im Gegensatz zu anderen Tools, die Uploads erfordern, behalten wir Ihre Daten auf Ihrem Gerät und bieten gleichzeitig professionelles PDF-Aufteilen kostenlos an."
+      }
     }
   },
   "extract": {
@@ -383,6 +429,52 @@
       "step3": {
         "title": "Herunterladen",
         "description": "Erhalten Sie sofort Ihre extrahierten Seiten"
+      }
+    },
+    "useCases": {
+      "title": "Wann PDF-Extraktor Verwenden",
+      "case1": {
+        "icon": "📄",
+        "title": "Kapitel Extrahieren",
+        "description": "Bestimmte Kapitel aus großen Dokumenten herausziehen"
+      },
+      "case2": {
+        "icon": "📊",
+        "title": "Seiten Trennen",
+        "description": "Einzelne Seiten zum Teilen extrahieren"
+      },
+      "case3": {
+        "icon": "📑",
+        "title": "Auszüge Erstellen",
+        "description": "Wichtige Abschnitte für Zusammenfassungen extrahieren"
+      },
+      "case4": {
+        "icon": "📚",
+        "title": "Inhalt Organisieren",
+        "description": "Dokumentabschnitte für verschiedene Zwecke trennen"
+      }
+    },
+    "seoContent": {
+      "title": "Häufig Gestellte Fragen Zum PDF-Seitenextrahieren",
+      "block1": {
+        "title": "Wie Extrahiere Ich Seiten Aus Einem PDF?",
+        "content": "Laden Sie Ihr PDF hoch und wählen Sie die Seiten aus, die Sie extrahieren möchten. Sie können bestimmte Seitenbereiche wählen oder einzelne Seiten auswählen. Unser Tool verarbeitet alles lokal in Ihrem Browser für maximale Sicherheit."
+      },
+      "block2": {
+        "title": "Ist Es Sicher, PDF-Seiten Online Zu Extrahieren?",
+        "content": "Ja, völlig sicher. Das gesamte PDF-Extrahieren findet lokal in Ihrem Browser statt. Ihre Dateien werden niemals auf einen Server hochgeladen, was 100% Datenschutz und Sicherheit gewährleistet."
+      },
+      "block3": {
+        "title": "Kann Ich Mehrere Seiten Auf Einmal Extrahieren?",
+        "content": "Ja, Sie können mehrere Seiten auf einmal extrahieren, indem Sie Seitenbereiche eingeben (z. B. '1-3, 5, 7-9'). Dadurch wird ein neues PDF erstellt, das genau die gewünschten Seiten enthält."
+      },
+      "block4": {
+        "title": "Was Passiert Mit Dem Original-PDF?",
+        "content": "Das Original-PDF bleibt unverändert. Unser Tool erstellt eine neue PDF-Datei, die nur die extrahierten Seiten enthält. Ihr ursprüngliches Dokument bleibt auf Ihrem Gerät erhalten."
+      },
+      "block5": {
+        "title": "Warum Unseren PDF-Extraktor Verwenden?",
+        "content": "Unser PDF-Extraktor ist schnell, kostenlos und sicher. Im Gegensatz zu anderen Tools, die Datei-Uploads erfordern, verarbeiten wir alles lokal in Ihrem Browser. Das bedeutet, dass Ihre Dokumente Ihr Gerät niemals verlassen und somit vollständig privat bleiben."
       }
     }
   },
@@ -417,6 +509,52 @@
         "title": "Herunterladen",
         "description": "Erhalten Sie Ihre komprimierte PDF-Datei"
       }
+    },
+    "useCases": {
+      "title": "Wann PDF-Kompressor Verwenden",
+      "case1": {
+        "icon": "📧",
+        "title": "E-Mail-Anhänge",
+        "description": "PDFs komprimieren, um E-Mail-Größenbeschränkungen einzuhalten"
+      },
+      "case2": {
+        "icon": "💾",
+        "title": "Speicher Platzieren",
+        "description": "Dateigröße für effiziente Speicherung reduzieren"
+      },
+      "case3": {
+        "icon": "📤",
+        "title": "Schnelleres Hochladen",
+        "description": "Komprimieren für schnellere Datei-Uploads"
+      },
+      "case4": {
+        "icon": "🌐",
+        "title": "Web-Optimierung",
+        "description": "PDFs für das Online-Sharing optimieren"
+      }
+    },
+    "seoContent": {
+      "title": "Häufig Gestellte Fragen Zum PDF-Komprimieren",
+      "block1": {
+        "title": "Wie Komprimiere Ich PDF-Dateien?",
+        "content": "Um PDF-Dateien zu komprimieren, laden Sie Ihr Dokument hoch und wählen Ihre bevorzugte Komprimierungsstufe. Unser Tool optimiert das PDF, indem es unnötige Elemente entfernt und Bilder komprimiert, wobei die Lesbarkeit erhalten bleibt. Die gesamte Verarbeitung erfolgt lokal in Ihrem Browser."
+      },
+      "block2": {
+        "title": "Ist Es Sicher, PDF-Dateien Online Zu Komprimieren?",
+        "content": "Ja, völlig sicher. Das gesamte PDF-Komprimieren findet lokal in Ihrem Browser mit JavaScript statt. Ihre Dateien werden niemals auf einen Server hochgeladen, was 100% Datenschutz gewährleistet. Wir können nicht auf Ihre Dokumente zugreifen, und sie werden sofort auf Ihrem Gerät verarbeitet."
+      },
+      "block3": {
+        "title": "Wird Die Komprimierung Die Qualität Beeinträchtigen?",
+        "content": "Unser Komprimierungsalgorithmus ist darauf ausgelegt, die Qualität bei reduzierter Dateigröße zu erhalten. Bei den meisten Dokumenten ist der Qualitätsunterschied vernachlässigbar. Wenn Sie die kleinste Dateigröße benötigen, verwenden Sie die Komprimierungsstufe 'hoch'. Für bessere Qualität verwenden Sie 'niedrig'."
+      },
+      "block4": {
+        "title": "Wie Stark Kann Ich Ein PDF Komprimieren?",
+        "content": "Die Komprimierungsergebnisse variieren je nach ursprünglichem PDF. Dokumente mit vielen Bildern komprimieren typischerweise stärker (30-70% Reduzierung). Textlastige Dokumente komprimieren weniger. Unser Tool zeigt Ihnen die genaue Dateigrößenreduzierung vor dem Download an."
+      },
+      "block5": {
+        "title": "Was Ist Der Beste Kostenlose PDF-Kompressor?",
+        "content": "Der beste PDF-Kompressor sollte schnell, sicher und effektiv sein. Unser Tool verarbeitet Dateien vollständig in Ihrem Browser und gewährleistet maximalen Datenschutz. Im Gegensatz zu anderen Tools, die Uploads erfordern, behalten wir Ihre Daten auf Ihrem Gerät und bieten gleichzeitig professionelle PDF-Komprimierung kostenlos an."
+      }
     }
   },
   "rotate": {
@@ -442,6 +580,52 @@
       "step3": {
         "title": "Herunterladen",
         "description": "Erhalten Sie Ihre gedrehte PDF-Datei"
+      }
+    },
+    "useCases": {
+      "title": "Wann PDF-Rotator Verwenden",
+      "case1": {
+        "icon": "📷",
+        "title": "Gescannte PDFs Korrigieren",
+        "description": "Ausrichtung von gescannten Dokumenten korrigieren"
+      },
+      "case2": {
+        "icon": "📱",
+        "title": "Mobile Anzeige",
+        "description": "Seiten für bessere mobile Lesung drehen"
+      },
+      "case3": {
+        "icon": "🖨️",
+        "title": "Druckvorbereitung",
+        "description": "Seitenausrichtung für den Druck anpassen"
+      },
+      "case4": {
+        "icon": "📄",
+        "title": "Dokumentformatierung",
+        "description": "Konsistente Seitenausrichtung sicherstellen"
+      }
+    },
+    "seoContent": {
+      "title": "Häufig Gestellte Fragen Zum PDF-Drehen",
+      "block1": {
+        "title": "Wie Drehe Ich PDF-Seiten?",
+        "content": "Laden Sie Ihr PDF hoch und wählen Sie die Seiten aus, die Sie drehen möchten. Wählen Sie den Drehwinkel (90°, 180° oder 270°) und wenden Sie ihn an. Unser Tool verarbeitet alles lokal in Ihrem Browser für maximale Sicherheit."
+      },
+      "block2": {
+        "title": "Ist Es Sicher, PDFs Online Zu Drehen?",
+        "content": "Ja, völlig sicher. Das gesamte PDF-Drehen findet lokal in Ihrem Browser statt. Ihre Dateien werden niemals auf einen Server hochgeladen, was 100% Datenschutz und Sicherheit gewährleistet."
+      },
+      "block3": {
+        "title": "Kann Ich Alle Seiten Auf Einmal Drehen?",
+        "content": "Ja, Sie können alle Seiten auf einmal drehen oder einzelne Seiten selektiv drehen. Diese Flexibilität ermöglicht es Ihnen, Dokumente mit gemischter Ausrichtung schnell zu korrigieren."
+      },
+      "block4": {
+        "title": "Wird Das Drehen Die Qualität Beeinflussen?",
+        "content": "Nein, das Drehen von PDF-Seiten beeinträchtigt nicht die Qualität. Unser Tool erhält die ursprüngliche Qualität bei Änderung der Seitenausrichtung. Ihre Dokumente sehen genau gleich aus, nur gedreht."
+      },
+      "block5": {
+        "title": "Warum Unseren PDF-Rotator Verwenden?",
+        "content": "Unser PDF-Rotator ist schnell, kostenlos und sicher. Im Gegensatz zu anderen Tools, die Datei-Uploads erfordern, verarbeiten wir alles lokal in Ihrem Browser. Das bedeutet, dass Ihre Dokumente Ihr Gerät niemals verlassen."
       }
     }
   },
@@ -469,6 +653,52 @@
         "title": "Herunterladen",
         "description": "Erhalten Sie Ihre PDF-Datei ohne gelöschte Seiten"
       }
+    },
+    "useCases": {
+      "title": "Wann PDF-Seitenlöser Verwenden",
+      "case1": {
+        "icon": "🗑️",
+        "title": "Leere Seiten Entfernen",
+        "description": "Leere oder weiße Seiten aus Dokumenten löschen"
+      },
+      "case2": {
+        "icon": "📄",
+        "title": "Dokumente Bereinigen",
+        "description": "Ungewünschte Seiten aus PDFs entfernen"
+      },
+      "case3": {
+        "icon": "✂️",
+        "title": "Inhalt Extrahieren",
+        "description": "Seiten löschen, um nur das Notwendige zu behalten"
+      },
+      "case4": {
+        "icon": "📑",
+        "title": "Dateien Organisieren",
+        "description": "PDFs vereinfachen durch Entfernen von Überflüssigem"
+      }
+    },
+    "seoContent": {
+      "title": "Häufig Gestellte Fragen Zum Löschen Von PDF-Seiten",
+      "block1": {
+        "title": "Wie Lösche Ich Seiten Aus Einem PDF?",
+        "content": "Laden Sie Ihr PDF hoch und wählen Sie die Seiten aus, die Sie löschen möchten. Sie können einzelne Seiten oder Bereiche auswählen. Unser Tool verarbeitet alles lokal in Ihrem Browser für maximale Sicherheit."
+      },
+      "block2": {
+        "title": "Ist Es Sicher, PDF-Seiten Online Zu Löschen?",
+        "content": "Ja, völlig sicher. Die gesamte PDF-Verarbeitung findet lokal in Ihrem Browser statt. Ihre Dateien werden niemals auf einen Server hochgeladen, was 100% Datenschutz und Sicherheit gewährleistet."
+      },
+      "block3": {
+        "title": "Kann Ich Mehrere Seiten Auf Einmal Löschen?",
+        "content": "Ja, Sie können mehrere Seiten auf einmal löschen, indem Sie sie einzeln auswählen oder nach Seitenbereichen. Dies erleichtert das schnelle Bereinigen großer Dokumente."
+      },
+      "block4": {
+        "title": "Was Passiert Mit Gelöschten Seiten?",
+        "content": "Die gelöschten Seiten werden dauerhaft aus der neuen PDF-Datei entfernt. Ihr ursprüngliches Dokument bleibt unverändert auf Ihrem Gerät. Wir erstellen ein neues PDF ohne die ausgewählten Seiten."
+      },
+      "block5": {
+        "title": "Warum Unseren PDF-Seitenlöser Verwenden?",
+        "content": "Unser PDF-Seitenlöser ist schnell, kostenlos und sicher. Im Gegensatz zu anderen Tools, die Datei-Uploads erfordern, verarbeiten wir alles lokal in Ihrem Browser. Das bedeutet, dass Ihre Dokumente Ihr Gerät niemals verlassen."
+      }
     }
   },
   "reorder": {
@@ -494,6 +724,52 @@
       "step3": {
         "title": "Herunterladen",
         "description": "Erhalten Sie Ihre neu angeordnete PDF-Datei"
+      }
+    },
+    "useCases": {
+      "title": "Wann PDF-Umordner Verwenden",
+      "case1": {
+        "icon": "📄",
+        "title": "Dokumentenreihenfolge Korrigieren",
+        "description": "Sequenz von Seiten in gescannten Dokumenten korrigieren"
+      },
+      "case2": {
+        "icon": "📑",
+        "title": "Inhalt Neu Organisieren",
+        "description": "Kapitel oder Abschnitte neu ordnen"
+      },
+      "case3": {
+        "icon": "✂️",
+        "title": "Benutzerdefinierte Layouts",
+        "description": "Benutzerdefinierte Seitenanordnungen erstellen"
+      },
+      "case4": {
+        "icon": "📚",
+        "title": "Buchorganisation",
+        "description": "Seiten für Broschüren oder Handbücher neu ordnen"
+      }
+    },
+    "seoContent": {
+      "title": "Häufig Gestellte Fragen Zum Neuordnen Von PDFs",
+      "block1": {
+        "title": "Wie Ordne Ich PDF-Seiten Neu?",
+        "content": "Laden Sie Ihr PDF hoch und ziehen Sie Seiten, um sie neu zu ordnen. Unser Tool verarbeitet alles lokal in Ihrem Browser für maximale Sicherheit und Datenschutz."
+      },
+      "block2": {
+        "title": "Ist Es Sicher, PDFs Online Neu Zu Ordnen?",
+        "content": "Ja, völlig sicher. Das gesamte PDF-Neuordnen findet lokal in Ihrem Browser statt. Ihre Dateien werden niemals auf einen Server hochgeladen."
+      },
+      "block3": {
+        "title": "Kann Ich Seiten Vorschauen?",
+        "content": "Ja, Sie können Seitenzahlen sehen, während Sie zum Neuordnen ziehen. Dies erleichtert das Anordnen der Seiten in der richtigen Reihenfolge."
+      },
+      "block4": {
+        "title": "Wird Sich Die Qualität Ändern?",
+        "content": "Nein, das Neuordnen von Seiten beeinträchtigt nicht die Qualität. Ihr PDF sieht genau gleich aus, nur mit Seiten in einer anderen Reihenfolge."
+      },
+      "block5": {
+        "title": "Warum Unseren PDF-Umordner Verwenden?",
+        "content": "Unser PDF-Umordner ist schnell, kostenlos und sicher. Die gesamte Verarbeitung erfolgt lokal in Ihrem Browser, wodurch sichergestellt wird, dass Ihre Dateien Ihr Gerät niemals verlassen."
       }
     }
   },
@@ -521,6 +797,52 @@
         "title": "PDF mit Wasserzeichen herunterladen",
         "description": "Erhalten Sie die geschützte Datei"
       }
+    },
+    "useCases": {
+      "title": "Wann PDF-Wasserzeichen Verwenden",
+      "case1": {
+        "icon": "©️",
+        "title": "Urheberrechtsschutz",
+        "description": "Urheberrechtshinweis zu Dokumenten hinzufügen"
+      },
+      "case2": {
+        "icon": "🏢",
+        "title": "Markenaufbau",
+        "description": "Firmenlogo oder -namen zu PDFs hinzufügen"
+      },
+      "case3": {
+        "icon": "📄",
+        "title": "Entwurfsmarkierung",
+        "description": "Dokumente als Entwurf oder vertraulich markieren"
+      },
+      "case4": {
+        "icon": "🔒",
+        "title": "Datensicherheit",
+        "description": "Sicherheitswasserzeichen zu sensiblen Dateien hinzufügen"
+      }
+    },
+    "seoContent": {
+      "title": "Häufig Gestellte Fragen Zum PDF-Wasserzeichen",
+      "block1": {
+        "title": "Wie Füge Ich Ein Wasserzeichen Zu Einem PDF Hinzu?",
+        "content": "Laden Sie Ihr PDF hoch und geben Sie Ihren Wasserzeichentext ein. Passen Sie Schriftgröße, Farbe, Drehung und Position an. Unser Tool verarbeitet alles lokal in Ihrem Browser."
+      },
+      "block2": {
+        "title": "Ist Es Sicher, Wasserzeichen Online Hinzuzufügen?",
+        "content": "Ja, völlig sicher. Das gesamte Hinzufügen von Wasserzeichen findet lokal in Ihrem Browser statt. Ihre Dateien werden niemals auf einen Server hochgeladen, was 100% Datenschutz gewährleistet."
+      },
+      "block3": {
+        "title": "Kann I Bildwasserzeichen Hinzufügen?",
+        "content": "Ja, Sie können sowohl Text- als auch Bildwasserzeichen hinzufügen. Für Text können Sie Schriftart, Größe, Farbe und Drehung nach Ihren Wünschen anpassen."
+      },
+      "block4": {
+        "title": "Wird Das Wasserzeichen Die Qualität Beeinflussen?",
+        "content": "Nein, Wasserzeichen werden als Überlagerungsebene hinzugefügt, ohne die Qualität des zugrundeliegenden Inhalts zu beeinträchtigen. Ihr Dokument bleibt scharf und klar."
+      },
+      "block5": {
+        "title": "Warum Unseren PDF-Wasserzeichen-Tool Verwenden?",
+        "content": "Unser PDF-Wasserzeichen-Tool ist schnell, kostenlos und sicher. Die gesamte Verarbeitung erfolgt lokal in Ihrem Browser, wodurch sichergestellt wird, dass Ihre Dokumente Ihr Gerät niemals verlassen."
+      }
     }
   },
   "batch": {
@@ -546,6 +868,52 @@
       "step3": {
         "title": "Verarbeiten und herunterladen",
         "description": "Verarbeiten Sie alle Dateien mit einem Klick"
+      }
+    },
+    "useCases": {
+      "title": "Wann Stapelverarbeitung Verwenden",
+      "case1": {
+        "icon": "📦",
+        "title": "Stapeloperationen",
+        "description": "Mehrere Dateien gleichzeitig verarbeiten"
+      },
+      "case2": {
+        "icon": "⚡",
+        "title": "Zeit Sparen",
+        "description": "Mehrere PDFs effizient auf einmal verarbeiten"
+      },
+      "case3": {
+        "icon": "🔄",
+        "title": "Konsistente Verarbeitung",
+        "description": "Gleiche Operation auf alle Dateien anwenden"
+      },
+      "case4": {
+        "icon": "📊",
+        "title": "Dokument-Workflows",
+        "description": "Dokumentenvorbereitungsaufgaben vereinfachen"
+      }
+    },
+    "seoContent": {
+      "title": "Häufig Gestellte Fragen Zur Stapelverarbeitung",
+      "block1": {
+        "title": "Wie Verarbeite Ich PDFs Stapelweise?",
+        "content": "Laden Sie mehrere PDF-Dateien hoch und wählen Sie die Operation aus, die Sie ausführen möchten. Unser Tool verarbeitet alle Dateien lokal in Ihrem Browser für maximale Sicherheit."
+      },
+      "block2": {
+        "title": "Ist Es Sicher, Stapelweise Online Zu Verarbeiten?",
+        "content": "Ja, völlig sicher. Die gesamte Stapelverarbeitung findet lokal in Ihrem Browser statt. Ihre Dateien werden niemals auf einen Server hochgeladen."
+      },
+      "block3": {
+        "title": "Wie Viele Dateien Kann Ich Verarbeiten?",
+        "content": "Sie können mehrere Dateien auf einmal verarbeiten. Es gibt keine strikte Begrenzung, obwohl die Leistung je nach den Fähigkeiten Ihres Geräts variieren kann."
+      },
+      "block4": {
+        "title": "Welche Operationen Werden Unterstützt?",
+        "content": "Sie können mehrere PDFs zusammenfügen, Dateien nach Seitenanzahl aufteilen oder Dateien komprimieren, um die Größe zu reduzieren. Wählen Sie die Operation, die Ihren Anforderungen entspricht."
+      },
+      "block5": {
+        "title": "Warum Unseren Stapelverarbeiter Verwenden?",
+        "content": "Unser Stapelverarbeiter ist schnell, kostenlos und sicher. Die gesamte Verarbeitung erfolgt lokal in Ihrem Browser, wodurch sichergestellt wird, dass Ihre Dateien Ihr Gerät niemals verlassen."
       }
     }
   },
@@ -574,6 +942,52 @@
         "title": "Verschlüsseltes PDF herunterladen",
         "description": "Erhalten Sie die geschützte Datei"
       }
+    },
+    "useCases": {
+      "title": "Wann PDF-Verschlüsselung Verwenden",
+      "case1": {
+        "icon": "🔐",
+        "title": "Dokumente Schützen",
+        "description": "Sensible PDF-Dateien mit Passwörtern sichern"
+      },
+      "case2": {
+        "icon": "📄",
+        "title": "Vertrauliche Dateien",
+        "description": "Private oder Geschäftsdokumente verschlüsseln"
+      },
+      "case3": {
+        "icon": "💼",
+        "title": "Kundendaten",
+        "description": "Kundeninformationen in PDFs schützen"
+      },
+      "case4": {
+        "icon": "🔒",
+        "title": "Dokumentenkontrolle",
+        "description": "Zugriff auf wichtige Dateien beschränken"
+      }
+    },
+    "seoContent": {
+      "title": "Häufig Gestellte Fragen Zum PDF-Verschlüsseln",
+      "block1": {
+        "title": "Wie Verschlüssele Ich PDF-Dateien?",
+        "content": "Laden Sie Ihr PDF hoch und geben Sie ein Passwort ein. Unser Tool fügt Passwortschutz zu Ihrem Dokument hinzu. Die gesamte Verarbeitung erfolgt lokal in Ihrem Browser."
+      },
+      "block2": {
+        "title": "Ist Es Sicher, PDFs Online Zu Verschlüsseln?",
+        "content": "Ja, völlig sicher. Das gesamte PDF-Verschlüsseln findet lokal in Ihrem Browser statt. Ihre Dateien und Passwörter werden niemals auf einen Server hochgeladen."
+      },
+      "block3": {
+        "title": "Wie Stark Ist Die Verschlüsselung?",
+        "content": "Wir verwenden starke branchenübliche Verschlüsselung, um Ihre PDF-Dateien zu schützen. Verschlüsselte PDFs können nur mit dem richtigen Passwort geöffnet werden."
+      },
+      "block4": {
+        "title": "Kann Ich Das Passwort Später Entfernen?",
+        "content": "Ja, Sie können unser PDF-Entschlüsselungstool verwenden, um den Passwortschutz zu entfernen, wenn Sie das Passwort kennen. Bewahren Sie Ihr Passwort an einem sicheren Ort auf."
+      },
+      "block5": {
+        "title": "Warum Unsere PDF-Verschlüsselung Verwenden?",
+        "content": "Unser PDF-Verschlüsselungstool ist schnell, kostenlos und sicher. Die gesamte Verarbeitung erfolgt lokal in Ihrem Browser, wodurch sichergestellt wird, dass Ihre Dateien Ihr Gerät niemals verlassen."
+      }
     }
   },
   "decrypt": {
@@ -600,6 +1014,52 @@
       "step3": {
         "title": "Entschlüsseltes PDF herunterladen",
         "description": "Erhalten Sie die entsperrte Datei"
+      }
+    },
+    "useCases": {
+      "title": "Wann PDF-Entschlüsselung Verwenden",
+      "case1": {
+        "icon": "🔓",
+        "title": "Dokumente Entsperren",
+        "description": "Passwort von geschützten PDFs entfernen"
+      },
+      "case2": {
+        "icon": "📄",
+        "title": "Auf Dateien Zugreifen",
+        "description": "Verschlüsselte PDFs öffnen, die Sie besitzen"
+      },
+      "case3": {
+        "icon": "🔄",
+        "title": "Schutz Entfernen",
+        "description": "Sicherheit von eigenen Dateien entfernen"
+      },
+      "case4": {
+        "icon": "💼",
+        "title": "Dokumentenwiederherstellung",
+        "description": "Zugriff auf Ihre Dokumente wiedererlangen"
+      }
+    },
+    "seoContent": {
+      "title": "Häufig Gestellte Fragen Zum PDF-Entschlüsseln",
+      "block1": {
+        "title": "Wie Entschlüssele Ich PDF-Dateien?",
+        "content": "Laden Sie Ihr verschlüsseltes PDF hoch und geben Sie das Passwort ein. Unser Tool entfernt den Passwortschutz. Die gesamte Verarbeitung erfolgt lokal in Ihrem Browser."
+      },
+      "block2": {
+        "title": "Ist Es Sicher, PDFs Online Zu Entschlüsseln?",
+        "content": "Ja, völlig sicher. Das gesamte PDF-Entschlüsseln findet lokal in Ihrem Browser statt. Ihre Dateien und Passwörter werden niemals auf einen Server hochgeladen."
+      },
+      "block3": {
+        "title": "Was Passiert, Wenn Ich Das Passwort Vergesse?",
+        "content": "Leider können wir Ihnen nicht beim Entschlüsseln des PDF helfen, wenn Sie das Passwort nicht kennen. Dies ist eine Sicherheitsfunktion - nur das richtige Passwort kann die Datei entsperren."
+      },
+      "block4": {
+        "title": "Wird Die Entschlüsselung Die Qualität Beeinflussen?",
+        "content": "Nein, das Entschlüsseln eines PDF entfernt nur den Passwortschutz. Inhalt und Qualität bleiben genau gleich wie im ursprünglichen Dokument."
+      },
+      "block5": {
+        "title": "Warum Unsere PDF-Entschlüsselung Verwenden?",
+        "content": "Unser PDF-Entschlüsselungstool ist schnell, kostenlos und sicher. Die gesamte Verarbeitung erfolgt lokal in Ihrem Browser, wodurch sichergestellt wird, dass Ihre Dateien Ihr Gerät niemals verlassen."
       }
     }
   },
