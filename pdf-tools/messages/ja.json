@@ -355,7 +355,29 @@
     "pagesIntoFile": "ページごとにファイルに分割",
     "startSplit": "分割開始",
     "splitComplete": "分割完了",
-    "splitSuccess": "{count}個のファイルに正常に分割しました"
+    "splitSuccess": "{count}個のファイルに正常に分割しました",
+    "hero": {
+      "title": "PDFを無料でオンライン分割",
+      "description": "PDFドキュメントを別々のファイルに分割します。ページ、範囲を抽出するか、均等に分割します。",
+      "point1": "100%無料",
+      "point2": "登録不要",
+      "point3": "安全でプライベート"
+    },
+    "howTo": {
+      "title": "PDFを分割する方法",
+      "step1": {
+        "title": "PDFをアップロード",
+        "description": "PDFファイルを選択またはドラッグ＆ドロップ"
+      },
+      "step2": {
+        "title": "分割モードを選択",
+        "description": "カスタム範囲または均等分割を選択"
+      },
+      "step3": {
+        "title": "ダウンロード",
+        "description": "分割されたPDFをすぐに取得"
+      }
+    }
   },
   "extract": {
     "title": "PDFページを抽出",
@@ -367,7 +389,29 @@
     "selectPagesToExtract": "抽出するページを選択",
     "startExtract": "抽出開始",
     "extractComplete": "抽出完了",
-    "extractSuccess": "{count}ページを正常に抽出しました"
+    "extractSuccess": "{count}ページを正常に抽出しました",
+    "hero": {
+      "title": "PDFページを無料でオンライン抽出",
+      "description": "PDFファイルから特定のページを抽出します。個別ページまたは範囲を選択します。",
+      "point1": "100%無料",
+      "point2": "登録不要",
+      "point3": "安全でプライベート"
+    },
+    "howTo": {
+      "title": "PDFページを抽出する方法",
+      "step1": {
+        "title": "PDFをアップロード",
+        "description": "PDFファイルを選択またはドラッグ＆ドロップ"
+      },
+      "step2": {
+        "title": "ページを選択",
+        "description": "抽出したいページを選択"
+      },
+      "step3": {
+        "title": "ダウンロード",
+        "description": "抽出されたページをすぐに取得"
+      }
+    }
   },
   "compress": {
     "title": "PDFファイルを圧縮",
@@ -385,11 +429,55 @@
     "high": "高",
     "startCompress": "圧縮開始",
     "compressComplete": "圧縮完了",
-    "compressionRatio": "圧縮率"
+    "compressionRatio": "圧縮率",
+    "hero": {
+      "title": "PDFを無料でオンライン圧縮",
+      "description": "品質を保ちながらPDFファイルのサイズを削減します。高速で効率的な圧縮。",
+      "point1": "100%無料",
+      "point2": "登録不要",
+      "point3": "安全でプライベート"
+    },
+    "howTo": {
+      "title": "PDFを圧縮する方法",
+      "step1": {
+        "title": "PDFをアップロード",
+        "description": "PDFファイルを選択またはドラッグ＆ドロップ"
+      },
+      "step2": {
+        "title": "圧縮",
+        "description": "圧縮レベルを選択"
+      },
+      "step3": {
+        "title": "ダウンロード",
+        "description": "圧縮されたPDFを取得"
+      }
+    }
   },
   "rotate": {
     "title": "PDFを回転",
-    "description": "PDFページを回転"
+    "description": "PDFページを回転",
+    "hero": {
+      "title": "PDFページを無料でオンライン回転",
+      "description": "PDFファイルのページを簡単に回転します。個別ページまたはドキュメント全体を回転。",
+      "point1": "100%無料",
+      "point2": "登録不要",
+      "point3": "安全でプライベート"
+    },
+    "howTo": {
+      "title": "PDFページを回転する方法",
+      "step1": {
+        "title": "PDFをアップロード",
+        "description": "PDFファイルを選択またはドラッグ＆ドロップ"
+      },
+      "step2": {
+        "title": "回転を選択",
+        "description": "ページと回転角度を選択"
+      },
+      "step3": {
+        "title": "ダウンロード",
+        "description": "回転されたPDFを取得"
+      }
+    }
   },
   "deletePages": {
     "title": "PDFページを削除",
@@ -401,11 +489,55 @@
     "deleteAgain": "再度削除",
     "selectPagesAlert": "削除するページを選択してください",
     "cannotDeleteAll": "すべてのページを削除することはできません",
-    "deleteFailed": "削除に失敗しました。もう一度お試しください"
+    "deleteFailed": "削除に失敗しました。もう一度お試しください",
+    "hero": {
+      "title": "PDFページを無料でオンライン削除",
+      "description": "PDFファイルから不要なページを削除します。ページを簡単に選択して削除。",
+      "point1": "100%無料",
+      "point2": "登録不要",
+      "point3": "安全でプライベート"
+    },
+    "howTo": {
+      "title": "PDFページを削除する方法",
+      "step1": {
+        "title": "PDFをアップロード",
+        "description": "PDFファイルを選択またはドラッグ＆ドロップ"
+      },
+      "step2": {
+        "title": "ページを選択",
+        "description": "削除したいページを選択"
+      },
+      "step3": {
+        "title": "ダウンロード",
+        "description": "削除されたページなしのPDFを取得"
+      }
+    }
   },
   "reorder": {
     "title": "ページを並び替え",
-    "description": "PDFページの順序を変更"
+    "description": "PDFページの順序を変更",
+    "hero": {
+      "title": "PDFページを無料でオンライン並べ替え",
+      "description": "ドラッグ＆ドロップでPDFファイルのページを並べ替えます。ドキュメントを簡単に整理。",
+      "point1": "100%無料",
+      "point2": "登録不要",
+      "point3": "安全でプライベート"
+    },
+    "howTo": {
+      "title": "PDFページを並べ替える方法",
+      "step1": {
+        "title": "PDFをアップロード",
+        "description": "PDFファイルを選択またはドラッグ＆ドロップ"
+      },
+      "step2": {
+        "title": "並べ替え",
+        "description": "ページをドラッグして並べ替え"
+      },
+      "step3": {
+        "title": "ダウンロード",
+        "description": "並べ替えられたPDFを取得"
+      }
+    }
   },
   "watermark": {
     "title": "透かしを追加",
@@ -423,7 +555,29 @@
     "watermarkAddedDesc": "PDFファイルに透かしが正常に追加されました",
     "adjustSettings": "設定を調整",
     "enterWatermarkText": "透かしテキストを入力してください",
-    "addWatermarkFailed": "透かしの追加に失敗しました。もう一度お試しください"
+    "addWatermarkFailed": "透かしの追加に失敗しました。もう一度お試しください",
+    "hero": {
+      "title": "PDFに透かしを無料でオンライン追加",
+      "description": "PDFファイルにテキストまたは画像の透かしを追加します。ドキュメントを簡単に保護。",
+      "point1": "テキスト透かし",
+      "point2": "画像透かし",
+      "point3": "完全カスタマイズ可能"
+    },
+    "howTo": {
+      "title": "PDFに透かしを追加する方法",
+      "step1": {
+        "title": "PDFをアップロード",
+        "description": "透かしを追加するファイルを選択"
+      },
+      "step2": {
+        "title": "透かしを設定",
+        "description": "テキストを入力または画像をアップロード"
+      },
+      "step3": {
+        "title": "透かし入りPDFをダウンロード",
+        "description": "保護されたファイルを取得"
+      }
+    }
   },
   "batch": {
     "title": "一括処理",
@@ -450,7 +604,29 @@
     "batchCompressSelectFiles": "圧縮するPDFファイルを選択してください",
     "selected": "選択済み",
     "encryptAgain": "別のファイルを暗号化",
-    "decryptAgain": "別のファイルを復号化"
+    "decryptAgain": "別のファイルを復号化",
+    "hero": {
+      "title": "PDFを一括無料でオンライン処理",
+      "description": "複数のPDFファイルを一度に処理します。結合、分割、圧縮を一括処理して効率化。",
+      "point1": "一括処理",
+      "point2": "複数の操作",
+      "point3": "時間の節約"
+    },
+    "howTo": {
+      "title": "PDFを一括処理する方法",
+      "step1": {
+        "title": "操作を選択",
+        "description": "実行する一括操作を選択"
+      },
+      "step2": {
+        "title": "複数のファイルを追加",
+        "description": "複数のPDFファイルをアップロードまたはドラッグ"
+      },
+      "step3": {
+        "title": "処理してダウンロード",
+        "description": "ワンクリックですべてのファイルを処理"
+      }
+    }
   },
   "encrypt": {
     "title": "PDF を暗号化",
@@ -470,7 +646,29 @@
     "noPassword": "パスワードを入力してください",
     "passwordMismatch": "パスワードが一致しません",
     "invalidFile": "有効な PDF ファイルを選択してください",
-    "encryptError": "暗号化に失敗しました。もう一度お試しください。"
+    "encryptError": "暗号化に失敗しました。もう一度お試しください。",
+    "hero": {
+      "title": "PDFを無料でオンライン暗号化",
+      "description": "PDFファイルにパスワード保護を追加します。強力な暗号化でドキュメントを保護。",
+      "point1": "パスワード保護",
+      "point2": "強力な暗号化",
+      "point3": "安全で信頼性"
+    },
+    "howTo": {
+      "title": "PDFを暗号化する方法",
+      "step1": {
+        "title": "PDFをアップロード",
+        "description": "暗号化するPDFファイルを選択"
+      },
+      "step2": {
+        "title": "パスワードを設定",
+        "description": "パスワードを入力して確認"
+      },
+      "step3": {
+        "title": "暗号化されたPDFをダウンロード",
+        "description": "保護されたファイルを取得"
+      }
+    }
   },
   "decrypt": {
     "title": "PDF を復号化",
@@ -488,7 +686,29 @@
     "noPassword": "パスワードを入力してください",
     "wrongPassword": "パスワードが正しくありません。もう一度お試しください。",
     "invalidFile": "有効な PDF ファイルを選択してください",
-    "decryptError": "復号化に失敗しました。パスワードを確認してもう一度お試しください。"
+    "decryptError": "復号化に失敗しました。パスワードを確認してもう一度お試しください。",
+    "hero": {
+      "title": "PDFを無料でオンライン復号化",
+      "description": "PDFファイルからパスワード保護を削除します。ドキュメントのロックを簡単に解除。",
+      "point1": "パスワード削除",
+      "point2": "高速ロック解除",
+      "point3": "安全な処理"
+    },
+    "howTo": {
+      "title": "PDFを復号化する方法",
+      "step1": {
+        "title": "PDFをアップロード",
+        "description": "復号化するPDFファイルを選択"
+      },
+      "step2": {
+        "title": "パスワードを入力",
+        "description": "正しいパスワードを入力"
+      },
+      "step3": {
+        "title": "復号化されたPDFをダウンロード",
+        "description": "ロック解除されたファイルを取得"
+      }
+    }
   },
   "blog": {
     "title": "PDF Tools Blog",

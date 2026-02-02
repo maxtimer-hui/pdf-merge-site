@@ -332,7 +332,29 @@
     "upload": "Télécharger Fichier PDF",
     "processing": "Traitement...",
     "download": "Télécharger PDFs Divisés",
-    "success": "PDF divisé avec succès!"
+    "success": "PDF divisé avec succès!",
+    "hero": {
+      "title": "Diviser des fichiers PDF gratuitement en ligne",
+      "description": "Divisez des documents PDF en fichiers séparés. Extrayez des pages, des plages ou divisez uniformément.",
+      "point1": "100% Gratuit",
+      "point2": "Sans Inscription",
+      "point3": "Sécurisé et Privé"
+    },
+    "howTo": {
+      "title": "Comment diviser des fichiers PDF",
+      "step1": {
+        "title": "Télécharger un PDF",
+        "description": "Sélectionnez ou glissez-déposez votre fichier PDF"
+      },
+      "step2": {
+        "title": "Choisir le mode de division",
+        "description": "Sélectionnez une plage personnalisée ou divisez uniformément"
+      },
+      "step3": {
+        "title": "Télécharger",
+        "description": "Obtenez vos fichiers PDF divisés instantanément"
+      }
+    }
   },
   "extract": {
     "title": "Extraire des Pages PDF",
@@ -340,7 +362,29 @@
     "upload": "Télécharger Fichier PDF",
     "processing": "Traitement...",
     "download": "Télécharger Pages Extraites",
-    "success": "Pages extraites avec succès!"
+    "success": "Pages extraites avec succès!",
+    "hero": {
+      "title": "Extraire des pages PDF gratuitement en ligne",
+      "description": "Extrayez des pages spécifiques de fichiers PDF. Sélectionnez des pages individuelles ou des plages.",
+      "point1": "100% Gratuit",
+      "point2": "Sans Inscription",
+      "point3": "Sécurisé et Privé"
+    },
+    "howTo": {
+      "title": "Comment extraire des pages PDF",
+      "step1": {
+        "title": "Télécharger un PDF",
+        "description": "Sélectionnez ou glissez-déposez votre fichier PDF"
+      },
+      "step2": {
+        "title": "Sélectionner les pages",
+        "description": "Choisissez les pages que vous souhaitez extraire"
+      },
+      "step3": {
+        "title": "Télécharger",
+        "description": "Obtenez vos pages extraites instantanément"
+      }
+    }
   },
   "compress": {
     "title": "Comprimer des Fichiers PDF",
@@ -351,37 +395,213 @@
     "success": "PDF compressé avec succès!",
     "originalSize": "Taille Originale",
     "compressedSize": "Taille Compressée",
-    "saved": "Économisé"
+    "saved": "Économisé",
+    "hero": {
+      "title": "Compresser des fichiers PDF gratuitement en ligne",
+      "description": "Réduisez la taille des fichiers PDF tout en conservant la qualité. Compression rapide et efficace.",
+      "point1": "100% Gratuit",
+      "point2": "Sans Inscription",
+      "point3": "Sécurisé et Privé"
+    },
+    "howTo": {
+      "title": "Comment compresser des fichiers PDF",
+      "step1": {
+        "title": "Télécharger un PDF",
+        "description": "Sélectionnez ou glissez-déposez votre fichier PDF"
+      },
+      "step2": {
+        "title": "Compresser",
+        "description": "Choisissez le niveau de compression"
+      },
+      "step3": {
+        "title": "Télécharger",
+        "description": "Obtenez votre PDF compressé"
+      }
+    }
   },
   "rotate": {
     "title": "Faire Pivoter le PDF",
-    "description": "Faire pivoter les pages du PDF"
+    "description": "Faire pivoter les pages du PDF",
+    "hero": {
+      "title": "Faire pivoter des pages PDF gratuitement en ligne",
+      "description": "Faites pivoter les pages de fichiers PDF facilement. Faites pivoter des pages individuelles ou tout le document.",
+      "point1": "100% Gratuit",
+      "point2": "Sans Inscription",
+      "point3": "Sécurisé et Privé"
+    },
+    "howTo": {
+      "title": "Comment faire pivoter des pages PDF",
+      "step1": {
+        "title": "Télécharger un PDF",
+        "description": "Sélectionnez ou glissez-déposez votre fichier PDF"
+      },
+      "step2": {
+        "title": "Sélectionner la rotation",
+        "description": "Choisissez les pages et l angle de rotation"
+      },
+      "step3": {
+        "title": "Télécharger",
+        "description": "Obtenez votre PDF pivoté"
+      }
+    }
   },
   "deletePages": {
     "title": "Supprimer des Pages PDF",
-    "description": "Supprimer les pages indésirables d'un PDF"
+    "description": "Supprimer les pages indésirables d'un PDF",
+    "hero": {
+      "title": "Supprimer des pages PDF gratuitement en ligne",
+      "description": "Supprimez les pages indésirables des fichiers PDF. Sélectionnez et supprimez facilement les pages.",
+      "point1": "100% Gratuit",
+      "point2": "Sans Inscription",
+      "point3": "Sécurisé et Privé"
+    },
+    "howTo": {
+      "title": "Comment supprimer des pages PDF",
+      "step1": {
+        "title": "Télécharger un PDF",
+        "description": "Sélectionnez ou glissez-déposez votre fichier PDF"
+      },
+      "step2": {
+        "title": "Sélectionner les pages",
+        "description": "Choisissez les pages que vous souhaitez supprimer"
+      },
+      "step3": {
+        "title": "Télécharger",
+        "description": "Obtenez votre PDF sans les pages supprimées"
+      }
+    }
   },
   "reorder": {
     "title": "Réorganiser les Pages",
-    "description": "Réorganiser l'ordre des pages PDF"
+    "description": "Réorganiser l'ordre des pages PDF",
+    "hero": {
+      "title": "Réorganiser des pages PDF gratuitement en ligne",
+      "description": "Réorganisez les pages de fichiers PDF en faisant glisser et déposer. Organisez facilement vos documents.",
+      "point1": "100% Gratuit",
+      "point2": "Sans Inscription",
+      "point3": "Sécurisé et Privé"
+    },
+    "howTo": {
+      "title": "Comment réorganiser des pages PDF",
+      "step1": {
+        "title": "Télécharger un PDF",
+        "description": "Sélectionnez ou glissez-déposez votre fichier PDF"
+      },
+      "step2": {
+        "title": "Réorganiser",
+        "description": "Faites glisser les pages pour les réorganiser"
+      },
+      "step3": {
+        "title": "Télécharger",
+        "description": "Obtenez votre PDF réorganisé"
+      }
+    }
   },
   "watermark": {
     "title": "Ajouter Filigrane",
-    "description": "Ajouter un filigrane personnalisé à un PDF"
+    "description": "Ajouter un filigrane personnalisé à un PDF",
+    "hero": {
+      "title": "Ajouter un filigrane au PDF gratuitement en ligne",
+      "description": "Ajoutez des filigranes texte ou image aux fichiers PDF. Protégez facilement vos documents.",
+      "point1": "Filigrane texte",
+      "point2": "Filigrane image",
+      "point3": "Entièrement personnalisable"
+    },
+    "howTo": {
+      "title": "Comment ajouter un filigrane au PDF",
+      "step1": {
+        "title": "Télécharger un PDF",
+        "description": "Sélectionnez le fichier auquel ajouter un filigrane"
+      },
+      "step2": {
+        "title": "Configurer le filigrane",
+        "description": "Entrez du texte ou téléchargez une image"
+      },
+      "step3": {
+        "title": "Télécharger le PDF avec filigrane",
+        "description": "Obtenez le fichier protégé"
+      }
+    }
   },
   "batch": {
     "title": "Traitement par Lot",
-    "description": "Traiter plusieurs fichiers PDF à la fois"
+    "description": "Traiter plusieurs fichiers PDF à la fois",
+    "hero": {
+      "title": "Traitement par lots de PDF gratuitement en ligne",
+      "description": "Traitez plusieurs fichiers PDF à la fois. Fusionnez, divisez, compressez en lot pour plus d efficacité.",
+      "point1": "Traitement par lots",
+      "point2": "Opérations multiples",
+      "point3": "Gain de temps"
+    },
+    "howTo": {
+      "title": "Comment traiter des PDF par lots",
+      "step1": {
+        "title": "Sélectionner une opération",
+        "description": "Choisissez l opération par lots à effectuer"
+      },
+      "step2": {
+        "title": "Ajouter plusieurs fichiers",
+        "description": "Téléchargez ou glissez plusieurs fichiers PDF"
+      },
+      "step3": {
+        "title": "Traiter et télécharger",
+        "description": "Traitez tous les fichiers en un clic"
+      }
+    }
   },
   "encrypt": {
     "title": "Chiffrer le PDF",
     "description": "Ajouter une protection par mot de passe à un PDF",
-    "comingSoon": "La fonction de chiffrement arrive bientôt!"
+    "comingSoon": "La fonction de chiffrement arrive bientôt!",
+    "hero": {
+      "title": "Chiffrer des PDF gratuitement en ligne",
+      "description": "Ajoutez une protection par mot de passe aux fichiers PDF. Sécurisez vos documents avec un chiffrement fort.",
+      "point1": "Protection par mot de passe",
+      "point2": "Chiffrement fort",
+      "point3": "Sûr et fiable"
+    },
+    "howTo": {
+      "title": "Comment chiffrer des PDF",
+      "step1": {
+        "title": "Télécharger un PDF",
+        "description": "Sélectionnez le fichier PDF à chiffrer"
+      },
+      "step2": {
+        "title": "Définir un mot de passe",
+        "description": "Entrez et confirmez votre mot de passe"
+      },
+      "step3": {
+        "title": "Télécharger le PDF chiffré",
+        "description": "Obtenez le fichier protégé"
+      }
+    }
   },
   "decrypt": {
     "title": "Déchiffrer le PDF",
     "description": "Supprimer la protection par mot de passe d'un PDF",
-    "comingSoon": "La fonction de déchiffrement arrive bientôt!"
+    "comingSoon": "La fonction de déchiffrement arrive bientôt!",
+    "hero": {
+      "title": "Déchiffrer des PDF gratuitement en ligne",
+      "description": "Supprimez la protection par mot de passe des fichiers PDF. Déverrouillez facilement vos documents.",
+      "point1": "Supprimer le mot de passe",
+      "point2": "Déverrouillage rapide",
+      "point3": "Traitement sécurisé"
+    },
+    "howTo": {
+      "title": "Comment déchiffrer des PDF",
+      "step1": {
+        "title": "Télécharger un PDF",
+        "description": "Sélectionnez le fichier PDF à déchiffrer"
+      },
+      "step2": {
+        "title": "Entrer le mot de passe",
+        "description": "Entrez le mot de passe correct"
+      },
+      "step3": {
+        "title": "Télécharger le PDF déchiffré",
+        "description": "Obtenez le fichier déverrouillé"
+      }
+    }
   },
   "blog": {
     "title": "PDF Tools Blog",

@@ -355,7 +355,29 @@
     "pagesIntoFile": "페이지를 파일로 분할",
     "startSplit": "분할 시작",
     "splitComplete": "분할 완료",
-    "splitSuccess": "{count}개의 파일로 성공적으로 분할했습니다"
+    "splitSuccess": "{count}개의 파일로 성공적으로 분할했습니다",
+    "hero": {
+      "title": "PDF 파일 무료 온라인 분할",
+      "description": "PDF 문서를 별도의 파일로 분할합니다. 페이지, 범위를 추출하거나 균등하게 분할합니다.",
+      "point1": "100% 무료",
+      "point2": "등록 필요 없음",
+      "point3": "안전하고 개인정보 보호"
+    },
+    "howTo": {
+      "title": "PDF 파일을 분할하는 방법",
+      "step1": {
+        "title": "PDF 업로드",
+        "description": "PDF 파일을 선택하거나 드래그 앤 드롭"
+      },
+      "step2": {
+        "title": "분할 모드 선택",
+        "description": "사용자 지정 범위 또는 균등 분할 선택"
+      },
+      "step3": {
+        "title": "다운로드",
+        "description": "분할된 PDF를 즉시 받으세요"
+      }
+    }
   },
   "extract": {
     "title": "PDF 페이지 추출",
@@ -367,7 +389,29 @@
     "selectPagesToExtract": "추출할 페이지 선택",
     "startExtract": "추출 시작",
     "extractComplete": "추출 완료",
-    "extractSuccess": "{count}페이지를 성공적으로 추출했습니다"
+    "extractSuccess": "{count}페이지를 성공적으로 추출했습니다",
+    "hero": {
+      "title": "PDF 페이지 무료 온라인 추출",
+      "description": "PDF 파일에서 특정 페이지를 추출합니다. 개별 페이지 또는 범위를 선택합니다.",
+      "point1": "100% 무료",
+      "point2": "등록 필요 없음",
+      "point3": "안전하고 개인정보 보호"
+    },
+    "howTo": {
+      "title": "PDF 페이지를 추출하는 방법",
+      "step1": {
+        "title": "PDF 업로드",
+        "description": "PDF 파일을 선택하거나 드래그 앤 드롭"
+      },
+      "step2": {
+        "title": "페이지 선택",
+        "description": "추출할 페이지 선택"
+      },
+      "step3": {
+        "title": "다운로드",
+        "description": "추출된 페이지를 즉시 받으세요"
+      }
+    }
   },
   "compress": {
     "title": "PDF 파일 압축",
@@ -385,11 +429,55 @@
     "high": "높음",
     "startCompress": "압축 시작",
     "compressComplete": "압축 완료",
-    "compressionRatio": "압축률"
+    "compressionRatio": "압축률",
+    "hero": {
+      "title": "PDF 파일 무료 온라인 압축",
+      "description": "품질을 유지하면서 PDF 파일 크기를 줄입니다. 빠르고 효율적인 압축.",
+      "point1": "100% 무료",
+      "point2": "등록 필요 없음",
+      "point3": "안전하고 개인정보 보호"
+    },
+    "howTo": {
+      "title": "PDF 파일을 압축하는 방법",
+      "step1": {
+        "title": "PDF 업로드",
+        "description": "PDF 파일을 선택하거나 드래그 앤 드롭"
+      },
+      "step2": {
+        "title": "압축",
+        "description": "압축 수준 선택"
+      },
+      "step3": {
+        "title": "다운로드",
+        "description": "압축된 PDF 받기"
+      }
+    }
   },
   "rotate": {
     "title": "PDF 회전",
-    "description": "PDF 페이지 회전"
+    "description": "PDF 페이지 회전",
+    "hero": {
+      "title": "PDF 페이지 무료 온라인 회전",
+      "description": "PDF 파일의 페이지를 쉽게 회전합니다. 개별 페이지 또는 전체 문서를 회전.",
+      "point1": "100% 무료",
+      "point2": "등록 필요 없음",
+      "point3": "안전하고 개인정보 보호"
+    },
+    "howTo": {
+      "title": "PDF 페이지를 회전하는 방법",
+      "step1": {
+        "title": "PDF 업로드",
+        "description": "PDF 파일을 선택하거나 드래그 앤 드롭"
+      },
+      "step2": {
+        "title": "회전 선택",
+        "description": "페이지 및 회전 각도 선택"
+      },
+      "step3": {
+        "title": "다운로드",
+        "description": "회전된 PDF 받기"
+      }
+    }
   },
   "deletePages": {
     "title": "PDF 페이지 삭제",
@@ -401,11 +489,55 @@
     "deleteAgain": "다시 삭제",
     "selectPagesAlert": "삭제할 페이지를 선택하세요",
     "cannotDeleteAll": "모든 페이지를 삭제할 수 없습니다",
-    "deleteFailed": "삭제 실패, 다시 시도하세요"
+    "deleteFailed": "삭제 실패, 다시 시도하세요",
+    "hero": {
+      "title": "PDF 페이지 무료 온라인 삭제",
+      "description": "PDF 파일에서 원하지 않는 페이지를 삭제합니다. 페이지를 쉽게 선택하고 삭제.",
+      "point1": "100% 무료",
+      "point2": "등록 필요 없음",
+      "point3": "안전하고 개인정보 보호"
+    },
+    "howTo": {
+      "title": "PDF 페이지를 삭제하는 방법",
+      "step1": {
+        "title": "PDF 업로드",
+        "description": "PDF 파일을 선택하거나 드래그 앤 드롭"
+      },
+      "step2": {
+        "title": "페이지 선택",
+        "description": "삭제할 페이지 선택"
+      },
+      "step3": {
+        "title": "다운로드",
+        "description": "삭제된 페이지가 없는 PDF 받기"
+      }
+    }
   },
   "reorder": {
     "title": "페이지 순서 변경",
-    "description": "PDF 페이지 순서 변경"
+    "description": "PDF 페이지 순서 변경",
+    "hero": {
+      "title": "PDF 페이지 무료 온라인 재정렬",
+      "description": "드래그 앤 드롭으로 PDF 파일의 페이지를 재정렬합니다. 문서를 쉽게 정리.",
+      "point1": "100% 무료",
+      "point2": "등록 필요 없음",
+      "point3": "안전하고 개인정보 보호"
+    },
+    "howTo": {
+      "title": "PDF 페이지를 재정렬하는 방법",
+      "step1": {
+        "title": "PDF 업로드",
+        "description": "PDF 파일을 선택하거나 드래그 앤 드롭"
+      },
+      "step2": {
+        "title": "재정렬",
+        "description": "페이지를 드래그하여 재정렬"
+      },
+      "step3": {
+        "title": "다운로드",
+        "description": "재정렬된 PDF 받기"
+      }
+    }
   },
   "watermark": {
     "title": "워터마크 추가",
@@ -423,7 +555,29 @@
     "watermarkAddedDesc": "PDF 파일에 워터마크가 성공적으로 추가되었습니다",
     "adjustSettings": "설정 조정",
     "enterWatermarkText": "워터마크 텍스트를 입력하세요",
-    "addWatermarkFailed": "워터마크 추가 실패, 다시 시도하세요"
+    "addWatermarkFailed": "워터마크 추가 실패, 다시 시도하세요",
+    "hero": {
+      "title": "PDF에 워터마크 무료 온라인 추가",
+      "description": "PDF 파일에 텍스트 또는 이미지 워터마크를 추가합니다. 문서를 쉽게 보호.",
+      "point1": "텍스트 워터마크",
+      "point2": "이미지 워터마크",
+      "point3": "완전히 사용자 정의 가능"
+    },
+    "howTo": {
+      "title": "PDF에 워터마크를 추가하는 방법",
+      "step1": {
+        "title": "PDF 업로드",
+        "description": "워터마크를 추가할 파일 선택"
+      },
+      "step2": {
+        "title": "워터마크 설정",
+        "description": "텍스트 입력 또는 이미지 업로드"
+      },
+      "step3": {
+        "title": "워터마크가 있는 PDF 다운로드",
+        "description": "보호된 파일 받기"
+      }
+    }
   },
   "batch": {
     "title": "일괄 처리",
@@ -450,7 +604,29 @@
     "batchCompressSelectFiles": "압축할 PDF 파일을 선택하세요",
     "selected": "선택됨",
     "encryptAgain": "다른 파일 암호화",
-    "decryptAgain": "다른 파일 복호화"
+    "decryptAgain": "다른 파일 복호화",
+    "hero": {
+      "title": "PDF 일괄 처리 무료 온라인",
+      "description": "여러 PDF 파일을 한 번에 처리합니다. 병합, 분할, 압축을 일괄 처리하여 효율성 향상.",
+      "point1": "일괄 처리",
+      "point2": "여러 작업",
+      "point3": "시간 절약"
+    },
+    "howTo": {
+      "title": "PDF를 일괄 처리하는 방법",
+      "step1": {
+        "title": "작업 선택",
+        "description": "수행할 일괄 작업 선택"
+      },
+      "step2": {
+        "title": "여러 파일 추가",
+        "description": "여러 PDF 파일 업로드 또는 드래그"
+      },
+      "step3": {
+        "title": "처리 및 다운로드",
+        "description": "원클릭으로 모든 파일 처리"
+      }
+    }
   },
   "encrypt": {
     "title": "PDF 암호화",
@@ -470,7 +646,29 @@
     "noPassword": "비밀번호를 입력하세요",
     "passwordMismatch": "비밀번호가 일치하지 않습니다",
     "invalidFile": "유효한 PDF 파일을 선택하세요",
-    "encryptError": "암호화 실패. 다시 시도하세요."
+    "encryptError": "암호화 실패. 다시 시도하세요.",
+    "hero": {
+      "title": "PDF 무료 온라인 암호화",
+      "description": "PDF 파일에 비밀번호 보호를 추가합니다. 강력한 암호화로 문서 보호.",
+      "point1": "비밀번호 보호",
+      "point2": "강력한 암호화",
+      "point3": "안전하고 신뢰할 수 있음"
+    },
+    "howTo": {
+      "title": "PDF를 암호화하는 방법",
+      "step1": {
+        "title": "PDF 업로드",
+        "description": "암호화할 PDF 파일 선택"
+      },
+      "step2": {
+        "title": "비밀번호 설정",
+        "description": "비밀번호 입력 및 확인"
+      },
+      "step3": {
+        "title": "암호화된 PDF 다운로드",
+        "description": "보호된 파일 받기"
+      }
+    }
   },
   "decrypt": {
     "title": "PDF 복호화",
@@ -488,7 +686,29 @@
     "noPassword": "비밀번호를 입력하세요",
     "wrongPassword": "비밀번호가 올바르지 않습니다. 다시 시도하세요.",
     "invalidFile": "유효한 PDF 파일을 선택하세요",
-    "decryptError": "복호화 실패. 비밀번호를 확인하고 다시 시도하세요."
+    "decryptError": "복호화 실패. 비밀번호를 확인하고 다시 시도하세요.",
+    "hero": {
+      "title": "PDF 무료 온라인 복호화",
+      "description": "PDF 파일에서 비밀번호 보호를 제거합니다. 문서의 잠금을 쉽게 해제.",
+      "point1": "비밀번호 제거",
+      "point2": "빠른 잠금 해제",
+      "point3": "안전한 처리"
+    },
+    "howTo": {
+      "title": "PDF를 복호화하는 방법",
+      "step1": {
+        "title": "PDF 업로드",
+        "description": "복호화할 PDF 파일 선택"
+      },
+      "step2": {
+        "title": "비밀번호 입력",
+        "description": "올바른 비밀번호 입력"
+      },
+      "step3": {
+        "title": "복호화된 PDF 다운로드",
+        "description": "잠금 해제된 파일 받기"
+      }
+    }
   },
   "blog": {
     "title": "PDF Tools Blog",

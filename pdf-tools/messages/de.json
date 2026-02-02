@@ -332,7 +332,29 @@
     "upload": "PDF-Datei Hochladen",
     "processing": "Verarbeitung...",
     "download": "Aufgeteilte PDFs Herunterladen",
-    "success": "PDF erfolgreich aufgeteilt!"
+    "success": "PDF erfolgreich aufgeteilt!",
+    "hero": {
+      "title": "PDF-Dateien kostenlos online teilen",
+      "description": "Teilen Sie PDF-Dokumente in separate Dateien. Extrahieren Sie Seiten, Bereiche oder teilen Sie gleichmäßig.",
+      "point1": "100% Kostenlos",
+      "point2": "Keine Anmeldung",
+      "point3": "Sicher und Privat"
+    },
+    "howTo": {
+      "title": "So teilen Sie PDF-Dateien",
+      "step1": {
+        "title": "PDF hochladen",
+        "description": "Wählen Sie Ihre PDF-Datei aus oder ziehen Sie sie hierher"
+      },
+      "step2": {
+        "title": "Teilmodus wählen",
+        "description": "Wählen Sie benutzerdefinierten Bereich oder gleichmäßig teilen"
+      },
+      "step3": {
+        "title": "Herunterladen",
+        "description": "Erhalten Sie sofort Ihre geteilten PDF-Dateien"
+      }
+    }
   },
   "extract": {
     "title": "PDF-Seiten Extrahieren",
@@ -340,7 +362,29 @@
     "upload": "PDF-Datei Hochladen",
     "processing": "Verarbeitung...",
     "download": "Extrahierte Seiten Herunterladen",
-    "success": "Seiten erfolgreich extrahiert!"
+    "success": "Seiten erfolgreich extrahiert!",
+    "hero": {
+      "title": "PDF-Seiten kostenlos online extrahieren",
+      "description": "Extrahieren Sie bestimmte Seiten aus PDF-Dateien. Wählen Sie einzelne Seiten oder Bereiche.",
+      "point1": "100% Kostenlos",
+      "point2": "Keine Anmeldung",
+      "point3": "Sicher und Privat"
+    },
+    "howTo": {
+      "title": "So extrahieren Sie PDF-Seiten",
+      "step1": {
+        "title": "PDF hochladen",
+        "description": "Wählen Sie Ihre PDF-Datei aus oder ziehen Sie sie hierher"
+      },
+      "step2": {
+        "title": "Seiten auswählen",
+        "description": "Wählen Sie die Seiten aus, die Sie extrahieren möchten"
+      },
+      "step3": {
+        "title": "Herunterladen",
+        "description": "Erhalten Sie sofort Ihre extrahierten Seiten"
+      }
+    }
   },
   "compress": {
     "title": "PDF-Dateien Komprimieren",
@@ -351,37 +395,213 @@
     "success": "PDF erfolgreich komprimiert!",
     "originalSize": "Originalgröße",
     "compressedSize": "Komprimierte Größe",
-    "saved": "Gespart"
+    "saved": "Gespart",
+    "hero": {
+      "title": "PDF-Dateien kostenlos online komprimieren",
+      "description": "Reduzieren Sie die Größe von PDF-Dateien bei gleichbleibender Qualität. Schnelle und effiziente Komprimierung.",
+      "point1": "100% Kostenlos",
+      "point2": "Keine Anmeldung",
+      "point3": "Sicher und Privat"
+    },
+    "howTo": {
+      "title": "So komprimieren Sie PDF-Dateien",
+      "step1": {
+        "title": "PDF hochladen",
+        "description": "Wählen Sie Ihre PDF-Datei aus oder ziehen Sie sie hierher"
+      },
+      "step2": {
+        "title": "Komprimieren",
+        "description": "Wählen Sie den Komprimierungsgrad"
+      },
+      "step3": {
+        "title": "Herunterladen",
+        "description": "Erhalten Sie Ihre komprimierte PDF-Datei"
+      }
+    }
   },
   "rotate": {
     "title": "PDF Drehen",
-    "description": "PDF-Seiten drehen"
+    "description": "PDF-Seiten drehen",
+    "hero": {
+      "title": "PDF-Seiten kostenlos online drehen",
+      "description": "Drehen Sie Seiten von PDF-Dateien einfach. Drehen Sie einzelne Seiten oder das gesamte Dokument.",
+      "point1": "100% Kostenlos",
+      "point2": "Keine Anmeldung",
+      "point3": "Sicher und Privat"
+    },
+    "howTo": {
+      "title": "So drehen Sie PDF-Seiten",
+      "step1": {
+        "title": "PDF hochladen",
+        "description": "Wählen Sie Ihre PDF-Datei aus oder ziehen Sie sie hierher"
+      },
+      "step2": {
+        "title": "Drehung wählen",
+        "description": "Wählen Sie die Seiten und den Drehwinkel"
+      },
+      "step3": {
+        "title": "Herunterladen",
+        "description": "Erhalten Sie Ihre gedrehte PDF-Datei"
+      }
+    }
   },
   "deletePages": {
     "title": "PDF-Seiten Löschen",
-    "description": "Ungewünschte Seiten aus einem PDF löschen"
+    "description": "Ungewünschte Seiten aus einem PDF löschen",
+    "hero": {
+      "title": "PDF-Seiten kostenlos online löschen",
+      "description": "Löschen Sie unerwünschte Seiten aus PDF-Dateien. Wählen und Löschen Sie Seiten einfach.",
+      "point1": "100% Kostenlos",
+      "point2": "Keine Anmeldung",
+      "point3": "Sicher und Privat"
+    },
+    "howTo": {
+      "title": "So löschen Sie PDF-Seiten",
+      "step1": {
+        "title": "PDF hochladen",
+        "description": "Wählen Sie Ihre PDF-Datei aus oder ziehen Sie sie hierher"
+      },
+      "step2": {
+        "title": "Seiten auswählen",
+        "description": "Wählen Sie die Seiten aus, die Sie löschen möchten"
+      },
+      "step3": {
+        "title": "Herunterladen",
+        "description": "Erhalten Sie Ihre PDF-Datei ohne gelöschte Seiten"
+      }
+    }
   },
   "reorder": {
     "title": "Seiten Neu Ordnen",
-    "description": "Die Reihenfolge der PDF-Seiten ändern"
+    "description": "Die Reihenfolge der PDF-Seiten ändern",
+    "hero": {
+      "title": "PDF-Seiten kostenlos online neu anordnen",
+      "description": "Ordnen Sie Seiten von PDF-Dateien durch Drag & Drop neu. Organisieren Sie Ihre Dokumente einfach.",
+      "point1": "100% Kostenlos",
+      "point2": "Keine Anmeldung",
+      "point3": "Sicher und Privat"
+    },
+    "howTo": {
+      "title": "So ordnen Sie PDF-Seiten neu an",
+      "step1": {
+        "title": "PDF hochladen",
+        "description": "Wählen Sie Ihre PDF-Datei aus oder ziehen Sie sie hierher"
+      },
+      "step2": {
+        "title": "Neu anordnen",
+        "description": "Ziehen Sie die Seiten, um sie neu anzuordnen"
+      },
+      "step3": {
+        "title": "Herunterladen",
+        "description": "Erhalten Sie Ihre neu angeordnete PDF-Datei"
+      }
+    }
   },
   "watermark": {
     "title": "Wasserzeichen Hinzufügen",
-    "description": "Benutzerdefiniertes Wasserzeichen zu einem PDF hinzufügen"
+    "description": "Benutzerdefiniertes Wasserzeichen zu einem PDF hinzufügen",
+    "hero": {
+      "title": "Wasserzeichen zu PDF kostenlos online hinzufügen",
+      "description": "Fügen Sie Text- oder Bildwasserzeichen zu PDF-Dateien hinzu. Schützen Sie Ihre Dokumente einfach.",
+      "point1": "Textwasserzeichen",
+      "point2": "Bildwasserzeichen",
+      "point3": "Vollständig anpassbar"
+    },
+    "howTo": {
+      "title": "So fügen Sie ein Wasserzeichen zu PDF hinzu",
+      "step1": {
+        "title": "PDF hochladen",
+        "description": "Wählen Sie die Datei aus, der Sie ein Wasserzeichen hinzufügen möchten"
+      },
+      "step2": {
+        "title": "Wasserzeichen konfigurieren",
+        "description": "Geben Sie Text ein oder laden Sie ein Bild hoch"
+      },
+      "step3": {
+        "title": "PDF mit Wasserzeichen herunterladen",
+        "description": "Erhalten Sie die geschützte Datei"
+      }
+    }
   },
   "batch": {
     "title": "Stapelverarbeitung",
-    "description": "Mehrere PDF-Dateien gleichzeitig verarbeiten"
+    "description": "Mehrere PDF-Dateien gleichzeitig verarbeiten",
+    "hero": {
+      "title": "PDFs stapelweise kostenlos online verarbeiten",
+      "description": "Verarbeiten Sie mehrere PDF-Dateien gleichzeitig. Zusammenführen, Teilen, Komprimieren in Stapeln für mehr Effizienz.",
+      "point1": "Stapelverarbeitung",
+      "point2": "Mehrere Operationen",
+      "point3": "Zeitersparnis"
+    },
+    "howTo": {
+      "title": "So verarbeiten Sie PDFs stapelweise",
+      "step1": {
+        "title": "Operation wählen",
+        "description": "Wählen Sie die Stapeloperation aus"
+      },
+      "step2": {
+        "title": "Mehrere Dateien hinzufügen",
+        "description": "Laden Sie mehrere PDF-Dateien hoch oder ziehen Sie sie hierher"
+      },
+      "step3": {
+        "title": "Verarbeiten und herunterladen",
+        "description": "Verarbeiten Sie alle Dateien mit einem Klick"
+      }
+    }
   },
   "encrypt": {
     "title": "PDF Verschlüsseln",
     "description": "Passwortschutz zu einem PDF hinzufügen",
-    "comingSoon": "Verschlüsselungsfunktion kommt bald!"
+    "comingSoon": "Verschlüsselungsfunktion kommt bald!",
+    "hero": {
+      "title": "PDFs kostenlos online verschlüsseln",
+      "description": "Fügen Sie PDF-Dateien Passwortschutz hinzu. Sichern Sie Ihre Dokumente mit starker Verschlüsselung.",
+      "point1": "Passwortschutz",
+      "point2": "Starke Verschlüsselung",
+      "point3": "Sicher und zuverlässig"
+    },
+    "howTo": {
+      "title": "So verschlüsseln Sie PDFs",
+      "step1": {
+        "title": "PDF hochladen",
+        "description": "Wählen Sie die PDF-Datei zum Verschlüsseln"
+      },
+      "step2": {
+        "title": "Passwort festlegen",
+        "description": "Geben Sie Ihr Passwort ein und bestätigen Sie es"
+      },
+      "step3": {
+        "title": "Verschlüsseltes PDF herunterladen",
+        "description": "Erhalten Sie die geschützte Datei"
+      }
+    }
   },
   "decrypt": {
     "title": "PDF Entschlüsseln",
     "description": "Passwortschutz von einem PDF entfernen",
-    "comingSoon": "Entschlüsselungsfunktion kommt bald!"
+    "comingSoon": "Entschlüsselungsfunktion kommt bald!",
+    "hero": {
+      "title": "PDFs kostenlos online entschlüsseln",
+      "description": "Entfernen Sie den Passwortschutz von PDF-Dateien. Entsperren Sie Ihre Dokumente einfach.",
+      "point1": "Passwort entfernen",
+      "point2": "Schnelles Entsperren",
+      "point3": "Sichere Verarbeitung"
+    },
+    "howTo": {
+      "title": "So entschlüsseln Sie PDFs",
+      "step1": {
+        "title": "PDF hochladen",
+        "description": "Wählen Sie die PDF-Datei zum Entschlüsseln"
+      },
+      "step2": {
+        "title": "Passwort eingeben",
+        "description": "Geben Sie das korrekte Passwort ein"
+      },
+      "step3": {
+        "title": "Entschlüsseltes PDF herunterladen",
+        "description": "Erhalten Sie die entsperrte Datei"
+      }
+    }
   },
   "blog": {
     "title": "PDF Tools Blog",
