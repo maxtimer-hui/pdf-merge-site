@@ -356,7 +356,29 @@
     "pagesIntoFile": "páginas en un archivo",
     "startSplit": "Iniciar División",
     "splitComplete": "División Completa",
-    "splitSuccess": "Exitosamente dividido en {count} archivos"
+    "splitSuccess": "Exitosamente dividido en {count} archivos",
+    "hero": {
+      "title": "Dividir archivos PDF gratis en línea",
+      "description": "Divida documentos PDF en archivos separados. Extraiga páginas, rangos o divida equitativamente.",
+      "point1": "100% Gratis",
+      "point2": "Sin Registro",
+      "point3": "Seguro y Privado"
+    },
+    "howTo": {
+      "title": "Cómo dividir archivos PDF",
+      "step1": {
+        "title": "Subir PDF",
+        "description": "Seleccione o arrastre su archivo PDF"
+      },
+      "step2": {
+        "title": "Elegir modo de división",
+        "description": "Seleccione rango personalizado o divida equitativamente"
+      },
+      "step3": {
+        "title": "Descargar",
+        "description": "Obtenga sus archivos PDF divididos al instante"
+      }
+    }
   },
   "extract": {
     "title": "Extraer Páginas PDF",
@@ -368,7 +390,29 @@
     "selectPagesToExtract": "Seleccionar Páginas para Extraer",
     "startExtract": "Iniciar Extracción",
     "extractComplete": "Extracción Completa",
-    "extractSuccess": "Exitosamente extraídas {count} página(s)"
+    "extractSuccess": "Exitosamente extraídas {count} página(s)",
+    "hero": {
+      "title": "Extraer páginas PDF gratis en línea",
+      "description": "Extraiga páginas específicas de archivos PDF. Seleccione páginas individuales o rangos.",
+      "point1": "100% Gratis",
+      "point2": "Sin Registro",
+      "point3": "Seguro y Privado"
+    },
+    "howTo": {
+      "title": "Cómo extraer páginas PDF",
+      "step1": {
+        "title": "Subir PDF",
+        "description": "Seleccione o arrastre su archivo PDF"
+      },
+      "step2": {
+        "title": "Seleccionar páginas",
+        "description": "Elija las páginas que desea extraer"
+      },
+      "step3": {
+        "title": "Descargar",
+        "description": "Obtenga sus páginas extraídas al instante"
+      }
+    }
   },
   "compress": {
     "title": "Comprimir Archivos PDF",
@@ -386,11 +430,55 @@
     "high": "Alto",
     "startCompress": "Iniciar Compresión",
     "compressComplete": "Compresión Completa",
-    "compressionRatio": "Relación de compresión"
+    "compressionRatio": "Relación de compresión",
+    "hero": {
+      "title": "Comprimir archivos PDF gratis en línea",
+      "description": "Reduzca el tamaño de archivos PDF manteniendo la calidad. Compresión eficiente y rápida.",
+      "point1": "100% Gratis",
+      "point2": "Sin Registro",
+      "point3": "Seguro y Privado"
+    },
+    "howTo": {
+      "title": "Cómo comprimir archivos PDF",
+      "step1": {
+        "title": "Subir PDF",
+        "description": "Seleccione o arrastre su archivo PDF"
+      },
+      "step2": {
+        "title": "Comprimir",
+        "description": "Elija el nivel de compresión"
+      },
+      "step3": {
+        "title": "Descargar",
+        "description": "Obtenga su PDF comprimido"
+      }
+    }
   },
   "rotate": {
     "title": "Rotar PDF",
-    "description": "Rotar páginas PDF"
+    "description": "Rotar páginas PDF",
+    "hero": {
+      "title": "Rotar páginas PDF gratis en línea",
+      "description": "Gire páginas de archivos PDF fácilmente. Rote páginas individuales o todo el documento.",
+      "point1": "100% Gratis",
+      "point2": "Sin Registro",
+      "point3": "Seguro y Privado"
+    },
+    "howTo": {
+      "title": "Cómo rotar páginas PDF",
+      "step1": {
+        "title": "Subir PDF",
+        "description": "Seleccione o arrastre su archivo PDF"
+      },
+      "step2": {
+        "title": "Seleccionar rotación",
+        "description": "Elija las páginas y el ángulo de rotación"
+      },
+      "step3": {
+        "title": "Descargar",
+        "description": "Obtenga su PDF rotado"
+      }
+    }
   },
   "deletePages": {
     "title": "Eliminar Páginas PDF",
@@ -402,11 +490,55 @@
     "deleteAgain": "Eliminar de Nuevo",
     "selectPagesAlert": "Por favor seleccione páginas para eliminar",
     "cannotDeleteAll": "No se pueden eliminar todas las páginas",
-    "deleteFailed": "Falló la eliminación, por favor intente de nuevo"
+    "deleteFailed": "Falló la eliminación, por favor intente de nuevo",
+    "hero": {
+      "title": "Eliminar páginas PDF gratis en línea",
+      "description": "Elimine páginas no deseadas de archivos PDF. Seleccione y elimine páginas fácilmente.",
+      "point1": "100% Gratis",
+      "point2": "Sin Registro",
+      "point3": "Seguro y Privado"
+    },
+    "howTo": {
+      "title": "Cómo eliminar páginas PDF",
+      "step1": {
+        "title": "Subir PDF",
+        "description": "Seleccione o arrastre su archivo PDF"
+      },
+      "step2": {
+        "title": "Seleccionar páginas",
+        "description": "Elija las páginas que desea eliminar"
+      },
+      "step3": {
+        "title": "Descargar",
+        "description": "Obtenga su PDF sin las páginas eliminadas"
+      }
+    }
   },
   "reorder": {
     "title": "Reordenar Páginas",
-    "description": "Reorganizar el orden de las páginas PDF"
+    "description": "Reorganizar el orden de las páginas PDF",
+    "hero": {
+      "title": "Reordenar páginas PDF gratis en línea",
+      "description": "Reordene páginas de archivos PDF arrastrando y soltando. Organice sus documentos fácilmente.",
+      "point1": "100% Gratis",
+      "point2": "Sin Registro",
+      "point3": "Seguro y Privado"
+    },
+    "howTo": {
+      "title": "Cómo reordenar páginas PDF",
+      "step1": {
+        "title": "Subir PDF",
+        "description": "Seleccione o arrastre su archivo PDF"
+      },
+      "step2": {
+        "title": "Reordenar",
+        "description": "Arrastre las páginas para reordenarlas"
+      },
+      "step3": {
+        "title": "Descargar",
+        "description": "Obtenga su PDF reordenado"
+      }
+    }
   },
   "watermark": {
     "title": "Añadir Marca de Agua",
@@ -424,7 +556,29 @@
     "watermarkAddedDesc": "La marca de agua se ha añadido exitosamente a su archivo PDF",
     "adjustSettings": "Ajustar Configuración",
     "enterWatermarkText": "Por favor ingrese el texto de la marca de agua",
-    "addWatermarkFailed": "Falló al añadir marca de agua, por favor intente de nuevo"
+    "addWatermarkFailed": "Falló al añadir marca de agua, por favor intente de nuevo",
+    "hero": {
+      "title": "Añadir marca de agua a PDF gratis en línea",
+      "description": "Añada marcas de agua de texto o imagen a archivos PDF. Proteja sus documentos fácilmente.",
+      "point1": "Marca de agua de texto",
+      "point2": "Marca de agua de imagen",
+      "point3": "Totalmente personalizable"
+    },
+    "howTo": {
+      "title": "Cómo añadir marca de agua a PDF",
+      "step1": {
+        "title": "Subir PDF",
+        "description": "Seleccione el archivo al que añadir marca de agua"
+      },
+      "step2": {
+        "title": "Configurar marca de agua",
+        "description": "Introduzca texto o suba imagen"
+      },
+      "step3": {
+        "title": "Descargar PDF con marca de agua",
+        "description": "Obtenga el archivo protegido"
+      }
+    }
   },
   "batch": {
     "title": "Procesamiento por Lotes",
@@ -452,7 +606,29 @@
     "batchCompressSelectFiles": "Seleccione archivos PDF para comprimir",
     "selected": "Seleccionado",
     "encryptAgain": "Cifrar Otro Archivo",
-    "decryptAgain": "Descifrar Otro Archivo"
+    "decryptAgain": "Descifrar Otro Archivo",
+    "hero": {
+      "title": "Procesar PDF en lote gratis en línea",
+      "description": "Procese múltiples archivos PDF a la vez. Combine, divida, comprima en lote para mayor eficiencia.",
+      "point1": "Procesamiento por lotes",
+      "point2": "Múltiples operaciones",
+      "point3": "Ahorra tiempo"
+    },
+    "howTo": {
+      "title": "Cómo procesar PDF en lote",
+      "step1": {
+        "title": "Seleccionar operación",
+        "description": "Elija la operación por lotes a realizar"
+      },
+      "step2": {
+        "title": "Añadir varios archivos",
+        "description": "Suba o arrastre varios archivos PDF"
+      },
+      "step3": {
+        "title": "Procesar y descargar",
+        "description": "Procese todos los archivos con un clic"
+      }
+    }
   },
   "encrypt": {
     "title": "Cifrar PDF",
@@ -472,7 +648,29 @@
     "noPassword": "Por favor ingrese una contraseña",
     "passwordMismatch": "Las contraseñas no coinciden",
     "invalidFile": "Por favor seleccione un archivo PDF válido",
-    "encryptError": "Error en el cifrado. Por favor intente de nuevo."
+    "encryptError": "Error en el cifrado. Por favor intente de nuevo.",
+    "hero": {
+      "title": "Cifrar PDF gratis en línea",
+      "description": "Añada protección con contraseña a archivos PDF. Proteja sus documentos con cifrado fuerte.",
+      "point1": "Protección con contraseña",
+      "point2": "Cifrado fuerte",
+      "point3": "Seguro y confiable"
+    },
+    "howTo": {
+      "title": "Cómo cifrar PDF",
+      "step1": {
+        "title": "Subir PDF",
+        "description": "Seleccione el archivo PDF a cifrar"
+      },
+      "step2": {
+        "title": "Establecer contraseña",
+        "description": "Introduzca y confirme su contraseña"
+      },
+      "step3": {
+        "title": "Descargar PDF cifrado",
+        "description": "Obtenga el archivo protegido"
+      }
+    }
   },
   "decrypt": {
     "title": "Descifrar PDF",
@@ -490,7 +688,29 @@
     "noPassword": "Por favor ingrese la contraseña",
     "wrongPassword": "Contraseña incorrecta. Por favor intente de nuevo.",
     "invalidFile": "Por favor seleccione un archivo PDF válido",
-    "decryptError": "Error en el descifrado. Por favor verifique la contraseña e intente de nuevo."
+    "decryptError": "Error en el descifrado. Por favor verifique la contraseña e intente de nuevo.",
+    "hero": {
+      "title": "Descifrar PDF gratis en línea",
+      "description": "Elimine la protección con contraseña de archivos PDF. Desbloquee sus documentos fácilmente.",
+      "point1": "Eliminar contraseña",
+      "point2": "Desbloqueo rápido",
+      "point3": "Procesamiento seguro"
+    },
+    "howTo": {
+      "title": "Cómo descifrar PDF",
+      "step1": {
+        "title": "Subir PDF",
+        "description": "Seleccione el archivo PDF a descifrar"
+      },
+      "step2": {
+        "title": "Introducir contraseña",
+        "description": "Introduzca la contraseña correcta"
+      },
+      "step3": {
+        "title": "Descargar PDF descifrado",
+        "description": "Obtenga el archivo desbloqueado"
+      }
+    }
   },
   "blog": {
     "title": "PDF Tools Blog",
