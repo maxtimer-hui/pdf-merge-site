@@ -170,6 +170,16 @@
       "title": "Häufig Gestellte Fragen",
       "empty": "Keine FAQs für dieses Tool verfügbar"
     },
+    "errors": {
+      "noFileProvided": "Keine Datei bereitgestellt",
+      "noPasswordProvided": "Kein Passwort bereitgestellt",
+      "incorrectPassword": "Falsches Passwort oder beschädigte Datei",
+      "encryptionFailed": "Verschlüsselung fehlgeschlagen",
+      "decryptionFailed": "Entschlüsselung fehlgeschlagen",
+      "fileTooLarge": "Datei ist zu groß",
+      "invalidFileType": "Ungültiger Dateityp. Bitte laden Sie eine PDF-Datei hoch.",
+      "processingError": "Ein Fehler ist beim Verarbeiten Ihrer Datei aufgetreten."
+    },
     "blog": "Blog",
     "tutorials": "Tutorials",
     "resources": "Ressourcen",
