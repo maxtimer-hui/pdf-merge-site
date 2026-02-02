@@ -207,6 +207,16 @@
       "title": "常见问题",
       "empty": "此工具暂无常见问题"
     },
+    "errors": {
+      "noFileProvided": "未提供文件",
+      "noPasswordProvided": "未提供密码",
+      "incorrectPassword": "密码错误或文件已损坏",
+      "encryptionFailed": "加密失败",
+      "decryptionFailed": "解密失败",
+      "fileTooLarge": "文件过大",
+      "invalidFileType": "无效的文件类型。请上传 PDF 文件。",
+      "processingError": "处理文件时发生错误。"
+    },
     "relatedTools": {
       "title": "您可能需要的相关工具",
       "splitAfterMerge": "合并后，您可能需要从合并的PDF中提取特定页面",
