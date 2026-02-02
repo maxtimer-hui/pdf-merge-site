@@ -186,6 +186,7 @@
     "alertSelectPDF": "请选择 PDF 文件",
     "alertFailed": "操作失败，请重试",
     "readPDFFailed": "读取 PDF 失败",
+,    "hero": { "title": "在线免费旋转 PDF 页面", "description": "旋转单个页面或整个 PDF 文档。易于使用，无需注册。100% 免费。", "point1": "旋转页面", "point2": "简单操作", "point3": "即时处理" },    "howTo": { "title": "如何旋转 PDF 页面", "step1": { "title": "上传 PDF", "description": "选择或拖放 PDF 文件" }, "step2": { "title": "选择旋转角度", "description": "90°、180° 或 270°" }, "step3": { "title": "下载旋转后的 PDF", "description": "获取旋转后的文件" } }
     "isRequired": "是必需的",
     "alertValidNumber": "请输入有效的数字",
     "selectAll": "全选",
@@ -386,7 +387,29 @@
     "splitCustom": "自定义分割",
     "pagesIntoFile": "页分割成一个文件",
     "startSplit": "开始分割",
-    "splitSuccess": "已成功分割成 {count} 个文件"
+    "splitSuccess": "已成功分割成 {count} 个文件",
+    "hero": {
+      "title": "免费在线分割 PDF 文件",
+      "description": "将 PDF 文件分割成多个文档。无需注册，无限制。100% 免费且安全。",
+      "point1": "完全免费",
+      "point2": "无需注册",
+      "point3": "安全私密"
+    },
+    "howTo": {
+      "title": "如何分割 PDF 文件",
+      "step1": {
+        "title": "上传 PDF",
+        "description": "选择或拖放 PDF 文件"
+      },
+      "step2": {
+        "title": "选择分割模式",
+        "description": "按范围或每 N 页分割"
+      },
+      "step3": {
+        "title": "下载分割后的文件",
+        "description": "即时获取分割后的 PDF"
+      }
+    }
   },
   "extract": {
     "title": "提取PDF页面",
@@ -410,7 +433,29 @@
     "extractSuccessDesc": "页面已成功提取",
     "extractAgain": "再次提取",
     "selectPagesToExtract": "选择要提取的页面",
-    "extractSuccess": "已成功提取 {count} 个页面"
+    "extractSuccess": "已成功提取 {count} 个页面",
+    "hero": {
+      "title": "从 PDF 提取页面 - 免费在线工具",
+      "description": "从 PDF 文件中提取特定页面。快速、安全、无需注册。100% 免费。",
+      "point1": "选择页面",
+      "point2": "即时提取",
+      "point3": "保持质量"
+    },
+    "howTo": {
+      "title": "如何提取 PDF 页面",
+      "step1": {
+        "title": "上传 PDF 文件",
+        "description": "选择要从中提取页面的 PDF"
+      },
+      "step2": {
+        "title": "选择要提取的页面",
+        "description": "按范围或单独选择页面"
+      },
+      "step3": {
+        "title": "下载提取的页面",
+        "description": "获取新的 PDF 文件"
+      }
+    }
   },
   "compress": {
     "title": "压缩PDF文件",
@@ -433,7 +478,29 @@
     "compressComplete": "压缩完成",
     "compressSuccessDesc": "PDF 已成功压缩",
     "startCompress": "开始压缩",
-    "compressionRatio": "压缩率"
+    "compressionRatio": "压缩率",
+    "hero": {
+      "title": "压缩 PDF 文件 - 免费在线 PDF 压缩工具",
+      "description": "减小 PDF 文件大小而不损失质量。快速压缩，无需注册或限制。",
+      "point1": "减小文件大小",
+      "point2": "保持质量",
+      "point3": "安全处理"
+    },
+    "howTo": {
+      "title": "如何压缩 PDF 文件",
+      "step1": {
+        "title": "上传 PDF",
+        "description": "选择要压缩的 PDF 文件"
+      },
+      "step2": {
+        "title": "选择压缩级别",
+        "description": "低、中或高压缩"
+      },
+      "step3": {
+        "title": "下载压缩后的 PDF",
+        "description": "获取更小的文件"
+      }
+    }
   },
   "rotate": {
     "title": "旋转PDF",
@@ -457,6 +524,7 @@
     "alertSelectAngle": "请选择要旋转的角度",
     "alertRotateFailed": "旋转失败，请重试",
     "readPDFFailed": "读取 PDF 失败"
+,    "hero": { "title": "在线免费旋转 PDF 页面", "description": "旋转单个页面或整个 PDF 文档。易于使用，无需注册。100% 免费。", "point1": "旋转页面", "point2": "简单操作", "point3": "即时处理" },    "howTo": { "title": "如何旋转 PDF 页面", "step1": { "title": "上传 PDF", "description": "选择或拖放 PDF 文件" }, "step2": { "title": "选择旋转角度", "description": "90°、180° 或 270°" }, "step3": { "title": "下载旋转后的 PDF", "description": "获取旋转后的文件" } }
   },
   "deletePages": {
     "title": "删除PDF页面",
@@ -473,7 +541,29 @@
     "deleteCompleteDesc": "已成功删除 {deleted} 个页面，保留 {remaining} 页",
     "selectPagesAlert": "请选择要删除的页面",
     "cannotDeleteAll": "不能删除所有页面",
-    "deleteFailed": "删除失败，请重试"
+    "deleteFailed": "删除失败，请重试",
+    "hero": {
+      "title": "删除 PDF 页面 - 免费在线工具",
+      "description": "轻松从 PDF 文件中删除不需要的页面。无需注册，安全处理。",
+      "point1": "选择删除",
+      "point2": "保持其他页面",
+      "point3": "快速处理"
+    },
+    "howTo": {
+      "title": "如何删除 PDF 页面",
+      "step1": {
+        "title": "上传 PDF",
+        "description": "选择要编辑的 PDF 文件"
+      },
+      "step2": {
+        "title": "选择要删除的页面",
+        "description": "点击要删除的页面"
+      },
+      "step3": {
+        "title": "下载新 PDF",
+        "description": "获取删除后的文件"
+      }
+    }
   },
   "reorder": {
     "title": "重新排序页面",
