@@ -170,6 +170,16 @@
       "title": "Questions Fréquentes",
       "empty": "Aucune FAQ disponible pour cet outil"
     },
+    "errors": {
+      "noFileProvided": "Aucun fichier fourni",
+      "noPasswordProvided": "Aucun mot de passe fourni",
+      "incorrectPassword": "Mot de passe incorrect ou fichier corrompu",
+      "encryptionFailed": "Échec du chiffrement",
+      "decryptionFailed": "Échec du déchiffrement",
+      "fileTooLarge": "Le fichier est trop volumineux",
+      "invalidFileType": "Type de fichier invalide. Veuillez télécharger un fichier PDF.",
+      "processingError": "Une erreur s'est produite lors du traitement de votre fichier."
+    },
     "blog": "Blog",
     "tutorials": "Tutoriels",
     "resources": "Ressources",
