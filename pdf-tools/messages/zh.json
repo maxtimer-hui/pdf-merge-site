@@ -59,6 +59,31 @@
       "title": "解密PDF - 免费在线删除PDF密码",
       "description": "在线从PDF文件中删除密码保护。如果您知道密码，可以解密您的PDF文档。",
       "keywords": "解密pdf, 删除pdf密码, pdf解密, 解锁pdf, 移除pdf密码"
+    },
+    "about": {
+      "title": "关于我们 - PDF 工具 | 快速、安全、免费的 PDF 处理",
+      "description": "了解 PDF 工具 - 免费、安全的在线 PDF 处理平台。阅读我们的故事、使命和对隐私保护的承诺。",
+      "keywords": "关于 PDF 工具, PDF 工具故事, 免费 PDF 处理, 安全 PDF 工具, 关于我们"
+    },
+    "contact": {
+      "title": "联系我们 - PDF 工具 | 取得联系",
+      "description": "联系 PDF 工具询问问题、反馈或商务咨询。我们在 24-48 小时内回复。",
+      "keywords": "联系 PDF 工具, 支持, 帮助中心, 客户服务, 取得联系"
+    },
+    "privacy": {
+      "title": "隐私政策 - PDF 工具",
+      "description": "阅读我们的隐私政策。了解我们如何保护您的隐私。所有 PDF 文件在浏览器中本地处理 - 无上传。",
+      "keywords": "隐私政策, 数据保护, 安全 PDF 处理, PDF 隐私"
+    },
+    "terms": {
+      "title": "服务条款 - PDF 工具",
+      "description": "阅读我们的服务条款。了解使用 PDF 工具时的权利和责任。",
+      "keywords": "服务条款, 使用条款, 用户协议, PDF 工具条款"
+    },
+    "cookies": {
+      "title": "Cookie 政策 - PDF 工具 | 我们如何使用 Cookie",
+      "description": "了解 PDF 工具的 Cookie。我们使用必要、分析和广告 Cookie 来改善您的体验。管理您的偏好设置。",
+      "keywords": "Cookie 政策, Cookie, GDPR Cookie, 隐私 Cookie, Cookie 同意"
     }
   },
   "common": {
