@@ -355,7 +355,29 @@
     "pagesIntoFile": "頁分割成一個文件",
     "startSplit": "開始分割",
     "splitComplete": "分割完成",
-    "splitSuccess": "已成功分割成 {count} 個文件"
+    "splitSuccess": "已成功分割成 {count} 個文件",
+    "hero": {
+      "title": "在線免費分割 PDF 文件",
+      "description": "將 PDF 文件分割成多個文檔。無需註冊，無限制。100% 免費且安全。",
+      "point1": "完全免費",
+      "point2": "無需註冊",
+      "point3": "安全私密"
+    },
+    "howTo": {
+      "title": "如何分割 PDF 文件",
+      "step1": {
+        "title": "上傳 PDF",
+        "description": "選擇或拖放 PDF 文件"
+      },
+      "step2": {
+        "title": "選擇分割模式",
+        "description": "按範圍或每 N 頁分割"
+      },
+      "step3": {
+        "title": "下載分割後的文件",
+        "description": "即時獲取分割後的 PDF"
+      }
+    }
   },
   "extract": {
     "title": "提取PDF頁面",
@@ -367,7 +389,29 @@
     "selectPagesToExtract": "選擇要提取的頁面",
     "startExtract": "開始提取",
     "extractComplete": "提取完成",
-    "extractSuccess": "已成功提取 {count} 個頁面"
+    "extractSuccess": "已成功提取 {count} 個頁面",
+    "hero": {
+      "title": "在線免費提取 PDF 頁面",
+      "description": "從 PDF 文件中提取特定頁面。選擇單獨頁面或範圍。快速、安全。",
+      "point1": "完全免費",
+      "point2": "無需註冊",
+      "point3": "安全私密"
+    },
+    "howTo": {
+      "title": "如何提取 PDF 頁面",
+      "step1": {
+        "title": "上傳 PDF",
+        "description": "選擇或拖放 PDF 文件"
+      },
+      "step2": {
+        "title": "選擇頁面",
+        "description": "選擇要提取的頁面"
+      },
+      "step3": {
+        "title": "下載提取的頁面",
+        "description": "即時獲取提取的頁面"
+      }
+    }
   },
   "compress": {
     "title": "壓縮PDF文件",
@@ -385,11 +429,55 @@
     "high": "高",
     "startCompress": "開始壓縮",
     "compressComplete": "壓縮完成",
-    "compressionRatio": "壓縮率"
+    "compressionRatio": "壓縮率",
+    "hero": {
+      "title": "在線免費壓縮 PDF 文件",
+      "description": "減小 PDF 文件大小同時保持質量。快速壓縮，無需註冊。",
+      "point1": "完全免費",
+      "point2": "無需註冊",
+      "point3": "安全私密"
+    },
+    "howTo": {
+      "title": "如何壓縮 PDF 文件",
+      "step1": {
+        "title": "上傳 PDF",
+        "description": "選擇或拖放 PDF 文件"
+      },
+      "step2": {
+        "title": "壓縮",
+        "description": "選擇壓縮級別"
+      },
+      "step3": {
+        "title": "下載壓縮後的 PDF",
+        "description": "獲取壓縮後的文件"
+      }
+    }
   },
   "rotate": {
     "title": "旋轉PDF",
-    "description": "旋轉PDF頁面方向"
+    "description": "旋轉PDF頁面方向",
+    "hero": {
+      "title": "在線免費旋轉 PDF 頁面",
+      "description": "旋轉 PDF 頁面方向。易於使用，無需註冊。100% 免費。",
+      "point1": "旋轉頁面",
+      "point2": "簡單操作",
+      "point3": "即時處理"
+    },
+    "howTo": {
+      "title": "如何旋轉 PDF 頁面",
+      "step1": {
+        "title": "上傳 PDF",
+        "description": "選擇或拖放 PDF 文件"
+      },
+      "step2": {
+        "title": "選擇旋轉角度",
+        "description": "90°、180° 或 270°"
+      },
+      "step3": {
+        "title": "下載旋轉後的 PDF",
+        "description": "獲取旋轉後的文件"
+      }
+    }
   },
   "deletePages": {
     "title": "刪除PDF頁面",
@@ -401,11 +489,55 @@
     "deleteAgain": "重新刪除",
     "selectPagesAlert": "請選擇要刪除的頁面",
     "cannotDeleteAll": "不能刪除所有頁面",
-    "deleteFailed": "刪除失敗，請重試"
+    "deleteFailed": "刪除失敗，請重試",
+    "hero": {
+      "title": "在線免費刪除 PDF 頁面",
+      "description": "從 PDF 文件中刪除不需要的頁面。選擇並刪除頁面。",
+      "point1": "完全免費",
+      "point2": "無需註冊",
+      "point3": "安全私密"
+    },
+    "howTo": {
+      "title": "如何刪除 PDF 頁面",
+      "step1": {
+        "title": "上傳 PDF",
+        "description": "選擇或拖放 PDF 文件"
+      },
+      "step2": {
+        "title": "選擇頁面",
+        "description": "選擇要刪除的頁面"
+      },
+      "step3": {
+        "title": "下載刪除後的 PDF",
+        "description": "獲取刪除後的文件"
+      }
+    }
   },
   "reorder": {
     "title": "重新排序頁面",
-    "description": "調整PDF頁面的順序"
+    "description": "調整PDF頁面的順序",
+    "hero": {
+      "title": "在線免費重新排序 PDF 頁面",
+      "description": "通過拖放重新排序 PDF 頁面。按照您喜歡的順序排列。",
+      "point1": "完全免費",
+      "point2": "無需註冊",
+      "point3": "安全私密"
+    },
+    "howTo": {
+      "title": "如何重新排序 PDF 頁面",
+      "step1": {
+        "title": "上傳 PDF",
+        "description": "選擇或拖放 PDF 文件"
+      },
+      "step2": {
+        "title": "重新排序",
+        "description": "拖動頁面重新排序"
+      },
+      "step3": {
+        "title": "下載重新排序的 PDF",
+        "description": "獲取重新排序的文件"
+      }
+    }
   },
   "watermark": {
     "title": "添加水印",
@@ -423,7 +555,29 @@
     "watermarkAddedDesc": "水印已成功添加到您的 PDF 文件",
     "adjustSettings": "調整設置",
     "enterWatermarkText": "請輸入水印文字",
-    "addWatermarkFailed": "添加水印失敗，請重試"
+    "addWatermarkFailed": "添加水印失敗，請重試",
+    "hero": {
+      "title": "在線免費為 PDF 添加水印",
+      "description": "為 PDF 文件添加自定義文本或圖片水印。保護您的文檔。",
+      "point1": "文本水印",
+      "point2": "圖片水印",
+      "point3": "完全可定制"
+    },
+    "howTo": {
+      "title": "如何為 PDF 添加水印",
+      "step1": {
+        "title": "上傳 PDF",
+        "description": "選擇要添加水印的文件"
+      },
+      "step2": {
+        "title": "設置水印",
+        "description": "輸入文本或上傳圖片"
+      },
+      "step3": {
+        "title": "下載帶水印的 PDF",
+        "description": "獲取保護後的文件"
+      }
+    }
   },
   "batch": {
     "title": "批量處理",
