@@ -3,6 +3,7 @@ import { writeFile, readFile, unlink } from 'fs/promises';
 import { join } from 'path';
 import { tmpdir } from 'os';
 import { decryptPDFFile } from '@/lib/pdf-crypto';
+import { getLocaleFromRequest, getErrorMessage } from '@/lib/i18n-utils';
 
 export async function POST(request: NextRequest) {
   let tempInputPath = '';
@@ -13,12 +14,16 @@ export async function POST(request: NextRequest) {
     const file = formData.get('file') as File;
     const password = formData.get('password') as string;
 
+    const locale = getLocaleFromRequest(request);
+
     if (!file) {
-      return NextResponse.json({ error: 'No file provided' }, { status: 400 });
+      const errorMessage = await getErrorMessage(locale, 'noFileProvided');
+      return NextResponse.json({ error: errorMessage }, { status: 400 });
     }
 
     if (!password) {
-      return NextResponse.json({ error: 'No password provided' }, { status: 400 });
+      const errorMessage = await getErrorMessage(locale, 'noPasswordProvided');
+      return NextResponse.json({ error: errorMessage }, { status: 400 });
     }
 
     // 创建临时文件路径
@@ -52,16 +57,15 @@ export async function POST(request: NextRequest) {
     });
   } catch (error: any) {
     console.error('Decryption error:', error);
+    const locale = getLocaleFromRequest(request);
+
     if (error.message?.includes('Incorrect password') || error.message?.includes('corrupted')) {
-      return NextResponse.json(
-        { error: 'Incorrect password or corrupted file' },
-        { status: 401 }
-      );
+      const errorMessage = await getErrorMessage(locale, 'incorrectPassword');
+      return NextResponse.json({ error: errorMessage }, { status: 401 });
     }
-    return NextResponse.json(
-      { error: error.message || 'Decryption failed' },
-      { status: 500 }
-    );
+
+    const errorMessage = await getErrorMessage(locale, 'decryptionFailed');
+    return NextResponse.json({ error: errorMessage }, { status: 500 });
   } finally {
     // 清理临时文件
     try {
