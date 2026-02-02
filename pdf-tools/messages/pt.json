@@ -170,6 +170,16 @@
       "title": "Perguntas Frequentes",
       "empty": "Nenhuma FAQ disponível para esta ferramenta"
     },
+    "errors": {
+      "noFileProvided": "Nenhum arquivo fornecido",
+      "noPasswordProvided": "Nenhuma senha fornecida",
+      "incorrectPassword": "Senha incorreta ou arquivo corrompido",
+      "encryptionFailed": "Falha na criptografia",
+      "decryptionFailed": "Falha na descriptografia",
+      "fileTooLarge": "O arquivo é muito grande",
+      "invalidFileType": "Tipo de arquivo inválido. Por favor, envie um arquivo PDF.",
+      "processingError": "Ocorreu um erro ao processar seu arquivo."
+    },
     "blog": "Blog",
     "tutorials": "Tutoriais",
     "resources": "Recursos",
