@@ -59,6 +59,31 @@
       "title": "免費合併PDF檔案 - 免費PDF合併工具線上 | 合併PDF免費 無需註冊",
       "description": "免費合併PDF檔案，使用我們安全的PDF合併工具。線上合併、分割、壓縮PDF。無需註冊，無限制，無浮水印。100% 免費PDF合併工具。",
       "keywords": "免費合併pdf檔案, 合併pdf免費, pdf合併工具免費, 免費pdf合併, pdf免費合併, 線上合併pdf免費"
+    },
+    "about": {
+      "title": "關於我們 - PDF 工具 | 快速、安全、免費的 PDF 處理",
+      "description": "了解 PDF 工具 - 免費、安全的線上 PDF 處理平台。閱讀我們的故事、使命和對隱私保護的承諾。",
+      "keywords": "關於 PDF 工具, PDF 工具故事, 免費 PDF 處理, 安全 PDF 工具, 關於我們"
+    },
+    "contact": {
+      "title": "聯絡我們 - PDF 工具 | 取得聯絡",
+      "description": "聯絡 PDF 工具詢問問題、反饋或商務諮詢。我們在 24-48 小時內回覆。",
+      "keywords": "聯絡 PDF 工具, 支援, 幫助中心, 客戶服務, 取得聯絡"
+    },
+    "privacy": {
+      "title": "隱私政策 - PDF 工具",
+      "description": "閱讀我們的隱私政策。了解我們如何保護您的隱私。所有 PDF 檔案在瀏覽器中本地處理 - 無上傳。",
+      "keywords": "隱私政策, 資料保護, 安全 PDF 處理, PDF 隱私"
+    },
+    "terms": {
+      "title": "服務條款 - PDF 工具",
+      "description": "閱讀我們的服務條款。了解使用 PDF 工具時的權利和責任。",
+      "keywords": "服務條款, 使用條款, 用戶協議, PDF 工具條款"
+    },
+    "cookies": {
+      "title": "Cookie 政策 - PDF 工具 | 我們如何使用 Cookie",
+      "description": "了解 PDF 工具的 Cookie。我們使用必要、分析和廣告 Cookie 來改善您的體驗。管理您的偏好設定。",
+      "keywords": "Cookie 政策, Cookie, GDPR Cookie, 隱私 Cookie, Cookie 同意"
     }
   },
   "common": {
