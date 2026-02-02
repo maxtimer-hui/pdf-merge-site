@@ -3,6 +3,7 @@ import { writeFile, readFile, unlink } from 'fs/promises';
 import { join } from 'path';
 import { tmpdir } from 'os';
 import { encryptPDFFile } from '@/lib/pdf-crypto';
+import { getLocaleFromRequest, getErrorMessage } from '@/lib/i18n-utils';
 
 export async function POST(request: NextRequest) {
   let tempInputPath = '';
@@ -13,12 +14,16 @@ export async function POST(request: NextRequest) {
     const file = formData.get('file') as File;
     const password = formData.get('password') as string;
 
+    const locale = getLocaleFromRequest(request);
+
     if (!file) {
-      return NextResponse.json({ error: 'No file provided' }, { status: 400 });
+      const errorMessage = await getErrorMessage(locale, 'noFileProvided');
+      return NextResponse.json({ error: errorMessage }, { status: 400 });
     }
 
     if (!password) {
-      return NextResponse.json({ error: 'No password provided' }, { status: 400 });
+      const errorMessage = await getErrorMessage(locale, 'noPasswordProvided');
+      return NextResponse.json({ error: errorMessage }, { status: 400 });
     }
 
     // 创建临时文件路径
@@ -52,10 +57,10 @@ export async function POST(request: NextRequest) {
     });
   } catch (error: any) {
     console.error('Encryption error:', error);
-    return NextResponse.json(
-      { error: error.message || 'Encryption failed' },
-      { status: 500 }
-    );
+    const locale = getLocaleFromRequest(request);
+
+    const errorMessage = await getErrorMessage(locale, 'encryptionFailed');
+    return NextResponse.json({ error: errorMessage }, { status: 500 });
   } finally {
     // 清理临时文件
     try {
