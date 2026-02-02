@@ -233,6 +233,16 @@
       "title": "Frequently Asked Questions",
       "empty": "No FAQs available for this tool"
     },
+    "errors": {
+      "noFileProvided": "No file provided",
+      "noPasswordProvided": "No password provided",
+      "incorrectPassword": "Incorrect password or corrupted file",
+      "encryptionFailed": "Encryption failed",
+      "decryptionFailed": "Decryption failed",
+      "fileTooLarge": "File is too large",
+      "invalidFileType": "Invalid file type. Please upload a PDF file.",
+      "processingError": "An error occurred while processing your file."
+    },
     "relatedTools": {
       "title": "Related Tools You Might Need",
       "splitAfterMerge": "After merging, you might need to extract specific pages from your combined PDF",
