@@ -378,6 +378,52 @@
         "title": "Descargar",
         "description": "Obtenga sus archivos PDF divididos al instante"
       }
+    },
+    "useCases": {
+      "title": "Cuándo Usar el Divisor de PDF",
+      "case1": {
+        "icon": "📄",
+        "title": "Extraer Capítulos",
+        "description": "Divide capítulos individuales de documentos PDF grandes"
+      },
+      "case2": {
+        "icon": "📊",
+        "title": "Separar Páginas",
+        "description": "Extrae páginas específicas para compartir o imprimir"
+      },
+      "case3": {
+        "icon": "📑",
+        "title": "Dividir Facturas",
+        "description": "Separa facturas o estados de cuenta por fecha o cliente"
+      },
+      "case4": {
+        "icon": "📚",
+        "title": "Crear Secciones",
+        "description": "Divide manuales largos en secciones manejables"
+      }
+    },
+    "seoContent": {
+      "title": "Preguntas Frecuentes Sobre la División de PDFs",
+      "block1": {
+        "title": "¿Cómo Dividir Páginas PDF?",
+        "content": "Para dividir páginas PDF, sube tu documento y elige tu modo de división preferido. Puedes extraer páginas específicas por rango, dividir uniformemente cada N páginas, o extraer todas las páginas como archivos separados. Nuestra herramienta procesa todo localmente en tu navegador para máxima seguridad."
+      },
+      "block2": {
+        "title": "¿Es Seguro Dividir Archivos PDF en Línea?",
+        "content": "Sí, absolutamente seguro. Toda la división de PDF ocurre localmente en tu navegador usando JavaScript. Tus archivos nunca se suben a ningún servidor, garantizando 100% de privacidad. No podemos acceder a tus documentos, y se procesan instantáneamente en tu dispositivo."
+      },
+      "block3": {
+        "title": "¿Puedo Extraer Páginas Específicas de un PDF?",
+        "content": "Sí, puedes extraer páginas específicas ingresando rangos de páginas (por ejemplo, '1-3, 5, 7-9'). Esto te permite crear nuevos PDFs que contengan solo las páginas que necesitas. Perfecto para extraer capítulos, secciones o páginas individuales de documentos grandes."
+      },
+      "block4": {
+        "title": "¿Cómo Dividir un PDF Cada N Páginas?",
+        "content": "Usa nuestro modo 'Dividir Uniformemente' para dividir tu PDF cada N páginas. Por ejemplo, divide cada 1 página para extraer todas las páginas individualmente, o cada 5 páginas para crear documentos más pequeños. Es ideal para dividir archivos grandes en secciones manejables."
+      },
+      "block5": {
+        "title": "¿Cuál es el Mejor Divisor de PDF Gratis?",
+        "content": "El mejor divisor de PDF debe ser rápido, seguro y fácil de usar. Nuestra herramienta procesa archivos completamente en tu navegador, garantizando máxima privacidad. A diferencia de otras herramientas que requieren subidas, mantenemos tus datos en tu dispositivo mientras proporcionamos división de PDF de calidad profesional gratis."
+      }
     }
   },
   "extract": {
@@ -411,6 +457,52 @@
       "step3": {
         "title": "Descargar",
         "description": "Obtenga sus páginas extraídas al instante"
+      }
+    },
+    "useCases": {
+      "title": "Cuándo Usar el Extractor de PDF",
+      "case1": {
+        "icon": "📄",
+        "title": "Extraer Capítulos",
+        "description": "Saca capítulos específicos de documentos grandes"
+      },
+      "case2": {
+        "icon": "📊",
+        "title": "Separar Páginas",
+        "description": "Extrae páginas individuales para compartir"
+      },
+      "case3": {
+        "icon": "📑",
+        "title": "Crear Extractos",
+        "description": "Extrae secciones clave para resúmenes"
+      },
+      "case4": {
+        "icon": "📚",
+        "title": "Organizar Contenido",
+        "description": "Separa secciones del documento para diferentes usos"
+      }
+    },
+    "seoContent": {
+      "title": "Preguntas Frecuentes Sobre la Extracción de Páginas PDF",
+      "block1": {
+        "title": "¿Cómo Extraer Páginas de un PDF?",
+        "content": "Sube tu PDF y selecciona las páginas que quieres extraer. Puedes elegir rangos de páginas específicos o seleccionar páginas individuales. Nuestra herramienta procesa todo localmente en tu navegador para máxima seguridad."
+      },
+      "block2": {
+        "title": "¿Es Seguro Extraer Páginas PDF en Línea?",
+        "content": "Sí, completamente seguro. Toda la extracción de PDF ocurre localmente en tu navegador. Tus archivos nunca se suben a ningún servidor, garantizando 100% de privacidad y seguridad."
+      },
+      "block3": {
+        "title": "¿Puedo Extraer Múltiples Páginas a la Vez?",
+        "content": "Sí, puedes extraer múltiples páginas a la vez ingresando rangos de páginas (por ejemplo, '1-3, 5, 7-9'). Esto crea un nuevo PDF que contiene exactamente las páginas que necesitas."
+      },
+      "block4": {
+        "title": "¿Qué Pasará con el PDF Original?",
+        "content": "El PDF original permanece sin cambios. Nuestra herramienta crea un nuevo archivo PDF que contiene solo las páginas extraídas. Tu documento original permanece intacto en tu dispositivo."
+      },
+      "block5": {
+        "title": "¿Por Qué Usar Nuestro Extractor de PDF?",
+        "content": "Nuestro extractor de PDF es rápido, gratis y seguro. A diferencia de otras herramientas que requieren subida de archivos, procesamos todo localmente en tu navegador. Esto significa que tus documentos nunca salen de tu dispositivo, garantizando privacidad completa."
       }
     }
   },
@@ -452,6 +544,52 @@
         "title": "Descargar",
         "description": "Obtenga su PDF comprimido"
       }
+    },
+    "useCases": {
+      "title": "Cuándo Usar el Compresor de PDF",
+      "case1": {
+        "icon": "📧",
+        "title": "Adjuntos de Correo",
+        "description": "Comprime PDFs para cumplir con límites de tamaño de correo"
+      },
+      "case2": {
+        "icon": "💾",
+        "title": "Ahorrar Espacio",
+        "description": "Reduce el tamaño del archivo para almacenamiento eficiente"
+      },
+      "case3": {
+        "icon": "📤",
+        "title": "Cargas Más Rápidas",
+        "description": "Comprime para subidas de archivo más rápidas"
+      },
+      "case4": {
+        "icon": "🌐",
+        "title": "Optimización Web",
+        "description": "Optimiza PDFs para compartir en la web"
+      }
+    },
+    "seoContent": {
+      "title": "Preguntas Frecuentes Sobre la Compresión de PDFs",
+      "block1": {
+        "title": "¿Cómo Comprimir Archivos PDF?",
+        "content": "Para comprimir archivos PDF, sube tu documento y elige tu nivel de compresión preferido. Nuestra herramienta optimiza el PDF eliminando elementos innecesarios y comprimiendo imágenes manteniendo la legibilidad. Todo el procesamiento ocurre localmente en tu navegador."
+      },
+      "block2": {
+        "title": "¿Es Seguro Comprimir Archivos PDF en Línea?",
+        "content": "Sí, completamente seguro. Toda la compresión de PDF ocurre localmente en tu navegador usando JavaScript. Tus archivos nunca se suben a ningún servidor, garantizando 100% de privacidad. No podemos acceder a tus documentos, y se procesan instantáneamente en tu dispositivo."
+      },
+      "block3": {
+        "title": "¿La Compresión Reducirá la Calidad?",
+        "content": "Nuestro algoritmo de compresión está diseñado para mantener la calidad mientras reduce el tamaño del archivo. Para la mayoría de los documentos, la diferencia de calidad es insignificante. Si necesitas el tamaño de archivo más pequeño, usa el nivel de compresión 'alto'. Para mejor calidad, usa 'baja'."
+      },
+      "block4": {
+        "title": "¿Cuánto Puedo Comprimir un PDF?",
+        "content": "Los resultados de compresión varían dependiendo del PDF original. Los documentos con muchas imágenes típicamente comprimen más (reducción del 30-70%). Los documentos con mucho texto comprimen menos. Nuestra herramienta te muestra la reducción exacta del tamaño del archivo antes de descargar."
+      },
+      "block5": {
+        "title": "¿Cuál es el Mejor Compresor de PDF Gratis?",
+        "content": "El mejor compresor de PDF debe ser rápido, seguro y efectivo. Nuestra herramienta procesa archivos completamente en tu navegador, garantizando máxima privacidad. A diferencia de otras herramientas que requieren subidas, mantenemos tus datos en tu dispositivo mientras proporcionamos compresión de PDF de calidad profesional gratis."
+      }
     }
   },
   "rotate": {
@@ -477,6 +615,52 @@
       "step3": {
         "title": "Descargar",
         "description": "Obtenga su PDF rotado"
+      }
+    },
+    "useCases": {
+      "title": "Cuándo Usar el Rotador de PDF",
+      "case1": {
+        "icon": "📷",
+        "title": "Corregir PDFs Escaneados",
+        "description": "Corrige la orientación de documentos escaneados"
+      },
+      "case2": {
+        "icon": "📱",
+        "title": "Visualización Móvil",
+        "description": "Rota páginas para mejor lectura móvil"
+      },
+      "case3": {
+        "icon": "🖨️",
+        "title": "Preparación de Impresión",
+        "description": "Ajusta la orientación de la página para imprimir"
+      },
+      "case4": {
+        "icon": "📄",
+        "title": "Formateo de Documentos",
+        "description": "Asegura orientación de página consistente"
+      }
+    },
+    "seoContent": {
+      "title": "Preguntas Frecuentes Sobre la Rotación de PDFs",
+      "block1": {
+        "title": "¿Cómo Rotar Páginas PDF?",
+        "content": "Sube tu PDF y selecciona las páginas que quieres rotar. Elige el ángulo de rotación (90°, 180° o 270°) y aplica. Nuestra herramienta procesa todo localmente en tu navegador para máxima seguridad."
+      },
+      "block2": {
+        "title": "¿Es Seguro Rotar PDFs en Línea?",
+        "content": "Sí, completamente seguro. Toda la rotación de PDF ocurre localmente en tu navegador. Tus archivos nunca se suben a ningún servidor, garantizando 100% de privacidad y seguridad."
+      },
+      "block3": {
+        "title": "¿Puedo Rotar Todas las Páginas a la Vez?",
+        "content": "Sí, puedes rotar todas las páginas a la vez o rotar páginas individuales selectivamente. Esta flexibilidad te permite corregir rápidamente documentos de orientación mixta."
+      },
+      "block4": {
+        "title": "¿La Rotación Afectará la Calidad?",
+        "content": "No, rotar páginas PDF no afecta la calidad. Nuestra herramienta preserva la calidad original mientras cambia la orientación de la página. Tus documentos se ven exactamente igual, solo que rotados."
+      },
+      "block5": {
+        "title": "¿Por Qué Usar Nuestro Rotador de PDF?",
+        "content": "Nuestro rotador de PDF es rápido, gratis y seguro. A diferencia de otras herramientas que requieren subida de archivos, procesamos todo localmente en tu navegador. Esto significa que tus documentos nunca salen de tu dispositivo."
       }
     }
   },
@@ -512,6 +696,52 @@
         "title": "Descargar",
         "description": "Obtenga su PDF sin las páginas eliminadas"
       }
+    },
+    "useCases": {
+      "title": "Cuándo Usar el Eliminador de Páginas PDF",
+      "case1": {
+        "icon": "🗑️",
+        "title": "Eliminar Páginas en Blanco",
+        "description": "Elimina páginas vacías o en blanco de documentos"
+      },
+      "case2": {
+        "icon": "📄",
+        "title": "Limpiar Documentos",
+        "description": "Elimina páginas no deseadas de PDFs"
+      },
+      "case3": {
+        "icon": "✂️",
+        "title": "Extraer Contenido",
+        "description": "Elimina páginas para mantener solo lo necesario"
+      },
+      "case4": {
+        "icon": "📑",
+        "title": "Organizar Archivos",
+        "description": "Simplifica PDFs eliminando el desorden"
+      }
+    },
+    "seoContent": {
+      "title": "Preguntas Frecuentes Sobre la Eliminación de Páginas PDF",
+      "block1": {
+        "title": "¿Cómo Eliminar Páginas de un PDF?",
+        "content": "Sube tu PDF y selecciona las páginas que quieres eliminar. Puedes seleccionar páginas individuales o rangos. Nuestra herramienta procesa todo localmente en tu navegador para máxima seguridad."
+      },
+      "block2": {
+        "title": "¿Es Seguro Eliminar Páginas PDF en Línea?",
+        "content": "Sí, completamente seguro. Todo el procesamiento de PDF ocurre localmente en tu navegador. Tus archivos nunca se suben a ningún servidor, garantizando 100% de privacidad y seguridad."
+      },
+      "block3": {
+        "title": "¿Puedo Eliminar Múltiples Páginas a la Vez?",
+        "content": "Sí, puedes eliminar múltiples páginas a la vez seleccionándolas individualmente o por rangos de páginas. Esto facilita limpiar rápidamente documentos grandes."
+      },
+      "block4": {
+        "title": "¿Qué Pasará con las Páginas Eliminadas?",
+        "content": "Las páginas eliminadas se eliminan permanentemente del nuevo archivo PDF. Tu documento original permanece sin cambios en tu dispositivo. Creamos un nuevo PDF sin las páginas seleccionadas."
+      },
+      "block5": {
+        "title": "¿Por Qué Usar Nuestro Eliminador de Páginas PDF?",
+        "content": "Nuestro eliminador de páginas PDF es rápido, gratis y seguro. A diferencia de otras herramientas que requieren subida de archivos, procesamos todo localmente en tu navegador. Esto significa que tus documentos nunca salen de tu dispositivo."
+      }
     }
   },
   "reorder": {
@@ -537,6 +767,52 @@
       "step3": {
         "title": "Descargar",
         "description": "Obtenga su PDF reordenado"
+      }
+    },
+    "useCases": {
+      "title": "Cuándo Usar el Reordenador de PDF",
+      "case1": {
+        "icon": "📄",
+        "title": "Corregir Orden de Documentos",
+        "description": "Corrige la secuencia de páginas en documentos escaneados"
+      },
+      "case2": {
+        "icon": "📑",
+        "title": "Reorganizar Contenido",
+        "description": "Reordena capítulos o secciones"
+      },
+      "case3": {
+        "icon": "✂️",
+        "title": "Diseños Personalizados",
+        "description": "Crea arreglos de página personalizados"
+      },
+      "case4": {
+        "icon": "📚",
+        "title": "Organización de Libros",
+        "description": "Reordena páginas para folletos o manuales"
+      }
+    },
+    "seoContent": {
+      "title": "Preguntas Frecuentes Sobre el Reordenamiento de PDFs",
+      "block1": {
+        "title": "¿Cómo Reordenar Páginas PDF?",
+        "content": "Sube tu PDF y arrastra páginas para reorganizarlas. Nuestra herramienta procesa todo localmente en tu navegador para máxima seguridad y privacidad."
+      },
+      "block2": {
+        "title": "¿Es Seguro Reordenar PDFs en Línea?",
+        "content": "Sí, completamente seguro. Todo el reordenamiento de PDF ocurre localmente en tu navegador. Tus archivos nunca se suben a ningún servidor."
+      },
+      "block3": {
+        "title": "¿Puedo Previsualizar Páginas?",
+        "content": "Sí, puedes ver números de página mientras arrastras para reordenar. Esto facilita organizar las páginas en el orden correcto."
+      },
+      "block4": {
+        "title": "¿Cambiará la Calidad?",
+        "content": "No, reordenar páginas no afecta la calidad. Tu PDF se ve exactamente igual, solo que con páginas en un orden diferente."
+      },
+      "block5": {
+        "title": "¿Por Qué Usar Nuestro Reordenador de PDF?",
+        "content": "Nuestra herramienta de reordenamiento de PDF es rápida, gratis y segura. Todo el procesamiento ocurre localmente en tu navegador, garantizando que tus archivos nunca salgan de tu dispositivo."
       }
     }
   },
@@ -577,6 +853,52 @@
       "step3": {
         "title": "Descargar PDF con marca de agua",
         "description": "Obtenga el archivo protegido"
+      }
+    },
+    "useCases": {
+      "title": "Cuándo Usar la Marca de Agua PDF",
+      "case1": {
+        "icon": "©️",
+        "title": "Protección de Derechos de Autor",
+        "description": "Agrega aviso de derechos de autor a documentos"
+      },
+      "case2": {
+        "icon": "🏢",
+        "title": "Marca",
+        "description": "Agrega logotipo o nombre de empresa a PDFs"
+      },
+      "case3": {
+        "icon": "📄",
+        "title": "Marcado de Borrador",
+        "description": "Marca documentos como borrador o confidencial"
+      },
+      "case4": {
+        "icon": "🔒",
+        "title": "Seguridad de Documentos",
+        "description": "Agrega marcas de agua de seguridad a archivos sensibles"
+      }
+    },
+    "seoContent": {
+      "title": "Preguntas Frecuentes Sobre la Marca de Agua de PDFs",
+      "block1": {
+        "title": "¿Cómo Agregar Marca de Agua a un PDF?",
+        "content": "Sube tu PDF e ingresa tu texto de marca de agua. Personaliza el tamaño de fuente, color, rotación y posición. Nuestra herramienta procesa todo localmente en tu navegador."
+      },
+      "block2": {
+        "title": "¿Es Seguro Agregar Marcas de Agua en Línea?",
+        "content": "Sí, completamente seguro. Toda la marca de agua ocurre localmente en tu navegador. Tus archivos nunca se suben a ningún servidor, garantizando 100% de privacidad."
+      },
+      "block3": {
+        "title": "¿Puedo Agregar Marcas de Agua de Imagen?",
+        "content": "Sí, puedes agregar marcas de agua de texto e imagen. Para texto, puedes personalizar la fuente, tamaño, color y rotación según tus necesidades."
+      },
+      "block4": {
+        "title": "¿La Marca de Agua Afectará la Calidad?",
+        "content": "No, las marcas de agua se agregan como una capa de superposición sin afectar la calidad del contenido subyacente. Tu documento permanece nítido y claro."
+      },
+      "block5": {
+        "title": "¿Por Qué Usar Nuestra Herramienta de Marca de Agua PDF?",
+        "content": "Nuestra herramienta de marca de agua PDF es rápida, gratis y segura. Todo el procesamiento ocurre localmente en tu navegador, garantizando que tus documentos nunca salgan de tu dispositivo."
       }
     }
   },
@@ -628,6 +950,52 @@
         "title": "Procesar y descargar",
         "description": "Procese todos los archivos con un clic"
       }
+    },
+    "useCases": {
+      "title": "Cuándo Usar el Procesamiento por Lotes",
+      "case1": {
+        "icon": "📦",
+        "title": "Operaciones por Lotes",
+        "description": "Procesa múltiples archivos simultáneamente"
+      },
+      "case2": {
+        "icon": "⚡",
+        "title": "Ahorrar Tiempo",
+        "description": "Maneja múltiples PDFs eficientemente a la vez"
+      },
+      "case3": {
+        "icon": "🔄",
+        "title": "Procesamiento Consistente",
+        "description": "Aplica la misma operación a todos los archivos"
+      },
+      "case4": {
+        "icon": "📊",
+        "title": "Flujos de Trabajo de Documentos",
+        "description": "Simplifica tareas de preparación de documentos"
+      }
+    },
+    "seoContent": {
+      "title": "Preguntas Frecuentes Sobre el Procesamiento por Lotes",
+      "block1": {
+        "title": "¿Cómo Procesar PDFs por Lotes?",
+        "content": "Sube múltiples archivos PDF y elige la operación que deseas realizar. Nuestra herramienta procesa todos los archivos localmente en tu navegador para máxima seguridad."
+      },
+      "block2": {
+        "title": "¿Es Seguro Procesar por Lotes en Línea?",
+        "content": "Sí, completamente seguro. Todo el procesamiento por lotes ocurre localmente en tu navegador. Tus archivos nunca se suben a ningún servidor."
+      },
+      "block3": {
+        "title": "¿Cuántos Archivos Puedo Procesar?",
+        "content": "Puedes procesar múltiples archivos a la vez. No hay un límite estricto, aunque el rendimiento puede variar según las capacidades de tu dispositivo."
+      },
+      "block4": {
+        "title": "¿Qué Operaciones Son Compatible?",
+        "content": "Puedes fusionar múltiples PDFs, dividir archivos por recuento de páginas, o comprimir archivos para reducir tamaño. Elige la operación que se ajuste a tus necesidades."
+      },
+      "block5": {
+        "title": "¿Por Qué Usar Nuestro Procesador por Lotes?",
+        "content": "Nuestro procesador por lotes es rápido, gratis y seguro. Todo el procesamiento ocurre localmente en tu navegador, garantizando que tus archivos nunca salgan de tu dispositivo."
+      }
     }
   },
   "encrypt": {
@@ -670,6 +1038,52 @@
         "title": "Descargar PDF cifrado",
         "description": "Obtenga el archivo protegido"
       }
+    },
+    "useCases": {
+      "title": "Cuándo Usar el Cifrado de PDF",
+      "case1": {
+        "icon": "🔐",
+        "title": "Proteger Documentos",
+        "description": "Asegura archivos PDF sensibles con contraseñas"
+      },
+      "case2": {
+        "icon": "📄",
+        "title": "Archivos Confidenciales",
+        "description": "Cifra documentos privados o comerciales"
+      },
+      "case3": {
+        "icon": "💼",
+        "title": "Datos de Clientes",
+        "description": "Protege la información del cliente en PDFs"
+      },
+      "case4": {
+        "icon": "🔒",
+        "title": "Control de Documentos",
+        "description": "Limita el acceso a archivos importantes"
+      }
+    },
+    "seoContent": {
+      "title": "Preguntas Frecuentes Sobre el Cifrado de PDFs",
+      "block1": {
+        "title": "¿Cómo Cifrar Archivos PDF?",
+        "content": "Sube tu PDF e ingresa una contraseña. Nuestra herramienta agrega protección de contraseña a tu documento. Todo el procesamiento ocurre localmente en tu navegador."
+      },
+      "block2": {
+        "title": "¿Es Seguro Cifrar PDFs en Línea?",
+        "content": "Sí, completamente seguro. Todo el cifrado de PDF ocurre localmente en tu navegador. Tus archivos y contraseñas nunca se suben a ningún servidor."
+      },
+      "block3": {
+        "title": "Qué Tan Fuerte es el Cifrado?",
+        "content": "Utilizamos cifrado estándar de industria fuerte para proteger tus archivos PDF. Los PDFs cifrados solo se pueden abrir con la contraseña correcta."
+      },
+      "block4": {
+        "title": "¿Puedo Eliminar la Contraseña Más Tarde?",
+        "content": "Sí, puedes usar nuestra herramienta de Descifrar PDF para eliminar la protección de contraseña si conoces la contraseña. Mantén tu contraseña en un lugar seguro."
+      },
+      "block5": {
+        "title": "¿Por Qué Usar Nuestro Cifrado de PDF?",
+        "content": "Nuestra herramienta de cifrado de PDF es rápida, gratis y segura. Todo el procesamiento ocurre localmente en tu navegador, garantizando que tus archivos nunca salgan de tu dispositivo."
+      }
     }
   },
   "decrypt": {
@@ -709,6 +1123,52 @@
       "step3": {
         "title": "Descargar PDF descifrado",
         "description": "Obtenga el archivo desbloqueado"
+      }
+    },
+    "useCases": {
+      "title": "Cuándo Usar el Descifrado de PDF",
+      "case1": {
+        "icon": "🔓",
+        "title": "Desbloquear Documentos",
+        "description": "Elimina la contraseña de PDFs protegidos"
+      },
+      "case2": {
+        "icon": "📄",
+        "title": "Acceder a Archivos",
+        "description": "Abre PDFs cifrados que posees"
+      },
+      "case3": {
+        "icon": "🔄",
+        "title": "Eliminar Protección",
+        "description": "Quita la seguridad de tus propios archivos"
+      },
+      "case4": {
+        "icon": "💼",
+        "title": "Recuperación de Documentos",
+        "description": "Regaña el acceso a tus documentos"
+      }
+    },
+    "seoContent": {
+      "title": "Preguntas Frecuentes Sobre el Descifrado de PDFs",
+      "block1": {
+        "title": "¿Cómo Descifrar Archivos PDF?",
+        "content": "Sube tu PDF cifrado e ingresa la contraseña. Nuestra herramienta elimina la protección de contraseña. Todo el procesamiento ocurre localmente en tu navegador."
+      },
+      "block2": {
+        "title": "¿Es Seguro Descifrar PDFs en Línea?",
+        "content": "Sí, completamente seguro. Todo el descifrado de PDF ocurre localmente en tu navegador. Tus archivos y contraseñas nunca se suben a ningún servidor."
+      },
+      "block3": {
+        "title": "¿Qué Pasará si Olvido la Contraseña?",
+        "content": "Lamentablemente, si no conoces la contraseña, no podemos ayudar a descifrar el PDF. Esta es una característica de seguridad: solo la contraseña correcta puede desbloquear el archivo."
+      },
+      "block4": {
+        "title": "¿El Descifrado Afectará la Calidad?",
+        "content": "No, descifrar un PDF solo elimina la protección de contraseña. El contenido y la calidad permanecen exactamente iguales que el documento original."
+      },
+      "block5": {
+        "title": "¿Por Qué Usar Nuestro Descifrado de PDF?",
+        "content": "Nuestra herramienta de descifrado de PDF es rápida, gratis y segura. Todo el procesamiento ocurre localmente en tu navegador, garantizando que tus archivos nunca salgan de tu dispositivo."
       }
     }
   },
