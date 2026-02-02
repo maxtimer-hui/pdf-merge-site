@@ -188,6 +188,16 @@
       "title": "자주 묻는 질문",
       "empty": "이 도구에 대한 FAQ가 없습니다"
     },
+    "errors": {
+      "noFileProvided": "파일이 제공되지 않았습니다",
+      "noPasswordProvided": "비밀번호가 제공되지 않았습니다",
+      "incorrectPassword": "비밀번호가 올바르지 않거나 파일이 손상되었습니다",
+      "encryptionFailed": "암호화 실패",
+      "decryptionFailed": "복호화 실패",
+      "fileTooLarge": "파일이 너무 큽니다",
+      "invalidFileType": "잘못된 파일 유형입니다. PDF 파일을 업로드해 주세요.",
+      "processingError": "파일 처리 중 오류가 발생했습니다."
+    },
     "relatedTools": {
       "title": "관련 도구",
       "splitAfterMerge": "병합 후 결합된 PDF에서 특정 페이지를 추출해야 할 수 있습니다",
