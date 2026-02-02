@@ -450,7 +450,29 @@
     "batchCompressSelectFiles": "請選擇 PDF 文件進行壓縮",
     "selected": "已選擇",
     "encryptAgain": "加密另一個文件",
-    "decryptAgain": "解密另一個文件"
+    "decryptAgain": "解密另一個文件",
+    "hero": {
+      "title": "批量處理 PDF - 免費在線批量工具",
+      "description": "一次性處理多個 PDF 文件。合併、分割、壓縮多個 PDF，提高工作效率。",
+      "point1": "批量處理",
+      "point2": "多種操作",
+      "point3": "節省時間"
+    },
+    "howTo": {
+      "title": "如何批量處理 PDF",
+      "step1": {
+        "title": "選擇操作",
+        "description": "選擇要執行的批量操作"
+      },
+      "step2": {
+        "title": "添加多個文件",
+        "description": "上傳或拖放多個 PDF 文件"
+      },
+      "step3": {
+        "title": "批量處理並下載",
+        "description": "一鍵處理所有文件"
+      }
+    }
   },
   "encrypt": {
     "title": "加密 PDF",
@@ -470,7 +492,29 @@
     "noPassword": "請輸入密碼",
     "passwordMismatch": "兩次輸入的密碼不一致",
     "invalidFile": "請選擇有效的 PDF 文件",
-    "encryptError": "加密失敗，請重試"
+    "encryptError": "加密失敗，請重試",
+    "hero": {
+      "title": "加密 PDF - 免費在線 PDF 加密工具",
+      "description": "為 PDF 文件添加密碼保護。使用強加密保護您的敏感文檔安全。",
+      "point1": "密碼保護",
+      "point2": "強加密",
+      "point3": "安全可靠"
+    },
+    "howTo": {
+      "title": "如何加密 PDF",
+      "step1": {
+        "title": "上傳 PDF",
+        "description": "選擇要加密的 PDF 文件"
+      },
+      "step2": {
+        "title": "設置密碼",
+        "description": "輸入並確認密碼"
+      },
+      "step3": {
+        "title": "下載加密 PDF",
+        "description": "獲取受保護的文件"
+      }
+    }
   },
   "decrypt": {
     "title": "解密 PDF",
@@ -488,7 +532,29 @@
     "noPassword": "請輸入密碼",
     "wrongPassword": "密碼錯誤，請重試",
     "invalidFile": "請選擇有效的 PDF 文件",
-    "decryptError": "解密失敗，請檢查密碼後重試"
+    "decryptError": "解密失敗，請檢查密碼後重試",
+    "hero": {
+      "title": "解密 PDF - 免費在線 PDF 解密工具",
+      "description": "從 PDF 文件中移除密碼保護。如果您知道密碼，可以輕鬆解鎖您的文檔。",
+      "point1": "移除密碼",
+      "point2": "快速解鎖",
+      "point3": "安全處理"
+    },
+    "howTo": {
+      "title": "如何解密 PDF",
+      "step1": {
+        "title": "上傳 PDF",
+        "description": "選擇要解密的 PDF 文件"
+      },
+      "step2": {
+        "title": "輸入密碼",
+        "description": "輸入正確的密碼"
+      },
+      "step3": {
+        "title": "下載解密 PDF",
+        "description": "獲取解鎖後的文件"
+      }
+    }
   },
   "blog": {
     "title": "PDF工具博客 - 技巧、教學和指南",
