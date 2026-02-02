@@ -188,6 +188,16 @@
       "title": "常見問題",
       "empty": "此工具暫無常見問題"
     },
+    "errors": {
+      "noFileProvided": "未提供檔案",
+      "noPasswordProvided": "未提供密碼",
+      "incorrectPassword": "密碼錯誤或檔案已損壞",
+      "encryptionFailed": "加密失敗",
+      "decryptionFailed": "解密失敗",
+      "fileTooLarge": "檔案過大",
+      "invalidFileType": "無效的檔案類型。請上傳 PDF 檔案。",
+      "processingError": "處理檔案時發生錯誤。"
+    },
     "relatedTools": {
       "title": "您可能需要的相關工具",
       "splitAfterMerge": "合併後，您可能需要從合併的PDF中提取特定頁面",
