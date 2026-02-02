@@ -189,6 +189,16 @@
       "title": "Preguntas Frecuentes",
       "empty": "No hay preguntas frecuentes para esta herramienta"
     },
+    "errors": {
+      "noFileProvided": "No se proporcionó ningún archivo",
+      "noPasswordProvided": "No se proporcionó ninguna contraseña",
+      "incorrectPassword": "Contraseña incorrecta o archivo corrupto",
+      "encryptionFailed": "Error al cifrar",
+      "decryptionFailed": "Error al descifrar",
+      "fileTooLarge": "El archivo es demasiado grande",
+      "invalidFileType": "Tipo de archivo no válido. Por favor, sube un archivo PDF.",
+      "processingError": "Ocurrió un error al procesar tu archivo."
+    },
     "relatedTools": {
       "title": "Herramientas Relacionadas que Podrías Necesitar",
       "splitAfterMerge": "Después de combinar, es posible que necesites extraer páginas específicas de tu PDF combinado",
