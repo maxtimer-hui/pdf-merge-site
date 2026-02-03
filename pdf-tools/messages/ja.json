@@ -112,6 +112,22 @@
     "freeDesc": "登録不要、制限なし、透かしなし",
     "relatedArticles": "関連記事",
     "viewAll": "すべて表示",
+    "blog": "ブログ",
+    "tutorials": "チュートリアル",
+    "resources": "リソース",
+    "compare": "比較",
+    "about": "私たちについて",
+    "contact": "お問い合わせ",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "cookies": "Cookieポリシー",
+    "tools": "ツール",
+    "company": "会社",
+    "legal": "法的情報",
+    "footerRights": "すべての権利予約済み",
+    "footerTagline": "最高の無料オンラインPDF処理ツール",
+    "madeWithLove": "❤️ を込めて、世界中のコミュニティのために作られました",
+    "moreTools": "その他のツール...",
     "backToHome": "ホームに戻る",
     "uploadFile": "PDFファイルをアップロード",
     "uploadFiles": "PDFファイルをアップロード",
@@ -1171,8 +1187,10 @@
     }
   },
   "blog": {
-    "title": "PDF Tools Blog",
-    "description": "Tips, tutorials, and guides for working with PDF files"
+    "title": "PDFツールブログ",
+    "description": "PDFファイル操作のヒント、チュートリアル、ガイド",
+    "metaTitle": "ブログ | PDFツール",
+    "metaDescription": "PDF処理の専門的なヒントとチュートリアル"
   },
   "tutorials": {
     "metaTitle": "PDFチュートリアルとガイド - PDF処理スキルを学ぶ",
@@ -1185,5 +1203,603 @@
     "noTutorials": "まだチュートリアルはありません",
     "noTutorialsDesc": "包括的なチュートリアルを作成するために取り組んでいます。",
     "backToHome": "ホームに戻る"
+  },
+  "about": {
+    "title": "PDFツールについて",
+    "subtitle": "誰でも利用できる高速、安全、無料のPDF処理",
+    "story": {
+      "title": "私たちのストーリー",
+      "why": "PDFツールは2025年に、PDF処理をすべての人にとってアクセスしやすくするというシンプルな使命で創設されました。私たちは、不可欠なツールは無料、高速、かつ安全であるべきだと信じています。",
+      "problem": "多くのPDFツールは料金の支払いや強制的な登録を必要とし、不明なサーバーに機密文書をアップロードすることのプライバシーリスクを懸念していました。そこで、真に無料で安全な代替手段を作成することに決めました。"
+    },
+    "mission": {
+      "title": "私たちの使命",
+      "statement": "PDF処理をすべての人、すべての場所で簡単、高速、安全にすること。"
+    },
+    "values": {
+      "privacy": {
+        "title": "プライバシー優先",
+        "desc": "ローカル処理、アップロードなし"
+      },
+      "speed": {
+        "title": "超高速",
+        "desc": "ミリ秒単位の応答時間"
+      },
+      "free": {
+        "title": "永続的に無料",
+        "desc": "隠れた料金、登録なし"
+      },
+      "global": {
+        "title": "世界中でアクセス可能",
+        "desc": "多言語サポート"
+      },
+      "simple": {
+        "title": "使いやすい",
+        "desc": "直感的なインターフェース、学習曲線なし"
+      }
+    },
+    "toolsTitle": "私たちの11つの強力なPDFツール",
+    "tools": {
+      "merge": "複数のPDFを1つに結合",
+      "split": "PDFファイルを複数のドキュメントに分割",
+      "extract": "PDFから特定のページを抽出",
+      "compress": "PDFファイルサイズを削減",
+      "rotate": "PDFページを回転",
+      "deletePages": "不要なページを削除",
+      "reorder": "ページ順序を再編成",
+      "watermark": "透かし保護を追加",
+      "batch": "複数のファイルを一度に処理",
+      "encrypt": "PDFをパスワード保護",
+      "decrypt": "パスワード保護を削除"
+    },
+    "techStack": {
+      "title": "最新技術で構築",
+      "framework": "フロントエンドフレームワーク",
+      "pdf": "PDF処理",
+      "styling": "スタイリング",
+      "deployment": "デプロイメント",
+      "openSource": "オープンソース",
+      "openSourceDesc": "オープンソースプロジェクトを使用・貢献"
+    },
+    "privacy": {
+      "title": "私たちのプライバシーへの約束",
+      "noCollection": {
+        "title": "ゼロデータ収集",
+        "desc": "PDFコンテンツを収集しません"
+      },
+      "localProcessing": {
+        "title": "ローカル処理",
+        "desc": "すべての処理はブラウザ内で行われます"
+      },
+      "noServer": {
+        "title": "サーバーアップロードなし",
+        "desc": "ファイルはデバイスから離れません"
+      },
+      "immediateClear": {
+        "title": "即時クリア",
+        "desc": "処理後にメモリからファイルがクリアされます"
+      }
+    },
+    "future": {
+      "title": "次に来るもの",
+      "short": {
+        "title": "短期（3ヶ月）",
+        "moreTools": "更多PDFツール（署名、フォーム）を追加",
+        "translations": "すべての10言語翻訳を完了",
+        "mobile": "モバイル体験を最適化"
+      },
+      "mid": {
+        "title": "中期（6ヶ月）",
+        "userSystem": "オプション登録付きユーザーシステム",
+        "forum": "コミュニティフォーラムとサポート",
+        "performance": "一括処理パフォーマンス最適化"
+      },
+      "long": {
+        "title": "長期（1年）",
+        "api": "開発者向けAPIサービス",
+        "desktop": "デスクトップアプリケーション",
+        "enterprise": "エンタープライズソリューション"
+      }
+    },
+    "team": {
+      "title": "私たちのチーム",
+      "who": "私たちはテクノロジーとオープンソースに情熱を持つ開発者グループです。",
+      "expertise": "私たちの専門知識には、ウェブ開発、ユーザー体験、データセキュリティが含まれます。",
+      "philosophy": "私たちは、テクノロジーは人生をより複雑にするのではなく、よりシンプルにすべきだと信じています。",
+      "contact": "お問い合わせ"
+    },
+    "support": {
+      "title": "私たちをサポート",
+      "subtitle": "PDFツールをすべての人にとって無料に保つために",
+      "tell": "友人や同僚に教える",
+      "share": "ソーシャルメディアで共有",
+      "feedback": "フィードバックと提案を提供",
+      "github": "GitHubでスター",
+      "ads": "広告を受け入れる（サービス維持に役立ちます）"
+    },
+    "faq": {
+      "title": "クイックFAQ",
+      "free": {
+        "q": "無料ですか？",
+        "a": "はい、永続的に完全無料！"
+      },
+      "safe": {
+        "q": "安全ですか？",
+        "a": "100%安全 - すべての処理はブラウザ内で行われます"
+      },
+      "register": {
+        "q": "登録は必要ですか？",
+        "a": "登録不要！"
+      },
+      "limit": {
+        "q": "ファイルサイズの制限はありますか？",
+        "a": "ファイルあたり最大100MB"
+      },
+      "mobile": {
+        "q": "モバイルで動作しますか？",
+        "a": "はい、すべてのデバイスで完全サポート"
+      }
+    }
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "ご連絡をお待ちしております。どのようにお手伝いできますか？",
+    "intro": "ご質問、ご提案、ビジネスに関するお問い合わせなど、お気軽にご連絡ください。",
+    "contactMethods": "連絡方法",
+    "general": {
+      "title": "一般お問い合わせ",
+      "desc": "ご質問、フィードバック、ご提案",
+      "response": "24〜48時間"
+    },
+    "business": {
+      "title": "ビジネスお問い合わせ",
+      "desc": "パートナーシップ、広告、スポンサーシップ",
+      "response": "48〜72時間",
+      "collab": "ビジネスコラボレーションにご興味がありますか？",
+      "ads": "広告機会",
+      "api": "API統合（近日公開）",
+      "whiteLabel": "ホワイトラベルソリューション",
+      "contactUs": "お問い合わせ"
+    },
+    "security": {
+      "title": "セキュリティ問題",
+      "desc": "脆弱性、プライバシー懸念",
+      "response": "12〜24時間"
+    },
+    "social": {
+      "title": "私たちとつながる"
+    },
+    "form": {
+      "title": "メッセージを送る",
+      "name": "お名前",
+      "namePlaceholder": "お名前",
+      "email": "メールアドレス",
+      "emailPlaceholder": "your@email.com",
+      "subject": "件名",
+      "selectSubject": "件名を選択",
+      "subjects": {
+        "general": "一般お問い合わせ",
+        "bug": "バグ報告",
+        "feature": "機能リクエスト",
+        "business": "ビジネスコラボレーション",
+        "privacy": "プライバシー/セキュリティ問題",
+        "other": "その他"
+      },
+      "message": "メッセージ",
+      "messagePlaceholder": "詳細をお聞かせください...",
+      "maxChars": "最大文字数",
+      "submit": "メッセージを送信",
+      "privacy": "プライバシーを尊重しております。",
+      "privacyLink": "プライバシーポリシー"
+    },
+    "faq": {
+      "title": "クイックリンク",
+      "subtitle": "より迅速に回答を見つける：",
+      "howToUse": {
+        "q": "PDF結合ツールを使用するには？"
+      },
+      "formats": {
+        "q": "サポートされているファイル形式は？"
+      },
+      "filesize": {
+        "q": "ファイルサイズの制限はありますか？"
+      },
+      "isFree": {
+        "q": "本当に無料ですか？"
+      },
+      "safe": {
+        "q": "使用するのは安全ですか？"
+      }
+    },
+    "hours": {
+      "title": "営業時間",
+      "responseTime": "応答時間",
+      "general": "一般",
+      "generalTime": "24〜48時間",
+      "security": "セキュリティ",
+      "securityTime": "12〜24時間",
+      "business": "ビジネス",
+      "businessTime": "48〜72時間",
+      "workdays": "営業日",
+      "days": "月曜日から金曜日",
+      "timezone": "タイムゾーン"
+    },
+    "privacyNote": {
+      "title": "プライバシーに関する注意",
+      "collect": "収集される情報：お名前、メールアドレス、メッセージ内容のみ",
+      "use": "目的：お問い合わせにお答えするため",
+      "share": "データを共有・販売することはありません",
+      "retain": "保持期間：問題解決後1年で削除"
+    },
+    "response": "応答時間"
+  },
+  "privacy": {
+    "title": "プライバシーポリシー",
+    "lastUpdated": "最終更新",
+    "intro": "プライバシーを真剣に受け止めています。このポリシーは、PDFツール使用時に情報をどのように収集、使用、保護するかを説明します。",
+    "infoCollect": {
+      "title": "収集する情報",
+      "autoCollect": {
+        "title": "自動収集される情報",
+        "browser": "ブラウザの種類とバージョン",
+        "device": "デバイスの種類とオペレーティングシステム",
+        "access": "アクセス時間と閲覧ページ",
+        "ip": "匿名化されたIPアドレス"
+      },
+      "files": {
+        "title": "重要：PDFファイルについて",
+        "point1": "すべてのPDFファイルはブラウザ内でローカルに処理されます",
+        "point2": "ファイルは当社のサーバーにアップロードされません",
+        "point3": "ファイルは処理後に直ちにメモリからクリアされます"
+      }
+    },
+    "howUse": {
+      "title": "情報の使用方法",
+      "improve": "サービスとユーザー体験の向上",
+      "analyze": "使用パターンとトレンドの分析",
+      "security": "セキュリティ確保と不正防止",
+      "legal": "法的義務の遵守"
+    },
+    "cookies": {
+      "title": "Cookieと同様の技術",
+      "intro": "体験を向上させるためにcookieを使用します。で設定を管理できます。",
+      "cookiePolicy": "Cookieポリシー"
+    },
+    "thirdParty": {
+      "title": "第三者サービス",
+      "analytics": "ウェブサイト分析とパフォーマンス監視",
+      "adsense": "広告配信",
+      "hosting": "ウェブサイトホスティングとパフォーマンス",
+      "privacy": "これらの第三者は独自のプライバシーポリシーを持っています。確認することをお勧めします。"
+    },
+    "security": {
+      "title": "データセキュリティ",
+      "https": "すべてのデータ転送のHTTPS暗号化",
+      "noStorage": "ユーザーファイル保存なし",
+      "audit": "定期的なセキュリティ監査"
+    },
+    "rights": {
+      "title": "権利（GDPR/CCPA）",
+      "intro": "データについて以下の権利があります：",
+      "access": {
+        "title": "アクセス",
+        "desc": "データのコピーを要求"
+      },
+      "delete": {
+        "title": "削除",
+        "desc": "データの削除を要求"
+      },
+      "correct": {
+        "title": "訂正",
+        "desc": "不正確な情報を更新"
+      },
+      "object": {
+        "title": "異議",
+        "desc": "データ処理に異議を唱える"
+      },
+      "contact": "これらの権利を行使するには、ご連絡ください。"
+    },
+    "children": {
+      "title": "子供のプライバシー",
+      "content": "当社のサービスは13歳未満の子供を対象としていません。13歳未満の子供から情報を収集しないようにしています。誤ってそのような情報を収集したことが判明した場合は、直ちに削除します。"
+    },
+    "updates": {
+      "title": "ポリシーの更新",
+      "content": "このプライバシーポリシーを随時更新することがあります。重要な変更がある場合は、このページに新しいポリシーを投稿し、「最終更新」日を更新してお知らせします。"
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "email": "プライバシーに関する質問はメールにて",
+      "response": "3〜5営業日以内に返信"
+    }
+  },
+  "terms": {
+    "title": "利用規約",
+    "lastUpdated": "最終更新",
+    "intro": "PDFツールへようこそ。サービスを使用することで、これらの規約に同意したものとみなされます。",
+    "service": {
+      "title": "サービス説明",
+      "description": "PDFツールは、結合、分割、圧縮、回転などを含む無料のオンラインPDF処理ツールを提供します。",
+      "availability": "サービスは「現状のまま」提供され、中断されないことの保証はありません",
+      "changes": "いつでもサービスを更新または終了することがあります"
+    },
+    "responsibilities": {
+      "title": "ユーザーの責任",
+      "allowed": {
+        "title": "許可された使用",
+        "personal": "個人および商用利用",
+        "commercial": "法的に所有されたPDFファイルの処理",
+        "legal": "適用法の遵守"
+      },
+      "prohibited": {
+        "title": "禁止された使用",
+        "illegal": "違法または侵害コンテンツの処理",
+        "infringement": "セキュリティ対策の回避の試み",
+        "abuse": "乱用または過度な自動処理",
+        "automation": "他者の知的財産の侵害",
+        "malware": "ウイルスまたは悪意のあるコードの配布"
+      }
+    },
+    "ip": {
+      "title": "知的財産",
+      "website": {
+        "title": "ウェブサイトコンテンツ",
+        "content": "ウェブサイトのデザイン、ロゴ、コンテンツは当社の財産であり、著作権で保護されています。"
+      },
+      "userFiles": {
+        "title": "ユーザーファイル",
+        "content": "アップロードまたは処理するファイルのすべての権利を保持します。当社は所有権を主張しません。"
+      },
+      "opensource": {
+        "title": "オープンソース",
+        "content": "オープンソースライブラリを使用し、そのライセンスに準拠しています。"
+      }
+    },
+    "disclaimer": {
+      "title": "保証の放棄",
+      "service": {
+        "title": "サービス保証",
+        "noWarranty": "サービスは明示または黙示の保証なしに「現状のまま」提供されます",
+        "noGuarantee": "中断しない、 timely、安全、またはエラーのないサービスを保証しません"
+      },
+      "files": {
+        "title": "ファイル処理",
+        "noResponsibility": "処理結果について責任を負いません",
+        "backup": "処理前に重要なファイルをバックアップしてください",
+        "risk": "処理のリスクはユーザーが負います"
+      },
+      "liability": {
+        "title": "責任の制限",
+        "direct": "直接または間接損失",
+        "indirect": "利益またはデータの損失",
+        "profit": "ビジネスの中断",
+        "data": "法律で認められる最大限"
+      }
+    },
+    "limits": {
+      "title": "サービスの制限",
+      "usage": {
+        "title": "使用制限",
+        "content": "無料ユーザーには日次処理制限があります"
+      },
+      "filesize": {
+        "title": "ファイルサイズ",
+        "content": "ファイルあたり最大100MB"
+      },
+      "termination": {
+        "title": "終了",
+        "content": "違反に対してサービスを停止または終了することがあります"
+      }
+    },
+    "privacy": {
+      "title": "プライバシーとデータ",
+      "content": "サービスの使用は当社の",
+      "link": "プライバシーポリシー"
+    },
+    "thirdParty": {
+      "title": "第三者リンクとサービス",
+      "links": "当社のウェブサイトには第三者のウェブサイトへのリンクが含まれている場合があります",
+      "responsibility": "第三者コンテンツについて責任を負いません",
+      "terms": "第三者は独自の規約とポリシーを持っています"
+    },
+    "indemnity": {
+      "title": "補償",
+      "content": "これらの規約の違反によって生じる損失（法律費用および請求額を含む）について当社を補償することに同意します。"
+    },
+    "dispute": {
+      "title": "紛争解決",
+      "law": "準拠法",
+      "lawContent": "管轄区域の法律",
+      "resolution": "解決方法",
+      "resolutionContent": "まず交渉、必要に応じて訴訟",
+      "court": "管轄",
+      "courtContent": "管轄区域の裁判所"
+    },
+    "changes": {
+      "title": "規約の変更",
+      "anytime": "これらの規約をいつでも更新できます",
+      "notification": "重要な変更はウェブサイトに投稿されます",
+      "acceptance": "継続使用は新しい規約の受け入れを構成します",
+      "check": "定期的に規約を確認してください"
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "email": "規約に関する質問はメールにて"
+    }
+  },
+  "cookies": {
+    "title": "Cookieポリシー",
+    "lastUpdated": "最終更新",
+    "intro": "このページでは、より良い体験を提供するためにcookieと同様の技術をどのように使用するかを説明します。",
+    "whatAre": {
+      "title": "Cookieとは？",
+      "content": "Cookieは、ウェブサイトを訪問した際にデバイスに保存される小さなテキストファイルです。より良い体験を提供するのに役立ちます。"
+    },
+    "essential": {
+      "title": "必須Cookie",
+      "purpose": {
+        "title": "目的",
+        "session": "セッション管理（ログイン状態の維持）",
+        "language": "言語設定",
+        "security": "セキュリティトークン",
+        "loadbalancing": "ロードバランシング"
+      },
+      "count": "数量",
+      "duration": "期間",
+      "disable": "無効化可"
+    },
+    "analytics": {
+      "title": "分析Cookie",
+      "purpose": {
+        "title": "目的",
+        "stats": "訪問者統計の追跡",
+        "behavior": "ユーザー行動の理解",
+        "performance": "ウェブサイトパフォーマンスの向上",
+        "popular": "人気のあるツールと機能の特定"
+      },
+      "provider": "プロバイダー",
+      "privacy": "プライバシーポリシー",
+      "privacyLink": "Googleプライバシーポリシー"
+    },
+    "advertising": {
+      "title": "広告Cookie",
+      "purpose": {
+        "title": "目的",
+        "relevant": "関連する広告の表示",
+        "track": "広告効果の追跡",
+        "frequency": "頻度制限"
+      },
+      "privacy": "プライバシーポリシー",
+      "privacyLink": "Googleプライバシーポリシー"
+    },
+    "thirdParty": {
+      "title": "第三者Cookie",
+      "table": {
+        "name": "Cookie名",
+        "purpose": "目的",
+        "privacy": "プライバシーポリシー",
+        "analyticsPurpose": "ウェブサイト分析",
+        "adsPurpose": "広告配信",
+        "hostingPurpose": "パフォーマンスとセキュリティ",
+        "policy": "ポリシーを見る",
+        "seeWebsite": "ウェブサイトを見る"
+      }
+    },
+    "manage": {
+      "title": "Cookieの管理方法",
+      "browser": {
+        "title": "ブラウザ設定",
+        "chrome": "設定 > プライバシーとセキュリティ > Cookieとサイトデータ",
+        "firefox": "オプション > プライバシーとセキュリティ",
+        "safari": "設定 > プライバシー",
+        "edge": "設定 > Cookieとサイトのアクセス許可"
+      },
+      "warning": "注意：すべてのCookieを無効にすると、一部のウェブサイト機能が正常に動作しない場合があります。"
+    },
+    "consent": {
+      "title": "Cookie同意バナー",
+      "intro": "最初に訪問すると、3つのオプション付きのcookie同意バナーが表示されます：",
+      "acceptAll": "すべてのCookieを受け入れる",
+      "customize": "設定をカスタマイズ",
+      "necessaryOnly": "必須Cookieのみ",
+      "change": "設定はいつでも変更できます。"
+    },
+    "whyUse": {
+      "title": "Cookieを使用する理由",
+      "improve": {
+        "title": "体験の向上",
+        "content": "設定を記憶し、パーソナライズされた体験を提供"
+      },
+      "analyze": {
+        "title": "パフォーマンスの分析",
+        "content": "どのツールが最も人気があるかを理解し、継続的に改善"
+      },
+      "monetize": {
+        "title": "サービスの資金調達",
+        "content": "広告収益はサービスを無料に保つのに役立ちます"
+      },
+      "security": {
+        "title": "セキュリティの維持",
+        "content": "不正と乱用の防止"
+      }
+    },
+    "cookieSecurity": {
+      "title": "Cookieセキュリティ",
+      "https": "暗号化された送信（HTTPS）",
+      "noSensitive": "Cookieに機密情報は保存されません",
+      "audit": "定期的なセキュリティレビュー",
+      "compliance": "データ保護規制への準拠（GDPR/CCPA）"
+    },
+    "rights": {
+      "title": "権利",
+      "eu": "EU/英国",
+      "california": "カリフォルニア州、米国",
+      "gdpr": {
+        "consent": "非必須Cookieには明示的な同意が必要",
+        "inform": "使用するCookieの種類をお知らせします",
+        "withdraw": "同意はいつでも撤回できます",
+        "access": "収集されたデータにアクセスできます"
+      },
+      "ccpa": {
+        "sell": "個人情報は販売しません",
+        "track": "トラッキングしないオプションが利用可能",
+        "delete": "データ削除権利が利用可能"
+      }
+    },
+    "updates": {
+      "title": "定期的なレビュー",
+      "review": "このcookieポリシーを年次でレビュー",
+      "thirdParty": "第三者サービスの変更時に更新",
+      "notify": "重要な変更をウェブサイトに投稿"
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "email": "Cookieに関する質問はメールにて",
+      "response": "3〜5営業日以内に返信"
+    },
+    "blog": {
+      "title": "PDFツールブログ - ヒント、チュートリアル、ガイド",
+      "description": "PDFファイル操作の専門的なヒント、チュートリアル、ガイドを発見しましょう。PDFの結合、分割、圧縮、最適化を効率的に行う方法を学びます。"
+    },
+    "tutorials": {
+      "title": "PDFチュートリアルとガイド",
+      "description": "PDFファイル操作のステップバイステップチュートリアル",
+      "metaTitle": "チュートリアル | PDFツール",
+      "metaDescription": "PDF操作に関する詳細なチュートリアル"
+    },
+    "resources": {
+      "title": "PDFリソースとリンク",
+      "description": "有用なPDFリソースとツールの厳選リスト",
+      "metaTitle": "リソース | PDFツール",
+      "metaDescription": "PDFファイル操作に役立つリソース"
+    },
+    "compare": {
+      "title": "PDFツールの比較",
+      "description": "適切な選択をするためにPDFツールと形式を比較",
+      "metaTitle": "比較 | PDFツール",
+      "metaDescription": "PDFツールと形式の詳細な比較"
+    },
+    "team": {
+      "title": "私たちのチームについて",
+      "mission": "私たちの使命は、すべての人にとって無料、安全、使いやすいPDFツールを提供することです。",
+      "vision": "私たちは、技術的な専門知識や予算に関係なく、すべてのユーザーがPDF処理にアクセスできるべきだと信じています。",
+      "values": "プライバシー、セキュリティ、シンプルさ、アクセシビリティ"
+    }
+  },
+  "resources": {
+    "title": "PDFリソースとリンク",
+    "description": "有用なPDFリソースとツールの厳選リスト",
+    "metaTitle": "リソース | PDFツール",
+    "metaDescription": "PDFファイル操作に役立つリソース",
+    "externalLinks": "外部リンク",
+    "tools": "ツール",
+    "guides": "ガイド",
+    "community": "コミュニティ"
+  },
+  "compare": {
+    "title": "PDFツールの比較",
+    "description": "適切な選択をするためにPDFツールと形式を比較",
+    "metaTitle": "比較 | PDFツール",
+    "metaDescription": "PDFツールと形式の詳細な比較"
   }
 }
