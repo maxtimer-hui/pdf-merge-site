@@ -15,22 +15,22 @@ export default function BlogSection({ locale }: BlogSectionProps) {
   // Filter articles for current language
   const localePosts = blogPosts.filter(post => post.locale === locale);
 
+  // If no articles in current language, use English articles as fallback
+  const fallbackPosts = localePosts.length === 0 ? blogPosts.filter(post => post.locale === 'en') : [];
+  const postsSource = localePosts.length > 0 ? localePosts : fallbackPosts;
+  const isFallback = localePosts.length === 0;
+
   // Prioritize articles related to rotate (tags contain 'rotate')
-  const rotateRelatedPosts = localePosts.filter(post =>
+  const rotateRelatedPosts = postsSource.filter(post =>
     post.tags.some(tag => tag.toLowerCase() === 'rotate')
   );
 
   // Supplement with other articles if less than 3 rotate-related articles
-  const otherPosts = localePosts.filter(post =>
+  const otherPosts = postsSource.filter(post =>
     !post.tags.some(tag => tag.toLowerCase() === 'rotate')
   );
 
   const displayPosts = [...rotateRelatedPosts, ...otherPosts].slice(0, 3);
-
-  // Don't display component if no articles available for current language
-  if (displayPosts.length === 0) {
-    return null;
-  }
 
   return (
     <section className="mt-16">
@@ -66,6 +66,11 @@ export default function BlogSection({ locale }: BlogSectionProps) {
               <div className="inline-block px-3 py-1 text-xs font-semibold text-orange-600 bg-orange-50 rounded-full mb-3">
                 {post.category}
               </div>
+              {isFallback && (
+                <span className="ml-2 inline-block px-2 py-1 text-xs font-medium text-gray-600 bg-gray-100 rounded-full">
+                  English
+                </span>
+              )}
 
               {/* Title */}
               <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-orange-600 transition-colors line-clamp-2">

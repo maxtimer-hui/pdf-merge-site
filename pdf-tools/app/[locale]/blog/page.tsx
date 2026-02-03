@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     openGraph: {
       title: t('title'),
       description: t('description'),
-      url: `https://combinepdffree.net/${locale}/blog`,
+      url: `https://www.combinepdffree.net/${locale}/blog`,
     },
   };
 }
@@ -61,6 +61,11 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
                 <div className="p-6">
                   <div className="text-sm text-blue-600 font-semibold mb-2">
                     {post.category}
+                    {locale !== 'en' && (
+                      <span className="ml-2 inline-block px-2 py-1 text-xs font-medium text-gray-600 bg-gray-100 rounded-full">
+                        English
+                      </span>
+                    )}
                   </div>
                   <h2 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
                     {post.title}

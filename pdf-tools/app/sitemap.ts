@@ -1,5 +1,7 @@
 import {MetadataRoute} from 'next';
 import {locales} from '@/i18n/request';
+import {getBlogPosts} from '@/lib/blog-posts';
+import {getTutorials} from '@/lib/tutorials';
 
 const tools = ['merge', 'split', 'extract', 'compress', 'rotate', 'delete-pages', 'reorder', 'watermark', 'batch', 'encrypt', 'decrypt'];
 
@@ -45,7 +47,7 @@ const localePriorities: Record<string, number> = {
 };
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://combinepdffree.net';
+  const baseUrl = 'https://www.combinepdffree.net';
   const urls: MetadataRoute.Sitemap = [];
 
   // Generate homepage and tool pages for each locale
@@ -125,26 +127,29 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Blog post pages (English only)
-  const blogPosts = ['how-to-merge-pdfs-efficiently', 'pdf-vs-word-when-to-use', '10-pdf-compression-tips'];
-  for (const postSlug of blogPosts) {
+  // Blog post pages (English only, dynamically generated)
+  const blogPosts = getBlogPosts('en');
+  for (const post of blogPosts) {
     urls.push({
-      url: `${baseUrl}/en/blog/${postSlug}`,
-      lastModified: new Date(),
+      url: `${baseUrl}/en/blog/${post.slug}`,
+      lastModified: new Date(post.date),
       changeFrequency: 'monthly',
       priority: 0.8,
     });
   }
 
-  // Tutorial pages (English only)
-  const tutorials = ['batch-process-pdf-files', 'pdf-security-guide', 'optimize-pdf-file-size'];
-  for (const tutorialSlug of tutorials) {
-    urls.push({
-      url: `${baseUrl}/en/tutorials/${tutorialSlug}`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.75,
-    });
+  // Tutorial pages (English and Chinese)
+  const tutorialLocales = ['en', 'zh'];
+  for (const locale of tutorialLocales) {
+    const tutorials = getTutorials(locale);
+    for (const tutorial of tutorials) {
+      urls.push({
+        url: `${baseUrl}/${locale}/tutorials/${tutorial.slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.75,
+      });
+    }
   }
 
   return urls;

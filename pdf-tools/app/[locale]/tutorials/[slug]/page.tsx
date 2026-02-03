@@ -85,7 +85,14 @@ export default async function TutorialPage({ params }: { params: Promise<{ local
                   {tutorial.difficulty}
                 </span>
                 <span className="text-sm text-gray-500">{tutorial.readTime}</span>
-                <span className="text-sm text-blue-600 font-medium">{tutorial.category}</span>
+                <span className="text-sm text-blue-600 font-medium">
+                  {tutorial.category}
+                  {locale !== 'en' && (
+                    <span className="ml-2 inline-block px-2 py-1 text-xs font-medium text-gray-600 bg-gray-100 rounded-full">
+                      English
+                    </span>
+                  )}
+                </span>
               </div>
 
               <h1 className="text-4xl font-bold text-gray-900 mb-4">
@@ -133,10 +140,19 @@ export default async function TutorialPage({ params }: { params: Promise<{ local
                       className="block border rounded-lg p-4 hover:border-blue-500 hover:shadow-md transition-all"
                     >
                       <div className="flex items-center justify-between mb-2">
-                        <h3 className="text-lg font-semibold text-gray-900">{related.title}</h3>
-                        <span className={`px-2 py-1 rounded text-xs ${difficultyColors[related.difficulty]}`}>
-                          {related.difficulty}
-                        </span>
+                        <h3 className="text-lg font-semibold text-gray-900 flex-1">
+                          {related.title}
+                        </h3>
+                        <div className="flex items-center gap-2">
+                          <span className={`px-2 py-1 rounded text-xs ${difficultyColors[related.difficulty]}`}>
+                            {related.difficulty}
+                          </span>
+                          {locale !== 'en' && (
+                            <span className="inline-block px-2 py-1 text-xs font-medium text-gray-600 bg-gray-100 rounded-full">
+                              English
+                            </span>
+                          )}
+                        </div>
                       </div>
                       <p className="text-sm text-gray-600">{related.description}</p>
                     </Link>

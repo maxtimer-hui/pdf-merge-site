@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     openGraph: {
       title: 'PDF Resources & Links',
       description: 'Curated list of useful PDF resources and tools',
-      url: `https://combinepdffree.net/${locale}/resources`,
+      url: `https://www.combinepdffree.net/${locale}/resources`,
     },
   };
 }

@@ -5,7 +5,7 @@ export function getCanonicalUrl(
   locale: string,
   path: string = ''
 ): string {
-  const baseUrl = 'https://combinepdffree.net';
+  const baseUrl = 'https://www.combinepdffree.net';
   const cleanPath = path.startsWith('/') ? path : `/${path}`;
   return `${baseUrl}/${locale}${cleanPath}`;
 }

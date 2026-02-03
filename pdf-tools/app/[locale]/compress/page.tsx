@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     openGraph: {
       title: t('title'),
       description: t('description'),
-      url: `https://combinepdffree.net/${locale}/compress`,
+      url: `https://www.combinepdffree.net/${locale}/compress`,
     },
     twitter: {
       card: 'summary_large_image',

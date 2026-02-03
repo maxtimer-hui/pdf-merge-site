@@ -15,22 +15,22 @@ export default function BlogSection({ locale }: BlogSectionProps) {
   // Filter posts for current locale
   const localePosts = blogPosts.filter(post => post.locale === locale);
 
+  // If no posts in current language, use English posts as fallback
+  const fallbackPosts = localePosts.length === 0 ? blogPosts.filter(post => post.locale === 'en') : [];
+  const postsSource = localePosts.length > 0 ? localePosts : fallbackPosts;
+  const isFallback = localePosts.length === 0;
+
   // Prioritize batch-related posts (tags containing 'batch')
-  const batchRelatedPosts = localePosts.filter(post =>
+  const batchRelatedPosts = postsSource.filter(post =>
     post.tags.some(tag => tag.toLowerCase() === 'batch')
   );
 
   // If not enough batch-related posts, supplement with other posts
-  const otherPosts = localePosts.filter(post =>
+  const otherPosts = postsSource.filter(post =>
     !post.tags.some(tag => tag.toLowerCase() === 'batch')
   );
 
   const displayPosts = [...batchRelatedPosts, ...otherPosts].slice(0, 3);
-
-  // Don't show component if no posts in current language
-  if (displayPosts.length === 0) {
-    return null;
-  }
 
   return (
     <section className="mt-16">
@@ -66,6 +66,11 @@ export default function BlogSection({ locale }: BlogSectionProps) {
               <div className="inline-block px-3 py-1 text-xs font-semibold text-violet-600 bg-violet-50 rounded-full mb-3">
                 {post.category}
               </div>
+              {isFallback && (
+                <span className="ml-2 inline-block px-2 py-1 text-xs font-medium text-gray-600 bg-gray-100 rounded-full">
+                  English
+                </span>
+              )}
 
               {/* Title */}
               <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-violet-600 transition-colors line-clamp-2">

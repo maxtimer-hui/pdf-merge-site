@@ -89,6 +89,11 @@ export default async function TutorialsPage({ params }: { params: Promise<{ loca
                   {/* Category */}
                   <div className="text-sm text-blue-600 font-semibold mb-2">
                     {tutorial.category}
+                    {locale !== 'en' && (
+                      <span className="ml-2 inline-block px-2 py-1 text-xs font-medium text-gray-600 bg-gray-100 rounded-full">
+                        English
+                      </span>
+                    )}
                   </div>
 
                   {/* Title */}

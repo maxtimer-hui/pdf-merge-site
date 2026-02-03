@@ -16,7 +16,7 @@ interface BreadcrumbSchema {
 
 export function generateBreadcrumbSchema(
   items: BreadcrumbItem[],
-  baseUrl: string = 'https://combinepdffree.net'
+  baseUrl: string = 'https://www.combinepdffree.net'
 ): BreadcrumbSchema {
   return {
     "@context": "https://schema.org",

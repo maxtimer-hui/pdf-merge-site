@@ -3,9 +3,11 @@ import {notFound} from 'next/navigation';
 import {getTranslations} from 'next-intl/server';
 import Link from 'next/link';
 import {getBlogPost, getBlogPosts} from '@/lib/blog-posts';
+import {getBlogToolMapping} from '@/lib/blog-tool-mapping';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
+import BlogContent from '@/components/blog/BlogContent';
 
 // 生成页面 metadata
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
@@ -27,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       type: 'article',
       publishedTime: post.date,
       authors: [post.author],
-      url: `https://combinepdffree.net/${locale}/blog/${slug}`,
+      url: `https://www.combinepdffree.net/${locale}/blog/${slug}`,
     },
   };
 }
@@ -36,6 +38,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
   const {locale, slug} = await params;
   const post = getBlogPost(slug, locale);
   const relatedPosts = getBlogPosts(locale).filter(p => p.slug !== slug && p.category === post?.category).slice(0, 3);
+  const blogMapping = getBlogToolMapping(slug);
 
   if (!post) {
     notFound();
@@ -47,20 +50,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
     {name: post.title, href: `/blog/${slug}`},
   ];
 
-  // Convert markdown-like content to HTML (simplified version)
-  const contentHtml = post.content
-    .replace(/^# (.*$)/gim, '<h1 class="text-3xl font-bold text-gray-900 mb-4 mt-8">$1</h1>')
-    .replace(/^## (.*$)/gim, '<h2 class="text-2xl font-bold text-gray-900 mb-3 mt-6">$1</h2>')
-    .replace(/^### (.*$)/gim, '<h3 class="text-xl font-bold text-gray-900 mb-2 mt-4">$1</h3>')
-    .replace(/^\- (.*$)/gim, '<li class="ml-4 mb-2">$1</li>')
-    .replace(/^(\d+)\. (.*$)/gim, '<li class="ml-4 mb-2"><span class="font-bold">$1.</span> $2</li>')
-    .replace(/\*\*(.*?)\*\*/gim, '<strong>$1</strong>')
-    .replace(/`(.*?)`/gim, '<code class="bg-gray-100 px-1 py-0.5 rounded text-sm">$1</code>')
-    .replace(/\n\n/g, '</p><p class="mb-4 text-gray-700 leading-relaxed">')
-    .replace(/\|(.*)\|/gim, (match) => {
-      // Simple table handling
-      return '<div class="overflow-x-auto my-6">' + match + '</div>';
-    });
+  // 获取 CTA 配置，如果没有则使用空数组
+  const ctaConfigs = blogMapping?.ctas || [];
 
   return (
     <>
@@ -84,7 +75,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
               "name": "PDF Tools",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://combinepdffree.net/logo.png",
+                "url": "https://www.combinepdffree.net/logo.png",
               },
             },
           }),
@@ -103,6 +94,11 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
             <article className="bg-white rounded-lg shadow-lg p-8 mb-8">
               <div className="text-sm text-blue-600 font-semibold mb-3">
                 {post.category}
+                {locale !== 'en' && (
+                  <span className="ml-2 inline-block px-2 py-1 text-xs font-medium text-gray-600 bg-gray-100 rounded-full">
+                    English
+                  </span>
+                )}
               </div>
               <h1 className="text-4xl font-bold text-gray-900 mb-4">
                 {post.title}
@@ -122,9 +118,11 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
               </div>
 
               {/* Article Content */}
-              <div className="prose prose-lg max-w-none">
-                <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
-              </div>
+              <BlogContent
+                content={post.content}
+                ctaConfigs={ctaConfigs}
+                locale={locale}
+              />
 
               {/* Tags */}
               <div className="mt-12 pt-8 border-t">
@@ -141,6 +139,39 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
               </div>
             </article>
 
+            {/* Related Tools */}
+            {blogMapping && (
+              <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+                <h2 className="text-2xl font-bold text-gray-900 mb-6">Try Our PDF Tools</h2>
+                <Link
+                  href={`/${locale}${blogMapping.primaryTool}`}
+                  className="flex items-center justify-between border-2 border-blue-600 rounded-lg p-6 hover:bg-blue-50 transition-all group"
+                >
+                  <div>
+                    <h3 className="text-lg font-semibold text-blue-600 mb-2 group-hover:text-blue-700">
+                      Try {blogMapping.primaryTool.replace('-', ' ')} Tool
+                    </h3>
+                    <p className="text-sm text-gray-600">
+                      Fast, secure, and free - process your PDFs directly in your browser
+                    </p>
+                  </div>
+                  <svg
+                    className="w-8 h-8 text-blue-600 group-hover:text-blue-700 flex-shrink-0"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M13 7l5 5m0 0l-5 5m5-5H6"
+                    />
+                  </svg>
+                </Link>
+              </div>
+            )}
+
             {/* Related Posts */}
             {relatedPosts.length > 0 && (
               <div className="bg-white rounded-lg shadow-lg p-8">
@@ -154,6 +185,11 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
                     >
                       <div className="text-sm text-blue-600 font-semibold mb-1">
                         {relatedPost.category}
+                        {locale !== 'en' && (
+                          <span className="ml-2 inline-block px-2 py-1 text-xs font-medium text-gray-600 bg-gray-100 rounded-full">
+                            English
+                          </span>
+                        )}
                       </div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">
                         {relatedPost.title}

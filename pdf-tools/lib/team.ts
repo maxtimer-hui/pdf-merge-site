@@ -22,8 +22,8 @@ export const teamMembers: TeamMember[] = [
 
 export const organizationInfo = {
   name: 'PDF Tools',
-  url: 'https://combinepdffree.net',
-  logo: 'https://combinepdffree.net/logo.png',
+  url: 'https://www.combinepdffree.net',
+  logo: 'https://www.combinepdffree.net/logo.png',
   description: 'Free online PDF tools for everyone. Merge, split, compress, and process PDF files directly in your browser.',
   founded: '2024',
   founders: 'PDF Tools Team',

@@ -179,17 +179,46 @@ export const tutorials: Tutorial[] = [
 ];
 
 export function getTutorials(locale: string = 'en'): Tutorial[] {
-  return tutorials.filter(t => t.locale === locale);
+  const localeTutorials = tutorials.filter(t => t.locale === locale);
+
+  // 如果当前语言没有教程，返回英语教程作为 fallback
+  if (localeTutorials.length === 0 && locale !== 'en') {
+    return tutorials.filter(t => t.locale === 'en');
+  }
+
+  return localeTutorials;
 }
 
 export function getTutorial(slug: string, locale: string = 'en'): Tutorial | undefined {
-  return tutorials.find(t => t.slug === slug && t.locale === locale);
+  // 先尝试查找当前语言的教程
+  const tutorial = tutorials.find(t => t.slug === slug && t.locale === locale);
+
+  // 如果当前语言没有该教程，尝试查找英语版本
+  if (!tutorial && locale !== 'en') {
+    return tutorials.find(t => t.slug === slug && t.locale === 'en');
+  }
+
+  return tutorial;
 }
 
 export function getTutorialsByDifficulty(difficulty: Tutorial['difficulty'], locale: string = 'en'): Tutorial[] {
-  return tutorials.filter(t => t.difficulty === difficulty && t.locale === locale);
+  const localeTutorials = tutorials.filter(t => t.difficulty === difficulty && t.locale === locale);
+
+  // 如果当前语言没有该难度的教程，返回英语教程
+  if (localeTutorials.length === 0 && locale !== 'en') {
+    return tutorials.filter(t => t.difficulty === difficulty && t.locale === 'en');
+  }
+
+  return localeTutorials;
 }
 
 export function getTutorialsByCategory(category: string, locale: string = 'en'): Tutorial[] {
-  return tutorials.filter(t => t.category === category && t.locale === locale);
+  const localeTutorials = tutorials.filter(t => t.category === category && t.locale === locale);
+
+  // 如果当前语言没有该分类的教程，返回英语教程
+  if (localeTutorials.length === 0 && locale !== 'en') {
+    return tutorials.filter(t => t.category === category && t.locale === 'en');
+  }
+
+  return localeTutorials;
 }

@@ -15,22 +15,22 @@ export default function BlogSection({ locale }: BlogSectionProps) {
   // 筛选当前语言的文章
   const localePosts = blogPosts.filter(post => post.locale === locale);
 
+  // 如果当前语言没有文章，使用英语文章作为 fallback
+  const fallbackPosts = localePosts.length === 0 ? blogPosts.filter(post => post.locale === 'en') : [];
+  const postsSource = localePosts.length > 0 ? localePosts : fallbackPosts;
+  const isFallback = localePosts.length === 0;
+
   // 优先显示与 merge 相关的文章（tags 中包含 'merge'）
-  const mergeRelatedPosts = localePosts.filter(post =>
+  const mergeRelatedPosts = postsSource.filter(post =>
     post.tags.some(tag => tag.toLowerCase() === 'merge')
   );
 
   // 如果 merge 相关文章不足 3 篇，用其他文章补充
-  const otherPosts = localePosts.filter(post =>
+  const otherPosts = postsSource.filter(post =>
     !post.tags.some(tag => tag.toLowerCase() === 'merge')
   );
 
   const displayPosts = [...mergeRelatedPosts, ...otherPosts].slice(0, 3);
-
-  // 如果没有当前语言的文章，就不显示这个组件
-  if (displayPosts.length === 0) {
-    return null;
-  }
 
   return (
     <section className="mt-16">
@@ -66,6 +66,11 @@ export default function BlogSection({ locale }: BlogSectionProps) {
               <div className="inline-block px-3 py-1 text-xs font-semibold text-blue-600 bg-blue-50 rounded-full mb-3">
                 {post.category}
               </div>
+              {isFallback && (
+                <span className="ml-2 inline-block px-2 py-1 text-xs font-medium text-gray-600 bg-gray-100 rounded-full">
+                  English
+                </span>
+              )}
 
               {/* 标题 */}
               <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors line-clamp-2">

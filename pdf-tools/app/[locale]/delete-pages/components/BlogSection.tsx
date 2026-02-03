@@ -15,22 +15,22 @@ export default function BlogSection({ locale }: BlogSectionProps) {
   // Filter posts for current locale
   const localePosts = blogPosts.filter(post => post.locale === locale);
 
+  // If no posts in current language, use English posts as fallback
+  const fallbackPosts = localePosts.length === 0 ? blogPosts.filter(post => post.locale === 'en') : [];
+  const postsSource = localePosts.length > 0 ? localePosts : fallbackPosts;
+  const isFallback = localePosts.length === 0;
+
   // Prioritize delete-related posts (tags containing 'delete')
-  const deleteRelatedPosts = localePosts.filter(post =>
+  const deleteRelatedPosts = postsSource.filter(post =>
     post.tags.some(tag => tag.toLowerCase() === 'delete')
   );
 
   // If not enough delete-related posts, supplement with other posts
-  const otherPosts = localePosts.filter(post =>
+  const otherPosts = postsSource.filter(post =>
     !post.tags.some(tag => tag.toLowerCase() === 'delete')
   );
 
   const displayPosts = [...deleteRelatedPosts, ...otherPosts].slice(0, 3);
-
-  // If no posts in current language, don't display this component
-  if (displayPosts.length === 0) {
-    return null;
-  }
 
   return (
     <section className="mt-16">
@@ -66,6 +66,11 @@ export default function BlogSection({ locale }: BlogSectionProps) {
               <div className="inline-block px-3 py-1 text-xs font-semibold text-red-600 bg-red-50 rounded-full mb-3">
                 {post.category}
               </div>
+              {isFallback && (
+                <span className="ml-2 inline-block px-2 py-1 text-xs font-medium text-gray-600 bg-gray-100 rounded-full">
+                  English
+                </span>
+              )}
 
               {/* Title */}
               <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-red-600 transition-colors line-clamp-2">

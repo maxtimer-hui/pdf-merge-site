@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{locale: st
   const {locale} = await params;
 
   return {
-    metadataBase: new URL('https://combinepdffree.net'),
+    metadataBase: new URL('https://www.combinepdffree.net'),
     title: {
       default: 'Free PDF Tools - Merge, Split, Compress PDF Online',
       template: '%s | PDF Tools'
