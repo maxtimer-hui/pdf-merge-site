@@ -197,6 +197,7 @@
     "totalSize": "总大小",
     "supportsMultiple": "（支持多选）",
     "selectedFiles": "已选择 {count} 个文件",
+    "selectedFiles_plural": "已选择 {count} 个文件",
     "clearAll": "清空全部",
     "moveUp": "上移",
     "moveDown": "下移",
@@ -387,6 +388,10 @@
     "pagesIntoFile": "页分割成一个文件",
     "startSplit": "开始分割",
     "splitSuccess": "已成功分割成 {count} 个文件",
+    "pageRangeLabel": "页面范围",
+    "totalPagesInfo": "此文档共 {count} 页",
+    "estimatedFiles": "预计将创建 {count} 个文件",
+    "alertFailed": "分割失败，请重试",
     "hero": {
       "title": "免费在线分割 PDF 文件",
       "description": "将 PDF 文件分割成多个文档。无需注册，无限制。100% 免费且安全。",
@@ -479,6 +484,21 @@
     "extractAgain": "再次提取",
     "selectPagesToExtract": "选择要提取的页面",
     "extractSuccess": "已成功提取 {count} 个页面",
+    "selectExtractMode": "选择提取模式",
+    "pageRange": "页面范围",
+    "allPages": "全部页面",
+    "evenPages": "偶数页",
+    "oddPages": "奇数页",
+    "pageRangeLabel": "页面范围（例如：1-3,5,7-9）",
+    "totalPagesInfo": "此文档共 {count} 页",
+    "selectAll": "全选",
+    "clear": "清空",
+    "selectedPages": "已选择 {count} 页",
+    "extractAllInfo": "将提取所有 {count} 页",
+    "extractEvenInfo": "将提取 {count} 个偶数页",
+    "extractOddInfo": "将提取 {count} 个奇数页",
+    "extract": "提取页面",
+    "alertFailed": "提取失败，请重试",
     "hero": {
       "title": "从 PDF 提取页面 - 免费在线工具",
       "description": "从 PDF 文件中提取特定页面。快速、安全、无需注册。100% 免费。",
@@ -570,6 +590,8 @@
     "compressSuccessDesc": "PDF 已成功压缩",
     "startCompress": "开始压缩",
     "compressionRatio": "压缩率",
+    "savedSpace": "节省 {percent}%",
+    "compressFailed": "压缩失败，请重试",
     "hero": {
       "title": "压缩 PDF 文件 - 免费在线 PDF 压缩工具",
       "description": "减小 PDF 文件大小而不损失质量。快速压缩，无需注册或限制。",
@@ -642,25 +664,18 @@
   "rotate": {
     "title": "旋转PDF",
     "description": "旋转PDF页面方向",
-    "backToHome": "返回首页",
-    "uploadFile": "上传 PDF 文件",
-    "dragDrop": "点击或拖拽 PDF 文件到这里",
-    "pages": "页",
+    "upload": "上传 PDF 文件",
+    "selectedFiles": "已选择 {count} 个文件",
+    "selectedFiles_plural": "已选择 {count} 个文件",
+    "rotationAngle": "旋转角度",
     "rotateAll": "全部旋转",
-    "rotateIndividually": "单独旋转页面",
-    "current": "当前",
-    "page": "页面",
     "applyRotation": "应用旋转",
-    "reset": "重置",
-    "processing": "处理中...",
-    "rotateComplete": "旋转完成！",
-    "rotateSuccessDesc": "PDF 页面已成功旋转",
+    "pagesToRotate": "{count} 页设置为旋转",
+    "success": "旋转完成！",
+    "rotateSuccess": "PDF 页面已成功旋转",
     "download": "下载 PDF",
-    "rotateAgain": "重新旋转",
     "alertSelectPDF": "请选择 PDF 文件",
-    "alertSelectAngle": "请选择要旋转的角度",
-    "alertRotateFailed": "旋转失败，请重试",
-    "readPDFFailed": "读取 PDF 失败",
+    "alertFailed": "旋转失败，请重试",
     "hero": {
       "title": "在线免费旋转 PDF 页面",
       "description": "旋转单个页面或整个 PDF 文档。易于使用，无需注册。100% 免费。",
@@ -935,6 +950,8 @@
     "batchMergeMinFiles": "请至少选择 2 个 PDF 文件进行合并",
     "batchSplitSelectFiles": "请选择 PDF 文件进行分割",
     "batchCompressSelectFiles": "请选择 PDF 文件进行压缩",
+    "selected": "已选择",
+    "selectedFiles_plural": "已选择 {count} 个文件",
     "hero": {
       "title": "批量处理 PDF - 免费在线批量工具",
       "description": "一次性处理多个 PDF 文件。合并、分割、压缩多个 PDF，提高工作效率。",
@@ -1199,6 +1216,7 @@
     "description": "移除 PDF 文档的密码保护",
     "selectFile": "选择 PDF 文件",
     "enterPassword": "输入密码",
+    "password": "密码",
     "passwordHint": "请输入加密此 PDF 时使用的密码",
     "startDecrypt": "解密 PDF",
     "decryptComplete": "解密完成",
@@ -1282,7 +1300,9 @@
   },
   "blog": {
     "title": "PDF工具博客 - 技巧、教程和指南",
-    "description": "发现专家技巧、教程和指南，帮助您更好地处理PDF文件。学习如何高效地合并、分割、压缩和优化PDF。"
+    "description": "发现专家技巧、教程和指南，帮助您更好地处理PDF文件。学习如何高效地合并、分割、压缩和优化PDF。",
+    "metaTitle": "博客 | PDF 工具",
+    "metaDescription": "PDF 处理的专家技巧和教程"
   },
   "tutorials": {
     "metaTitle": "PDF 教程与指南 - 免费学习 PDF 处理技巧",
@@ -1295,5 +1315,587 @@
     "noTutorials": "暂无教程",
     "noTutorialsDesc": "我们正在为您创建全面的教程。",
     "backToHome": "返回首页"
+  },
+  "about": {
+    "title": "关于 PDF 工具",
+    "subtitle": "快速、安全、免费的 PDF 处理，面向所有人",
+    "story": {
+      "title": "我们的故事",
+      "why": "PDF 工具创建于 2025 年，有一个简单的使命：让 PDF 处理对每个人来说都变得容易。我们相信基本工具应该是免费的、快速的、安全的。",
+      "problem": "我们发现许多 PDF 工具需要付费或强制注册，并且我们担心将敏感文档上传到未知服务器的隐私风险。因此我们决定创建一个真正免费且安全的替代方案。"
+    },
+    "mission": {
+      "title": "我们的使命",
+      "statement": "让 PDF 处理对每个人、在任何地方都变得简单、快速和安全。"
+    },
+    "values": {
+      "privacy": {
+        "title": "隐私优先",
+        "desc": "文件在本地处理，永不上传"
+      },
+      "speed": {
+        "title": "闪电般快速",
+        "desc": "毫秒级响应时间"
+      },
+      "free": {
+        "title": "永久免费",
+        "desc": "无隐藏费用，无注册"
+      },
+      "global": {
+        "title": "全球访问",
+        "desc": "多语言支持"
+      },
+      "simple": {
+        "title": "简单易用",
+        "desc": "直观的界面，无需学习"
+      }
+    },
+    "toolsTitle": "我们的 11 种强大的 PDF 工具",
+    "tools": {
+      "merge": "将多个 PDF 合并为一个",
+      "split": "将 PDF 文件分割为多个文档",
+      "extract": "从 PDF 中提取特定页面",
+      "compress": "减小 PDF 文件大小",
+      "rotate": "旋转 PDF 页面",
+      "deletePages": "删除不需要的页面",
+      "reorder": "重新排序页面顺序",
+      "watermark": "添加水印保护",
+      "batch": "一次处理多个文件",
+      "encrypt": "密码保护 PDF",
+      "decrypt": "删除密码保护"
+    },
+    "techStack": {
+      "title": "使用现代技术构建",
+      "framework": "前端框架",
+      "pdf": "PDF 处理",
+      "styling": "样式设计",
+      "deployment": "部署",
+      "openSource": "开源",
+      "openSourceDesc": "我们使用并为开源项目做出贡献"
+    },
+    "privacy": {
+      "title": "我们的隐私承诺",
+      "noCollection": {
+        "title": "零数据收集",
+        "desc": "我们不收集您的 PDF 内容"
+      },
+      "localProcessing": {
+        "title": "本地处理",
+        "desc": "所有处理都在您的浏览器中进行"
+      },
+      "noServer": {
+        "title": "无服务器上传",
+        "desc": "您的文件永远不会离开您的设备"
+      },
+      "immediateClear": {
+        "title": "即时清理",
+        "desc": "处理完成后文件从内存中清除"
+      }
+    },
+    "future": {
+      "title": "即将推出",
+      "short": {
+        "title": "短期（3 个月）",
+        "moreTools": "添加更多 PDF 工具（签名、表单）",
+        "translations": "完成所有 10 种语言翻译",
+        "mobile": "优化移动体验"
+      },
+      "mid": {
+        "title": "中期（6 个月）",
+        "userSystem": "可选注册的用户系统",
+        "forum": "社区论坛和支持",
+        "performance": "批处理性能优化"
+      },
+      "long": {
+        "title": "长期（1 年）",
+        "api": "面向开发者的 API 服务",
+        "desktop": "桌面应用程序",
+        "enterprise": "企业解决方案"
+      }
+    },
+    "team": {
+      "title": "我们的团队",
+      "who": "我们是一群对技术和开源充满热情的开发者。",
+      "expertise": "我们的专业知识包括 Web 开发、用户体验和数据安全。",
+      "philosophy": "我们相信技术应该让生活变得更简单，而不是更复杂。",
+      "contact": "联系我们"
+    },
+    "support": {
+      "title": "支持我们",
+      "subtitle": "帮助我们保持 PDF 工具免费",
+      "tell": "告诉您的朋友和同事",
+      "share": "在社交媒体上分享",
+      "feedback": "提供反馈和建议",
+      "github": "在 GitHub 上给我们标星",
+      "ads": "接受广告（帮助我们维护服务）"
+    },
+    "faq": {
+      "title": "快速常见问题",
+      "free": {
+        "q": "是免费的吗？",
+        "a": "是的，永远完全免费！"
+      },
+      "safe": {
+        "q": "安全吗？",
+        "a": "100% 安全 - 所有处理都在您的浏览器中进行"
+      },
+      "register": {
+        "q": "需要注册吗？",
+        "a": "无需注册！"
+      },
+      "limit": {
+        "q": "有文件大小限制吗？",
+        "a": "每个文件最大 100MB"
+      },
+      "mobile": {
+        "q": "在移动设备上可以使用吗？",
+        "a": "是的，在所有设备上完全支持"
+      }
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "我们很乐意听到您的声音。我们能如何帮助您？",
+    "intro": "无论您有问题、建议还是商务咨询，我们都期待收到您的来信。",
+    "contactMethods": "联系方式",
+    "general": {
+      "title": "一般咨询",
+      "desc": "问题、反馈、建议",
+      "response": "24-48 小时"
+    },
+    "business": {
+      "title": "商务咨询",
+      "desc": "合作、广告、赞助",
+      "response": "48-72 小时",
+      "collab": "对商务合作感兴趣？",
+      "ads": "广告机会",
+      "api": "API 集成（即将推出）",
+      "whiteLabel": "白标解决方案",
+      "contactUs": "联系我们"
+    },
+    "security": {
+      "title": "安全问题",
+      "desc": "漏洞、隐私问题",
+      "response": "12-24 小时"
+    },
+    "social": {
+      "title": "与我们联系"
+    },
+    "form": {
+      "title": "给我们留言",
+      "name": "您的姓名",
+      "namePlaceholder": "您的姓名",
+      "email": "电子邮件",
+      "emailPlaceholder": "your@email.com",
+      "subject": "主题",
+      "selectSubject": "选择主题",
+      "subjects": {
+        "general": "一般咨询",
+        "bug": "错误报告",
+        "feature": "功能请求",
+        "business": "商务合作",
+        "privacy": "隐私/安全问题",
+        "other": "其他"
+      },
+      "message": "留言",
+      "messagePlaceholder": "告诉我们更多...",
+      "maxChars": "最大字符数",
+      "submit": "发送消息",
+      "privacy": "我们尊重您的隐私。请阅读我们的",
+      "privacyLink": "隐私政策"
+    },
+    "faq": {
+      "title": "快速链接",
+      "subtitle": "快速找到答案：",
+      "howToUse": {
+        "q": "如何使用 PDF 合并工具？"
+      },
+      "formats": {
+        "q": "支持哪些文件格式？"
+      },
+      "filesize": {
+        "q": "有文件大小限制吗？"
+      },
+      "isFree": {
+        "q": "真的免费吗？"
+      },
+      "safe": {
+        "q": "使用安全吗？"
+      }
+    },
+    "hours": {
+      "title": "工作时间",
+      "responseTime": "响应时间",
+      "general": "一般",
+      "generalTime": "24-48 小时",
+      "security": "安全",
+      "securityTime": "12-24 小时",
+      "business": "商务",
+      "businessTime": "48-72 小时",
+      "workdays": "工作日",
+      "days": "周一至周五",
+      "timezone": "时区"
+    },
+    "privacyNote": {
+      "title": "隐私说明",
+      "collect": "收集的信息：仅姓名、电子邮件、留言内容",
+      "use": "目的：回复您的咨询",
+      "share": "我们从不分享或出售您的数据",
+      "retain": "保留：问题解决 1 年后删除"
+    },
+    "response": "响应时间"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "lastUpdated": "最后更新",
+    "intro": "我们非常重视您的隐私。本政策解释了当您使用 PDF 工具时我们如何收集、使用和保护您的信息。",
+    "infoCollect": {
+      "title": "我们收集的信息",
+      "autoCollect": {
+        "title": "自动收集的信息",
+        "browser": "浏览器类型和版本",
+        "device": "设备类型和操作系统",
+        "access": "访问时间和查看的页面",
+        "ip": "匿名化的 IP 地址"
+      },
+      "files": {
+        "title": "重要提示：您的 PDF 文件",
+        "point1": "所有 PDF 文件都在您的浏览器中本地处理",
+        "point2": "文件永远不会上传到我们的服务器",
+        "point3": "文件在处理后立即从内存中清除"
+      }
+    },
+    "howUse": {
+      "title": "我们如何使用信息",
+      "improve": "改进我们的服务和用户体验",
+      "analyze": "分析使用模式和趋势",
+      "security": "确保安全并防止欺诈",
+      "legal": "遵守法律义务"
+    },
+    "cookies": {
+      "title": "Cookie 和类似技术",
+      "intro": "我们使用 cookie 来增强您的体验。您可以在我们的",
+      "cookiePolicy": "Cookie 政策"
+    },
+    "thirdParty": {
+      "title": "第三方服务",
+      "analytics": "网站分析和性能监控",
+      "adsense": "广告服务",
+      "hosting": "网站托管和性能",
+      "privacy": "这些第三方有自己的隐私政策。我们鼓励您查阅它们。"
+    },
+    "security": {
+      "title": "数据安全",
+      "https": "所有数据传输使用 HTTPS 加密",
+      "noStorage": "不存储用户文件",
+      "audit": "定期安全审计"
+    },
+    "rights": {
+      "title": "您的权利（GDPR/CCPA）",
+      "intro": "您对数据拥有以下权利：",
+      "access": {
+        "title": "访问",
+        "desc": "请求您的数据副本"
+      },
+      "delete": {
+        "title": "删除",
+        "desc": "请求删除您的数据"
+      },
+      "correct": {
+        "title": "更正",
+        "desc": "更新不准确的信息"
+      },
+      "object": {
+        "title": "反对",
+        "desc": "反对数据处理"
+      },
+      "contact": "要行使这些权利，请联系我们。"
+    },
+    "children": {
+      "title": "儿童隐私",
+      "content": "我们的服务不面向 13 岁以下的儿童。我们不会故意收集 13 岁以下儿童的信息。如果我们发现无意中收集了此类信息，我们将立即删除。"
+    },
+    "updates": {
+      "title": "本政策的更新",
+      "content": "我们可能会不时更新本隐私政策。如果发生重大变更，我们将通过在此页面发布新政策并更新'最后更新'日期来通知您。"
+    },
+    "contact": {
+      "title": "联系我们",
+      "email": "有关隐私问题，请发送电子邮件给我们",
+      "response": "我们在 3-5 个工作日内回复"
+    }
+  },
+  "terms": {
+    "title": "服务条款",
+    "lastUpdated": "最后更新",
+    "intro": "欢迎使用 PDF 工具。使用我们的服务即表示您同意这些条款。",
+    "service": {
+      "title": "服务描述",
+      "description": "PDF 工具提供免费的在线 PDF 处理工具，包括合并、分割、压缩、旋转等。",
+      "availability": "服务'按原样'提供，不保证不间断的可用性",
+      "changes": "我们可能会随时更新或终止服务"
+    },
+    "responsibilities": {
+      "title": "用户责任",
+      "allowed": {
+        "title": "允许的使用",
+        "personal": "个人和商业使用",
+        "commercial": "处理合法拥有的 PDF 文件",
+        "legal": "遵守适用法律"
+      },
+      "prohibited": {
+        "title": "禁止的使用",
+        "illegal": "处理非法或侵权内容",
+        "infringement": "试图绕过安全措施",
+        "abuse": "滥用或过度的自动化处理",
+        "automation": "侵犯他人的知识产权",
+        "malware": "分发病毒或恶意代码"
+      }
+    },
+    "ip": {
+      "title": "知识产权",
+      "website": {
+        "title": "网站内容",
+        "content": "网站设计、标志和内容是我们的财产，受版权保护。"
+      },
+      "userFiles": {
+        "title": "用户文件",
+        "content": "您保留上传或处理文件的所有权利。我们不主张所有权。"
+      },
+      "opensource": {
+        "title": "开源",
+        "content": "我们使用开源库并遵守其许可证。"
+      }
+    },
+    "disclaimer": {
+      "title": "免责声明",
+      "service": {
+        "title": "服务保证",
+        "noWarranty": "服务'按原样'提供，不包含明示或暗示的保证",
+        "noGuarantee": "我们不保证服务不间断、及时、安全或无错误"
+      },
+      "files": {
+        "title": "文件处理",
+        "noResponsibility": "我们不对处理结果负责",
+        "backup": "处理前请备份重要文件",
+        "risk": "处理风险由用户承担"
+      },
+      "liability": {
+        "title": "责任限制",
+        "direct": "直接或间接损失",
+        "indirect": "利润或数据损失",
+        "profit": "业务中断",
+        "data": "在法律允许的最大范围内"
+      }
+    },
+    "limits": {
+      "title": "服务限制",
+      "usage": {
+        "title": "使用限制",
+        "content": "免费用户有每日处理限制"
+      },
+      "filesize": {
+        "title": "文件大小",
+        "content": "每个文件最大 100MB"
+      },
+      "termination": {
+        "title": "终止",
+        "content": "我们可能会因违规暂停或终止服务"
+      }
+    },
+    "privacy": {
+      "title": "隐私和数据",
+      "content": "您使用我们的服务还受我们的",
+      "link": "隐私政策"
+    },
+    "thirdParty": {
+      "title": "第三方链接和服务",
+      "links": "我们的网站可能包含第三方网站的链接",
+      "responsibility": "我们不对第三方内容负责",
+      "terms": "第三方有自己的条款和政策"
+    },
+    "indemnity": {
+      "title": "赔偿",
+      "content": "您同意因您违反这些条款而造成的损失向我们进行赔偿，包括法律费用和索赔金额。"
+    },
+    "dispute": {
+      "title": "争议解决",
+      "law": "适用法律",
+      "lawContent": "您所在司法管辖区的法律",
+      "resolution": "解决方式",
+      "resolutionContent": "首先谈判，必要时进行诉讼",
+      "court": "司法管辖权",
+      "courtContent": "您所在司法管辖区的法院"
+    },
+    "changes": {
+      "title": "条款变更",
+      "anytime": "我们可能会随时更新这些条款",
+      "notification": "重大变更将在网站上公布",
+      "acceptance": "继续使用即表示接受新条款",
+      "check": "请定期查看这些条款"
+    },
+    "contact": {
+      "title": "联系",
+      "email": "有关条款问题，请发送电子邮件给我们"
+    }
+  },
+  "cookies": {
+    "title": "Cookie 政策",
+    "lastUpdated": "最后更新",
+    "intro": "本页面解释我们如何使用 cookie 和类似技术为您提供更好的体验。",
+    "whatAre": {
+      "title": "什么是 Cookie？",
+      "content": "Cookie 是您访问网站时存储在设备上的小文本文件。它们帮助我们提供更好的体验。"
+    },
+    "essential": {
+      "title": "必要的 Cookie",
+      "purpose": {
+        "title": "用途",
+        "session": "会话管理（保持登录状态）",
+        "language": "语言偏好",
+        "security": "安全令牌",
+        "loadbalancing": "负载均衡"
+      },
+      "count": "数量",
+      "duration": "持续时间",
+      "disable": "能否禁用"
+    },
+    "analytics": {
+      "title": "分析 Cookie",
+      "purpose": {
+        "title": "用途",
+        "stats": "跟踪访问者统计信息",
+        "behavior": "了解用户行为",
+        "performance": "改进网站性能",
+        "popular": "识别流行的工具和功能"
+      },
+      "provider": "提供商",
+      "privacy": "隐私政策",
+      "privacyLink": "Google 隐私政策"
+    },
+    "advertising": {
+      "title": "广告 Cookie",
+      "purpose": {
+        "title": "用途",
+        "relevant": "显示相关广告",
+        "track": "跟踪广告效果",
+        "frequency": "频率限制"
+      },
+      "privacy": "隐私政策",
+      "privacyLink": "Google 隐私政策"
+    },
+    "thirdParty": {
+      "title": "第三方 Cookie",
+      "table": {
+        "name": "Cookie 名称",
+        "purpose": "用途",
+        "privacy": "隐私政策",
+        "analyticsPurpose": "网站分析",
+        "adsPurpose": "广告服务",
+        "hostingPurpose": "性能和安全",
+        "policy": "查看政策",
+        "seeWebsite": "查看网站"
+      }
+    },
+    "manage": {
+      "title": "如何管理 Cookie",
+      "browser": {
+        "title": "浏览器设置",
+        "chrome": "设置 > 隐私和安全 > Cookie 和其他网站数据",
+        "firefox": "选项 > 隐私与安全",
+        "safari": "偏好设置 > 隐私",
+        "edge": "设置 > Cookie 和网站权限"
+      },
+      "warning": "注意：禁用所有 cookie 可能会阻止某些网站功能正常工作。"
+    },
+    "consent": {
+      "title": "Cookie 同意横幅",
+      "intro": "首次访问时，您将看到一个 cookie 同意横幅，其中包含三个选项：",
+      "acceptAll": "接受所有 Cookie",
+      "customize": "自定义设置",
+      "necessaryOnly": "仅必要的 Cookie",
+      "change": "您可以随时更改您的偏好设置。"
+    },
+    "whyUse": {
+      "title": "我们为什么使用 Cookie",
+      "improve": {
+        "title": "改进体验",
+        "content": "记住您的偏好并提供个性化体验"
+      },
+      "analyze": {
+        "title": "分析性能",
+        "content": "了解哪些工具最受欢迎并持续改进"
+      },
+      "monetize": {
+        "title": "资助服务",
+        "content": "广告收入帮助我们保持服务免费"
+      },
+      "security": {
+        "title": "维护安全",
+        "content": "防止欺诈和滥用"
+      }
+    },
+    "cookieSecurity": {
+      "title": "Cookie 安全",
+      "https": "加密传输（HTTPS）",
+      "noSensitive": "Cookie 中不存储敏感信息",
+      "audit": "定期安全审查",
+      "compliance": "遵守数据保护法规（GDPR/CCPA）"
+    },
+    "rights": {
+      "title": "您的权利",
+      "eu": "欧盟/英国",
+      "california": "美国加利福尼亚州",
+      "gdpr": {
+        "consent": "非必要的 cookie 需要明确的同意",
+        "inform": "我们会告知您我们使用的 cookie 类型",
+        "withdraw": "您可以随时撤回同意",
+        "access": "您可以访问收集的数据"
+      },
+      "ccpa": {
+        "sell": "我们不出售个人信息",
+        "track": "提供'请勿跟踪'选项",
+        "delete": "提供数据删除权利"
+      }
+    },
+    "updates": {
+      "title": "定期审查",
+      "review": "我们每年审查此 cookie 政策",
+      "thirdParty": "第三方服务变更时更新",
+      "notify": "在网站上发布重大变更"
+    },
+    "contact": {
+      "title": "联系我们",
+      "email": "有关 cookie 问题，请发送电子邮件给我们",
+      "response": "我们在 3-5 个工作日内回复"
+    },
+    "blog": {
+      "title": "PDF 工具博客 - 技巧、教程和指南",
+      "description": "发现专家技巧、教程和指南，帮助您更好地处理 PDF 文件。学习如何高效地合并、分割、压缩和优化 PDF。"
+    },
+    "tutorials": {
+      "title": "PDF 教程与指南",
+      "description": "处理 PDF 文件的分步教程",
+      "metaTitle": "教程 | PDF 工具",
+      "metaDescription": "通过我们的详细教程学习如何处理 PDF"
+    },
+    "resources": {
+      "title": "PDF 资源和链接",
+      "description": "精选的有用 PDF 资源和工具列表",
+      "metaTitle": "资源 | PDF 工具",
+      "metaDescription": "处理 PDF 文件的有用资源"
+    },
+    "compare": {
+      "title": "PDF 工具对比",
+      "description": "对比 PDF 工具和格式，做出正确的选择",
+      "metaTitle": "对比 | PDF 工具",
+      "metaDescription": "PDF 工具和格式的详细对比"
+    },
+    "team": {
+      "title": "关于我们的团队",
+      "mission": "我们的使命是为每个人提供免费、安全、易于使用的 PDF 工具。",
+      "vision": "我们相信让所有用户，无论技术专业知识或预算如何，都能使用 PDF 处理。",
+      "values": "隐私、安全、简单、可访问性"
+    }
   }
 }
