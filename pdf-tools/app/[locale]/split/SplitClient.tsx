@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Breadcrumb from '@/components/Breadcrumb';
+import RelatedTools from '@/components/RelatedTools';
 import HeroSection from './components/HeroSection';
 import ToolSection from './components/ToolSection';
 import HowToSection from './components/HowToSection';
@@ -16,27 +18,39 @@ export default function SplitClient({ params }: { params: Promise<{ locale: stri
   const { locale } = use(params);
   const tc = useTranslations('common');
 
+  const breadcrumbItems = [
+    { name: 'Home', href: '' },
+    { name: 'Split PDF', href: '/split' },
+  ];
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100">
       <Navbar currentLocale={locale} />
 
       <main className="container mx-auto px-4 py-12">
-        <div className="max-w-3xl mx-auto">
-          <Link
-            href={`/${locale}`}
-            className="inline-flex items-center text-green-600 hover:text-green-800 mb-6"
-          >
-            <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-            </svg>
-            {tc('backToHome')}
-          </Link>
+        <div className="max-w-4xl mx-auto">
+          {/* Breadcrumb */}
+          <Breadcrumb items={breadcrumbItems} locale={locale} />
 
+          {/* Hero Section */}
           <HeroSection locale={locale} />
+
+          {/* Tool Section */}
           <ToolSection locale={locale} />
+
+          {/* How To Section */}
           <HowToSection locale={locale} />
+
+          {/* Use Cases Section */}
           <UseCasesSection locale={locale} />
+
+          {/* SEO Content Section */}
           <SEOContentSection locale={locale} />
+
+          {/* Related Tools */}
+          <RelatedTools currentTool="split" locale={locale} />
+
+          {/* Blog Section */}
           <BlogSection locale={locale} />
         </div>
       </main>
