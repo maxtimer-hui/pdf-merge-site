@@ -112,6 +112,22 @@
     "freeDesc": "Sem registro, sem limites, sem marca d'água",
     "relatedArticles": "Artigos Relacionados",
     "viewAll": "Ver Todos",
+    "blog": "Blog",
+    "tutorials": "Tutoriais",
+    "resources": "Recursos",
+    "compare": "Comparar",
+    "about": "Sobre Nós",
+    "contact": "Contato",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "cookies": "Política de Cookies",
+    "tools": "Ferramentas",
+    "company": "Empresa",
+    "legal": "Legal",
+    "footerRights": "Todos os direitos reservados",
+    "footerTagline": "As melhores ferramentas gratuitas de processamento PDF online",
+    "madeWithLove": "Feito com ❤️ para a comunidade global",
+    "moreTools": "Mais Ferramentas...",
     "backToHome": "Voltar ao Início",
     "uploadFile": "Carregar Arquivo PDF",
     "uploadFiles": "Carregar Arquivos PDF",
@@ -205,10 +221,6 @@
       "invalidFileType": "Tipo de arquivo inválido. Por favor, envie um arquivo PDF.",
       "processingError": "Ocorreu um erro ao processar seu arquivo."
     },
-    "blog": "Blog",
-    "tutorials": "Tutoriais",
-    "resources": "Recursos",
-    "compare": "Comparar",
     "relatedTools": {
       "title": "Ferramentas Relacionadas que Você Pode Precisar",
       "splitAfterMerge": "Depois de mesclar, você pode precisar extrair páginas específicas do seu PDF combinado",
@@ -235,7 +247,29 @@
       "decryptEncrypted": "Remova senha de PDFs criptografados",
       "mergeDecrypted": "Combine PDFs descriptografados em um único arquivo",
       "encryptDecrypted": "Adicione proteção por senha aos seus PDFs"
-    }
+    },
+    "isRequired": "é obrigatório",
+    "alertValidNumber": "Por favor, insira um número válido",
+    "totalFiles": "Total de arquivos",
+    "totalSize": "Tamanho total",
+    "supportsMultiple": "(Múltiplos arquivos suportados)",
+    "selectedFiles": "{count} arquivo selecionado",
+    "selectedFiles_plural": "{count} arquivos selecionados",
+    "clearAll": "Limpar Tudo",
+    "moveUp": "Mover para Cima",
+    "moveDown": "Mover para Baixo",
+    "remove": "Remover",
+    "mergeMore": "Mesclar Mais",
+    "splitAgain": "Dividir Outro",
+    "extractAgain": "Extrair Outro",
+    "compressAgain": "Comprimir Outro",
+    "encryptAgain": "Criptografar Outro",
+    "decryptAgain": "Descriptografar Outro",
+    "optional": "Opcional",
+    "year": "ano",
+    "years": "anos",
+    "yes": "Sim",
+    "no": "Não"
   },
   "merge": {
     "title": "Mesclar Arquivos PDF",
@@ -333,6 +367,27 @@
     "processing": "Processando...",
     "download": "Baixar PDFs Divididos",
     "success": "PDF dividido com sucesso!",
+    "splitMode": "Modo de Divisão",
+    "range": "Intervalo de Páginas",
+    "singlePages": "Páginas Individuais",
+    "every": "A Cada",
+    "pageRangePlaceholder": "ex. 1-3, 5, 7-9",
+    "splitAll": "Extrair Todas as Páginas",
+    "selectPages": "Selecionar Páginas Específicas",
+    "splitEveryDesc": "Dividir a cada N páginas",
+    "split": "Dividir PDF",
+    "splitting": "Dividindo...",
+    "splitComplete": "Divisão Concluída",
+    "splitSuccessDesc": "PDF foi dividido com sucesso",
+    "splitAgain": "Dividir Outro Arquivo",
+    "alertSelectPages": "Por favor selecione páginas para dividir",
+    "selectedPages": "{count} página(s) selecionada(s)",
+    "selectSplitMode": "Selecione o Modo de Divisão",
+    "splitEvenly": "Dividir Uniformemente",
+    "splitCustom": "Divisão Personalizada",
+    "pagesIntoFile": "páginas em um arquivo",
+    "startSplit": "Iniciar Divisão",
+    "splitSuccess": "Dividido com sucesso em {count} arquivos",
     "hero": {
       "title": "Dividir arquivos PDF gratuitamente online",
       "description": "Divida documentos PDF em arquivos separados. Extraia páginas, intervalos ou divida uniformemente.",
@@ -400,7 +455,11 @@
         "title": "Qual é o Melhor Divisor de PDF Gratuito?",
         "content": "O melhor divisor de PDF deve ser rápido, seguro e fácil de usar. Nossa ferramenta processa arquivos completamente em seu navegador, garantindo máxima privacidade. Ao contrário de outras ferramentas que exigem uploads, mantemos seus dados em seu dispositivo enquanto fornece divisão de PDF de qualidade profissional gratuitamente."
       }
-    }
+    },
+    "pageRangeLabel": "Intervalo de Páginas",
+    "totalPagesInfo": "Total de {count} páginas neste documento",
+    "estimatedFiles": "Estimados {count} arquivos serão criados",
+    "alertFailed": "Divisão falhou, por favor tente novamente"
   },
   "extract": {
     "title": "Extrair Páginas PDF",
@@ -476,7 +535,38 @@
         "title": "Por Que Usar Nosso Extrator de PDF?",
         "content": "Nosso extrator de PDF é rápido, gratuito e seguro. Ao contrário de outras ferramentas que exigem upload de arquivos, processamos tudo localmente em seu navegador. Isso significa que seus documentos nunca deixam seu dispositivo, garantindo privacidade completa."
       }
-    }
+    },
+    "selectMode": "Selecionar Modo de Extração",
+    "modeRange": "Intervalo de Páginas",
+    "modeSpecific": "Selecionar Páginas",
+    "modeAll": "Todas as Páginas",
+    "modeEven": "Páginas Pares",
+    "modeOdd": "Páginas Ímpares",
+    "pageRangePlaceholder": "1-5, 8-10",
+    "pageRangeDesc": "Total de {total} páginas",
+    "selectPages": "Selecione páginas para extrair",
+    "startExtract": "Iniciar Extração",
+    "extracting": "Extraindo...",
+    "extractComplete": "Extração Concluída",
+    "extractSuccessDesc": "Páginas extraídas com sucesso",
+    "extractAgain": "Extrair Novamente",
+    "selectPagesToExtract": "Selecionar Páginas para Extrair",
+    "extractSuccess": "Extraídas com sucesso {count} página(s)",
+    "selectExtractMode": "Selecionar Modo de Extração",
+    "pageRange": "Intervalo de Páginas",
+    "allPages": "Todas as Páginas",
+    "evenPages": "Páginas Pares",
+    "oddPages": "Páginas Ímpares",
+    "pageRangeLabel": "Intervalo de Páginas (ex: 1-3,5,7-9)",
+    "totalPagesInfo": "Total de {count} páginas neste documento",
+    "selectAll": "Selecionar Tudo",
+    "clear": "Limpar",
+    "selectedPages": "{count} páginas selecionadas",
+    "extractAllInfo": "Extrairá todas as {count} páginas",
+    "extractEvenInfo": "Extrairá {count} páginas pares",
+    "extractOddInfo": "Extrairá {count} páginas ímpares",
+    "extract": "Extrair Páginas",
+    "alertFailed": "Extração falhou, por favor tente novamente"
   },
   "compress": {
     "title": "Comprimir Arquivos PDF",
@@ -555,7 +645,21 @@
         "title": "Qual é o Melhor Compressor de PDF Gratuito?",
         "content": "O melhor compressor de PDF deve ser rápido, seguro e eficaz. Nossa ferramenta processa arquivos completamente em seu navegador, garantindo máxima privacidade. Ao contrário de outras ferramentas que exigem uploads, mantemos seus dados em seu dispositivo enquanto fornece compressão de PDF de qualidade profissional gratuitamente."
       }
-    }
+    },
+    "compressionLevel": "Nível de Compressão",
+    "low": "Baixo",
+    "medium": "Médio",
+    "high": "Alto",
+    "levelDesc": "Compressão maior = arquivo menor mas qualidade inferior",
+    "savings": "Economia",
+    "compress": "Comprimir PDF",
+    "compressing": "Comprimindo...",
+    "compressComplete": "Compressão Concluída",
+    "compressSuccessDesc": "PDF comprimido com sucesso",
+    "startCompress": "Iniciar Compressão",
+    "compressionRatio": "Taxa de compressão",
+    "savedSpace": "Economizados {percent}%",
+    "compressFailed": "Compressão falhou, por favor tente novamente"
   },
   "rotate": {
     "title": "Rotacionar Arquivos PDF",
@@ -627,7 +731,19 @@
         "title": "Por Que Usar Nosso Rotacionador de PDF?",
         "content": "Nosso rotacionador de PDF é rápido, gratuito e seguro. Ao contrário de outras ferramentas que exigem upload de arquivos, processamos tudo localmente em seu navegador. Isso significa que seus documentos nunca deixam seu dispositivo."
       }
-    }
+    },
+    "upload": "Carregar Arquivo PDF",
+    "selectedFiles": "{count} arquivo selecionado",
+    "selectedFiles_plural": "{count} arquivos selecionados",
+    "rotationAngle": "Ângulo de Rotação",
+    "rotateAll": "Rotacionar Todas as Páginas",
+    "applyRotation": "Aplicar Rotação",
+    "pagesToRotate": "{count} páginas definidas para rotação",
+    "success": "Rotação Concluída!",
+    "rotateSuccess": "Páginas PDF foram rotacionadas com sucesso",
+    "download": "Baixar PDF",
+    "alertSelectPDF": "Por favor selecione um arquivo PDF",
+    "alertFailed": "Rotação falhou, por favor tente novamente"
   },
   "deletePages": {
     "title": "Excluir Páginas PDF",
@@ -699,7 +815,20 @@
         "title": "Por Que Usar Nosso Removedor de Páginas PDF?",
         "content": "Nosso removedor de páginas PDF é rápido, gratuito e seguro. Ao contrário de outras ferramentas que exigem upload de arquivos, processamos tudo localmente em seu navegador. Isso significa que seus documentos nunca deixam seu dispositivo."
       }
-    }
+    },
+    "selectPagesToDelete": "Selecionar Páginas para Excluir",
+    "deleteSelected": "Excluir Páginas Selecionadas",
+    "deleting": "Excluindo...",
+    "deleteComplete": "Exclusão Concluída!",
+    "deleteSuccessDesc": "Páginas excluídas com sucesso",
+    "deleteAgain": "Excluir Novamente",
+    "alertSelectPages": "Por favor selecione páginas para excluir",
+    "alertDeleteAll": "Não é possível excluir todas as páginas",
+    "selectedWillDelete": "Selecionadas {selected} página(s), manterá {remaining} página(s)",
+    "deleteCompleteDesc": "Excluídas com sucesso {deleted} página(s), mantendo {remaining} página(s)",
+    "selectPagesAlert": "Por favor selecione páginas para excluir",
+    "cannotDeleteAll": "Não é possível excluir todas as páginas",
+    "deleteFailed": "Exclusão falhou, por favor tente novamente"
   },
   "reorder": {
     "title": "Reordenar Páginas",
@@ -771,7 +900,15 @@
         "title": "Por Que Usar Nosso Reordenador de PDF?",
         "content": "Nossa ferramenta de reordenação de PDF é rápida, gratuita e segura. Todo o processamento acontece localmente em seu navegador, garantindo que seus arquivos nunca deixem seu dispositivo."
       }
-    }
+    },
+    "dragDropDesc": "Arraste páginas para reordenar",
+    "moveLeft": "Mover para Esquerda",
+    "moveRight": "Mover para Direita",
+    "reorder": "Reordenar Páginas",
+    "reordering": "Reordenando...",
+    "reorderComplete": "Reordenação Concluída!",
+    "reorderSuccessDesc": "Páginas foram reordenadas",
+    "reorderAgain": "Reordenar Novamente"
   },
   "watermark": {
     "title": "Adicionar Marca D'água",
@@ -843,7 +980,34 @@
         "title": "Por Que Usar Nossa Ferramenta de Marca D'água PDF?",
         "content": "Nossa ferramenta de marca d'água PDF é rápida, gratuita e segura. Todo o processamento acontece localmente em seu navegador, garantindo que seus documentos nunca deixem seu dispositivo."
       }
-    }
+    },
+    "watermarkType": "Tipo de Marca D'água",
+    "textWatermark": "Marca D'água de Texto",
+    "imageWatermark": "Marca D'água de Imagem",
+    "watermarkText": "Texto da Marca D'água",
+    "textPlaceholder": "Digite o texto da marca d'água",
+    "uploadImage": "Carregar Imagem",
+    "fontSize": "Tamanho da Fonte",
+    "color": "Cor",
+    "rotation": "Rotação",
+    "opacity": "Opacidade",
+    "position": "Posição",
+    "addWatermark": "Adicionar Marca D'água",
+    "adding": "Adicionando Marca D'água...",
+    "watermarkComplete": "Marca D'água Adicionada!",
+    "watermarkSuccessDesc": "Marca d'água foi adicionada com sucesso",
+    "watermarkAgain": "Adicionar Marca D'água em Outro Arquivo",
+    "alertEnterText": "Por favor digite o texto da marca d'água",
+    "alertUploadImage": "Por favor carregue uma imagem",
+    "watermarkTextPlaceholder": "Digite o texto da marca d'água...",
+    "diagonal": "Diagonal",
+    "center": "Centro",
+    "tile": "Lado a Lado",
+    "watermarkAdded": "Marca D'água Adicionada com Sucesso!",
+    "watermarkAddedDesc": "Marca d'água foi adicionada com sucesso ao seu arquivo PDF",
+    "adjustSettings": "Ajustar Configurações",
+    "enterWatermarkText": "Por favor digite o texto da marca d'água",
+    "addWatermarkFailed": "Falha ao adicionar marca d'água, por favor tente novamente"
   },
   "batch": {
     "title": "Processamento em Lote",
@@ -915,7 +1079,46 @@
         "title": "Por Que Usar Nosso Processador em Lote?",
         "content": "Nosso processador em lote é rápido, gratuito e seguro. Todo o processamento acontece localmente em seu navegador, garantindo que seus arquivos nunca deixem seu dispositivo."
       }
-    }
+    },
+    "selectOperation": "Selecionar Operação",
+    "merge": "Mesclar Tudo",
+    "split": "Dividir Tudo",
+    "compress": "Comprimir Tudo",
+    "selectTools": "Selecione ferramentas para aplicar",
+    "startBatch": "Iniciar Processamento em Lote",
+    "batchComplete": "Processamento em Lote Concluído!",
+    "batchSuccessDesc": "Arquivos processados com sucesso",
+    "downloadAll": "Baixar Tudo",
+    "processAgain": "Processar Mais Arquivos",
+    "alertSelectTools": "Por favor selecione pelo menos uma ferramenta",
+    "selectBatchMode": "Selecione o Modo de Processamento em Lote",
+    "batchMerge": "Mesclar Tudo",
+    "batchMergeDesc": "Mesclar múltiplos PDFs em um",
+    "batchSplit": "Dividir Tudo",
+    "batchSplitDesc": "Dividir múltiplos PDFs por contagem de páginas",
+    "batchCompress": "Comprimir Tudo",
+    "batchCompressDesc": "Comprimir múltiplos arquivos PDF",
+    "splitOptions": "Opções de Divisão",
+    "every": "A Cada",
+    "pagesSplit": "páginas em um arquivo",
+    "addFiles": "Adicionar Arquivos PDF",
+    "clickSelectFiles": "Clique para selecionar múltiplos arquivos PDF",
+    "selectedFiles": "{count} arquivo selecionado",
+    "selectedFiles_plural": "{count} arquivos selecionados",
+    "clearAll": "Limpar Tudo",
+    "batchMergeFailed": "Mesclagem em lote falhou, por favor tente novamente",
+    "batchSplitFailed": "Divisão em lote falhou, por favor tente novamente",
+    "batchCompressFailed": "Compressão em lote falhou, por favor tente novamente",
+    "processingMerge": "Mesclando arquivos...",
+    "processingSplit": "Dividindo arquivos...",
+    "processingCompress": "Comprimindo arquivos...",
+    "startBatchProcess": "Iniciar Processamento em Lote",
+    "batchProcessComplete": "Processamento em Lote Concluído!",
+    "generatedFiles": "Gerados com sucesso {count} arquivos",
+    "batchMergeMinFiles": "Por favor selecione pelo menos 2 arquivos PDF para mesclar",
+    "batchSplitSelectFiles": "Por favor selecione arquivos PDF para dividir",
+    "batchCompressSelectFiles": "Por favor selecione arquivos PDF para comprimir",
+    "selected": "Selecionado"
   },
   "encrypt": {
     "title": "Criptografar PDF",
@@ -988,7 +1191,23 @@
         "title": "Por Que Usar Nossa Criptografia de PDF?",
         "content": "Nossa ferramenta de criptografia de PDF é rápida, gratuita e segura. Todo o processamento acontece localmente em seu navegador, garantindo que seus arquivos nunca deixem seu dispositivo."
       }
-    }
+    },
+    "selectFile": "Selecionar Arquivo PDF",
+    "enterPassword": "Digite a senha",
+    "confirmPassword": "Confirme a senha",
+    "startEncrypt": "Criptografar PDF",
+    "encryptComplete": "Criptografia Concluída",
+    "encryptSuccess": "PDF foi protegido com senha",
+    "weak": "Fraca",
+    "medium": "Média",
+    "strong": "Forte",
+    "passwordHint": "Use 8+ caracteres com mistura de letras, números e símbolos",
+    "weakPasswordWarning": "Senha é muito fraca. Por favor use uma senha mais forte.",
+    "noFile": "Por favor selecione um arquivo PDF",
+    "noPassword": "Por favor digite uma senha",
+    "passwordMismatch": "Senhas não coincidem",
+    "invalidFile": "Por favor selecione um arquivo PDF válido",
+    "encryptError": "Criptografia falhou. Por favor tente novamente."
   },
   "decrypt": {
     "title": "Descriptografar PDF",
@@ -1061,11 +1280,28 @@
         "title": "Por Que Usar Nossa Descriptografia de PDF?",
         "content": "Nossa ferramenta de descriptografia de PDF é rápida, gratuita e segura. Todo o processamento acontece localmente em seu navegador, garantindo que seus arquivos nunca deixem seu dispositivo."
       }
-    }
+    },
+    "selectFile": "Selecionar Arquivo PDF",
+    "enterPassword": "Digite a senha",
+    "password": "Senha",
+    "passwordHint": "Digite a senha usada para criptografar este PDF",
+    "startDecrypt": "Descriptografar PDF",
+    "decryptComplete": "Descriptografia Concluída",
+    "decryptSuccess": "Proteção por senha foi removida",
+    "isEncrypted": "Este arquivo está criptografado",
+    "notEncrypted": "Este arquivo não está criptografado",
+    "checkError": "Falha ao verificar se o arquivo está criptografado",
+    "noFile": "Por favor selecione um arquivo PDF",
+    "noPassword": "Por favor digite a senha",
+    "wrongPassword": "Senha incorreta. Por favor tente novamente.",
+    "invalidFile": "Por favor selecione um arquivo PDF válido",
+    "decryptError": "Descriptografia falhou. Por favor verifique a senha e tente novamente."
   },
   "blog": {
-    "title": "PDF Tools Blog",
-    "description": "Tips, tutorials, and guides for working with PDF files"
+    "title": "Blog PDF Tools",
+    "description": "Dicas, tutoriais e guias para trabalhar com arquivos PDF",
+    "metaTitle": "Blog | PDF Tools",
+    "metaDescription": "Dicas especializadas e tutoriais para processamento de PDF"
   },
   "tutorials": {
     "metaTitle": "Tutoriais e Guias de PDF - Aprenda Habilidades de Processamento de PDF",
@@ -1078,5 +1314,587 @@
     "noTutorials": "Ainda não há tutoriais disponíveis",
     "noTutorialsDesc": "Estamos trabalhando para criar tutoriais abrangentes para você.",
     "backToHome": "Voltar ao Início"
+  },
+  "about": {
+    "title": "Sobre PDF Tools",
+    "subtitle": "Processamento de PDF Rápido, Seguro e Gratuito para Todos",
+    "story": {
+      "title": "Nossa História",
+      "why": "PDF Tools foi criado em 2025 com uma missão simples: tornar o processamento de PDF acessível a todos. Acreditamos que ferramentas essenciais devem ser gratuitas, rápidas e seguras.",
+      "problem": "Descobrimos que muitas ferramentas de PDF exigem pagamento ou registro forçado, e estávamos preocupados com o risco de privacidade de enviar documentos sensíveis para servidores desconhecidos. Então decidimos criar uma alternativa verdadeiramente gratuita e segura."
+    },
+    "mission": {
+      "title": "Nossa Missão",
+      "statement": "Tornar o processamento de PDF fácil, rápido e seguro para todos, em todos os lugares."
+    },
+    "values": {
+      "privacy": {
+        "title": "Privacidade em Primeiro Lugar",
+        "desc": "Arquivos processados localmente, nunca enviados"
+      },
+      "speed": {
+        "title": "Ultra Rápido",
+        "desc": "Tempo de resposta em milissegundos"
+      },
+      "free": {
+        "title": "Grátis Para Sempre",
+        "desc": "Sem taxas ocultas, sem registro"
+      },
+      "global": {
+        "title": "Acesso Global",
+        "desc": "Suporte multilíngue"
+      },
+      "simple": {
+        "title": "Fácil de Usar",
+        "desc": "Interface intuitiva, sem curva de aprendizado"
+      }
+    },
+    "toolsTitle": "Nossas 11 Ferramentas PDF Poderosas",
+    "tools": {
+      "merge": "Combine múltiplos PDFs em um",
+      "split": "Divida arquivos PDF em vários documentos",
+      "extract": "Extraia páginas específicas de PDF",
+      "compress": "Reduza o tamanho de arquivos PDF",
+      "rotate": "Gire páginas PDF",
+      "deletePages": "Remova páginas indesejadas",
+      "reorder": "Reorganize a ordem das páginas",
+      "watermark": "Adicione proteção de marca d'água",
+      "batch": "Processe múltiplos arquivos de uma vez",
+      "encrypt": "Proteja PDF com senha",
+      "decrypt": "Remova proteção de senha"
+    },
+    "techStack": {
+      "title": "Construído com Tecnologia Moderna",
+      "framework": "Framework Frontend",
+      "pdf": "Processamento de PDF",
+      "styling": "Estilização",
+      "deployment": "Deploy",
+      "openSource": "Código Aberto",
+      "openSourceDesc": "Usamos e contribuímos com projetos open source"
+    },
+    "privacy": {
+      "title": "Nossa Promessa de Privacidade",
+      "noCollection": {
+        "title": "Coleta Zero de Dados",
+        "desc": "Não coletamos o conteúdo do seu PDF"
+      },
+      "localProcessing": {
+        "title": "Processamento Local",
+        "desc": "Todo processamento acontece no seu navegador"
+      },
+      "noServer": {
+        "title": "Sem Envio para Servidor",
+        "desc": "Seus arquivos nunca saem do seu dispositivo"
+      },
+      "immediateClear": {
+        "title": "Limpeza Instantânea",
+        "desc": "Arquivos limpos da memória após o processamento"
+      }
+    },
+    "future": {
+      "title": "O Que Vem por Aí",
+      "short": {
+        "title": "Curto Prazo (3 meses)",
+        "moreTools": "Adicionar mais ferramentas PDF (assinaturas, formulários)",
+        "translations": "Completar todas as traduções em 10 idiomas",
+        "mobile": "Otimizar experiência mobile"
+      },
+      "mid": {
+        "title": "Médio Prazo (6 meses)",
+        "userSystem": "Sistema de usuários com registro opcional",
+        "forum": "Fórum da comunidade e suporte",
+        "performance": "Otimização de performance de processamento em lote"
+      },
+      "long": {
+        "title": "Longo Prazo (1 ano)",
+        "api": "Serviço de API para desenvolvedores",
+        "desktop": "Aplicativos desktop",
+        "enterprise": "Soluções empresariais"
+      }
+    },
+    "team": {
+      "title": "Nossa Equipe",
+      "who": "Somos um grupo de desenvolvedores apaixonados por tecnologia e código aberto.",
+      "expertise": "Nossa expertise inclui desenvolvimento web, experiência do usuário e segurança de dados.",
+      "philosophy": "Acreditamos que a tecnologia deve tornar a vida mais simples, não mais complicada.",
+      "contact": "Entre em contato"
+    },
+    "support": {
+      "title": "Apoie-nos",
+      "subtitle": "Ajude-nos a manter o PDF Tools gratuito para todos",
+      "tell": "Conte para seus amigos e colegas",
+      "share": "Compartilhe nas redes sociais",
+      "feedback": "Forneça feedback e sugestões",
+      "github": "Estrela nós no GitHub",
+      "ads": "Aceite anúncios (ajuda a manter o serviço)"
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "free": {
+        "q": "É grátis?",
+        "a": "Sim, completamente grátis para sempre!"
+      },
+      "safe": {
+        "q": "É seguro?",
+        "a": "100% seguro - todo processamento no seu navegador"
+      },
+      "register": {
+        "q": "Preciso me registrar?",
+        "a": "Não requer registro!"
+      },
+      "limit": {
+        "q": "Há limites de tamanho de arquivo?",
+        "a": "Máximo 100MB por arquivo"
+      },
+      "mobile": {
+        "q": "Funciona no mobile?",
+        "a": "Sim, totalmente suportado em todos os dispositivos"
+      }
+    }
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Gostaríamos de ouvir de você. Como podemos ajudar?",
+    "intro": "Se você tem dúvidas, sugestões ou consultas comerciais, aguardamos seu contato.",
+    "contactMethods": "Métodos de Contato",
+    "general": {
+      "title": "Consultas Gerais",
+      "desc": "Dúvidas, feedback, sugestões",
+      "response": "24-48 horas"
+    },
+    "business": {
+      "title": "Consultas Comerciais",
+      "desc": "Parcerias, publicidade, patrocínio",
+      "response": "48-72 horas",
+      "collab": "Interessado em colaboração comercial?",
+      "ads": "Oportunidades de publicidade",
+      "api": "Integração de API (em breve)",
+      "whiteLabel": "Soluções white label",
+      "contactUs": "Entre em contato"
+    },
+    "security": {
+      "title": "Problemas de Segurança",
+      "desc": "Vulnerabilidades, preocupações de privacidade",
+      "response": "12-24 horas"
+    },
+    "social": {
+      "title": "Conecte-se Conosco"
+    },
+    "form": {
+      "title": "Envie-nos uma Mensagem",
+      "name": "Seu Nome",
+      "namePlaceholder": "Seu Nome",
+      "email": "E-mail",
+      "emailPlaceholder": "seu@email.com",
+      "subject": "Assunto",
+      "selectSubject": "Selecione um assunto",
+      "subjects": {
+        "general": "Consulta Geral",
+        "bug": "Relatório de Bug",
+        "feature": "Solicitação de Funcionalidade",
+        "business": "Colaboração Comercial",
+        "privacy": "Problema de Privacidade/Segurança",
+        "other": "Outro"
+      },
+      "message": "Mensagem",
+      "messagePlaceholder": "Conte-nos mais...",
+      "maxChars": "Máximo de caracteres",
+      "submit": "Enviar Mensagem",
+      "privacy": "Respeitamos sua privacidade. Leia nossa",
+      "privacyLink": "Política de Privacidade"
+    },
+    "faq": {
+      "title": "Links Rápidos",
+      "subtitle": "Encontre respostas mais rápido:",
+      "howToUse": {
+        "q": "Como uso a ferramenta de mesclar PDF?"
+      },
+      "formats": {
+        "q": "Quais formatos de arquivo são suportados?"
+      },
+      "filesize": {
+        "q": "Há limite de tamanho de arquivo?"
+      },
+      "isFree": {
+        "q": "É realmente grátis?"
+      },
+      "safe": {
+        "q": "É seguro usar?"
+      }
+    },
+    "hours": {
+      "title": "Horário de Trabalho",
+      "responseTime": "Tempos de Resposta",
+      "general": "Geral",
+      "generalTime": "24-48 horas",
+      "security": "Segurança",
+      "securityTime": "12-24 horas",
+      "business": "Comercial",
+      "businessTime": "48-72 horas",
+      "workdays": "Dias de Trabalho",
+      "days": "Segunda a Sexta",
+      "timezone": "Fuso Horário"
+    },
+    "privacyNote": {
+      "title": "Nota de Privacidade",
+      "collect": "Informações coletadas: Apenas nome, e-mail, conteúdo da mensagem",
+      "use": "Propósito: Para responder à sua consulta",
+      "share": "Nunca compartilhamos ou vendemos seus dados",
+      "retain": "Retenção: Excluído 1 ano após resolução do problema"
+    },
+    "response": "Tempo de Resposta"
+  },
+  "privacy": {
+    "title": "Política de Privacidade",
+    "lastUpdated": "Última atualização",
+    "intro": "Levamos sua privacidade a sério. Esta política explica como coletamos, usamos e protegemos suas informações quando você usa o PDF Tools.",
+    "infoCollect": {
+      "title": "Informações que Coletamos",
+      "autoCollect": {
+        "title": "Informações Coletadas Automaticamente",
+        "browser": "Tipo e versão do navegador",
+        "device": "Tipo de dispositivo e sistema operacional",
+        "access": "Horários de acesso e páginas visualizadas",
+        "ip": "Endereço IP anonimizado"
+      },
+      "files": {
+        "title": "Importante: Seus Arquivos PDF",
+        "point1": "Todos os arquivos PDF são processados localmente no seu navegador",
+        "point2": "Arquivos nunca são enviados para nossos servidores",
+        "point3": "Arquivos são imediatamente limpos da memória após o processamento"
+      }
+    },
+    "howUse": {
+      "title": "Como Usamos as Informações",
+      "improve": "Para melhorar nossos serviços e experiência do usuário",
+      "analyze": "Para analisar padrões de uso e tendências",
+      "security": "Para garantir segurança e prevenir fraudes",
+      "legal": "Para cumprir obrigações legais"
+    },
+    "cookies": {
+      "title": "Cookies e Tecnologias Similares",
+      "intro": "Usamos cookies para melhorar sua experiência. Você pode gerenciar suas preferências em nossa",
+      "cookiePolicy": "Política de Cookies"
+    },
+    "thirdParty": {
+      "title": "Serviços de Terceiros",
+      "analytics": "Análise de site e monitoramento de performance",
+      "adsense": "Exibição de anúncios",
+      "hosting": "Hospedagem de site e performance",
+      "privacy": "Essas terceiras partes têm suas próprias políticas de privacidade. Encorajamos você a revisá-las."
+    },
+    "security": {
+      "title": "Segurança de Dados",
+      "https": "Criptografia HTTPS para todas as transferências de dados",
+      "noStorage": "Sem armazenamento de arquivos de usuário",
+      "audit": "Auditorias de segurança regulares"
+    },
+    "rights": {
+      "title": "Seus Direitos (LGPD/GDPR)",
+      "intro": "Você tem os seguintes direitos em relação aos seus dados:",
+      "access": {
+        "title": "Acesso",
+        "desc": "Solicitar uma cópia dos seus dados"
+      },
+      "delete": {
+        "title": "Exclusão",
+        "desc": "Solicitar a exclusão dos seus dados"
+      },
+      "correct": {
+        "title": "Correção",
+        "desc": "Atualizar informações imprecisas"
+      },
+      "object": {
+        "title": "Oposição",
+        "desc": "Opor-se ao processamento de dados"
+      },
+      "contact": "Para exercer esses direitos, entre em contato conosco."
+    },
+    "children": {
+      "title": "Privacidade de Crianças",
+      "content": "Nosso serviço não é direcionado a crianças menores de 13 anos. Não coletamos conscientemente informações de crianças menores de 13 anos. Se descobrirmos que coletamos inadvertidamente tais informações, as excluiremos imediatamente."
+    },
+    "updates": {
+      "title": "Atualizações desta Política",
+      "content": "Podemos atualizar esta política de privacidade de tempos em tempos. Notificaremos você sobre quaisquer alterações materiais postando a nova política nesta página e atualizando a data 'Última atualização'."
+    },
+    "contact": {
+      "title": "Entre em Contato",
+      "email": "Para dúvidas sobre privacidade, envie-nos um e-mail",
+      "response": "Respondemos em 3-5 dias úteis"
+    }
+  },
+  "terms": {
+    "title": "Termos de Serviço",
+    "lastUpdated": "Última atualização",
+    "intro": "Bem-vindo ao PDF Tools. Ao usar nosso serviço, você concorda com estes termos.",
+    "service": {
+      "title": "Descrição do Serviço",
+      "description": "PDF Tools fornece ferramentas gratuitas de processamento de PDF online incluindo mesclar, dividir, comprimir, girar e mais.",
+      "availability": "O serviço é fornecido 'como está' sem garantia de disponibilidade ininterrupta",
+      "changes": "Podemos atualizar ou descontinuar o serviço a qualquer momento"
+    },
+    "responsibilities": {
+      "title": "Responsabilidades do Usuário",
+      "allowed": {
+        "title": "Uso Permitido",
+        "personal": "Uso pessoal e comercial",
+        "commercial": "Processamento de arquivos PDF legalmente possuídos",
+        "legal": "Cumprimento das leis aplicáveis"
+      },
+      "prohibited": {
+        "title": "Uso Proibido",
+        "illegal": "Processamento de conteúdo ilegal ou infrator",
+        "infringement": "Tentar contornar medidas de segurança",
+        "abuse": "Abuso ou processamento automatizado excessivo",
+        "automation": "Violação da propriedade intelectual de outros",
+        "malware": "Distribuição de vírus ou código malicioso"
+      }
+    },
+    "ip": {
+      "title": "Propriedade Intelectual",
+      "website": {
+        "title": "Conteúdo do Site",
+        "content": "Design do site, logotipos e conteúdo são nossa propriedade e protegidos por direitos autorais."
+      },
+      "userFiles": {
+        "title": "Arquivos do Usuário",
+        "content": "Você retém todos os direitos aos arquivos que carrega ou processa. Não reivindicamos propriedade."
+      },
+      "opensource": {
+        "title": "Código Aberto",
+        "content": "Usamos bibliotecas open source e cumprimos suas licenças."
+      }
+    },
+    "disclaimer": {
+      "title": "Isenção de Garantias",
+      "service": {
+        "title": "Garantia de Serviço",
+        "noWarranty": "Serviço fornecido 'como está' sem garantias expressas ou implícitas",
+        "noGuarantee": "Não garantimos serviço ininterrupto, oportuno, seguro ou sem erros"
+      },
+      "files": {
+        "title": "Processamento de Arquivos",
+        "noResponsibility": "Não somos responsáveis pelos resultados do processamento",
+        "backup": "Faça backup de arquivos importantes antes do processamento",
+        "risk": "O risco de processamento é assumido pelo usuário"
+      },
+      "liability": {
+        "title": "Limitação de Responsabilidade",
+        "direct": "Perdas diretas ou indiretas",
+        "indirect": "Lucros ou dados perdidos",
+        "profit": "Interrupção de negócios",
+        "data": "Na máxima extensão permitida por lei"
+      }
+    },
+    "limits": {
+      "title": "Limitações do Serviço",
+      "usage": {
+        "title": "Limites de Uso",
+        "content": "Usuários gratuitos têm limites diários de processamento"
+      },
+      "filesize": {
+        "title": "Tamanho de Arquivo",
+        "content": "Máximo 100MB por arquivo"
+      },
+      "termination": {
+        "title": "Rescisão",
+        "content": "Podemos suspender ou encerrar o serviço por violações"
+      }
+    },
+    "privacy": {
+      "title": "Privacidade e Dados",
+      "content": "Seu uso de nosso serviço também é regido por nossa",
+      "link": "Política de Privacidade"
+    },
+    "thirdParty": {
+      "title": "Links e Serviços de Terceiros",
+      "links": "Nosso site pode conter links para sites de terceiros",
+      "responsibility": "Não somos responsáveis por conteúdo de terceiros",
+      "terms": "Terceiros têm seus próprios termos e políticas"
+    },
+    "indemnity": {
+      "title": "Indenização",
+      "content": "Você concorda em nos indenizar por perdas resultantes da violação destes termos, incluindo taxas legais e valores de reivindicação."
+    },
+    "dispute": {
+      "title": "Resolução de Disputas",
+      "law": "Lei Governamental",
+      "lawContent": "Leis da sua jurisdição",
+      "resolution": "Método de Resolução",
+      "resolutionContent": "Negociação primeiro, depois litígio se necessário",
+      "court": "Jurisdição",
+      "courtContent": "Tribunais da sua jurisdição"
+    },
+    "changes": {
+      "title": "Alterações nos Termos",
+      "anytime": "Podemos atualizar estes termos a qualquer momento",
+      "notification": "Alterações materiais serão postadas no site",
+      "acceptance": "O uso continuado constitui aceitação dos novos termos",
+      "check": "Verifique estes termos periodicamente"
+    },
+    "contact": {
+      "title": "Contato",
+      "email": "Para dúvidas sobre termos, envie-nos um e-mail"
+    }
+  },
+  "cookies": {
+    "title": "Política de Cookies",
+    "lastUpdated": "Última atualização",
+    "intro": "Esta página explica como usamos cookies e tecnologias semelhantes para proporcionar uma melhor experiência.",
+    "whatAre": {
+      "title": "O Que São Cookies?",
+      "content": "Cookies são pequenos arquivos de texto armazenados no seu dispositivo quando você visita sites. Eles nos ajudam a proporcionar uma melhor experiência."
+    },
+    "essential": {
+      "title": "Cookies Essenciais",
+      "purpose": {
+        "title": "Finalidade",
+        "session": "Gerenciamento de sessão (manter conectado)",
+        "language": "Preferências de idioma",
+        "security": "Tokens de segurança",
+        "loadbalancing": "Balanceamento de carga"
+      },
+      "count": "Quantidade",
+      "duration": "Duração",
+      "disable": "Pode Desabilitar"
+    },
+    "analytics": {
+      "title": "Cookies de Análise",
+      "purpose": {
+        "title": "Finalidade",
+        "stats": "Rastrear estatísticas de visitantes",
+        "behavior": "Entender comportamento do usuário",
+        "performance": "Melhorar performance do site",
+        "popular": "Identificar ferramentas e recursos populares"
+      },
+      "provider": "Provedor",
+      "privacy": "Política de Privacidade",
+      "privacyLink": "Política de Privacidade do Google"
+    },
+    "advertising": {
+      "title": "Cookies de Publicidade",
+      "purpose": {
+        "title": "Finalidade",
+        "relevant": "Exibir anúncios relevantes",
+        "track": "Rastrear eficácia de anúncios",
+        "frequency": "Limitação de frequência"
+      },
+      "privacy": "Política de Privacidade",
+      "privacyLink": "Política de Privacidade do Google"
+    },
+    "thirdParty": {
+      "title": "Cookies de Terceiros",
+      "table": {
+        "name": "Nome do Cookie",
+        "purpose": "Finalidade",
+        "privacy": "Política de Privacidade",
+        "analyticsPurpose": "Análise de site",
+        "adsPurpose": "Exibição de anúncios",
+        "hostingPurpose": "Performance e segurança",
+        "policy": "Ver Política",
+        "seeWebsite": "Ver site"
+      }
+    },
+    "manage": {
+      "title": "Como Gerenciar Cookies",
+      "browser": {
+        "title": "Configurações do Navegador",
+        "chrome": "Configurações > Privacidade e segurança > Cookies e outros dados do site",
+        "firefox": "Opções > Privacidade e Segurança",
+        "safari": "Preferências > Privacidade",
+        "edge": "Configurações > Cookies e permissões do site"
+      },
+      "warning": "Nota: Desabilitar todos os cookies pode impedir que alguns recursos do site funcionem corretamente."
+    },
+    "consent": {
+      "title": "Banner de Consentimento de Cookies",
+      "intro": "Quando você visitar pela primeira vez, verá um banner de consentimento com três opções:",
+      "acceptAll": "Aceitar Todos os Cookies",
+      "customize": "Personalizar Configurações",
+      "necessaryOnly": "Apenas Cookies Necessários",
+      "change": "Você pode alterar suas preferências a qualquer momento."
+    },
+    "whyUse": {
+      "title": "Por Que Usamos Cookies",
+      "improve": {
+        "title": "Melhorar Experiência",
+        "content": "Lembrar suas preferências e fornecer experiência personalizada"
+      },
+      "analyze": {
+        "title": "Analisar Performance",
+        "content": "Entender quais ferramentas são mais populares e melhorar continuamente"
+      },
+      "monetize": {
+        "title": "Financiar o Serviço",
+        "content": "A receita de anúncios nos ajuda a manter o serviço gratuito"
+      },
+      "security": {
+        "title": "Manter Segurança",
+        "content": "Prevenir fraudes e abuso"
+      }
+    },
+    "cookieSecurity": {
+      "title": "Segurança de Cookies",
+      "https": "Transmissão criptografada (HTTPS)",
+      "noSensitive": "Nenhuma informação sensível armazenada em cookies",
+      "audit": "Revisões de segurança regulares",
+      "compliance": "Conformidade com regulamentos de proteção de dados (LGPD/GDPR)"
+    },
+    "rights": {
+      "title": "Seus Direitos",
+      "eu": "UE/Reino Unido",
+      "california": "Califórnia, EUA",
+      "gdpr": {
+        "consent": "Consentimento explícito necessário para cookies não essenciais",
+        "inform": "Informamos sobre os tipos de cookies que usamos",
+        "withdraw": "Você pode retirar o consentimento a qualquer momento",
+        "access": "Você pode acessar dados coletados"
+      },
+      "ccpa": {
+        "sell": "Não vendemos informações pessoais",
+        "track": "Opção Não Rastrear disponível",
+        "delete": "Direitos de exclusão de dados disponíveis"
+      }
+    },
+    "updates": {
+      "title": "Revisões Regulares",
+      "review": "Revisamos esta política de cookies anualmente",
+      "thirdParty": "Atualizamos quando serviços de terceiros mudam",
+      "notify": "Postamos alterações significativas no site"
+    },
+    "contact": {
+      "title": "Entre em Contato",
+      "email": "Para dúvidas sobre cookies, envie-nos um e-mail",
+      "response": "Respondemos em 3-5 dias úteis"
+    },
+    "blog": {
+      "title": "Blog PDF Tools - Dicas, Tutoriais e Guias",
+      "description": "Descubra dicas especializadas, tutoriais e guias para trabalhar com arquivos PDF. Aprenda a mesclar, dividir, comprimir e otimizar PDFs com eficiência."
+    },
+    "tutorials": {
+      "title": "Tutoriais e Guias PDF",
+      "description": "Tutoriais passo a passo para trabalhar com arquivos PDF",
+      "metaTitle": "Tutoriais | PDF Tools",
+      "metaDescription": "Aprenda a trabalhar com PDFs através de nossos tutoriais detalhados"
+    },
+    "resources": {
+      "title": "Recursos e Links PDF",
+      "description": "Lista curada de recursos e ferramentas PDF úteis",
+      "metaTitle": "Recursos | PDF Tools",
+      "metaDescription": "Recursos úteis para trabalhar com arquivos PDF"
+    },
+    "compare": {
+      "title": "Comparação de Ferramentas PDF",
+      "description": "Compare ferramentas e formatos PDF para fazer a escolha certa",
+      "metaTitle": "Comparar | PDF Tools",
+      "metaDescription": "Comparações detalhadas de ferramentas e formatos PDF"
+    },
+    "team": {
+      "title": "Sobre Nossa Equipe",
+      "mission": "Nossa missão é fornecer ferramentas PDF gratuitas, seguras e fáceis de usar para todos.",
+      "vision": "Acreditamos em tornar o processamento de PDF acessível a todos os usuários, independentemente de expertise técnica ou orçamento.",
+      "values": "Privacidade, Segurança, Simplicidade, Acessibilidade"
+    }
   }
 }
