@@ -88,6 +88,7 @@
   },
   "common": {
     "appName": "무료 PDF 병합 도구 - PDF 파일 무료 병합",
+    "tagline": "PDF 파일을 온라인에서 무료로 병합하세요. 빠르고 안전한 PDF 병합 도구, 등록 불필요.",
     "home": "홈",
     "merge": "PDF 병합",
     "split": "PDF 분할",
@@ -102,7 +103,14 @@
     "decrypt": "PDF 복호화",
     "sign": "PDF 서명",
     "form": "양식 작성",
-    "tagline": "PDF 파일을 온라인에서 무료로 병합하세요. 빠르고 안전한 PDF 병합 도구, 등록 불필요.",
+    "isRequired": "필수 항목입니다",
+    "alertValidNumber": "유효한 숫자를 입력해주세요",
+    "selectedFiles_plural": "{count}개 파일 선택됨",
+    "optional": "선택 사항",
+    "year": "년",
+    "years": "년",
+    "yes": "예",
+    "no": "아니오",
     "whyChooseUs": "우리를 선택하는 이유",
     "security": "100% 안전",
     "securityDesc": "브라우저에서 처리되며 서버에 업로드되지 않습니다",
@@ -112,6 +120,22 @@
     "freeDesc": "등록 없음, 제한 없음, 워터마크 없음",
     "relatedArticles": "관련 글",
     "viewAll": "모두 보기",
+    "blog": "블로그",
+    "tutorials": "튜토리얼",
+    "resources": "리소스",
+    "compare": "비교",
+    "about": "회사 소개",
+    "contact": "문의하기",
+    "privacy": "개인정보 처리방침",
+    "terms": "서비스 약관",
+    "cookies": "쿠키 정책",
+    "tools": "도구",
+    "company": "회사",
+    "legal": "법적 정보",
+    "footerRights": "모든 권리 보유",
+    "footerTagline": "최고의 무료 온라인 PDF 처리 도구",
+    "madeWithLove": "전 세계 커뮤니티를 위해 ❤️를 담아 만들었습니다",
+    "moreTools": "더 많은 도구...",
     "backToHome": "홈으로 돌아가기",
     "uploadFile": "PDF 파일 업로드",
     "uploadFiles": "PDF 파일 업로드",
@@ -351,6 +375,22 @@
     "selectSplitMode": "분할 모드 선택",
     "splitEvenly": "균등 분할",
     "splitCustom": "사용자 지정 분할",
+    "splitMode": "분할 모드",
+    "range": "페이지 범위",
+    "singlePages": "단일 페이지",
+    "pageRangePlaceholder": "예: 1-3, 5, 7-9",
+    "splitAll": "모든 페이지 추출",
+    "selectPages": "특정 페이지 선택",
+    "splitEveryDesc": "N페이지마다 분할",
+    "split": "PDF 분할",
+    "splitting": "분할 중...",
+    "splitSuccessDesc": "PDF가 성공적으로 분할되었습니다",
+    "splitAgain": "다른 파일 분할",
+    "alertSelectPages": "분할할 페이지를 선택하세요",
+    "pageRangeLabel": "페이지 범위",
+    "totalPagesInfo": "총 {count}페이지",
+    "estimatedFiles": "예상 {count}개 파일 생성",
+    "alertFailed": "분할 실패, 다시 시도하세요",
     "every": "매",
     "pagesIntoFile": "페이지를 파일로 분할",
     "startSplit": "분할 시작",
@@ -434,6 +474,33 @@
     "success": "페이지 추출 성공!",
     "selectPagesToExtract": "추출할 페이지 선택",
     "startExtract": "추출 시작",
+    "selectMode": "추출 모드 선택",
+    "modeRange": "페이지 범위",
+    "modeSpecific": "페이지 선택",
+    "modeAll": "모든 페이지",
+    "modeEven": "짝수 페이지",
+    "modeOdd": "홀수 페이지",
+    "pageRangePlaceholder": "1-5, 8-10",
+    "pageRangeDesc": "총 {total}페이지",
+    "selectPages": "추출할 페이지 선택",
+    "extracting": "추출 중...",
+    "extractSuccessDesc": "페이지가 성공적으로 추출되었습니다",
+    "extractAgain": "다른 파일 추출",
+    "selectExtractMode": "추출 모드 선택",
+    "pageRange": "페이지 범위",
+    "allPages": "모든 페이지",
+    "evenPages": "짝수 페이지",
+    "oddPages": "홀수 페이지",
+    "pageRangeLabel": "페이지 범위 (예: 1-3,5,7-9)",
+    "totalPagesInfo": "총 {count}페이지",
+    "selectAll": "모두 선택",
+    "clear": "지우기",
+    "selectedPages": "{count}페이지 선택됨",
+    "extractAllInfo": "모든 {count}페이지 추출",
+    "extractEvenInfo": "{count}개 짝수 페이지 추출",
+    "extractOddInfo": "{count}개 홀수 페이지 추출",
+    "extract": "페이지 추출",
+    "alertFailed": "추출 실패, 다시 시도하세요",
     "extractComplete": "추출 완료",
     "extractSuccess": "{count}페이지를 성공적으로 추출했습니다",
     "hero": {
@@ -519,6 +586,13 @@
     "low": "낮음",
     "medium": "중간",
     "high": "높음",
+    "levelDesc": "더 높은 압축 = 더 작은 파일 but 더 낮은 품질",
+    "savings": "절감",
+    "compress": "PDF 압축",
+    "compressing": "압축 중...",
+    "compressSuccessDesc": "PDF가 성공적으로 압축되었습니다",
+    "savedSpace": "{percent}% 절감",
+    "compressFailed": "압축 실패, 다시 시도하세요",
     "startCompress": "압축 시작",
     "compressComplete": "압축 완료",
     "compressionRatio": "압축률",
@@ -594,6 +668,18 @@
   "rotate": {
     "title": "PDF 회전",
     "description": "PDF 페이지 회전",
+    "upload": "PDF 파일 업로드",
+    "selectedFiles": "{count}개 파일 선택됨",
+    "selectedFiles_plural": "{count}개 파일 선택됨",
+    "rotationAngle": "회전 각도",
+    "rotateAll": "모든 페이지 회전",
+    "applyRotation": "회전 적용",
+    "pagesToRotate": "{count}페이지 회전 설정됨",
+    "success": "회전 완료!",
+    "rotateSuccess": "PDF 페이지가 성공적으로 회전되었습니다",
+    "download": "PDF 다운로드",
+    "alertSelectPDF": "PDF 파일을 선택해주세요",
+    "alertFailed": "회전 실패, 다시 시도하세요",
     "hero": {
       "title": "PDF 페이지 무료 온라인 회전",
       "description": "PDF 파일의 페이지를 쉽게 회전합니다. 개별 페이지 또는 전체 문서를 회전.",
@@ -667,6 +753,11 @@
     "title": "PDF 페이지 삭제",
     "description": "PDF에서 원하지 않는 페이지 삭제",
     "selectPagesToDelete": "삭제할 페이지 선택",
+    "deleteSelected": "선택된 페이지 삭제",
+    "deleting": "삭제 중...",
+    "deleteSuccessDesc": "페이지가 성공적으로 삭제되었습니다",
+    "alertSelectPages": "삭제할 페이지를 선택하세요",
+    "alertDeleteAll": "모든 페이지를 삭제할 수 없습니다",
     "selectedWillDelete": "{selected}페이지 선택, {remaining}페이지 유지",
     "deleteComplete": "삭제 완료!",
     "deleteCompleteDesc": "{deleted}페이지를 성공적으로 삭제하고 {remaining}페이지를 유지했습니다",
@@ -746,6 +837,14 @@
   "reorder": {
     "title": "페이지 순서 변경",
     "description": "PDF 페이지 순서 변경",
+    "dragDropDesc": "드래그하여 페이지 순서 변경",
+    "moveLeft": "왼쪽으로 이동",
+    "moveRight": "오른쪽으로 이동",
+    "reorder": "페이지 순서 변경",
+    "reordering": "재정렬 중...",
+    "reorderComplete": "재정렬 완료!",
+    "reorderSuccessDesc": "페이지가 재정렬되었습니다",
+    "reorderAgain": "다시 재정렬",
     "hero": {
       "title": "PDF 페이지 무료 온라인 재정렬",
       "description": "드래그 앤 드롭으로 PDF 파일의 페이지를 재정렬합니다. 문서를 쉽게 정리.",
@@ -818,7 +917,20 @@
   "watermark": {
     "title": "워터마크 추가",
     "description": "PDF에 사용자 정의 워터마크 추가",
+    "watermarkType": "워터마크 유형",
+    "textWatermark": "텍스트 워터마크",
+    "imageWatermark": "이미지 워터마크",
     "watermarkText": "워터마크 텍스트",
+    "textPlaceholder": "워터마크 텍스트 입력",
+    "uploadImage": "이미지 업로드",
+    "rotation": "회전",
+    "addWatermark": "워터마크 추가",
+    "adding": "워터마크 추가 중...",
+    "watermarkComplete": "워터마크 추가 완료!",
+    "watermarkSuccessDesc": "워터마크가 성공적으로 추가되었습니다",
+    "watermarkAgain": "다른 파일에 워터마크 추가",
+    "alertEnterText": "워터마크 텍스트를 입력하세요",
+    "alertUploadImage": "이미지를 업로드하세요",
     "watermarkTextPlaceholder": "워터마크 텍스트 입력...",
     "opacity": "불투명도",
     "fontSize": "글꼴 크기",
@@ -904,6 +1016,17 @@
   "batch": {
     "title": "일괄 처리",
     "description": "여러 PDF 파일을 동시에 처리",
+    "selectOperation": "작업 선택",
+    "merge": "모두 병합",
+    "split": "모두 분할",
+    "compress": "모두 압축",
+    "selectTools": "적용할 도구 선택",
+    "startBatch": "일괄 처리 시작",
+    "batchComplete": "일괄 처리 완료!",
+    "batchSuccessDesc": "파일이 성공적으로 처리되었습니다",
+    "downloadAll": "모두 다운로드",
+    "processAgain": "더 많은 파일 처리",
+    "alertSelectTools": "최소 하나의 도구를 선택하세요",
     "selectBatchMode": "일괄 처리 모드 선택",
     "batchMerge": "일괄 병합",
     "batchMergeDesc": "여러 PDF를 하나로 병합",
@@ -911,6 +1034,13 @@
     "batchSplitDesc": "페이지 수로 여러 PDF 분할",
     "batchCompress": "일괄 압축",
     "batchCompressDesc": "여러 PDF 파일 압축",
+    "selectedFiles_plural": "{count}개 파일 선택됨",
+    "batchMergeFailed": "일괄 병합 실패, 다시 시도하세요",
+    "batchSplitFailed": "일괄 분할 실패, 다시 시도하세요",
+    "batchCompressFailed": "일괄 압축 실패, 다시 시도하세요",
+    "processingMerge": "파일 병합 중...",
+    "processingSplit": "파일 분할 중...",
+    "processingCompress": "파일 압축 중...",
     "splitOptions": "분할 옵션",
     "every": "매",
     "pagesSplit": "페이지를 파일로 분할",
@@ -1089,6 +1219,7 @@
     "description": "PDF 문서의 비밀번호 보호 제거",
     "selectFile": "PDF 파일 선택",
     "enterPassword": "비밀번호 입력",
+    "password": "비밀번호",
     "passwordHint": "이 PDF를 암호화할 때 사용한 비밀번호를 입력하세요",
     "startDecrypt": "PDF 복호화",
     "decryptComplete": "복호화 완료",
@@ -1170,9 +1301,593 @@
       }
     }
   },
+  "about": {
+    "title": "PDF 도구 소개",
+    "subtitle": "모두를 위한 빠르고 안전한 무료 PDF 처리",
+    "story": {
+      "title": "우리의 이야기",
+      "why": "PDF 도구는 2025년에 간단한 사명으로 시작되었습니다. PDF 처리를 모두에게 접근 가능하게 만드는 것입니다. 필수 도구는 무료, 빠르고 안전해야 한다고 믿습니다.",
+      "problem": "많은 PDF 도구가 결제나 강제 등록을 요구한다는 것을 발견했고, 알 수 없는 서버에 민감한 문서를 업로드하는 개인정보 위험을 우려했습니다. 따라서 진정으로 무료하고 안전한 대안을 만들기로 결심했습니다."
+    },
+    "mission": {
+      "title": "우리의 사명",
+      "statement": "모두, 모든 곳에서 PDF 처리를 쉽고, 빠르고, 안전하게 만듭니다."
+    },
+    "values": {
+      "privacy": {
+        "title": "개인정보 우선",
+        "desc": "파일은 로컬에서 처리되며 업로드되지 않습니다"
+      },
+      "speed": {
+        "title": "번개처럼 빠른 속도",
+        "desc": "밀리초 응답 시간"
+      },
+      "free": {
+        "title": "영원히 무료",
+        "desc": "숨겨진 수수료, 등록 없음"
+      },
+      "global": {
+        "title": "글로벌 액세스",
+        "desc": "다국어 지원"
+      },
+      "simple": {
+        "title": "사용하기 쉬운",
+        "desc": "직관적인 인터페이스, 학습 곡선 없음"
+      }
+    },
+    "toolsTitle": "우리의 11가지 강력한 PDF 도구",
+    "tools": {
+      "merge": "여러 PDF를 하나로 병합",
+      "split": "PDF 파일을 여러 문서로 분할",
+      "extract": "PDF에서 특정 페이지 추출",
+      "compress": "PDF 파일 크기 줄이기",
+      "rotate": "PDF 페이지 회전",
+      "deletePages": "원하지 않는 페이지 삭제",
+      "reorder": "페이지 순서 재배열",
+      "watermark": "워터마크 보호 추가",
+      "batch": "한 번에 여러 파일 처리",
+      "encrypt": "PDF 비밀번호 보호",
+      "decrypt": "비밀번호 보호 제거"
+    },
+    "techStack": {
+      "title": "최신 기술로 구축",
+      "framework": "프론트엔드 프레임워크",
+      "pdf": "PDF 처리",
+      "styling": "스타일링",
+      "deployment": "배포",
+      "openSource": "오픈 소스",
+      "openSourceDesc": "오픈 소스 프로젝트를 사용하고 기여합니다"
+    },
+    "privacy": {
+      "title": "개인정보 보호 약속",
+      "noCollection": {
+        "title": "데이터 수집 없음",
+        "desc": "PDF 콘텐츠를 수집하지 않습니다"
+      },
+      "localProcessing": {
+        "title": "로컬 처리",
+        "desc": "모든 처리는 브라우저에서 이루어집니다"
+      },
+      "noServer": {
+        "title": "서버 업로드 없음",
+        "desc": "파일이 기기를 떠나지 않습니다"
+      },
+      "immediateClear": {
+        "title": "즉시 정리",
+        "desc": "처리 후 메모리에서 파일 즉시 삭제"
+      }
+    },
+    "future": {
+      "title": "다음에 올 것",
+      "short": {
+        "title": "단기 (3개월)",
+        "moreTools": "더 많은 PDF 도구 추가 (서명, 양식)",
+        "translations": "모든 10개 언어 번역 완료",
+        "mobile": "모바일 경험 최적화"
+      },
+      "mid": {
+        "title": "중기 (6개월)",
+        "userSystem": "선택적 등록이 포함된 사용자 시스템",
+        "forum": "커뮤니티 포럼 및 지원",
+        "performance": "일괄 처리 성능 최적화"
+      },
+      "long": {
+        "title": "장기 (1년)",
+        "api": "개발자를 위한 API 서비스",
+        "desktop": "데스크톱 애플리케이션",
+        "enterprise": "기업 솔루션"
+      }
+    },
+    "team": {
+      "title": "우리의 팀",
+      "who": "우리는 기술과 오픈 소스에 열정적인 개발자 그룹입니다.",
+      "expertise": "당사의 전문 분야는 웹 개발, 사용자 경험, 데이터 보안입니다.",
+      "philosophy": "기술은 삶을 더 간단하게 만들어야 하지 더 복잡하게 만들어야 한다고 믿습니다.",
+      "contact": "문의하기"
+    },
+    "support": {
+      "title": "지원하기",
+      "subtitle": "모두를 위해 PDF 도구를 무료로 유지하는 데 도움주세요",
+      "tell": "친구와 동료에게 알리기",
+      "share": "소셜 미디어에 공유",
+      "feedback": "피드백 및 제안 제공",
+      "github": "GitHub에서 별표 주기",
+      "ads": "광고 수락 (서비스 유지 관리에 도움이 됨)"
+    },
+    "faq": {
+      "title": "빠른 FAQ",
+      "free": {
+        "q": "무료인가요?",
+        "a": "네, 영원히 완전히 무료입니다!"
+      },
+      "safe": {
+        "q": "안전한가요?",
+        "a": "100% 안전 - 모든 처리는 브라우저에서 이루어집니다"
+      },
+      "register": {
+        "q": "등록이 필요한가요?",
+        "a": "등록이 필요하지 않습니다!"
+      },
+      "limit": {
+        "q": "파일 크기 제한이 있나요?",
+        "a": "파일당 최대 100MB"
+      },
+      "mobile": {
+        "q": "모바일에서 작동하나요?",
+        "a": "네, 모든 기기에서 완전히 지원됩니다"
+      }
+    }
+  },
+  "contact": {
+    "title": "문의하기",
+    "subtitle": "연락을 주셔서 감사합니다. 어떻게 도와드릴까요?",
+    "intro": "질문, 제안 또는 비즈니스 문의가 있으시면 언제든지 연락 주시기 바랍니다.",
+    "contactMethods": "연락 방법",
+    "general": {
+      "title": "일반 문의",
+      "desc": "질문, 피드백, 제안",
+      "response": "24-48시간"
+    },
+    "business": {
+      "title": "비즈니스 문의",
+      "desc": "파트너십, 광고, 후원",
+      "response": "48-72시간",
+      "collab": "비즈니스 협력에 관심이 있으신가요?",
+      "ads": "광고 기회",
+      "api": "API 통합 (곧 출시)",
+      "whiteLabel": "화이트 라벨 솔루션",
+      "contactUs": "문의하기"
+    },
+    "security": {
+      "title": "보안 문제",
+      "desc": "취약점, 개인정보 우려",
+      "response": "12-24시간"
+    },
+    "social": {
+      "title": "연결하기"
+    },
+    "form": {
+      "title": "메시지 보내기",
+      "name": "이름",
+      "namePlaceholder": "이름",
+      "email": "이메일",
+      "emailPlaceholder": "your@email.com",
+      "subject": "제목",
+      "selectSubject": "제목 선택",
+      "subjects": {
+        "general": "일반 문의",
+        "bug": "버그 보고",
+        "feature": "기능 요청",
+        "business": "비즈니스 협력",
+        "privacy": "개인정보/보안 문제",
+        "other": "기타"
+      },
+      "message": "메시지",
+      "messagePlaceholder": "더 자세히 말씀해주세요...",
+      "maxChars": "최대 문자 수",
+      "submit": "메시지 보내기",
+      "privacy": "개인정보를 존중합니다. 읽어보세요",
+      "privacyLink": "개인정보 처리방침"
+    },
+    "faq": {
+      "title": "빠른 링크",
+      "subtitle": "더 빨리 답변 찾기:",
+      "howToUse": {
+        "q": "PDF 병합 도구를 어떻게 사용하나요?"
+      },
+      "formats": {
+        "q": "지원되는 파일 형식은 무엇인가요?"
+      },
+      "filesize": {
+        "q": "파일 크기 제한이 있나요?"
+      },
+      "isFree": {
+        "q": "정말 무료인가요?"
+      },
+      "safe": {
+        "q": "사용하기 안전한가요?"
+      }
+    },
+    "hours": {
+      "title": "근무 시간",
+      "responseTime": "응답 시간",
+      "general": "일반",
+      "generalTime": "24-48시간",
+      "security": "보안",
+      "securityTime": "12-24시간",
+      "business": "비즈니스",
+      "businessTime": "48-72시간",
+      "workdays": "근무일",
+      "days": "월요일부터 금요일까지",
+      "timezone": "시간대"
+    },
+    "privacyNote": {
+      "title": "개인정보 주의사항",
+      "collect": "수집된 정보: 이름, 이메일, 메시지 내용만",
+      "use": "목적: 문의에 응답하기 위해",
+      "share": "데이터를 공유하거나 판매하지 않습니다",
+      "retain": "보관: 문제 해결 후 1년 삭제"
+    },
+    "response": "응답 시간"
+  },
+  "privacy": {
+    "title": "개인정보 처리방침",
+    "lastUpdated": "마지막 업데이트",
+    "intro": "개인정보를 중요하게 생각합니다. 이 정책은 PDF 도구를 사용할 때 정보를 수집, 사용 및 보호하는 방법을 설명합니다.",
+    "infoCollect": {
+      "title": "수집하는 정보",
+      "autoCollect": {
+        "title": "자동으로 수집되는 정보",
+        "browser": "브라우저 유형 및 버전",
+        "device": "기기 유형 및 운영 체제",
+        "access": "액세스 시간 및 본 페이지",
+        "ip": "익명화된 IP 주소"
+      },
+      "files": {
+        "title": "중요: PDF 파일",
+        "point1": "모든 PDF 파일은 브라우저에서 로컬로 처리됩니다",
+        "point2": "파일이 절대 서버에 업로드되지 않습니다",
+        "point3": "처리 후 파일이 메모리에서 즉시 삭제됩니다"
+      }
+    },
+    "howUse": {
+      "title": "정보 사용 방법",
+      "improve": "서비스 및 사용자 경험 개선",
+      "analyze": "사용 패턴 및 동향 분석",
+      "security": "보안 확인 및 사기 방지",
+      "legal": "법적 의무 준수"
+    },
+    "cookies": {
+      "title": "쿠키 및 유사 기술",
+      "intro": "경험을 향상시키기 위해 쿠키를 사용합니다. 다음에서 기본 설정을 관리할 수 있습니다",
+      "cookiePolicy": "쿠키 정책"
+    },
+    "thirdParty": {
+      "title": "제3자 서비스",
+      "analytics": "웹사이트 분석 및 성능 모니터링",
+      "adsense": "광고 제공",
+      "hosting": "웹사이트 호스팅 및 성능",
+      "privacy": "이 제3자는 자체 개인정보 처리방침이 있습니다. 검토를 권장합니다."
+    },
+    "security": {
+      "title": "데이터 보안",
+      "https": "모든 데이터 전송을 위한 HTTPS 암호화",
+      "noStorage": "사용자 파일 저장 없음",
+      "audit": "정기 보안 감사"
+    },
+    "rights": {
+      "title": "권리 (GDPR/CCPA)",
+      "intro": "데이터에 대해 다음 권리가 있습니다:",
+      "access": {
+        "title": "액세스",
+        "desc": "데이터 사본 요청"
+      },
+      "delete": {
+        "title": "삭제",
+        "desc": "데이터 삭제 요청"
+      },
+      "correct": {
+        "title": "수정",
+        "desc": "부정확한 정보 업데이트"
+      },
+      "object": {
+        "title": "이의",
+        "desc": "데이터 처리에 대한 이의 제기"
+      },
+      "contact": "이러한 권리를 행사하려면 문의하세요."
+    },
+    "children": {
+      "title": "어린이의 개인정보",
+      "content": "서비스는 13세 미만의 어린이를 대상으로 하지 않습니다. 13세 미만의 어린이로부터 의도치 않게 정보를 수집한 경우 발견하면 즉시 삭제합니다."
+    },
+    "updates": {
+      "title": "정책 업데이트",
+      "content": "이 개인정보 처리방침을 수시로 업데이트할 수 있습니다. 이 페이지에 새 정책을 게시하고 '마지막 업데이트' 날짜를 업데이트하여 중요한 변경 사항을 알립니다."
+    },
+    "contact": {
+      "title": "문의하기",
+      "email": "개인정보 질문은 이메일로 문의하세요",
+      "response": "3-5 영업일 이내에 응답합니다"
+    }
+  },
+  "terms": {
+    "title": "서비스 약관",
+    "lastUpdated": "마지막 업데이트",
+    "intro": "PDF 도구에 오신 것을 환영합니다. 서비스를 사용하면 이 약관에 동의하는 것입니다.",
+    "service": {
+      "title": "서비스 설명",
+      "description": "PDF 도구는 병합, 분할, 압축, 회전 등 무료 온라인 PDF 처리 도구를 제공합니다.",
+      "availability": "서비스는 '있는 그대로' 제공되며 중단 없는 가용성에 대한 보증 없습니다",
+      "changes": "언제든지 서비스를 업데이트하거나 중단할 수 있습니다"
+    },
+    "responsibilities": {
+      "title": "사용자 책임",
+      "allowed": {
+        "title": "허용되는 사용",
+        "personal": "개인 및 상업적 용도",
+        "commercial": "법적으로 소유한 PDF 파일 처리",
+        "legal": "적용 법률 준수"
+      },
+      "prohibited": {
+        "title": "금지된 사용",
+        "illegal": "불법 또는 침해 콘텐츠 처리",
+        "infringement": "보안 조치를 우회하려는 시도",
+        "abuse": "학대 또는 과도한 자동 처리",
+        "automation": "타인의 지적재산권 침해",
+        "malware": "바이러스 또는 악성 코드 배포"
+      }
+    },
+    "ip": {
+      "title": "지적재산권",
+      "website": {
+        "title": "웹사이트 콘텐츠",
+        "content": "웹사이트 디자인, 로고 및 콘텐츠는 당사의 재산이며 저작권으로 보호됩니다."
+      },
+      "userFiles": {
+        "title": "사용자 파일",
+        "content": "업로드하거나 처리하는 파일의 모든 권리를 보유합니다. 당사는 소유권을 주장하지 않습니다."
+      },
+      "opensource": {
+        "title": "오픈 소스",
+        "content": "오픈 소스 라이브러리를 사용하며 라이선스를 준수합니다."
+      }
+    },
+    "disclaimer": {
+      "title": "보안 부인",
+      "service": {
+        "title": "서비스 보증",
+        "noWarranty": "서비스는 명시적 또는 묵시적 보증 없이 '있는 그대로' 제공됩니다",
+        "noGuarantee": "중단되지 않고, 시기적절하며, 안전하거나 오류 없는 서비스를 보장하지 않습니다"
+      },
+      "files": {
+        "title": "파일 처리",
+        "noResponsibility": "처리 결과에 대해 책임지지 않습니다",
+        "backup": "처리 전에 중요한 파일을 백업하세요",
+        "risk": "처리 위험은 사용자가 부담합니다"
+      },
+      "liability": {
+        "title": "책임 제한",
+        "direct": "직접 또는 간접 손실",
+        "indirect": "손실된 이익 또는 데이터",
+        "profit": "비즈니스 중단",
+        "data": "법률이 허용하는 최대 범위까지"
+      }
+    },
+    "limits": {
+      "title": "서비스 제한",
+      "usage": {
+        "title": "사용 제한",
+        "content": "무료 사용자는 일일 처리 제한이 있습니다"
+      },
+      "filesize": {
+        "title": "파일 크기",
+        "content": "파일당 최대 100MB"
+      },
+      "termination": {
+        "title": "해지",
+        "content": "위반에 대해 서비스를 일시 중단하거나 종료할 수 있습니다"
+      }
+    },
+    "privacy": {
+      "title": "개인정보 및 데이터",
+      "content": "서비스 사용은 다음도 관리됩니다",
+      "link": "개인정보 처리방침"
+    },
+    "thirdParty": {
+      "title": "제3자 링크 및 서비스",
+      "links": "웹사이트에 제3자 웹사이트 링크가 포함될 수 있습니다",
+      "responsibility": "제3자 콘텐츠에 대해 책임지지 않습니다",
+      "terms": "제3자는 자체 약관 및 정책이 있습니다"
+    },
+    "indemnity": {
+      "title": "면책",
+      "content": "약관 위반으로 인한 손실에 대해 법률 수수료 및 청구 금액을 포함하여 당사를 보상하기로 동의합니다."
+    },
+    "dispute": {
+      "title": "분쟁 해결",
+      "law": "관할 법률",
+      "lawContent": "관할권의 법률",
+      "resolution": "해결 방법",
+      "resolutionContent": "먼저 협상 후 필요한 경우 소송",
+      "court": "관할권",
+      "courtContent": "관할권의 법원"
+    },
+    "changes": {
+      "title": "약관 변경",
+      "anytime": "이 약관을 언제든지 업데이트할 수 있습니다",
+      "notification": "중요한 변경 사항은 웹사이트에 게시됩니다",
+      "acceptance": "계속 사용하면 새 약관에 동의하는 것으로 간주됩니다",
+      "check": "이 약관을 주기적으로 확인하세요"
+    },
+    "contact": {
+      "title": "문의하기",
+      "email": "약관 질문은 이메일로 문의하세요"
+    }
+  },
+  "cookies": {
+    "title": "쿠키 정책",
+    "lastUpdated": "마지막 업데이트",
+    "intro": "이 페이지는 더 나은 경험을 제공하기 위해 쿠키 및 유사 기술을 사용하는 방법을 설명합니다.",
+    "whatAre": {
+      "title": "쿠키란 무엇인가요?",
+      "content": "쿠키는 웹사이트를 방문할 때 기기에 저장되는 작은 텍스트 파일입니다. 더 나은 경험을 제공하는 데 도움이 됩니다."
+    },
+    "essential": {
+      "title": "필수 쿠키",
+      "purpose": {
+        "title": "목적",
+        "session": "세션 관리 (로그인 유지)",
+        "language": "언어 기본 설정",
+        "security": "보안 토큰",
+        "loadbalancing": "부하 분산"
+      },
+      "count": "수량",
+      "duration": "기간",
+      "disable": "비활성화 가능"
+    },
+    "analytics": {
+      "title": "분석 쿠키",
+      "purpose": {
+        "title": "목적",
+        "stats": "방문자 통계 추적",
+        "behavior": "사용자 행동 이해",
+        "performance": "웹사이트 성능 개선",
+        "popular": "인기 도구 및 기능 식별"
+      },
+      "provider": "공급자",
+      "privacy": "개인정보 처리방침",
+      "privacyLink": "Google 개인정보 처리방침"
+    },
+    "advertising": {
+      "title": "광고 쿠키",
+      "purpose": {
+        "title": "목적",
+        "relevant": "관련 광고 표시",
+        "track": "광고 효과 추적",
+        "frequency": "빈도 제한"
+      },
+      "privacy": "개인정보 처리방침",
+      "privacyLink": "Google 개인정보 처리방침"
+    },
+    "thirdParty": {
+      "title": "제3자 쿠키",
+      "table": {
+        "name": "쿠키 이름",
+        "purpose": "목적",
+        "privacy": "개인정보 처리방침",
+        "analyticsPurpose": "웹사이트 분석",
+        "adsPurpose": "광고 제공",
+        "hostingPurpose": "성능 및 보안",
+        "policy": "정책 보기",
+        "seeWebsite": "웹사이트 참조"
+      }
+    },
+    "manage": {
+      "title": "쿠키 관리 방법",
+      "browser": {
+        "title": "브라우저 설정",
+        "chrome": "설정 > 개인정보 보안 및 보안 > 쿠키 및 기타 사이트 데이터",
+        "firefox": "옵션 > 개인정보 보안",
+        "safari": "기본 설정 > 개인정보 보호",
+        "edge": "설정 > 쿠키 및 사이트 권한"
+      },
+      "warning": "참고: 모든 쿠키를 비활성화하면 일부 웹사이트 기능이 제대로 작동하지 않을 수 있습니다."
+    },
+    "consent": {
+      "title": "쿠키 동의 배너",
+      "intro": "처음 방문할 때 세 가지 옵션이 있는 쿠키 동의 배너가 표시됩니다:",
+      "acceptAll": "모든 쿠키 수락",
+      "customize": "설정 사용자 정의",
+      "necessaryOnly": "필수 쿠키만",
+      "change": "언제든지 기본 설정을 변경할 수 있습니다."
+    },
+    "whyUse": {
+      "title": "쿠키를 사용하는 이유",
+      "improve": {
+        "title": "경험 개선",
+        "content": "기본 설정을 기억하고 개인화된 경험 제공"
+      },
+      "analyze": {
+        "title": "성능 분석",
+        "content": "가장 인기 있는 도구를 이해하고 지속적으로 개선"
+      },
+      "monetize": {
+        "title": "서비스 자금 조달",
+        "content": "광고 수익은 서비스를 무료로 유지하는 데 도움이 됩니다"
+      },
+      "security": {
+        "title": "보안 유지",
+        "content": "사기 및 학대 방지"
+      }
+    },
+    "cookieSecurity": {
+      "title": "쿠키 보안",
+      "https": "암호화된 전송 (HTTPS)",
+      "noSensitive": "쿠키에 민감한 정보 저장 안 함",
+      "audit": "정기 보안 검토",
+      "compliance": "데이터 보호 규정 준수 (GDPR/CCPA)"
+    },
+    "rights": {
+      "title": "권리",
+      "eu": "EU/영국",
+      "california": "미국 캘리포니아주",
+      "gdpr": {
+        "consent": "선택적 쿠키에는 명시적 동의 필요",
+        "inform": "사용하는 쿠키 유형을 알립니다",
+        "withdraw": "언제든지 동의를 철회할 수 있습니다",
+        "access": "수집된 데이터에 액세스할 수 있습니다"
+      },
+      "ccpa": {
+        "sell": "개인정보를 판매하지 않습니다",
+        "track": "추적 안 함 옵션 사용 가능",
+        "delete": "데이터 삭제 권한 사용 가능"
+      }
+    },
+    "updates": {
+      "title": "정기 검토",
+      "review": "쿠키 정책을 매년 검토합니다",
+      "thirdParty": "제3자 서비스가 변경되면 업데이트",
+      "notify": "중요한 변경 사항을 웹사이트에 게시"
+    },
+    "contact": {
+      "title": "문의하기",
+      "email": "쿠키 질문은 이메일로 문의하세요",
+      "response": "3-5 영업일 이내에 응답합니다"
+    },
+    "blog": {
+      "title": "PDF 도구 블로그 - 팁, 튜토리얼 및 가이드",
+      "description": "PDF 파일 작업을 위한 전문 팁, 튜토리얼 및 가이드를 발견하세요. PDF를 효율적으로 병합, 분할, 압축 및 최적화하는 방법을 배우십시오."
+    },
+    "tutorials": {
+      "title": "PDF 튜토리얼 및 가이드",
+      "description": "PDF 파일 작업을 위한 단계별 튜토리얼",
+      "metaTitle": "튜토리얼 | PDF 도구",
+      "metaDescription": "PDF 작업을 위한 상세한 튜토리얼"
+    },
+    "resources": {
+      "title": "PDF 리소스 및 링크",
+      "description": "유용한 PDF 리소스 및 도구의 큐레이션된 목록",
+      "metaTitle": "리소스 | PDF 도구",
+      "metaDescription": "PDF 파일 작업을 위한 유용한 리소스"
+    },
+    "compare": {
+      "title": "PDF 도구 비교",
+      "description": "올바른 선택을 위해 PDF 도구 및 형식 비교",
+      "metaTitle": "비교 | PDF 도구",
+      "metaDescription": "PDF 도구 및 형식의 상세한 비교"
+    },
+    "team": {
+      "title": "팀 소개",
+      "mission": "사명은 모두에게 무료, 안전하고 사용하기 쉬운 PDF 도구를 제공하는 것입니다.",
+      "vision": "기술적 전문 지식이나 예산에 관계없이 모든 사용자가 PDF 처리에 접근할 수 있도록 한다고 믿습니다.",
+      "values": "개인정보 보호, 보안, 단순성, 접근성"
+    }
+  },
   "blog": {
-    "title": "PDF Tools Blog",
-    "description": "Tips, tutorials, and guides for working with PDF files"
+    "title": "PDF 도구 블로그",
+    "description": "PDF 파일 작업을 위한 팁, 튜토리얼 및 가이드",
+    "metaTitle": "블로그 | PDF 도구",
+    "metaDescription": "PDF 처리를 위한 전문 팁 및 튜토리얼"
   },
   "tutorials": {
     "metaTitle": "PDF 튜토리얼 및 가이드 - PDF 처리 기술 배우기",
