@@ -27,7 +27,11 @@ export async function submitToIndexNow(url: string): Promise<IndexNowResponse> {
     }
 
     const parsedUrl = new URL(url);
-    const host = parsedUrl.hostname;
+    // Remove www prefix for IndexNow compatibility
+    let host = parsedUrl.hostname;
+    if (host.startsWith('www.')) {
+      host = host.slice(4);
+    }
     const keyLocation = `${parsedUrl.protocol}//${parsedUrl.host}/${apiKey}.txt`;
 
     const payload = {
@@ -110,7 +114,11 @@ export async function submitBatchToIndexNow(urls: string[]): Promise<IndexNowRes
 
     // Use the first URL to determine host and protocol
     const firstUrl = new URL(urls[0]);
-    const host = firstUrl.hostname;
+    // Remove www prefix for IndexNow compatibility
+    let host = firstUrl.hostname;
+    if (host.startsWith('www.')) {
+      host = host.slice(4);
+    }
     const keyLocation = `${firstUrl.protocol}//${firstUrl.host}/${apiKey}.txt`;
 
     const payload: IndexNowBatchRequest = {
