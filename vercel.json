@@ -1,10 +1,7 @@
 {
-  "buildCommand": "cd pdf-tools && npm install && npm run build",
+  "buildCommand": "cd pdf-tools && npm run build",
   "outputDirectory": "pdf-tools/.next",
-  "framework": null,
+  "framework": "nextjs",
   "installCommand": "cd pdf-tools && npm install",
-  "devCommand": "cd pdf-tools && npm run dev",
-  "env": {
-    "NEXT_PUBLIC_SITE_URL": "https://www.combinepdffree.net"
-  }
+  "devCommand": "cd pdf-tools && npm run dev"
 }
