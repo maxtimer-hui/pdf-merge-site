@@ -1,0 +1,11 @@
+{
+  "name": "pdf-tools-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd pdf-tools && npm run dev",
+    "build": "cd pdf-tools && npm run build",
+    "start": "cd pdf-tools && npm start",
+    "vercel-build": "cd pdf-tools && npm install && npm run build"
+  }
+}
