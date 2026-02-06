@@ -122,6 +122,10 @@ pdf-tools/
 - Robots.txt configured for proper indexing
 - Meta tags optimized for all languages
 - SEO-optimized content sections
+- **IndexNow Integration** - Real-time search engine indexing for new content
+  - Automatic URL submission to Bing and other search engines
+  - API endpoint: `/api/indexnow`
+  - Documentation: [docs/INDEXNOW_GUIDE.md](docs/INDEXNOW_GUIDE.md)
 
 ✅ **Performance**
 - Next.js 16 with Turbopack for fast builds
