@@ -21,7 +21,7 @@ export interface IndexNowBatchRequest {
  */
 export async function submitToIndexNow(url: string): Promise<IndexNowResponse> {
   try {
-    const apiKey = process.env.INDEXNOW_API_KEY;
+    const apiKey = process.env.INDEXNOW_API_KEY?.trim()?.trim();
     if (!apiKey) {
       throw new Error('INDEXNOW_API_KEY environment variable is not set');
     }
@@ -107,7 +107,7 @@ export async function submitBatchToIndexNow(urls: string[]): Promise<IndexNowRes
   }
 
   try {
-    const apiKey = process.env.INDEXNOW_API_KEY;
+    const apiKey = process.env.INDEXNOW_API_KEY?.trim();
     if (!apiKey) {
       throw new Error('INDEXNOW_API_KEY environment variable is not set');
     }
@@ -184,7 +184,7 @@ export async function submitBatchToIndexNow(urls: string[]): Promise<IndexNowRes
  */
 export async function submitToIndexNowGET(url: string): Promise<IndexNowResponse> {
   try {
-    const apiKey = process.env.INDEXNOW_API_KEY;
+    const apiKey = process.env.INDEXNOW_API_KEY?.trim();
     if (!apiKey) {
       throw new Error('INDEXNOW_API_KEY environment variable is not set');
     }
