@@ -2,6 +2,7 @@ import {Metadata} from 'next';
 import {getTranslations} from 'next-intl/server';
 import {generateFAQSchema, getToolFAQs} from '@/lib/schema-faq';
 import {generateHowToSchema, compressHowTo} from '@/lib/schema-howto';
+import {getPageAlternates} from '@/lib/canonical';
 import CompressClient from './CompressClient';
 
 // 生成页面 metadata
@@ -13,6 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: t('title'),
     description: t('description'),
     keywords: t('keywords'),
+    alternates: getPageAlternates(locale, 'compress'),
     openGraph: {
       title: t('title'),
       description: t('description'),

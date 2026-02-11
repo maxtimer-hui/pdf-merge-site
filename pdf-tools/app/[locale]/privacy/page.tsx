@@ -3,6 +3,7 @@ import {Metadata} from 'next';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import {getPageAlternates} from '@/lib/canonical';
 
 export async function generateMetadata({ params }: { params: Promise<{locale: string}> }): Promise<Metadata> {
   const {locale} = await params;
@@ -12,6 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{locale: st
     title: t.seo.privacy.title,
     description: t.seo.privacy.description,
     keywords: t.seo.privacy.keywords,
+    alternates: getPageAlternates(locale, 'privacy'),
   };
 }
 

@@ -1,5 +1,6 @@
 import {Metadata} from 'next';
 import HomeClient from './HomeClient';
+import {getPageAlternates} from '@/lib/canonical';
 
 export async function generateMetadata({ params }: { params: Promise<{locale: string}> }): Promise<Metadata> {
   const {locale} = await params;
@@ -9,6 +10,7 @@ export async function generateMetadata({ params }: { params: Promise<{locale: st
     title: t.seo.home?.title || t.common.appName,
     description: t.seo.home?.description || t.common.tagline,
     keywords: t.seo.home?.keywords || 'pdf, tools, merge, split, compress',
+    alternates: getPageAlternates(locale, ''),
   };
 }
 

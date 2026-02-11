@@ -4,11 +4,14 @@ import {getAllComparisons} from '@/lib/comparisons';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
+import {getPageAlternates} from '@/lib/canonical';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string}> }): Promise<Metadata> {
+  const {locale} = await params;
   return {
     title: 'PDF Tools Comparison',
     description: 'Compare PDF tools and formats to make the right choice',
+    alternates: getPageAlternates(locale, 'compare'),
     openGraph: {
       title: 'PDF Tools Comparison',
       description: 'Compare PDF tools and formats to make the right choice',

@@ -5,6 +5,7 @@ import {getTutorials} from '@/lib/tutorials';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
+import {getPageAlternates} from '@/lib/canonical';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string}> }): Promise<Metadata> {
   const {locale} = await params;
@@ -13,6 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: t('metaTitle'),
     description: t('metaDescription'),
+    alternates: getPageAlternates(locale, 'tutorials'),
     openGraph: {
       title: t('metaTitle'),
       description: t('metaDescription'),

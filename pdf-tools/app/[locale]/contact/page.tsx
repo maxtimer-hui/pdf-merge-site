@@ -2,6 +2,7 @@ import {Metadata} from 'next';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import {getPageAlternates} from '@/lib/canonical';
 
 export async function generateMetadata({ params }: { params: Promise<{locale: string}> }): Promise<Metadata> {
   const {locale} = await params;
@@ -10,6 +11,7 @@ export async function generateMetadata({ params }: { params: Promise<{locale: st
   return {
     title: t.seo.contact.title,
     description: t.seo.contact.description,
+    alternates: getPageAlternates(locale, 'contact'),
   };
 }
 

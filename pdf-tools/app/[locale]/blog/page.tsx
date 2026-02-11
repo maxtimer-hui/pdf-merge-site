@@ -5,6 +5,7 @@ import {getBlogPosts} from '@/lib/blog-posts';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
+import {getPageAlternates} from '@/lib/canonical';
 
 // 生成页面 metadata
 export async function generateMetadata({ params }: { params: Promise<{ locale: string}> }): Promise<Metadata> {
@@ -14,6 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: t('title'),
     description: t('description'),
+    alternates: getPageAlternates(locale, 'blog'),
     openGraph: {
       title: t('title'),
       description: t('description'),

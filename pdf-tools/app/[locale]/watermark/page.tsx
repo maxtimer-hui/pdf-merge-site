@@ -2,6 +2,7 @@ import {Metadata} from 'next';
 import {getTranslations} from 'next-intl/server';
 import {generateFAQSchema, getToolFAQs} from '@/lib/schema-faq';
 import {generateHowToSchema, watermarkHowTo} from '@/lib/schema-howto';
+import {getPageAlternates} from '@/lib/canonical';
 import WatermarkClient from './WatermarkClient';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string}> }): Promise<Metadata> {
@@ -12,6 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: t('title'),
     description: t('description'),
     keywords: t('keywords'),
+    alternates: getPageAlternates(locale, 'watermark'),
     openGraph: {
       title: t('title'),
       description: t('description'),

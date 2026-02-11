@@ -5,6 +5,7 @@ import {externalResources, getResourceCategories} from '@/lib/external-resources
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
+import {getPageAlternates} from '@/lib/canonical';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string}> }): Promise<Metadata> {
   const {locale} = await params;
@@ -12,6 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: 'PDF Resources & Links',
     description: 'Curated list of useful PDF resources and tools',
+    alternates: getPageAlternates(locale, 'resources'),
     openGraph: {
       title: 'PDF Resources & Links',
       description: 'Curated list of useful PDF resources and tools',
