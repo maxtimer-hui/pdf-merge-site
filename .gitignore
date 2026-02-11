@@ -42,3 +42,6 @@ nul
 
 # Claude Code documentation
 CLAUDE.md
+.firecrawl/
+
+.vercel
