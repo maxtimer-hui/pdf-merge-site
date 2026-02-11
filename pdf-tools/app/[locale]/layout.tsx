@@ -21,10 +21,8 @@ export async function generateMetadata({ params }: { params: Promise<{locale: st
       template: '%s | PDF Tools'
     },
     description: 'Free online PDF tools: merge, split, compress, rotate, encrypt, decrypt and more. All processing happens in your browser - no files uploaded.',
-    alternates: {
-      canonical: getCanonicalUrl(locale),
-      languages: getAlternateUrls(locales, locale),
-    },
+    // Note: alternates (canonical/hreflang) are set in individual page.tsx files
+    // to ensure each page has its own correct canonical URL
     openGraph: {
       type: 'website',
       locale: locale,
