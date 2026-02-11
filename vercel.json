@@ -1,7 +1,0 @@
-{
-  "buildCommand": "cd pdf-tools && npm run build",
-  "outputDirectory": "pdf-tools/.next",
-  "framework": "nextjs",
-  "installCommand": "cd pdf-tools && npm install",
-  "devCommand": "cd pdf-tools && npm run dev"
-}
